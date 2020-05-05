@@ -24,4 +24,4 @@
 	3. Versuch, sich überhaupt klar zu werden, was denn harte Kriterien sind und was Wohlfühlfaktor (Stichwort "Lernkurve")
 
 ## Es wird ein Tau
-- Die Research Squirrels sidn in das Thema eingestiegen und die Idee entstand einen Leitfaden für Rezensionen von Software, oder vielleicht auch allgemeiner gesagt zur Beurteilung von Software zu erstellen.
+- Die Research Squirrels sind in das Thema eingestiegen und die Idee entstand einen Leitfaden für Rezensionen von Software, oder vielleicht auch allgemeiner gesagt zur Beurteilung von Software zu erstellen.
