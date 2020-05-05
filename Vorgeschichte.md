@@ -17,7 +17,7 @@
 - Es wurden über Twitter Personen für die Rezension von Software gesucht.
 
 ## Strang 2 - Annes Recherche nach Kriterien
-- Anne hat den Review von drei Programmen/Tools zugesagt (es wurde nahegelgt, mehr als eines zu nehmen).
+- Anne hat den Review von drei Programmen/Tools zugesagt (es wurde nahegelegt, mehr als eines zu nehmen).
 - Sie hat angefangen Kriterien und Punkte zu sammeln, die sie als Qualitätsmaßstab an Software anlegen würde und dann in den Reviews beachten will. Hintergründe dafür waren
 	1. Beobachtung, dass Buchrezensionen oftmals ganz willkürlich einzelene Aspekte betrachten, und ncht klar wird, handelt es sich um eine wissenschaftlichen Reszension oder einen wohlmeinenden Lesezettel
 	2. Transparenz schaffen gegenüber den Autor\*innen, deren Tools besprochen werden
