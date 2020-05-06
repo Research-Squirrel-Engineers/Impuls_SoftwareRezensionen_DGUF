@@ -1,4 +1,4 @@
-***Hier unter A Sammlung von Mail-Ausschnitte und Auszug Dokumente zu thematischen Fokus
+﻿***Hier unter A Sammlung von Mail-Ausschnitte und Auszug Dokumente zu thematischen Fokus
 unter B Überlegungen zum Vorgehen***
 
 
@@ -98,6 +98,22 @@ Also eher ein Leitfaden was man beachten könnte oder eine Auszeichnung in Form 
  	- perhaps just describing it, as not really my area?
     - at least it should be stated, if it's unusal?
 	
+---
+
+## AG CAA, Wilhemshaven, 24.9.2019
+Einrichtung einer Rezensionsrubrik “Archäoinformatik” in den Archäologischen Informationen?
+
+Stichworte aus der Diskussion
+- Rezensionen stets mit konkretem Anwendungsfall verbinden
+- Debatte um die Frage der Unabhängigkeit der Rezensenten, inwieweit immer möglich
+- überlegen, ob man den Aspekt Archäologie nicht besser in bestehende (internationale) Plattformen einbindet, als etwas eigenes aufzubauen
+- These: der Rezensent braucht einen Benefit, z.B. eine Publikation
+- es sollte stets ein Bericht eines erfahrenen Nutzers sein, die Kompetenz des Rezensenten muss klar dargestellt werden
+- Rezensionen (nach gewisser Zeit) ev. auch als Datenbank ablegen, wg. Suchbarkeit, Durchsuchbarkeit
+- Missverständnis „für Archäologie“ sensu: Software explizit für Archäologie (klarstellen, dass gemeint ist: Software, die in der Archäologie eingesetzt wird, nicht nur Software explizit und ausschließlich für die Archäologie gemacht)
+- Anregung: besser mehr als 1 Rez. pro Software, weil sich das Ergebnis wohl je nach Anwendungsfall unterscheidet
+- Anregung Fl. Thiery: Blick auf die „Research Software Engineer (RSE)“
+
 ---
 
 ## Kriterien _Präsentation auf der CAA_ (Folien von Sophie, Kai, Frank Siegmund)
