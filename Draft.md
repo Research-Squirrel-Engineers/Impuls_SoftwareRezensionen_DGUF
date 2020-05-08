@@ -65,6 +65,43 @@ _Flo: gerade deshalb muss das hier aufgeführt werden, ist meines Erchtens ein g
 ## Bedeutung in der Archäologie
 
 ## Anschlussfähigkeit
-- Input- / Outputformate
-- Input- / Outputformate
+- Input- / Outputformate 
+- offene Datenformate / proprietäre Datenformate / zukunftsfähige Datenformate (Wichtigkeit, Grad der Verbreitung, Nutzung)
+- Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für linked data, GeoJSON für GIS community etc.)
 Kriterien für "gute" Forschungssoftware
+
+## Lizenzen
+
+- Unterschied Copyright und Copyleft Lizenzen
+- Welche Lizenz gestattet welche gängigen Anwendungen in der Archäologie?
+- Sind die Ressourcen die mit der Software mitgeliefert werden unter einer freien Datenlizenz verfügbar?
+- Erlaubt die Software nur die Erstellung von Daten die unter einer gewissen Lizenz zur Verfügung gestellt werden können?
+- Behält sich die Software Rechte an den von ihr erstellten Daten vor?
+
+## Datenschutz, Privacy, Datensparsamkeit
+
+- Welche Daten speichert die Anwendung zu welchem Zweck wie lange? Dienen diese Daten der Forschung bzw. helfen sie die Software zu verbessern?
+- Ist die Software ohne Login anonym bedienbar?
+- Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?
+
+## Software
+
+Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_9126_Grafik.png
+
+- Lauffähigkeit auf welchen Betriebssystemen? (mehr sind besser)
+- Auf welchen Endgeräten? (Mobil, Desktop, Web)
+- Mit welchen Hardwareanforderungen?
+- Internationalisierung/Lokalisierung - Ist die Software in mehreren Sprachen verfügbar oder kann sie einfach so erweitert werden? Beachtet sie ggf. lokale Anpassungen (andere Einheiten, andere Gepflogenheiten der Forscher in Land XYZ etc.)
+- Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)
+- Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
+- Ist die Software frei/Open Source?
+- Wie ist das Laufzeitverhalten? (Braucht die Software unnötig lange im Vergleich zu anderen Vergleichbaren Programmen?)
+
+## Community
+
+- Wird die Software von einer ausreichend großen Community getragen?
+- Wird die Software regelmäßig mit Updates versorgt?
+- Sind die Entwickler der Software gut ansprechbar oder gar persönlich bekannt?
+- Hat die Software eine ausreichend große Anwenderbasis und ggf. eine Communityhilfe?
+- Gibt es ausreichend Tutorials für das Erlernen der Software?
+
