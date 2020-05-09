@@ -65,17 +65,17 @@ _Flo: gerade deshalb muss das hier aufgeführt werden, ist meines Erchtens ein g
 ## Bedeutung in der Archäologie
 
 ## Anschlussfähigkeit
-- Input- / Outputformate 
+- Input- / Outputformate
 - offene Datenformate / proprietäre Datenformate / zukunftsfähige Datenformate (Wichtigkeit, Grad der Verbreitung, Nutzung)
-- Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für linked data, GeoJSON für GIS community etc.)
+- Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)
 Kriterien für "gute" Forschungssoftware
 
 ## Lizenzen
 
 - Unterschied Copyright und Copyleft Lizenzen
-- Welche Lizenz gestattet welche gängigen Anwendungen in der Archäologie?
-- Sind die Ressourcen die mit der Software mitgeliefert werden unter einer freien Datenlizenz verfügbar?
-- Erlaubt die Software nur die Erstellung von Daten die unter einer gewissen Lizenz zur Verfügung gestellt werden können?
+- Welche Lizenz gestattet welche gängigen Anwendungen in der Archäologie? Problem von Creative Commons `non comercial`
+- Sind die Ressourcen, die mit der Software mitgeliefert werden unter einer freien Datenlizenz verfügbar?
+- Erlaubt die Software nur die Erstellung von Daten, die unter einer gewissen Lizenz zur Verfügung gestellt werden können?
 - Behält sich die Software Rechte an den von ihr erstellten Daten vor?
 
 ## Datenschutz, Privacy, Datensparsamkeit
@@ -90,6 +90,7 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 
 - Lauffähigkeit auf welchen Betriebssystemen? (mehr sind besser)
 - Auf welchen Endgeräten? (Mobil, Desktop, Web)
+- Installation oder Portable?
 - Mit welchen Hardwareanforderungen?
 - Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?
 - Internationalisierung/Lokalisierung - Ist die Software in mehreren Sprachen verfügbar oder kann sie einfach so erweitert werden? Beachtet sie ggf. lokale Anpassungen (andere Einheiten, andere Gepflogenheiten der Forscher in Land XYZ etc.)
@@ -112,9 +113,9 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?
 - Ist die Dokumentation aktuell, wird gepflegt und deckt alle Funktionen des Programms ab?
 - Hat der Quellcode Tests die die Kernfunktionen des Programms testen und diese für andere Entwickler aufzeigen?
+- Sind verwendete Algorithmen dokumentiert und hinreichend wissenschaftlich belegt?
 
 ## Attraktivität
 
 - Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?
 - Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese um ein Verständnis für die Funktionsweise zu entwickeln?
-
