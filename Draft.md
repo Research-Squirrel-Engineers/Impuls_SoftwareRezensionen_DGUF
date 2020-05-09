@@ -98,6 +98,7 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
 - Ist die Software frei/Open Source?
 - Wie ist das Laufzeitverhalten? (Braucht die Software unnötig lange im Vergleich zu anderen Vergleichbaren Programmen?)
+- Wie ist die Software publiziert und verfügbar (Download, git) und ist sie zitierbar (Zenodo, CCF(https://citation-file-format.github.io))
 
 ## Community
 
