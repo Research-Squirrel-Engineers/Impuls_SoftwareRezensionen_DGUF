@@ -26,11 +26,17 @@ Hier würde ich es gut finden, wenn deutlich wird, warum es wichtig und richtig 
 - die als seltsame fachliche Zwitter regelhaft mit den Folgen unsachgemäßer Entscheidungen für Softwarelösungen zu tun haben
 - die sich als Archäologin um eine angemessene Auswahl ihrer Werkzeuge bemühen
 
-# Aspekte und Kriterien zur Beurteilung von Software und Diensten in der Archäologie
+# Beschreibung der Software und ihrer Komponenten
 
-## Usability Archäologie
+_Clemens: Erster Schritt einer Rezension muss ja die kurze Beschreibung des Gegenstands sein. Ich denke, das muss in diesem Leitfaden damit auch thematisiert werden - über die unten bereits zusammengetragene Vielfalt an Beurteilungskriterien hinaus._
 
-### Was verstehen wir unter Usability?
+- __Wofür kann ich diese Software verwenden?__ Welches Problem versucht die Software zu lösen und welche generellen Anwendungszenarien hatten die Entwickler vor Augen?
+- __Wie löst die Software das gegebene Problem?__ Wie ist die grundsätzliche Funktionsweise konzipiert? Was sind die wesentlichen Bestandteile in Frontend und Backend (z.B. WebApp + Datenbank, CLI + Neuronales Netz, ...)? Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde (natürlich in kurzen Worten: Punktmuster gehen hinein, Magie passiert, Kennwerte kommen heraus)?
+- __Wo finde ich mehr Informationen zu dieser Software?__ Hyperlinks und Referenzen.
+
+# Beurteilung von Software und Diensten in der Archäologie
+
+## Usability
 
 Unter Usability und UX Design werden oftmals insbesondere Fragen der Gestaltung und Bedienbarkeit grafischer Oberflächen von Programmen (GUI) und Webseiten verstanden. Hier geht es dann um die Benutzbarkeit mit verschiedenen Endgeräten (Responsivität), die Strukturierung von Informationen über Unterseiten hinweg, die Verständlichkeit von Texten und auch die Barrierefreiheit (Farbkontraste, Screenreader u.ä.). Usability umfasst aber noch mehr und schließt alle Aspekte ein, die eine fehlerfreie und effiziente Nutzung durch die Forscherin, den Forscher ermöglichen.
 
@@ -42,16 +48,16 @@ Für Forschungssoftware ist es z.B. besonders wichtig, dass die Eingabe von Date
 - Eine wesentliche Hürde für die Nutzung von Software stellt ihre __Auffindbarkeit und die Installation__ dar. Je nach Nutzgruppe kann bereits der Download eines Softwarepakets von git Distributionen (Github, Gitlab, ...) oder ähnlichen Portalen ein großes Problem darstellen. In vielen Instituten und Einrichtungen kann Software zudem nicht von den Nutzerinnen selbst installiert werden.
 - Für Webanwendungen bedeutet es eine Einschränkung der Bedienbarkeit, wenn die App nicht für die Nutzung in allen gängigen Browsern ausgerichtet ist. Eine Übersicht der gängigen Browser kann z.B. _wo nachgesehen werden?_
 - Wie wird das Tool gestartet/geöffnet? Ist ein wiederholter Login nötig, unterbricht dies die Arbeit störend? Wenn ja, ist dies gerechtfertigt durch bestimmte Abhängigkeiten?
-- Ein weiterer Aspekt ist der __Ressourcenbedarf im Betrieb__. Ist beispielsweise der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab? Ist dieser Punkt von Bedeutung beid er üblichen Verwendung der Software?
+- Ein weiterer Aspekt ist der __Ressourcenbedarf im Betrieb__. Ist beispielsweise der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab? Ist dieser Punkt von Bedeutung bei der üblichen Verwendung der Software?
 - Benötigt die Nutzerin, der Nutzer weitere Programme oder muss bestimmte Einstellungen am eigenen System vornehmen, um das Tool zu nutzen? Wenn ja, steht dies in einem angemessenen Verhältnis zur Funktion?
-- In welchen __Sprachen__ werden die __Nutzeroberflächen__  angeboten und ist dies angemessen für das Forschungsumfeld? Ein Programm, das nur in Deutsch beschrieben wird, kann in einem internationalen Forschungsteam Probleme aufwerfen. Ein Tool, das stark auf Bedarfe der Archäologie bestimmter Regionen ausgerichtet ist, sollte ggfs. die Verkehrssprachen des Arbeitsgebiets berücksichtigen.
+- In welchen __Sprachen__ werden die __Nutzeroberflächen__  angeboten und ist dies angemessen für das Forschungsumfeld? Ein Programm, das nur in Deutsch beschrieben wird, kann in einem internationalen Forschungsteam Probleme aufwerfen. Ein Tool, das stark auf Bedarfe der Archäologie bestimmter Regionen ausgerichtet ist, sollte ggf. die Verkehrssprachen des Arbeitsgebiets berücksichtigen.
 
 #### 2. "Erlernbarkeit: Aufwand für den Benutzer, die Anwendung zu erlernen (zum Beispiel Bedienung, Ein-, Ausgabe)"
 
 - Die  __Erlernbarkeit__ steht  in einem Spannungsfeld zum Umfang und der Komplexität der Aufgaben, die  mit der Software bearbeitet werden sollen. Die Beurteilung muss also einbeziehen, ob die Lernkurve in einem angemessenen Verhältnis zu dem steht, was die Software bietet. Zugleich ist zu betrachten, ob es Alternativen gibt, mit denen ein Großteil der Bedarfe gedeckt werden können.
-- __Die Ein- und Ausgabe von Daten__ wird hinsichtlich der Formate unter Punkt "Open/Transparenz" erneut aufgegriffen. An dieser Stelle geht es um die Effizienz. Bei händischen Eingaben ist zu beurteilen, ob eine fehlerfreie Eingabe durch vorgegebene Feldformate, Fehlermeldungen und Hilfetexten zur Eingabe direkt neben den Engabefeldern unterstützt wird. Bei der Eingabe über Importe ist zu betrachten, ob eine Auswahl von Formaten möglich ist, wieviele Daten in einem Durchgang importiert werden können und ob ihre Konformität vor dem Ingest geprüft wird sowi schließlich  performant (schnell und fehlerfrei) das Systembeim Import arbeitet. In ähnlicher Weise ist auch für die Ausgabe zu beurteilen, ob das Angebot an Datenformaten für das Arbeitsgebiet passend ist, und wie performant der Export ist. Natürlich ist auch hier stets die Relation zwischen dem Anspruch des Tools und dem Aufgabenfeld zu betrachten. Werden Datenformate oder auch Schnittstellen bei der Ein-und Ausgabe gut begründet vermisst, kann dies ein Feedback sein, um die Entwicklung des Tools voranzutreiben.
+- __Die Ein- und Ausgabe von Daten__ wird hinsichtlich der Formate unter Punkt "Open/Transparenz" erneut aufgegriffen. An dieser Stelle geht es um die Effizienz. Bei händischen Eingaben ist zu beurteilen, ob eine fehlerfreie Eingabe durch vorgegebene Feldformate, Fehlermeldungen und Hilfetexten zur Eingabe direkt neben den Eingabefeldern unterstützt wird. Bei der Eingabe über Importe ist zu betrachten, ob eine Auswahl von Formaten möglich ist, wie viele Daten in einem Durchgang importiert werden können und ob ihre Konformität vor dem Ingest geprüft wird, sowie schließlich wie performant (schnell und fehlerfrei) das System beim Import arbeitet. In ähnlicher Weise ist auch für die Ausgabe zu beurteilen, ob das Angebot an Datenformaten für das Arbeitsgebiet passend ist, und wie performant der Export ist. Natürlich ist auch hier stets die Relation zwischen dem Anspruch des Tools und dem Aufgabenfeld zu betrachten. Werden Datenformate oder auch Schnittstellen bei der Ein-und Ausgabe gut begründet vermisst, kann dies ein Feedback sein, um die Entwicklung des Tools voranzutreiben.
 - __Tutorials, FAQs und Hilfefunktionen__ sind ein weiterer wichtiger Aspekt. Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
-- __Community__ Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen schnell Hilfe ergoogeln kann. Ist das Werkzeug das Erzeugnis eines einzigen Labors und wird von einer Hand voll eingeschworener Kollegen genutzt, oder handelt es sich um eine global etablierte Software mit Nutzerforum, Mailingliste und ganzen Büchern zur Nutzung in bestimmten Kontexten? Selbst wenn ein Werkzeug nur eine kleine Community besitzt kann dieser Mangel doch bis zu einem gewissen Grad von aktiven und leicht erreichbaren Entwicklern ausgeglichen werden, die bereit sind konkrete Fragen schnell und unkompliziert zu beantworten.
+- __Community__ Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen schnell Hilfe googeln kann. Ist das Werkzeug das Erzeugnis eines einzigen Labors und wird von einer Hand voll eingeschworener Kollegen genutzt, oder handelt es sich um eine global etablierte Software mit Nutzerforum, Mailingliste und ganzen Büchern zur Nutzung in bestimmten Kontexten? Selbst wenn ein Werkzeug nur eine kleine Community besitzt kann dieser Mangel doch bis zu einem gewissen Grad von aktiven und leicht erreichbaren Entwicklern ausgeglichen werden, die bereit sind konkrete Fragen schnell und unkompliziert zu beantworten.
 
 #### 3. "Konformität: Grad, in dem die Software Normen oder Vereinbarungen zur Benutzbarkeit erfüllt."
 _Anne: bei diesem Punkt bin ich mir nicht sicher und würde ihn auslassen_
@@ -73,7 +79,7 @@ Kriterien für "gute" Forschungssoftware
 ## Lizenzen
 
 - Unterschied Copyright und Copyleft Lizenzen
-- Welche Lizenz gestattet welche gängigen Anwendungen in der Archäologie? Problem von Creative Commons `non comercial`
+- Welche Lizenz gestattet welche gängigen Anwendungen in der Archäologie? Problem von Creative Commons `non commercial`
 - Sind die Ressourcen, die mit der Software mitgeliefert werden unter einer freien Datenlizenz verfügbar?
 - Erlaubt die Software nur die Erstellung von Daten, die unter einer gewissen Lizenz zur Verfügung gestellt werden können?
 - Behält sich die Software Rechte an den von ihr erstellten Daten vor?
@@ -98,8 +104,8 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
 - Ist die Software frei/Open Source?
 - Wie ist das Laufzeitverhalten? (Braucht die Software unnötig lange im Vergleich zu anderen Vergleichbaren Programmen?)
-- Wie stabil ist die Softwre?
-- Wie ist die Software publiziert und verfügbar (Download, git) und ist sie zitierbar (Zenodo, CCF(https://citation-file-format.github.io))
+- Wie stabil ist die Software?
+- Wie ist die Software publiziert und verfügbar (Download, git) und ist sie zitierbar (Zenodo, [CCF](https://citation-file-format.github.io))
 - Welche Software gibt es noch / was sind Vorteile dieser hier?
 
 ## Community
@@ -110,9 +116,9 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Hat die Software eine ausreichend große Anwenderbasis und ggf. eine Communityhilfe?
 - Gibt es ausreichend Tutorials für das Erlernen der Software?
 
-## Archaäologische Community
+## Archäologische Community
 
-- Gibt es bereits eine archäologsche Community für diese Software? (SIG, ...)
+- Gibt es bereits eine archäologische Community für diese Software? (SIG, ...)
 - Sind Best Practices für diese Software für die Community verfügbar?
 - Gibt es Archäologie-relevante erfolgreiche Projekte/Anwendungen, die von dieser Software bereits unterstützt wurden?
 
