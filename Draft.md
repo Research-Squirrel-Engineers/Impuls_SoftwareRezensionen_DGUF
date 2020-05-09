@@ -154,3 +154,9 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 
 - Ist die Anwendung behindertengerecht bedienbar? 
 - Stützt sich die Anwendung auf Standards zur Barrierefreiheit wie z.B. BITV2? http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
+
+## Sicherheit
+
+- Ist die Anwendung auf Sicherheitsanforderungen getestet worden? (Penetrationtests usw.), also ist sie leicht hackbar oder nicht?
+- Setzt die Anwendung Standards zur IT Sicherheit welche von Behörden oder internationalen Organisationen empfohlen werden um? Beispiel OWASP: https://de.wikipedia.org/wiki/Open_Web_Application_Security_Project
+- Hat die Anwendung Abhängigkeiten zu Softwarekomponenten welche bekannte Sicherheitslücken aufweisen und nicht mehr gepflegt werden? Hält dieser Zustand auf absehbare Zeit an?
