@@ -34,6 +34,21 @@ _Clemens: Erster Schritt einer Rezension muss ja die kurze Beschreibung des Gege
 - __Wie löst die Software das gegebene Problem?__ Wie ist die grundsätzliche Funktionsweise konzipiert? Was sind die wesentlichen Bestandteile in Frontend und Backend (z.B. WebApp + Datenbank, CLI + Neuronales Netz, ...)? Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde (natürlich in kurzen Worten: Punktmuster gehen hinein, Magie passiert, Kennwerte kommen heraus)?
 - __Wo finde ich mehr Informationen zu dieser Software?__ Hyperlinks und Referenzen.
 
+_Clemens: Ein Gliederungsversuch, um die breite Gedankenwelt unten zu strukturieren:_
+
+_# Beurteilung von Software und Diensten in der Archäologie_
+_## Bedienbarkeit (Nutzerperspektive)_
+_### System, Umgebung und Installation_
+_### Interface_
+_### Ressourcenbedarf_
+_### Zugänglichkeit, Hilfefunktionen und Community_
+_## Technik (Entwicklerperspektive)_
+_### Art und Qualität der Implementierung_
+_### Anschluss- und Erweiterungsfähigkeit_
+_## Rechtliche Fragen_
+_### Datenschutz, Privacy, Datensparsamkeit_
+_### Lizenzierung_
+
 # Beurteilung von Software und Diensten in der Archäologie
 
 ## Usability
