@@ -98,7 +98,9 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
 - Ist die Software frei/Open Source?
 - Wie ist das Laufzeitverhalten? (Braucht die Software unnötig lange im Vergleich zu anderen Vergleichbaren Programmen?)
+- Wie stabil ist die Softwre?
 - Wie ist die Software publiziert und verfügbar (Download, git) und ist sie zitierbar (Zenodo, CCF(https://citation-file-format.github.io))
+- Welche Software gibt es noch / was sind Vorteile dieser hier?
 
 ## Community
 
@@ -107,6 +109,12 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Sind die Entwickler der Software gut ansprechbar oder gar persönlich bekannt?
 - Hat die Software eine ausreichend große Anwenderbasis und ggf. eine Communityhilfe?
 - Gibt es ausreichend Tutorials für das Erlernen der Software?
+
+## Archaäologische Community
+
+- Gibt es bereits eine archäologsche Community für diese Software? (SIG, ...)
+- Sind Best Practices für diese Software für die Community verfügbar?
+- Gibt es Archäologie-relevante erfolgreiche Projekte/Anwendungen, die von dieser Software bereits unterstützt wurden?
 
 ## Dokumentation und Tests
 
