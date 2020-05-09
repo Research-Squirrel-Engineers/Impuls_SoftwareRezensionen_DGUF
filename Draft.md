@@ -36,18 +36,18 @@ _Clemens: Erster Schritt einer Rezension muss ja die kurze Beschreibung des Gege
 
 _Clemens: Ein Gliederungsversuch, um die breite Gedankenwelt unten zu strukturieren:_
 
-_# Beurteilung von Software und Diensten in der Archäologie_
-_## Bedienbarkeit (Nutzerperspektive)_
-_### System, Umgebung und Installation_
-_### Interface_
-_### Ressourcenbedarf_
-_### Zugänglichkeit, Hilfefunktionen und Community_
-_## Technik (Entwicklerperspektive)_
-_### Art und Qualität der Implementierung_
-_### Anschluss- und Erweiterungsfähigkeit_
-_## Rechtliche Fragen_
-_### Datenschutz, Privacy, Datensparsamkeit_
-_### Lizenzierung_
+- _# Beurteilung von Software und Diensten in der Archäologie_
+- _## Bedienbarkeit (Nutzerperspektive)_
+- _### System, Umgebung und Installation_
+- _### Interface_
+- _### Ressourcenbedarf_
+- _### Zugänglichkeit, Hilfefunktionen und Community_
+- _## Technik (Entwicklerperspektive)_
+- _### Art und Qualität der Implementierung_
+- _### Anschluss- und Erweiterungsfähigkeit_
+- _## Rechtliche Fragen_
+- _### Datenschutz, Privacy, Datensparsamkeit_
+- _### Lizenzierung_
 
 # Beurteilung von Software und Diensten in der Archäologie
 
