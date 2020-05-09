@@ -105,3 +105,18 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Hat die Software eine ausreichend große Anwenderbasis und ggf. eine Communityhilfe?
 - Gibt es ausreichend Tutorials für das Erlernen der Software?
 
+## Dokumentation und Tests
+
+- Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?
+- Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?
+- Ist die Dokumentation aktuell, wird gepflegt und deckt alle Funktionen des Programms ab?
+- Hat der Quellcode Tests die die Kernfunktionen des Programms testen und diese für andere Entwickler aufzeigen?
+
+## Attraktivität
+
+- Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?
+- Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese um ein Verständnis für die Funktionsweise zu entwickeln?
+
+
+
+
