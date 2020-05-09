@@ -91,6 +91,7 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Lauffähigkeit auf welchen Betriebssystemen? (mehr sind besser)
 - Auf welchen Endgeräten? (Mobil, Desktop, Web)
 - Mit welchen Hardwareanforderungen?
+- Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?
 - Internationalisierung/Lokalisierung - Ist die Software in mehreren Sprachen verfügbar oder kann sie einfach so erweitert werden? Beachtet sie ggf. lokale Anpassungen (andere Einheiten, andere Gepflogenheiten der Forscher in Land XYZ etc.)
 - Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)
 - Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
@@ -116,7 +117,4 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 
 - Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?
 - Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese um ein Verständnis für die Funktionsweise zu entwickeln?
-
-
-
 
