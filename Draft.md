@@ -76,12 +76,15 @@ Für Forschungssoftware ist es z.B. besonders wichtig, dass die Eingabe von Date
 
 #### 3. "Konformität: Grad, in dem die Software Normen oder Vereinbarungen zur Benutzbarkeit erfüllt."
 _Anne: bei diesem Punkt bin ich mir nicht sicher und würde ihn auslassen_
+_Sophie: dito. Mir fallen auch gerade keine Normen zur Benutzbarkeit in der Arch ein_
 
 #### 4. "Verständlichkeit: Aufwand für den Benutzer, das Konzept und die Anwendung zu verstehen"
 
 _Anne: hier finde ich es sehr schwierig das vom Problem, verstehen Archäologen, was sie eigentlich mit dem Tool tun, zu trennen. Ich finde z.B. im Grunde alle statistischen Anwendungen sehr kompliziert, weil ich erstmal total anders denke _
 
 _Flo: gerade deshalb muss das hier aufgeführt werden, ist meines Erchtens ein guter und wichtiger Punkt_
+
+_Sophie: Ich verstehe, dass die Trennung schwierig ist, würde Flo aber zustimmen. Beim Statistik-Bsp: Die Theorie hinter der Statistik muss außerhalb des Programms verstanden werden, in R muss ich das Paket und die Funktion in dem Paket verstehen, das die statistische Berechnung umsetzt. Also, wo sind welche Input-Parameter einzusetzen, welches Dateiformat kann ich benutzen etc pp. Das kann gut und intuitiv umgesetzt sein oder auch nicht._
 
 ## Bedeutung in der Archäologie
 
@@ -90,6 +93,7 @@ _Flo: gerade deshalb muss das hier aufgeführt werden, ist meines Erchtens ein g
 - offene Datenformate / proprietäre Datenformate / zukunftsfähige Datenformate (Wichtigkeit, Grad der Verbreitung, Nutzung)
 - Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)
 Kriterien für "gute" Forschungssoftware
+- hier wenn möglich Bezug auf bekannte archäologische Services, Ianus-Empfehlungen oder ADS. Damit hat mancher Archäologe vllt schonmal Kontakt gehabt, was das Verständnis erleichert
 
 ## Lizenzen
 
