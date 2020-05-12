@@ -94,6 +94,8 @@ _Sophie: Ich verstehe, dass die Trennung schwierig ist, würde Flo aber zustimme
 - Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)
 Kriterien für "gute" Forschungssoftware
 - hier wenn möglich Bezug auf bekannte archäologische Services, Ianus-Empfehlungen oder ADS. Damit hat mancher Archäologe vllt schonmal Kontakt gehabt, was das Verständnis erleichert
+- Ist die Anwendung sowohl für den Menschen als auch maschinenlesbar nutzbar/Gibt es Programmierschnittstellen (APIs) oder Webservices?
+- Hält sich die Anwendung an Standards welche im jeweiligen Kontext vorgegeben werden (z.B. W3C Standards zur Annotation oder auch archäologische Standards) und bildet diese standardkonform in den Daten ab?
 
 ## Lizenzen
 
@@ -126,6 +128,8 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Wie stabil ist die Software?
 - Wie ist die Software publiziert und verfügbar (Download, git) und ist sie zitierbar (Zenodo, [CCF](https://citation-file-format.github.io))
 - Welche Software gibt es noch / was sind Vorteile dieser hier?
+- Robustheit: Wie geht die Software mit Abstürzen/Stromausfall usw. um? Wird die Arbeit regelmäßig zwischengespeichert?
+- Gibt die Software plausible Fehlermeldungen aus? Gibt es einen Log um Fehler nachvollziehen zu können?
 
 ## Community
 
