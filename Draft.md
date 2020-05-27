@@ -1,11 +1,7 @@
-Kriterien für "gute" Forschungssoftware
+# Leitfaden Rezension von Forschungssoftware - Kriterien für "gute" Forschungssoftware
 
 
-# Zielsetzung unseres Beitrags
-[x] Anlass und Ziele
-[x]	"Forschungsstand" inkl. Personal Heros!
-[x] Transparenz Autor\*innen
-[x] Was machen wir nicht?
+### Zielsetzung unseres Beitrags
 
 Die Beurteilung einer wissenschaftlichen Publikation ist eine traditonsreiche Form des wissenschaftlichen Diskurs. Entsprechend gibt es ein allgemeines Grundverständnis darüber, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der Rezension. Die Frage war jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten? 
 
@@ -13,21 +9,30 @@ Aufgeworfen und anschließend im Plenum der CAA 2019 in Wilhelmshaven wurde die 
 
 ### Forschungsgegenstand und Forschungsstand
 
-<--! das muss noch ergänzt und auseinandergezogen werden. Aktuell Stoffsammlung>
+Unter Forschungssoftware verstehen wir Software, die mit einem spezifischen Fokus auf ihren Einsatz in der Forschung entwickelt wurde, um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren (hettrick_2014_14809). Dies betrifft etwa Programme zur Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten der Bereitstellung sowie zur Verknüpfung und Visualisierung fachlich relevanter Vokabulare. Forschungssoftware kann auf einen sehr spezifischen Bedarf gerichtet sein oder bietet generische Lösungen an. Sie ist dabei stets Teil der Forschungsprozess, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss. Daraus ergeben sich Anforderungen an die Forschungssoftware, die in vielen Punkten denen entsprechen, die an Forschungsdaten gerichtet werden. Wie Forschungsdaten soll -software den FAIR-Prinzipien entsprechen: - auffindbar, zugänglich, interoperabel und reproduzierbar. Die Ableitung von Maßnahmen, die auf Software Anwendung findet, umfasst:
 
-<--! Was ist Forschungssoftware? Und wie hat sie sich entwickelt, was ist heute der Stand? -->
+- den Nachweis von Forschungssoftware in Repositorien
+- die Zitierbarkeit von Software
+- die eindeutige Autorenschaft
+- die Offenlegung des Quellcodes
+- die Anwendung von Standards
 
-* In der Forschungssoftware hat zudem eine Hinwendung zur Auflösung der in den 2000er Jahren stark favorisierten eher geschlossenen Virtuellen Forschungsumgebungen stattgefunden [Klein 2012]. An die Stelle treten vermehrt Arbeitsabläufe, in denen verschiedene Werkzeuge kombiniert werden (Beispiel CLARIN Switchboard). Entsprechend gewinnt die Frage der Schnittstellen und der Interoperabilität der Ein- und Ausgabeformate erheblich an Bedeutung. 
+Die Offenlegung des Quellcodes ist dabei bereits eine für Forschungssoftware spezifische Ableitung, die keine Gültigkeit für Forschungsdaten hat, weil Forschungsdaten andere Informationen beinhalten (lamprecht_towards_2019, 3 f.). Die Forderung nach der Offenlegung des QuellCodes (Opensource) wird dabei vielfach noch erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zumstellen FreeSource), wird seit vielen Jahren als FOSS bezeichnet und wird in Deutschland insbesondere von Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.).  
 
-* Einen eigenen und für die Archäologien typischer Bereich ist Software von spezifischen Geräten etwa zur Vermessung, Fotografischen Dokumentation, Analyse von Oberflächen und Inhaltsstoffen.
+Auch in anderen Punkten muss die Umsetzung auf das Bezug nehmen, was für Software spezifisch ist. Einen sehr konkreten Vorschlag dafür hat 2019 eine Gruppe von Research-Software-Entwickler\*innen aus der Bioinformatik vorgelegt (lamprecht_towards_2019). Mit Blick auf die Umsetzbarkeit zur Auffindbarkeit fallen hier unter anderem Softwarerepositorien als Infrastruktur auf, die eigene Funktionen und Formen der Trägerschaften kennt. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die nicht genuin aus der Forschung kommen. Ähnlich wie die kommerziellen Anbieter von Cloud-Diensten zum Austausch von Dokumenten geben sie aber starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen. Gerade für die Auffindbarkeit ist aber aus den Vorschlägen der Gruppe die Bedeutung der fachwissenschaftlichen Einbindung und der klassischen Arbeit der Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards abzulesen. 
 
-<--! Die wissenschaftliche Beschäftigung mit der Software->
+Einer eigenen Ausformulierung für Software bedarf auch die Frage der Interoperabilität. So kann Interoperabilität verstanden werden als Abfolge von Prozessen die bei der Erzeugung, Bearbeitung oder Analyse nacheinander aufgerufen werden. Sie kann aber auch als Interoperabilität der verschiedenen Schichten die miteinander korrespondieren müssen, um das Programm auszuführen verstanden werden (lamprecht_towards_2019, 10 f.). Forschungssoftware, die nur mit einem Betriebssystem funktioniert ist weniger interoperabel, als solche, die plattformunabhängig programmiert ist. Die Interoperabilität in einem Ablauf von Prozessen erfordert nicht, dass alle Prozessschritte mit der Software abgebildet werden, sondern dass sie über Protokolle, Schnittstellen und Ausgabeformate den Durchlauf ermöglichen.
+
+Einen wichtigen Punkt bildet die eindeutige Autorenschaft. Erst mit ihr kann die wissenschaftliche Leistung mit der Person verbunden werden. Eine Voraussetzung, um akademische Karrierewege zu eröffnen, in denen bislang Qualität und Anzahl klassischer Publikationen sind, zukünftig aber auch Datenpublikationen, Annotationen und die Softwareentwicklung Kriterien der Beurteilung sein sollen (s. NFDI4Culture, RSE4NFDI). Die eindeutige Zuweisung und die Sichtbarmachung der Autorenschaft wird aber zudem auch in der kritischen Auseinandersetzung mit dem Bias von Software eingefordert (LIT). Autorenschaft von Software unterscheidet sich jedoch von dem, was in der Publikation von Aufsätzen und Büchern gewohnt ist. Die Entwicklung von Software beinhaltet heute ganz wesentlich die neue Verknüpfung und Ergänzung vorhandener Module, entsprechend muss auch das Verständnis von Autorenschaft und wie sie sich auch über die Lebenszeit der Software hinaus dokumentieren lässt spezifisch für Software erfolgen (katz_software_2016). 
+
+* Einen eigenen und für die Archäologien typischer Bereich ist Software von spezifischen Geräten etwa zur Vermessung, fotografischen Dokumentation, Analyse von Oberflächen und Inhaltsstoffen. Sehr oft findet sich hier proprietäre Software, die mit der Hardware vertrieben wird. Diese Software wird zwar in der Forschung eingesetzt, aber ihre Programmierung ist nicht transparent. Entsprechend können zwar der Umgang mit der Software und die Produktqualität aus Sicht der Nutzerinnen als Erfahrungswerte beschrieben werden, aber es können keine begründeten Aussagen zur Performanz unter veränderten Bedingungen, zur Stabilität und anderes getroffen werden. Einige der im folgenden dargestellten Kriterien zur Rezension von Forschungssoftware können auf proprietäre Software angewendet werden und eine Berücksichtigung der Aspekte wird ausdrücklich empfohlen.
+
+<--! Die wissenschaftliche Beschäftigung mit der Software // Baustelle -->
 
 * Forschungssoftware als Bestandteil der Forschungspraxis gerät erst langsam in das Fokus der Geistes- und Kulturwissenschaften. Entsprechend mangelt es nicht nur an Standards und Best Practices, sondern vielfach ist auch das Bewusstsein für die Verflechtung von Software und der Entwicklung der Forschungsfrage kaum vorhanden. Fragen der Nachhaltigkeit, der Transparenz und der Reproduzierbarkeit von Software werden erst langsam in ihrer Relevanz von der Fachwissenschaft erkannt und als Aufgaben an die Forschungsinfrastrukturen herangetragen [z.B. NFDI4Culture Compendium 2019]. Daneben hat sich in den Digital Humanities und den Fachinformatiken (Archäoinformatik, Computerlinguistik, Geoinformatik) bereits seit längerem die Beschäftigung mit Forschungssoftware unter den Aspekten der Performanz, der Transparenz, der Anpassbarkeit an Forschungsfragen und auch der Auswirkung auf die Forschungspraxis entwickelt. 
 
 * Beispielhaft für die Archäologie zu nennen sind hier etwa die Arbeiten von Irmela Herzog (2012, 2014). Im Mittelpunkt standen dabei die Potenziale für die Untersuchung der archäologischen Fragestellung. Aspekte der Nutzbarkeit, der Qualität des Quellcodes und der Anschlussfähigkeit spielten eine sehr geringe Rolle. 
 
-* Auch in der Softwareentwicklung selbst hat sich die Praxis der Softwareentwicklung im vergangenen Jahrzehnt tiefgreifend verändert. Standards sind heute das kollaborative Arbeiten, Versionierungen in offenen Software Repositorien, agile Entwicklungen, das Kommentieren im Code als Dokumentation. 
 
 
 ### Autorenteam
@@ -111,3 +116,65 @@ year = {2012},
 doi = {http://dx.doi.org/10.18452/14175}
 }
 
+@dataset{hettrick_2014_14809,
+  author       = {Hettrick, Simon and
+                  Antonioletti, Mario and
+                  Carr, Les and
+                  Chue Hong, Neil and
+                  Crouch, Stephen and
+                  De Roure, David and
+                  Emsley, Iain and
+                  Goble, Carole and
+                  Hay, Alexander and
+                  Inupakutika, Devasena and
+                  Jackson, Mike and
+                  Nenadic, Aleksandra and
+                  Parkinson, Tim and
+                  Parsons, Mark I and
+                  Pawlik, Aleksandra and
+                  Peru, Giacomo and
+                  Proeme, Arno and
+                  Robinson, John and
+                  Sufi, Shoaib},
+  title        = {UK Research Software Survey 2014},
+  month        = dec,
+  year         = 2014,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.14809},
+  url          = {https://doi.org/10.5281/zenodo.14809}
+}
+
+@article{lamprecht_towards_2019,
+	title = {Towards {FAIR} principles for\&nbsp;research\&nbsp;software},
+	volume = {Preprint},
+	issn = {2451-8484},
+	url = {https://content.iospress.com/articles/data-science/ds190026#ref005},
+	doi = {10.3233/DS-190026},
+	abstract = {The FAIR Guiding Principles, published in 2016, aim to improve the findability, accessibility, interoperability and reusability of digital research objects for both humans and machines. Until now the FAIR principles have been mostly applied to resear},
+	language = {en},
+	number = {Preprint},
+	urldate = {2020-05-27},
+	journal = {Data Science},
+	author = {Lamprecht, Anna-Lena and Garcia, Leyla and Kuzak, Mateusz and Martinez, Carlos and Arcila, Ricardo and Martin Del Pico, Eva and Dominguez Del Angel, Victoria and van de Sandt, Stephanie and Ison, Jon and Martinez, Paula Andrea and McQuilton, Peter and Valencia, Alfonso and Harrow, Jennifer and Psomopoulos, Fotis and Gelpi, Josep Ll and Chue Hong, Neil and Goble, Carole and Capella-Gutierrez, Salvador},
+	month = jan,
+	year = {2019},
+	note = {Publisher: IOS Press},
+	pages = {1--23},
+	file = {Full Text PDF:/home/ankl_admin/Zotero/storage/J7DL86N5/Lamprecht et al. - 2019 - Towards FAIR principles for&nbsp\;research&nbsp\;sof.pdf:application/pdf;Snapshot:/home/ankl_admin/Zotero/storage/BYCDA7FL/ds190026.html:text/html}
+}
+
+@techreport{katz_software_2016,
+	title = {Software vs. data in the context of citation},
+	url = {https://peerj.com/preprints/2630},
+	abstract = {Software is data, but it is not just data. While "data" in computing and information science can refer to anything that can be processed by a computer, software is a special kind of data that can be a creative, executable tool that operates on data. However, software and data are similar in that they both traditionally have not been cited in publications. This paper discusses the differences between software and data in the context of citation, by providing examples and referring to evidence in the form of citations.},
+	language = {en},
+	number = {e2630v1},
+	urldate = {2020-05-27},
+	institution = {PeerJ Inc.},
+	author = {Katz, Daniel S. and Niemeyer, Kyle E. and Smith, Arfon M. and Anderson, William L. and Boettiger, Carl and Hinsen, Konrad and Hooft, Rob and Hucka, Michael and Lee, Allen and Löffler, Frank and Pollard, Tom and Rios, Fernando},
+	month = dec,
+	year = {2016},
+	doi = {10.7287/peerj.preprints.2630v1},
+	note = {ISSN: 2167-9843},
+	file = {Full Text PDF:/home/ankl_admin/Zotero/storage/QVFCDNSX/Katz et al. - 2016 - Software vs. data in the context of citation.pdf:application/pdf;Snapshot:/home/ankl_admin/Zotero/storage/X5CL92ZW/2630v1.html:text/html}
+}
