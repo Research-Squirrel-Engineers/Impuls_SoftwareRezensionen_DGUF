@@ -22,12 +22,13 @@
 
 Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein allgemeines Grundverständnis darüber, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten?
 
-Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven wurde die Frage nach den Inhalten einer Rezension von Software und Anwendungen für die Archäologie von Sophie Charlotte Schmidt, Kai-Christian Bruhn und Siegmund Freud. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in der vorliegenden Reihe haben wir das Thema aufgegriffen und möchten mit dem vorliegenden Leitfaden einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten. Der Leitfaden kann auch zur Orientierung bei Entscheidungen zum Einsatz einer Software in der eigenen Forschung dienen.
+>[Kann in eine Fußnote überführt werden? Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven wurde die Frage nach den Inhalten einer Rezension von Software und Anwendungen für die Archäologie von Sophie Charlotte Schmidt, Kai-Christian Bruhn und Siegmund Freud. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in der vorliegenden Reihe haben wir das Thema aufgegriffen und möchten mit dem vorliegenden Leitfaden einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten. Der Leitfaden kann auch zur Orientierung bei Entscheidungen zum Einsatz einer Software in der eigenen Forschung dienen.]
 
 ## Forschungsgegenstand und Forschungsstand
 
 ### Was ist Forschungssoftware?
 Unter Forschungssoftware verstehen wir Software, die mit einem spezifischen Fokus auf ihren Einsatz in der Forschung entwickelt wurde, um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren (hettrick_2014_14809). Dies betrifft etwa Programme zur Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten der Bereitstellung sowie zur Verknüpfung und Visualisierung fachlich relevanter Vokabulare. Forschungssoftware kann auf einen sehr spezifischen Bedarf gerichtet sein oder bietet generische Lösungen an. Sie ist dabei stets Teil der Forschungsprozess, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss.
+
 
 ### FAIRe Forschungssoftware?
 Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in vielen Punkten denen entsprechen, die an Forschungsdaten gerichtet werden. Wie Forschungsdaten soll -software den FAIR-Prinzipien entsprechen: auffindbar, zugänglich, interoperabel und reproduzierbar. Die Ableitung von Maßnahmen, die auf Software Anwendung findet, umfasst:
@@ -40,7 +41,9 @@ Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in 
 
 Die Offenlegung des Quellcodes ist dabei bereits eine für Forschungssoftware spezifische Ableitung, die keine Gültigkeit für Forschungsdaten hat, weil Forschungsdaten andere Informationen beinhalten (lamprecht_towards_2019, 3 f.). Die Forderung nach der Offenlegung des Quellcodes (OpenSource) wird dabei vielfach noch erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zumstellen FreeSource), wird seit vielen Jahren als FOSS bezeichnet und wird in Deutschland insbesondere von Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.).  
 
-> [FT] hier Hinweis auf https://arxiv.org/pdf/2005.01469.pdf hinzufügen und deRSE
+> [FT] hier Hinweis auf https://arxiv.org/pdf/2005.01469.pdf hinzufügen und deRSE -> anzt_environment_2020
+> 
+> [AK] ja! sehr gut und ich denke auch schon in Definition muss der Punkt "Fprschungssoftware ist lebendiges Ding" übernommen werden.
 
 Auch in anderen Punkten muss die Umsetzung auf das Bezug nehmen, was für Software spezifisch ist. Einen sehr konkreten Vorschlag dafür hat 2019 eine Gruppe von Research-Software-Entwickler\*innen aus der Bioinformatik vorgelegt (lamprecht_towards_2019). Mit Blick auf die Umsetzbarkeit zur Auffindbarkeit fallen hier unter anderem Softwarerepositorien als Infrastruktur auf, die eigene Funktionen und Formen der Trägerschaften kennt. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die nicht genuin aus der Forschung kommen. Ähnlich wie die kommerziellen Anbieter von Cloud-Diensten zum Austausch von Dokumenten geben sie aber starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen. Gerade für die Auffindbarkeit ist aber aus den Vorschlägen der Gruppe die Bedeutung der fachwissenschaftlichen Einbindung und der klassischen Arbeit der Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards abzulesen.
 
@@ -223,6 +226,9 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Stützt sich die Anwendung auf Standards zur Barrierefreiheit wie z.B. BITV2? http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
 
 ## Sicherheit
+- Ist die Anwendung auf Sicherheitsanforderungen getestet worden? (Penetrationtests usw.), also ist sie leicht hackbar oder nicht?
+- Setzt die Anwendung Standards zur IT Sicherheit welche von Behörden oder internationalen Organisationen empfohlen werden um? Beispiel OWASP: https://de.wikipedia.org/wiki/Open_Web_Application_Security_Project
+- Hat die Anwendung Abhängigkeiten zu Softwarekomponenten welche bekannte Sicherheitslücken aufweisen und nicht mehr gepflegt werden? Hält dieser Zustand auf absehbare Zeit an?
 
 
 ## Bibliographie
@@ -327,12 +333,6 @@ doi = {http://dx.doi.org/10.18452/14175}
 	file = {Full Text PDF:/home/ankl_admin/Zotero/storage/QVFCDNSX/Katz et al. - 2016 - Software vs. data in the context of citation.pdf:application/pdf;Snapshot:/home/ankl_admin/Zotero/storage/X5CL92ZW/2630v1.html:text/html}
 }
 
-=======
-- Ist die Anwendung auf Sicherheitsanforderungen getestet worden? (Penetrationtests usw.), also ist sie leicht hackbar oder nicht?
-- Setzt die Anwendung Standards zur IT Sicherheit welche von Behörden oder internationalen Organisationen empfohlen werden um? Beispiel OWASP: https://de.wikipedia.org/wiki/Open_Web_Application_Security_Project
-- Hat die Anwendung Abhängigkeiten zu Softwarekomponenten welche bekannte Sicherheitslücken aufweisen und nicht mehr gepflegt werden? Hält dieser Zustand auf absehbare Zeit an?
-
-
 @article{breland_how_2017,
 	chapter = {Technology},
 	title = {How white engineers built racist code – and why it's dangerous for black people},
@@ -387,4 +387,24 @@ doi = {http://dx.doi.org/10.18452/14175}
 	url = {https://www.w3.org/Consortium/mission.html#principles},
 	urldate = {2020-05-29},
 	file = {W3C Mission:/home/ankl_admin/Zotero/storage/UCJVPITD/mission.html:text/html}
+}
+
+@article{anzt_environment_2020,
+	title = {An {Environment} for {Sustainable} {Research} {Software} in {Germany} and {Beyond}: {Current} {State}, {Open} {Challenges}, and {Call} for {Action}},
+	volume = {9},
+	issn = {2046-1402},
+	shorttitle = {An {Environment} for {Sustainable} {Research} {Software} in {Germany} and {Beyond}},
+	url = {http://arxiv.org/abs/2005.01469},
+	doi = {10.12688/f1000research.23224.1},
+	abstract = {Research software has become a central asset in academic research. It optimizes existing and enables new research methods, implements and embeds research knowledge, and constitutes an essential research product in itself. Research software must be sustainable in order to understand, replicate, reproduce, and build upon existing research or conduct new research e ectively. In other words, software must be available, discoverable, usable, and adaptable to new needs, both now and in the future. Research software therefore requires an environment that supports sustainability. Hence, a change is needed in the way research software development and maintenance are currently motivated, incentivized, funded, structurally and infrastructurally supported, and legally treated. Failing to do so will threaten the quality and validity of research. In this paper, we identify challenges for research software sustainability in Germany and beyond, in terms of motivation, selection, research software engineering personnel, funding, infrastructure, and legal aspects. Besides researchers, we speci cally address political and academic decision-makers to increase awareness of the importance and needs of sustainable research software practices. In particular, we recommend strategies and measures to create an environment for sustainable research software, with the ultimate goal to ensure that software-driven research is valid, reproducible and sustainable, and that software is recognized as a rst class citizen in research. This paper is the outcome of two workshops run in Germany in 2019, at deRSE19 - the rst International Conference of Research Software Engineers in Germany - and a dedicated DFG-supported follow-up workshop in Berlin.},
+	language = {en},
+	urldate = {2020-05-31},
+	journal = {F1000Research},
+	author = {Anzt, Hartwig and Bach, Felix and Druskat, Stephan and Löffler, Frank and Loewe, Axel and Renard, Bernhard Y. and Seemann, Gunnar and Struck, Alexander and Achhammer, Elke and Aggarwal, Piush and Appel, Franziska and Bader, Michael and Brusch, Lutz and Busse, Christian and Chourdakis, Gerasimos and Dabrowski, Piotr W. and Ebert, Peter and Flemisch, Bernd and Friedl, Sven and Fritzsch, Bernadette and Funk, Maximilian D. and Gast, Volker and Goth, Florian and Grad, Jean-Noël and Hermann, Sibylle and Hohmann, Florian and Janosch, Stephan and Kutra, Dominik and Linxweiler, Jan and Muth, Thilo and Peters-Kottig, Wolfgang and Rack, Fabian and Raters, Fabian H. C. and Rave, Stephan and Reina, Guido and Reißig, Malte and Ropinski, Timo and Schaarschmidt, Joerg and Seibold, Heidi and Thiele, Jan P. and Uekerman, Benjamin and Unger, Stefan and Weeber, Rudolf},
+	month = apr,
+	year = {2020},
+	note = {arXiv: 2005.01469},
+	keywords = {Computer Science - General Literature, Computer Science - Software Engineering},
+	pages = {295},
+	file = {Anzt et al. - 2020 - An Environment for Sustainable Research Software i.pdf:/home/ankl_admin/Zotero/storage/P6425NCI/Anzt et al. - 2020 - An Environment for Sustainable Research Software i.pdf:application/pdf}
 }
