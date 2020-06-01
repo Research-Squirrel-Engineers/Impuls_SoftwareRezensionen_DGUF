@@ -41,14 +41,14 @@ Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in 
 - die Offenlegung des Quellcodes
 - die Anwendung von Standards
 
-Die Offenlegung des Quellcodes ist dabei bereits eine für Forschungssoftware spezifische Ableitung, die keine Gültigkeit für Forschungsdaten hat, weil Forschungsdaten andere Informationen beinhalten (lamprecht_towards_2019, 3 f.). Die Forderung nach der Offenlegung des Quellcodes (OpenSource) wird dabei vielfach noch erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zumstellen FreeSource), wird seit vielen Jahren als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.)., sowie von Research Software Engineers in der "de-RSE e.V." (anzt_environment_2020).
+Die Offenlegung des Quellcodes ist dabei bereits eine für Forschungssoftware spezifische Ableitung, die keine Gültigkeit für Forschungsdaten hat, weil Forschungsdaten andere Informationen beinhalten (lamprecht_towards_2019, 3 f.). Die Forderung nach der Offenlegung des Quellcodes (OpenSource) wird dabei vielfach noch erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen FreeSource), wird seit vielen Jahren als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.)., sowie von Research Software Engineers in der "de-RSE e.V." (anzt_environment_2020).
 
 > [FT] hier Hinweis auf https://arxiv.org/pdf/2005.01469.pdf hinzufügen und deRSE -> anzt_environment_2020
 >
 > [AK] ja! sehr gut und ich denke auch schon in Definition muss der Punkt "Fprschungssoftware ist lebendiges Ding" übernommen werden.
 > [FT] ja muss ich noch reinfuddeln
 
-Auch in anderen Punkten muss die Umsetzung auf das Bezug nehmen, was für Software spezifisch ist. Einen sehr konkreten Vorschlag dafür hat 2019 eine Gruppe von Research-Software-Entwickler\*innen aus der Bioinformatik vorgelegt (lamprecht_towards_2019). Mit Blick auf die Umsetzbarkeit zur Auffindbarkeit fallen hier unter anderem Softwarerepositorien als Infrastruktur auf, die eigene Funktionen und Formen der Trägerschaften kennt. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die nicht genuin aus der Forschung kommen. Ähnlich wie die kommerziellen Anbieter von Cloud-Diensten zum Austausch von Dokumenten geben sie aber starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen. Gerade für die Auffindbarkeit ist aber aus den Vorschlägen der Gruppe die Bedeutung der fachwissenschaftlichen Einbindung und der klassischen Arbeit der Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards abzulesen.
+Auch in anderen Punkten muss die Umsetzung auf das Bezug nehmen, was für Software spezifisch ist. Einen sehr konkreten Vorschlag dafür hat 2019 eine Gruppe von Research-Software-Entwickler\*innen aus der Bioinformatik vorgelegt (lamprecht_towards_2019). Mit Blick auf die Umsetzbarkeit zur Auffindbarkeit fallen hier unter anderem Softwarerepositorien als Infrastruktur auf, die eigene Funktionen und Formen der Trägerschaften kennt. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die oftmals nicht genuin aus der Forschung kommen. Ähnlich wie die kommerziellen Anbieter von Cloud-Diensten zum Austausch von Dokumenten geben sie aber starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen. Gerade für die Auffindbarkeit ist aber aus den Vorschlägen der Gruppe die Bedeutung der fachwissenschaftlichen Einbindung und der klassischen Arbeit der Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards abzulesen.
 
 Einer eigenen Ausformulierung für Software bedarf auch die Frage der Interoperabilität. So kann Interoperabilität verstanden werden als Abfolge von Prozessen die bei der Erzeugung, Bearbeitung oder Analyse nacheinander aufgerufen werden. Sie kann aber auch als Interoperabilität der verschiedenen Schichten die miteinander korrespondieren müssen, um das Programm auszuführen verstanden werden (lamprecht_towards_2019, 10 f.). Forschungssoftware, die nur mit einem Betriebssystem funktioniert ist weniger interoperabel, als solche, die plattformunabhängig programmiert ist. Die Interoperabilität in einem Ablauf von Prozessen erfordert nicht, dass alle Prozessschritte mit der Software abgebildet werden, sondern dass sie über Protokolle, Schnittstellen und Ausgabeformate den Durchlauf ermöglichen.
 
@@ -86,7 +86,7 @@ Unter diesem Punkt ist noch einmal extrapoliert, was sowohl in den FAIR-Prinzipi
 
 Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
 
-### Was ist keine Forschungssoftware und kann dennoch vom Leitfaden profitieren?
+### Was ist keine Forschungssoftware und kann dennoch mit Hilfe des Leitfadens betrachtet werden?
 
 Einen eigenen und für die Archäologien typischer Bereich ist Software von spezifischen Geräten etwa zur Vermessung, fotografischen Dokumentation, Analyse von Oberflächen und Inhaltsstoffen. Sehr oft findet sich hier proprietäre Software, die mit der Hardware vertrieben wird. Diese Software wird zwar in der Forschung eingesetzt, aber ihre Programmierung ist nicht transparent. Entsprechend können zwar der Umgang mit der Software und die Produktqualität aus Sicht der Nutzerinnen als Erfahrungswerte beschrieben werden, aber es können keine begründeten Aussagen zur Performanz unter veränderten Bedingungen, zur Stabilität und anderes getroffen werden. Einige der im folgenden dargestellten Kriterien zur Rezension von Forschungssoftware können auf proprietäre Software angewendet werden und eine Berücksichtigung der Aspekte wird ausdrücklich empfohlen.
 
@@ -94,9 +94,16 @@ In der praktischen Arbeit spielen vielfach digitale Werkzeuge eine Rolle, die di
 
 ## Kriterien und Vorgehensweise zur Rezension von Software
 
-Beschreibung der Software und ihrer Komponenten
+### Vorgehensweise
 
-_Clemens: Erster Schritt einer Rezension muss ja die kurze Beschreibung des Gegenstands sein. Ich denke, das muss in diesem Leitfaden damit auch thematisiert werden - über die unten bereits zusammengetragene Vielfalt an Beurteilungskriterien hinaus._
+Eine Softwarerezension sollte nicht anders als die Besprechung einer Publikation zunächst mit einer kurzen Beschreibung der Software beginnen. Dies ist ein Serviceleistung in der die Rezension den Einsatzbereich der Software ihre Komponenten und ihren Entstehungskontext zusammenträgt. Für den folgenden Abschnitt schlagen wir die vertiefte Betrachtung von Kriterien vor, die aus Sicht der Nutzer\*innen tragend sind und anschließend die Beurteilung entlang von Merkmalen, die sich auf die Qualität des Engineering beziehen. Auch dieser zweite sollte dabei so verfasst werden, dass reine Nutzer*innen ihn verstehen können. Denn die "handwerkliche" Qualität entscheidet, wie oben beschreiben, über die Zukunftsfähigkeit und Nachhaltigkeit von Forschungssoftware.
+
+> [AK: Clemens, besonders hier gerne prüfen und ergänzen]
+
+
+### Kriterien
+
+> [AK: Ab hier bitte ordnen und Dinge auch mal erklären z.B. kann mit ""Builtprozess"]
 
 - __Wofür kann ich diese Software verwenden?__ Welches Problem versucht die Software zu lösen und welche generellen Anwendungszenarien hatten die Entwickler vor Augen?
 - __Wie löst die Software das gegebene Problem?__ Wie ist die grundsätzliche Funktionsweise konzipiert? Was sind die wesentlichen Bestandteile in Frontend und Backend (z.B. WebApp + Datenbank, CLI + Neuronales Netz, ...)? Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde (natürlich in kurzen Worten: Punktmuster gehen hinein, Magie passiert, Kennwerte kommen heraus)?
