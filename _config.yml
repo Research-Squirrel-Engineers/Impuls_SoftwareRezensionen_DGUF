@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - Draft.md
+  - Ideensammlung.md
+  - Vorgeschichte.md
+
+theme: jekyll-theme-tactile
