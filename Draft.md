@@ -22,9 +22,7 @@
 
 Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein allgemeines Grundverständnis darüber, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten?
 
->[Kann in eine Fußnote überführt werden? Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven wurde die Frage nach den Inhalten einer Rezension von Software und Anwendungen für die Archäologie von Sophie Charlotte Schmidt, Kai-Christian Bruhn und Siegmund Freud. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in der vorliegenden Reihe haben wir das Thema aufgegriffen und möchten mit dem vorliegenden Leitfaden einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten. Der Leitfaden kann auch zur Orientierung bei Entscheidungen zum Einsatz einer Software in der eigenen Forschung dienen.]
-
->[FT] wenn Fußnoten erlaubt sind, ja :-)
+>[Fußnote: Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven wurde die Frage nach den Inhalten einer Rezension von Software und Anwendungen für die Archäologie von Sophie Charlotte Schmidt, Kai-Christian Bruhn und Siegmund Freud. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in der vorliegenden Reihe haben wir das Thema aufgegriffen und möchten mit dem vorliegenden Leitfaden einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten. Der Leitfaden kann auch zur Orientierung bei Entscheidungen zum Einsatz einer Software in der eigenen Forschung dienen.]
 
 ## Forschungsgegenstand und Forschungsstand
 
@@ -86,28 +84,65 @@ Unter diesem Punkt ist noch einmal extrapoliert, was sowohl in den FAIR-Prinzipi
 
 Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
 
-### Was ist keine Forschungssoftware und kann dennoch mit Hilfe des Leitfadens betrachtet werden?
+### Was ist keine Forschungssoftware - und kann dennoch mit Hilfe des Leitfadens betrachtet werden?
 
-Einen eigenen und für die Archäologien typischer Bereich ist Software von spezifischen Geräten etwa zur Vermessung, fotografischen Dokumentation, Analyse von Oberflächen und Inhaltsstoffen. Sehr oft findet sich hier proprietäre Software, die mit der Hardware vertrieben wird. Diese Software wird zwar in der Forschung eingesetzt, aber ihre Programmierung ist nicht transparent. Entsprechend können zwar der Umgang mit der Software und die Produktqualität aus Sicht der Nutzerinnen als Erfahrungswerte beschrieben werden, aber es können keine begründeten Aussagen zur Performanz unter veränderten Bedingungen, zur Stabilität und anderes getroffen werden. Einige der im folgenden dargestellten Kriterien zur Rezension von Forschungssoftware können auf proprietäre Software angewendet werden und eine Berücksichtigung der Aspekte wird ausdrücklich empfohlen.
+Einen eigenen und für die Archäologien charakteristischer Bereich ist Software zur Nutzung spezifischer Geräte etwa zur Vermessung, fotografischen Dokumentation, Analyse von Oberflächen und Inhaltsstoffen. Sehr oft findet sich hier proprietäre Software, die mit der Hardware vertrieben wird. Diese Software wird zwar in der Forschung eingesetzt, aber ihre Programmierung ist nicht transparent, vielfach werden zudem Daten in proprietären Formaten erzeugt. Entsprechend können zwar der Umgang mit der Software und die Produktqualität aus Sicht der Nutzerinnen als Erfahrungswerte beschrieben werden, aber es können keine begründeten Aussagen zur Performanz unter veränderten Bedingungen, zur Stabilität und anderes getroffen werden. Einige der im folgenden dargestellten Kriterien zur Rezension von Forschungssoftware können somit auf proprietäre Software angewendet werden und eine Berücksichtigung der Aspekte wird ausdrücklich empfohlen.
 
-In der praktischen Arbeit spielen vielfach digitale Werkzeuge eine Rolle, die die Arbeit unterstützen, aber keinen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben.  
+In der praktischen Arbeit spielen vielfach digitale Werkzeuge eine erhebliche Rolle, die die Arbeit unterstützen, aber keinen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben. Ihre Passgenauigkeit setzt wie bei der eigentlichen Forschungssoftware eine genaue Kenntnis des Arbeitsfelds voraus und entsprechend sind nicht selten stehen die eigenen Kolleg\*innen hinter der Entwicklung. Eine angemessene Besprechung der Software kann hier sehr direkt zur Verbesserung des Tools führen. 
 
 ## Kriterien und Vorgehensweise zur Rezension von Software
 
 ### Vorgehensweise
 
-Eine Softwarerezension sollte nicht anders als die Besprechung einer Publikation zunächst mit einer kurzen Beschreibung der Software beginnen. Dies ist ein Serviceleistung in der die Rezension den Einsatzbereich der Software ihre Komponenten und ihren Entstehungskontext zusammenträgt. Für den folgenden Abschnitt schlagen wir die vertiefte Betrachtung von Kriterien vor, die aus Sicht der Nutzer\*innen tragend sind und anschließend die Beurteilung entlang von Merkmalen, die sich auf die Qualität des Engineering beziehen. Auch dieser zweite sollte dabei so verfasst werden, dass reine Nutzer*innen ihn verstehen können. Denn die "handwerkliche" Qualität entscheidet, wie oben beschreiben, über die Zukunftsfähigkeit und Nachhaltigkeit von Forschungssoftware.
-
-> [AK: Clemens, besonders hier gerne prüfen und ergänzen]
-
+Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mit einer kurzen Beschreibung der Software beginnen. Zusammengefasst vorgestellt werden sollte der Einsatzbereich der Software, ihre Komponenten und ihr Entstehungskontext. Diese erste Übersicht kann in einer ersten grundsätzlichen Einschätzung der Software hinsichtlich ihrer Nützlichkeit für die Forschung und ihrer handwerklichen Qualität enden. Für die anschließende detaillierte Besprechung der Software und die Begründung der Einschatzung möchten wir die unten folgenden Kriterien vorschlagen. Alle Kriterien sind Ableitungen aus den eingangs erläuterten Prinzipien und Forderungen an Forschungssoftware. 
 
 ### Kriterien
-
 > [AK: Ab hier bitte ordnen und Dinge auch mal erklären z.B. kann mit ""Builtprozess"]
 
-- __Wofür kann ich diese Software verwenden?__ Welches Problem versucht die Software zu lösen und welche generellen Anwendungszenarien hatten die Entwickler vor Augen?
-- __Wie löst die Software das gegebene Problem?__ Wie ist die grundsätzliche Funktionsweise konzipiert? Was sind die wesentlichen Bestandteile in Frontend und Backend (z.B. WebApp + Datenbank, CLI + Neuronales Netz, ...)? Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde (natürlich in kurzen Worten: Punktmuster gehen hinein, Magie passiert, Kennwerte kommen heraus)?
+#### Wissenschaftliches Einsatzgebiet und wissenschaftliche Relevanz
+* Welches wissenschaftliche Problem versucht die Software zu lösen bzw. welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse durchgeführt. Wie sind diese Probleme und Aufgaben von ihrer Relevanz und von ihrer Häufigkeit einzuschätzen? 
+* Wie löst die Software das gegebene Problem? Wie ist die grundsätzliche Funktionsweise konzipiert? Was sind die wesentlichen Bestandteile in Frontend und Backend (z.B. WebApp + Datenbank, CLI + Neuronales Netz, ...)?
+* Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde (natürlich in kurzen Worten: Punktmuster gehen hinein, Magie passiert, Kennwerte kommen heraus)?
+* Gibt es neben der Software noch weitere Alternativen, oder ist sie die einzige für diesen spezifischen Einsatzbereich.
+	* Wenn es Alternativen gibt, worin unterscheiden sie sich mit Blick auf den wissenschaftlichen Einsatz, die Problemlösung
+* Entspricht der reale Einsatz den generellen Anwendungszenarien, den die Entwickler\*innen vor Augen hatten? Unter
+
+#### System, Umgebung und Installation
+* Diese technischen Merkmale sind Kriterien, die die Benutzbarkeit (Usability) betreffen. Die Einschätzung der Nutzbarkeit richtet sich nach den Kompetenzen der Zielgruppe und die Kriterien leiten hier zur genauen Beobachtung an.
+
+>[AK: Was genau ist mit Umgebung gemeint?]
+
+* Handelt es sich um eine Webapp, oder muss die Software installiert werden. Kann sie auch ohne Admin-Rechte installiert werden oder kommt als portable Software?
+* Bei Software die installiert wird: Ist sie plattform-unabhängig oder an bestimmte Betriebssysteme gebunden? 
+* Werden zum Betrieb der Software weitere Programme benötigt, müssen Einstellungen am eigenen System geändert werden?
+* Installationsvorgang: Wird die Installation mit einem Assistenten unterstützt? Wie und wo wird die Software angeboten? Welche Kompetenzen setzt die Installation voraus (Erfahrungen mit GitHub, mit der Commando Prompt)?
+* Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind
+
+#### Ressourcenbedarf
+* Ist der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab? 
+
+#### Interface und Bedienung
+* Wie intuitiv verständlich ist das Arbeiten mit der Software? 
+* Entsprechen etwa die Benennung der Kommandos, die Anordnung der Menüs oder die Abfolge der vorzunehmenden Aufgaben den Gewohnheiten, oder kommen der praktischen Arbeit entgegen.
+* In welchen Sprachen werden Nutzeroberflächen, Menüs und Hilfen angeboten?
+* Müssen eigens zur Nutzung der Software bestimmte Kompetenzen und Kenntnisse erworben werden? Davon zu trennen ist das gegebenenfalls nötige fachliche Vorwissen etwa bei der Nutzung von Statistikprogrammen.
+
+
+## Anschlussfähigkeit
+* Welche Datenformate werden von der Software verarbeitet (Inputformate) und in welchen Datenformaten erfolgt die Ausgabe (Outputformate). 
+	* Handelt es sich um offene oder proprietäre Datenformate?  
+	* Handelt es sich um zukunftsfähige Datenformate in der Community - Zur Orientierung schlagen wir aktuell (Stand Sommer 2020) die IT-Empfehlungen des Forschungsdatenzentrums Archäologie & Altertumswissenschaften, IANUS vor (ianus-forschungsdatenzentrum_fur_archaologie__altertumswissenschaften_it-empfehlungen_2014).
+** Hält sich die Anwendung an Standards welche im jeweiligen Kontext vorgegeben werden (z.B. W3C Standards zur Annotation oder auch archäologische Standards) und bildet diese standardkonform in den Daten ab?
+* Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)
+
+* Wie können Daten eingegeben werden und wie erfolgt die Ausgabe? 
+* Ist die Anwendung sowohl für den Menschen als auch maschinenlesbar nutzbar/Gibt es Programmierschnittstellen (APIs) oder Webservices?
+
+### Zugänglichkeit, Hilfefunktionen und Community
 - __Wo finde ich mehr Informationen zu dieser Software?__ Hyperlinks und Referenzen.
+
+- __Tutorials, FAQs und Hilfefunktionen__ sind ein weiterer wichtiger Aspekt. Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
+- __Community__ Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen schnell Hilfe googeln kann. Ist das Werkzeug das Erzeugnis eines einzigen Labors und wird von einer Hand voll eingeschworener Kollegen genutzt, oder handelt es sich um eine global etablierte Software mit Nutzerforum, Mailingliste und ganzen Büchern zur Nutzung in bestimmten Kontexten? Selbst wenn ein Werkzeug nur eine kleine Community besitzt kann dieser Mangel doch bis zu einem gewissen Grad von aktiven und leicht erreichbaren Entwicklern ausgeglichen werden, die bereit sind konkrete Fragen schnell und unkompliziert zu beantworten.
 
 _Clemens: Ein Gliederungsversuch, um die breite Gedankenwelt unten zu strukturieren:_
 
@@ -126,48 +161,7 @@ _Clemens: Ein Gliederungsversuch, um die breite Gedankenwelt unten zu strukturie
 
 # Beurteilung von Software und Diensten in der Archäologie
 
-## Usability
 
-### Merkmale der Benutzbarkeit
-<!--hier als erster Anfang von Wikipedia ISO/IEC 9126 ausgegangen, und versucht auszuformulieren -->
-
-#### 1. "Bedienbarkeit: Aufwand für den Benutzer, die Anwendung zu bedienen."
-- Eine wesentliche Hürde für die Nutzung von Software stellt ihre __Auffindbarkeit und die Installation__ dar. Je nach Nutzgruppe kann bereits der Download eines Softwarepakets von git Distributionen (Github, Gitlab, ...) oder ähnlichen Portalen ein großes Problem darstellen. In vielen Instituten und Einrichtungen kann Software zudem nicht von den Nutzerinnen selbst installiert werden.
-- Für Webanwendungen bedeutet es eine Einschränkung der Bedienbarkeit, wenn die App nicht für die Nutzung in allen gängigen Browsern ausgerichtet ist. Eine Übersicht der gängigen Browser kann z.B. _wo nachgesehen werden?_
-- Wie wird das Tool gestartet/geöffnet? Ist ein wiederholter Login nötig, unterbricht dies die Arbeit störend? Wenn ja, ist dies gerechtfertigt durch bestimmte Abhängigkeiten?
-- Ein weiterer Aspekt ist der __Ressourcenbedarf im Betrieb__. Ist beispielsweise der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab? Ist dieser Punkt von Bedeutung bei der üblichen Verwendung der Software?
-- Benötigt die Nutzerin, der Nutzer weitere Programme oder muss bestimmte Einstellungen am eigenen System vornehmen, um das Tool zu nutzen? Wenn ja, steht dies in einem angemessenen Verhältnis zur Funktion?
-- In welchen __Sprachen__ werden die __Nutzeroberflächen__  angeboten und ist dies angemessen für das Forschungsumfeld? Ein Programm, das nur in Deutsch beschrieben wird, kann in einem internationalen Forschungsteam Probleme aufwerfen. Ein Tool, das stark auf Bedarfe der Archäologie bestimmter Regionen ausgerichtet ist, sollte ggf. die Verkehrssprachen des Arbeitsgebiets berücksichtigen.
-
-#### 2. "Erlernbarkeit: Aufwand für den Benutzer, die Anwendung zu erlernen (zum Beispiel Bedienung, Ein-, Ausgabe)"
-
-- Die  __Erlernbarkeit__ steht  in einem Spannungsfeld zum Umfang und der Komplexität der Aufgaben, die  mit der Software bearbeitet werden sollen. Die Beurteilung muss also einbeziehen, ob die Lernkurve in einem angemessenen Verhältnis zu dem steht, was die Software bietet. Zugleich ist zu betrachten, ob es Alternativen gibt, mit denen ein Großteil der Bedarfe gedeckt werden können.
-- __Die Ein- und Ausgabe von Daten__ wird hinsichtlich der Formate unter Punkt "Open/Transparenz" erneut aufgegriffen. An dieser Stelle geht es um die Effizienz. Bei händischen Eingaben ist zu beurteilen, ob eine fehlerfreie Eingabe durch vorgegebene Feldformate, Fehlermeldungen und Hilfetexten zur Eingabe direkt neben den Eingabefeldern unterstützt wird. Bei der Eingabe über Importe ist zu betrachten, ob eine Auswahl von Formaten möglich ist, wie viele Daten in einem Durchgang importiert werden können und ob ihre Konformität vor dem Ingest geprüft wird, sowie schließlich wie performant (schnell und fehlerfrei) das System beim Import arbeitet. In ähnlicher Weise ist auch für die Ausgabe zu beurteilen, ob das Angebot an Datenformaten für das Arbeitsgebiet passend ist, und wie performant der Export ist. Natürlich ist auch hier stets die Relation zwischen dem Anspruch des Tools und dem Aufgabenfeld zu betrachten. Werden Datenformate oder auch Schnittstellen bei der Ein-und Ausgabe gut begründet vermisst, kann dies ein Feedback sein, um die Entwicklung des Tools voranzutreiben.
-- __Tutorials, FAQs und Hilfefunktionen__ sind ein weiterer wichtiger Aspekt. Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
-- __Community__ Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen schnell Hilfe googeln kann. Ist das Werkzeug das Erzeugnis eines einzigen Labors und wird von einer Hand voll eingeschworener Kollegen genutzt, oder handelt es sich um eine global etablierte Software mit Nutzerforum, Mailingliste und ganzen Büchern zur Nutzung in bestimmten Kontexten? Selbst wenn ein Werkzeug nur eine kleine Community besitzt kann dieser Mangel doch bis zu einem gewissen Grad von aktiven und leicht erreichbaren Entwicklern ausgeglichen werden, die bereit sind konkrete Fragen schnell und unkompliziert zu beantworten.
-
-#### 3. "Konformität: Grad, in dem die Software Normen oder Vereinbarungen zur Benutzbarkeit erfüllt."
-_Anne: bei diesem Punkt bin ich mir nicht sicher und würde ihn auslassen_
-_Sophie: dito. Mir fallen auch gerade keine Normen zur Benutzbarkeit in der Arch ein_
-
-#### 4. "Verständlichkeit: Aufwand für den Benutzer, das Konzept und die Anwendung zu verstehen"
-
-_Anne: hier finde ich es sehr schwierig das vom Problem, verstehen Archäologen, was sie eigentlich mit dem Tool tun, zu trennen. Ich finde z.B. im Grunde alle statistischen Anwendungen sehr kompliziert, weil ich erstmal total anders denke _
-
-_Flo: gerade deshalb muss das hier aufgeführt werden, ist meines Erchtens ein guter und wichtiger Punkt_
-
-_Sophie: Ich verstehe, dass die Trennung schwierig ist, würde Flo aber zustimmen. Beim Statistik-Bsp: Die Theorie hinter der Statistik muss außerhalb des Programms verstanden werden, in R muss ich das Paket und die Funktion in dem Paket verstehen, das die statistische Berechnung umsetzt. Also, wo sind welche Input-Parameter einzusetzen, welches Dateiformat kann ich benutzen etc pp. Das kann gut und intuitiv umgesetzt sein oder auch nicht._
-
-## Bedeutung in der Archäologie
-
-## Anschlussfähigkeit
-- Input- / Outputformate
-- offene Datenformate / proprietäre Datenformate / zukunftsfähige Datenformate (Wichtigkeit, Grad der Verbreitung, Nutzung)
-- Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)
-Kriterien für "gute" Forschungssoftware
-- hier wenn möglich Bezug auf bekannte archäologische Services, Ianus-Empfehlungen oder ADS. Damit hat mancher Archäologe vllt schonmal Kontakt gehabt, was das Verständnis erleichert
-- Ist die Anwendung sowohl für den Menschen als auch maschinenlesbar nutzbar/Gibt es Programmierschnittstellen (APIs) oder Webservices?
-- Hält sich die Anwendung an Standards welche im jeweiligen Kontext vorgegeben werden (z.B. W3C Standards zur Annotation oder auch archäologische Standards) und bildet diese standardkonform in den Daten ab?
 
 ## Lizenzen
 
@@ -417,4 +411,15 @@ doi = {http://dx.doi.org/10.18452/14175}
 	keywords = {Computer Science - General Literature, Computer Science - Software Engineering},
 	pages = {295},
 	file = {Anzt et al. - 2020 - An Environment for Sustainable Research Software i.pdf:/home/ankl_admin/Zotero/storage/P6425NCI/Anzt et al. - 2020 - An Environment for Sustainable Research Software i.pdf:application/pdf}
+}
+
+@article{ianus-forschungsdatenzentrum_fur_archaologie__altertumswissenschaften_it-empfehlungen_2014,
+	title = {{IT}-{Empfehlungen} für den nachhaltigen {Umgang} mit digitalen {Daten} in den {Altertumswissenschaften}},
+	copyright = {CC-BY-SA},
+	url = {https://www.ianus-fdz.de/it-empfehlungen/},
+	doi = {10.13149/000.111000-A},
+	urldate = {2020-06-05},
+	author = {IANUS-Forschungsdatenzentrum Für Archäologie \& Altertumswissenschaften},
+	year = {2014},
+	note = {Publisher: IANUS - FDZ Archäologie \& Altertumswissenschaften}
 }
