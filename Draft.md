@@ -125,6 +125,7 @@ Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mi
 
 #### Ressourcenbedarf
 * Ist der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab? 
+* Wurden Spezifikationen veröffentlicht, welche Anforderungen das Programm hat?
 
 #### Interface und Bedienung
 * Wie intuitiv verständlich ist das Arbeiten mit der Software? 
