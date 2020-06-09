@@ -14,17 +14,9 @@ bibliography: literatur.bib
 csl: apa-6th-edition.csl
 
 ---
-# Leitfaden Rezension von Forschungssoftware - Kriterien für "gute" Forschungssoftware
 
 *"Die Leitfunde werden dann im Computer durch die Programme ARCH und GGG einer Seriation unterzogen. Diese Programme entwickelte E. Kämmerer. Eine Beschreibung ist der Arbeit beigefügt. Die Programme DOK und ARCH z. Zt. für 600 Typen in 2000 Funden dimensioniert, sind am Rechner TR 440 beim Großrechenzentrum für die Wissenschaft in Berlin in Anwendung."* [@Kgoldmann_chronologische_1972, 98.]
 
-* Dr. Anne Klammt
-* Sophie Charlotte Schmidt M.A. 
-* Martina Trognitz M.A.
-* Timo Homburg M.Sc.
-* Clemens Schmid M.A.
-* Dipl-Inf. Lutz Schubert
-* Florian Thiery M.Sc.
 
 
 
