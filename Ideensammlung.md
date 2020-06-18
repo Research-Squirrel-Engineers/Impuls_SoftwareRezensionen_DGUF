@@ -9,6 +9,26 @@ Es wäre auch sinnvoll konkret _eine Liste an Rezensionen zusammenzutragen, in d
 
 ---
 
+## Kriterien Martina (aus Beitrag für CAA Tübingen)
+
+* Zweck der Software, die getestet wird
+* Testumgebung beschreiben (welche Version wurde getestet, welches Betriebssystem)
+* Datensatz beschreiben (Was wurde zu Testzwecken verwendet? Wie sehen die Daten aus (nur numerisch, kategorisch, Mischung etc.)?
+* Betriebssystem auf dem Software läuft
+* Angabe der aktuellsten verfügbaren Version mit Datum
+* Grafische Oberfläche oder nur Kommandozeile?
+* Bewertung für Qualität der Dokumentation
+** Installation (war es leicht oder schwer, gibt es 'Haken', sind Anweisungen ausreichend?)
+** Werden technische Details erläutert? (Systemanforderungen, Angaben zu Code und Entwicklungsumgebung, Angaben zu zugrundeliegenden Algorithmen)
+** Gibt es eine Bedienungsanleitung? Wie umfangreich ist sie (kurz oder ausführlich mit diversen Beispielen und auch bebilderung)?
+** Gibt es weiterführendes Trainingsmaterial (Tutorials)?
+* Community: gibt es eine? Ist sie aktiv, hat sie eigene Foren? -> Um weiterführende Hilfe zu bekommen
+* Importformate; Welche Datentypen werden unterstützt? 
+* Exportformate
+* Weitere Funktionalitäten
+
+---
+
 ## Anmerkungen Sophie (Mail vom 27-04-2020)
 
 Zu "C" von Timo <!--gemeint ist "Qualität für mögliche andere Anwender aus verschiedenen Communities-->:
