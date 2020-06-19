@@ -21,14 +21,14 @@ csl: apa-6th-edition.csl
 
 ## Gliederungsvorschlag
 
-### [Zielsetzung, Einleitung](#Zielsetzung-des-Beitrags)
-### [Was ist Forschungssoftware was nicht?](#Was-ist-Forschungssoftware?)
-#### [Generelle Kriterien und Überlegungen zu Forschungssoftware](#FAIRe Forschungssoftware?) (und auch Fachliche Beurteilung und weitere Unterpunkte)
-### Leitfaden
-#### Einleitung und generelle Vorgehensweise
-#### Kriterien
-#### Bonuskriterien
-#### Tabellarische Zusammenfassung?
+* [Zielsetzung, Einleitung](#Zielsetzung-des-Beitrags)
+* [Was ist Forschungssoftware was nicht?](#Was-ist-Forschungssoftware?)
+** [Generelle Kriterien und Überlegungen zu Forschungssoftware](#FAIRe Forschungssoftware?) (und auch RSE und Stand von Forschungssoftware in der Fachgemeinschaft; weitere Unterpunkte)
+* Leitfaden
+** Einleitung und generelle Vorgehensweise
+** Kriterien
+** Bonuskriterien
+** Tabellarische Zusammenfassung?
 
 ---
 
