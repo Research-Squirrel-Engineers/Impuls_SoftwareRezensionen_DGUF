@@ -22,32 +22,37 @@ csl: apa-6th-edition.csl
 
 ## Zielsetzung des Beitrags
 
-Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein allgemeines Grundverständnis darüber, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten?
+Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der angefertigten Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten?
 
 >[Fußnote: Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven wurde die Frage nach den Inhalten einer Rezension von Software und Anwendungen für die Archäologie von Sophie Charlotte Schmidt, Kai-Christian Bruhn und Siegmund Freud. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in der vorliegenden Reihe haben wir das Thema aufgegriffen und möchten mit dem vorliegenden Leitfaden einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten. Der Leitfaden kann auch zur Orientierung bei Entscheidungen zum Einsatz einer Software in der eigenen Forschung dienen.]
 
 > [MT] Zweiter Satz; 'allgemeines Grundverständnis' - welches ist das? Vielleicht Literatur dazu?
+> [AK] okay, stimmt, blöde Formulierung. Geändert in "unausgesprochenes Verständnis davon"
 > [MT] 'Review einer Rezension': Review ist ja eigentlich eine Rezension; ist hier also doppelt gemoppelt
-> [MT] Den Begriff 'Anschlussfähigkeit' finde ich merkwürdig. Es ist doch eher Interoperabilität, Konnektivität oder Kompatibilität gmeint oder? Vielleicht einen davon nehmen und dahinter noch '(connectivity)' ergänzen 
+> [AK] Nein, tatsächlich lässt die DGUF Rezensionen noch einmal Gegenlesen. Dann bekommt man eine Rezension und wird gefragt, ob man die hinreichend, inhaltlich richtig und angemessen findet. 
+> [MT] Den Begriff 'Anschlussfähigkeit' finde ich merkwürdig. Es ist doch eher Interoperabilität, Konnektivität oder Kompatibilität gemeint oder? Vielleicht einen davon nehmen und dahinter noch '(connectivity)' ergänzen
+>[AK] Begriff kommt von Timo
 
 ## Forschungsgegenstand und Forschungsstand
 
 > [MT] hier wäre ein kurzer einleitender Absatz hilfreich
+> [AK] gute Idee bitte einen Vorschlag machen
 
 ### Was ist Forschungssoftware?
 Unter Forschungssoftware verstehen wir Software, die mit einem spezifischen Fokus auf ihren Einsatz in der Forschung entwickelt wurde, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809]. Dies könnten beispielsweise Programme sein, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen. Forschungssoftware kann auf einen sehr spezifischen Bedarf gerichtet sein oder bietet generische Lösungen an. Sie ist dabei stets Teil des Forschungsprozesses, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss.
 
 ### FAIRe Forschungssoftware?
-Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in vielen Punkten denen entsprechen, die an Forschungsdaten gerichtet werden. Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016] entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und reproduzierbar (Reusable -> sollte nachnutzbar heißen; siehe Kommentar). Daraus lassen sich Maßnahmen ableiten, die speziell für Software Anwendung finden:
+Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in vielen Punkten denen entsprechen, die an Forschungsdaten gerichtet werden. Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016] entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Daraus lassen sich Maßnahmen ableiten, die speziell für Software Anwendung finden:
 
 - der Nachweis von Forschungssoftware in Repositorien
 - die Zitierbarkeit von Software
 - die eindeutige Autorenschaft
 - die Offenlegung des Quellcodes
-- die Anwendung von Standards
+- die Verwendung und Umsetzung von Standards
 
 > [MT] FAIR: Findable, accessible, interoperable and reusable (!, nicht reproduzierbar)
 > [MT] statt 'Anwendung von Standards' vielleicht lieber 'Verwendung und Umsetzung von Standards'
+> [AK] Oui! Merci
 
 Die Offenlegung des Quellcodes ist dabei bereits eine für Forschungssoftware spezifische Ableitung, die keine Gültigkeit für Forschungsdaten hat, weil Forschungsdaten andere Informationen beinhalten [@lamprecht_towards_2019, 3 f.]. Die Forderung nach der Offenlegung des Quellcodes (Open Source) wird dabei vielfach noch erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen (Free Source). Letzteres wird als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.). oder von Research-Software-Engineers in der "de-RSE e.V." [@anzt_environment_2020].
 
@@ -56,39 +61,47 @@ Die Offenlegung des Quellcodes ist dabei bereits eine für Forschungssoftware sp
 > [AK] ja! sehr gut und ich denke auch schon in Definition muss der Punkt "Fprschungssoftware ist lebendiges Ding" übernommen werden.
 > [FT] ja muss ich noch reinfuddeln
 > [MT] habe den zweiten Satz in zwei geteilt. Zum Gendern: Forschenden sowie Entwickler und Entwicklerinnen (?)
+> [AK] ich persönlich finde Forschende, Lesende und Studierende keine grammatikalisch befriedigende Lösung. Eine Leserin ist man immer, auch wenn man gerade schläft, eine Lesende nur genau dann, wenn man wirklich liest. Zusätzlich öffnet der Genderstar den Text für nicht-binäre Optionen. Ich bin hier aber für Mehrheitsentscheide offen und eher entspannt.
 
 Auch in anderen Punkten muss die Umsetzung auf das Bezug nehmen, was für Software spezifisch ist. Einen sehr konkreten Vorschlag dafür hat 2019 eine Gruppe von Research-Software-Entwickler\*innen aus der Bioinformatik vorgelegt [@lamprecht_towards_2019]. Mit Blick auf die Umsetzbarkeit zur Auffindbarkeit fallen hier unter anderem Softwarerepositorien als Infrastruktur auf, die eigene Funktionen und Formen der Trägerschaften kennt. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die oftmals nicht genuin aus der Forschung kommen. Ähnlich wie die kommerziellen Anbieter von Cloud-Diensten zum Austausch von Dokumenten geben sie aber starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen. Gerade für die Auffindbarkeit ist aber aus den Vorschlägen der Gruppe die Bedeutung der fachwissenschaftlichen Einbindung und der klassischen Arbeit der Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards abzulesen.
 
 > [MT] Kann man kürzer fassen 
+> [AK] Gerne, bitte einfach machen. Der Text ist nicht heilig
 
 Einer eigenen Ausformulierung für Software bedarf auch die Frage der Interoperabilität. So kann Interoperabilität verstanden werden als Abfolge von Prozessen die bei der Erzeugung, Bearbeitung oder Analyse nacheinander aufgerufen werden. Sie kann aber auch als Interoperabilität der verschiedenen Schichten die miteinander korrespondieren müssen, um das Programm auszuführen verstanden werden [@lamprecht_towards_2019, 10 f.]. Forschungssoftware, die nur mit einem Betriebssystem funktioniert ist weniger interoperabel, als solche, die plattformunabhängig programmiert ist. Die Interoperabilität in einem Ablauf von Prozessen erfordert nicht, dass alle Prozessschritte mit der Software abgebildet werden, sondern dass sie über Protokolle, Schnittstellen und Ausgabeformate den Durchlauf ermöglichen.
 
 > [MT] Die Übersetzung aus dem Artikel ist etwas missglückt. 'Interoperability for research software can be understood in two dimensions: as part of workflows (horizontal dimension) and as stack of digital objects that need to work together at compilation and execution times (vertical dimension).'; Dass mit der 'Abfolge von Prozessen die bei der...' müsste umformuliert werden; Dann wird der Zusammenhang mit den Betriebssystemen auch wieder klar. 
 > [MT] lässt sich auch alles noch etwas straffen
+> [AK] Gerne, bitte einfach machen. 
 
-Einen wichtigen Punkt bildet die eindeutige Autorenschaft. Erst mit ihr kann die wissenschaftliche Leistung mit der Person verbunden werden. Eine Voraussetzung, um akademische Karrierewege zu eröffnen, in denen bislang Qualität und Anzahl klassischer Publikationen sind, zukünftig aber auch Datenpublikationen, Softwarepublikation und -zitation (https://citation-file-format.github.io, https://doi.org/10.5281/zenodo.1003149), Annotationen und die Softwareentwicklung Kriterien der Beurteilung sein sollen (s. NFDI4Culture, RSE4NFDI, NFDI4Objects). Die eindeutige Zuweisung und die Sichtbarmachung der Autorenschaft wird aber zudem auch in der kritischen Auseinandersetzung mit dem Bias von Software eingefordert.
-> (Fußnote: Angestoßen wird dies insbesondere von Untersuchungen, die sich mit Software auseinandersetzt, die zur Diskrimination von Gruppen und Individuen führt, so etwa Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen ausgerichtet ist [@breland_how_2017]). Interessanterweise kann gerade die Archäologie und hier die Archäologischen Informationen auf eigene Erfahrungen mit der Nennung der Autorenschaft zurückblicken, wie es das einleitende Zitat zeigt. Autorenschaft von Software unterscheidet sich jedoch heute deutlich von dem, was in der Publikation von Aufsätzen und Büchern gewohnt ist. Die Entwicklung von Software beinhaltet heute ganz wesentlich die neue Verknüpfung und Ergänzung vorhandener Module, entsprechend muss auch das Verständnis von Autorenschaft und wie sie sich auch über die Lebenszeit der Software hinaus dokumentieren lässt spezifisch für Software erfolgen [@katz_software_2016].
+Einen wichtigen Punkt bildet die eindeutige Autorenschaft. Erst mit ihr kann die wissenschaftliche Leistung, die in die Entwicklung der Software eingeflossen ist, mit der Person verbunden werden. Das ist aber eine Voraussetzung, um dieser akademische Karrierewege zu eröffnen, in denen bislang nur die Qualität und Anzahl klassischer Publikationen gezählt haben. Zukünftig sollten aber in gleicher Weise auch Datenpublikationen, Softwarepublikation und -zitation (https://citation-file-format.github.io, https://doi.org/10.5281/zenodo.1003149), Annotationen und die Softwareentwicklung Kriterien der Beurteilung der wissenschaftlichen Leistung sein (s. NFDI4Culture, RSE4NFDI, NFDI4Objects). Die eindeutige Zuweisung und die Sichtbarmachung der Autorenschaft wird aber zudem auch in der kritischen Auseinandersetzung mit dem Bias von Software eingefordert (FN: Angestoßen wird Letzteres insbesondere von Untersuchungen, die sich mit Software auseinandersetzt, die zur Diskrimination von Gruppen und Individuen führt, so etwa Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen ausgerichtet ist [@breland_how_2017]). 
+Interessanterweise kann gerade die Archäologie und hier die Archäologischen Informationen auf eigene Erfahrungen mit der Nennung der Autorenschaft zurückblicken, wie es das einleitende Zitat zeigt. Autorenschaft von Software unterscheidet sich jedoch heute deutlich von dem, was in der Publikation von Aufsätzen und Büchern gewohnt ist. Die Entwicklung von Software beinhaltet heute ganz wesentlich die neue Verknüpfung und Ergänzung vorhandener Module, entsprechend muss auch das Verständnis von Autorenschaft und wie sie sich auch über die Lebenszeit der Software hinaus dokumentieren lässt spezifisch für Software erfolgen [@katz_software_2016].
 
 > [MT] zweiter Satz nicht verständlich; Das danach verstehe ich auch irgendwie nicht so richtig; Was ist mit Bias der Software gemeint?
+> [AK] Geändert
+> 
 
 Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtlich der grundsätzlichen Ansprüche an Interoperabilität bei der Verwendung in einem Workflow und der Verwendung von Standards und etablierten Paradigmen des Programmierens und der Dokumentation. Die FAIR-Prinzipien haben aber keine direkte Auswirkung auf die Usability und beziehen sich nicht auf die wissenschaftliche Qualität des Tools. Dennoch ergeben sich eine Anzahl von Kritertien, die in die Beurteilung einer Forschungssoftware einfließen und von Angaben, die im Rahmen der Rezension als Serviceleistung zu erbringen sind, wie die Autorenschaft, das Repositorium, mögliche nötige Voraussetzungen zur Verwendbarkeit.
 
 > [MT] Dieser Absatz sollte besser in den Anfang dieses Abschnittes eingearbeitet werden
 > [MT] Insgesamt kann man das ganze aber auch weiter straffen; Wir wollen ja nicht nur die IT-Nerds, sondern auch die Archäologen mit dem Aufsatz erreichen. Da sollte es reichen knapp und einleuchtend die wichtigen Begriffe einzuführen und dann einfach auf entsprechende Literatur zu verweisen.
+> [AK] Bitte konkreten Vorschlag machen.  
 
 ### Fachliche Beurteilung
 
 Es bedarf also weiterer Kriterien, um festzustellen, was eine gute Forschungssoftware ist, und um in einer Rezension die Leistung der Entwickler\*innen angemessen zu beurteilen.
-Die Beschäftigung mit der wissenschaftlichen Nutzung, also den Nutzungsszenarien von Forschungssoftware ist in der fachwissenschaftlichen Forschung bereits verankert (bezogen auf die in der Ur- und Frühgeschichte und der Archäologie des Mittelalters betriebene Forschung). Die AG CAA e.V. führt seit 2010 jährlich Workshops durch, in denen Tutorials zu Software durchgeführt und Fallbeispiele diskutiert werden sowie Entwickler\*innen ihre Tools zur Diskussion stellen. Auch in den Fachzeitschriften und Tagungen mit anderen thematischen, räumlichen und zeitlichen Schwerpunkten werden in gewisser Regelmäßigkeit entsprechende Fallbeispiele publiziert. Und Tagungen, Sammelbände uns Ausstellungen nehmen sich bestimmter Themen an, wie der Auswertung von LIDAR-Daten oder 3D-Rekonstruktionen (LIT./LIT).
+Die Beschäftigung mit der wissenschaftlichen Nutzung, also den Nutzungsszenarien von Forschungssoftware ist in der archäologischen Forschung bereits verankert (bezogen auf die in der Ur- und Frühgeschichte und der Archäologie des Mittelalters betriebene Forschung). Die AG CAA e.V. führt seit 2010 jährlich Workshops durch, in denen Tutorials zu Software durchgeführt und Fallbeispiele diskutiert werden sowie Entwickler\*innen ihre Tools zur Diskussion stellen. Auch in den Fachzeitschriften und Tagungen mit anderen thematischen, räumlichen und zeitlichen Schwerpunkten werden in gewisser Regelmäßigkeit entsprechende Fallbeispiele publiziert. Und Tagungen, Sammelbände uns Ausstellungen nehmen sich bestimmter Themen an, wie der Auswertung von LIDAR-Daten oder 3D-Rekonstruktionen (LIT./LIT).
 
 > [MT] Warum werden weitere Kriterien benötigt; warum reicht FAIR allein nicht?
 > [MT] Was genau ist eigentlich mit 'fachlicher Beurteilung' gemeint?
+> [AK] Geändert in "archäologischer"
 
 Mit den Fallbeispielen verwandt, aber aus einem anderen Fokus geschrieben, sind Publikationen von Forschungsergebnissen, die unter dem Einsatz spezifischer Forschungssoftware erzielt wurden. In eigenen Abschnitten zur Vorgehensweise der Untersuchung wird hier auch die Software beschrieben jedoch nur insoweit, wie es für das Verständnis der methodischen Vorgehensweise erforderlich ist (exemplarisch: Zimmermann, Saile, Freund). Während dabei Aspekte wie die Oberflächengestaltung kaum eine Rolle spielen, werden je nach Qualität der Arbeit die zugrundeliegenden Berechnungswege, die Modellierung der Daten und die Wechselbeziehung mit dem Forschungsdesign fassbar. Aus ihnen lassen sich im Idealfall Ansätze zur Weiterentwicklung der Software oder auch zur Ergänzung weiterer mathematischer Verfahren ableiten. Eröffnen die zuvor als Fallbeispiele eingeordneten Publikationen der Forschung Software, kann die fachwissenschaftliche Forschung durch die intensive Nutzung und Kritik der Ergebnisse die Entwicklung der Software vorantreiben. Letzteres ist auch der Fall bei Arbeiten einer insgesamt kleineren Anzahl von Autorinnen und Autoren, die sich in ihren Beiträgen mit der Leistungsfähigkeit und den Parametern  der Rechnungen selbst, bzw. den Algorithmen auseinandersetzen (exemplarisch: Irmela Herzog 2012, 2014 und Gerhard Roth LIT).
 
 > [MT] Zimmermann, Saile, Freund fehlen in der bib
 > [MT] vorletzten Satz verstehe ich nicht
 > [MT] Den Unterschied zwischen dem was Zimmermann, Saile und Freund tun und dem was Herzog und Roth tun müsste man für Archäologen noch verständlicher formulieren.
+> [AK] Gerne, bitte machen
 
 Zusammengefasst können aus den eigenen fachlichen Traditionen der Archäologie Kriterien für eine Rezension abgeleitet werden, die das Potenzial für die wissenschaftliche Arbeit und die Passung zum Forschungsfeld beschreibt.
 
@@ -133,7 +146,7 @@ In der praktischen Arbeit spielen vielfach digitale Werkzeuge eine erhebliche Ro
 Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mit einer kurzen Beschreibung der Software beginnen. Zusammengefasst vorgestellt werden sollte der Einsatzbereich der Software, ihre Komponenten und ihr Entstehungskontext. Diese erste Übersicht kann in einer ersten grundsätzlichen Einschätzung der Software hinsichtlich ihrer Nützlichkeit für die Forschung und ihrer handwerklichen Qualität enden. Für die anschließende detaillierte Besprechung der Software und die Begründung der Einschatzung möchten wir die unten folgenden Kriterien vorschlagen. Alle Kriterien sind Ableitungen aus den eingangs erläuterten Prinzipien und Forderungen an Forschungssoftware. 
 
 ### Kriterien
-> [AK: Ab hier bitte ordnen und Dinge auch mal erklären z.B. kann mit ""Builtprozess"]
+> [AK]: Ab hier bitte ordnen und Dinge auch mal erklären z.B. kann mit ""Builtprozess"
 
 #### Wissenschaftliches Einsatzgebiet und wissenschaftliche Relevanz
 * Welches wissenschaftliche Problem versucht die Software zu lösen bzw. welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse durchgeführt. Wie sind diese Probleme und Aufgaben von ihrer Relevanz und von ihrer Häufigkeit einzuschätzen? 
@@ -210,6 +223,7 @@ _Clemens: Ein Gliederungsversuch, um die breite Gedankenwelt unten zu strukturie
 - Behält sich die Software Rechte an den von ihr erstellten Daten vor?
 
 > [MT] Das alles auszuführen würde an dieser Stelle zu weit führen denke ich
+> [AK] Hm...
 
 ## Datenschutz, Privacy, Datensparsamkeit
 
@@ -218,6 +232,7 @@ _Clemens: Ein Gliederungsversuch, um die breite Gedankenwelt unten zu strukturie
 - Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?
 
 > [MT] Für den 'archäologischen Zweck' führt das zu weit, bzw. müsste etwas knapper sein (eher nach dem Motto: ist die Software Datenschutzrechtlich bedenklich?)
+> [AK] Stimme nicht überein.  
 
 
 ## Software
@@ -241,6 +256,7 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Gibt die Software plausible Fehlermeldungen aus? Gibt es einen Log um Fehler nachvollziehen zu können?
 
 > [MT] Das hier sind ganz brauchbare Kriterien, wobei man hier auch explizit auf ISO 9126 verweisen könnte und dann nur noch die Punkte listet, die im archäologischen Kontext für die Archäologen relevant sind; 
+> [AK] Was eine sehr genau Kenntnis der Interessen "der Archäologen" voraussetzt. Traue ich mir nicht zu, das einzugrenzen. Was würde denn dann wegfallen?
 
 ## Community
 
@@ -278,6 +294,7 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Stützt sich die Anwendung auf Standards zur Barrierefreiheit wie z.B. BITV2? http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
 
 > [MT] Für den 'archäologischen Zweck' führt das zu weit
+> [AK] Stimme nicht überein. 
 
 
 ## Sicherheit
@@ -286,6 +303,7 @@ Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_912
 - Hat die Anwendung Abhängigkeiten zu Softwarekomponenten welche bekannte Sicherheitslücken aufweisen und nicht mehr gepflegt werden? Hält dieser Zustand auf absehbare Zeit an?
 
 > [MT] Für den 'archäologischen Zweck' führt das zu weit
+> [AK] Stimme nicht überein. 
 
 ## Bibliographie
 
