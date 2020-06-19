@@ -61,6 +61,30 @@ Also eher ein Leitfaden was man beachten könnte oder eine Auszeichnung in Form 
 
 ---
 
+## Überlegungen Martina (hier; 2020-06-19)
+
+* Zielpublikum: Archäologen mit Interesse an Anwendung von Software
+** eher nicht: Entwickler oder technophobe Archäologen
+* Analogien zu Rezension von Texten:
+** es wird eine Anwendung rezensiert (ein Text)
+** es wird geprüft of gewisse Konventionen und Standards eingehalten wurden (Forschungsgeschichte, Forschungsstand)
+** es wird angegeben, was die Anwendung kann (inhalt des Textes wird zusammengefasst)
+* Was mich an einer Software-Rezension interessieren würde:
+** Anwendungsfeld
+** Kosten; Nutzungsbedingungen
+** Systemanforderungen
+** Besonderheiten
+** evlt. Alternativen oder auch ähnliche Software
+* Was mich vor der Lektüre abschrecken würde
+** Software gibt es schon in einer besseren Form
+** langer kaum strukturierter Text
+** nicht sehr Anwedungsorientiert, fehlender Bezug zur Praxis
+* Tabellarische Zusammenfassung für sich wiederholende Kriterien? -> Vergleichbarkeit; Datenbank
+* Angabe von Fallbeispielen
+* Referenzen auf Anwendungsbeispiele
+
+---
+
 ## Annes Dokument (Stand 26-04-2020)
 
 ### Questions to be answered
