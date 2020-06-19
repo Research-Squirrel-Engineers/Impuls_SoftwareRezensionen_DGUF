@@ -17,8 +17,20 @@ csl: apa-6th-edition.csl
 
 *"Die Leitfunde werden dann im Computer durch die Programme ARCH und GGG einer Seriation unterzogen. Diese Programme entwickelte E. Kämmerer. Eine Beschreibung ist der Arbeit beigefügt. Die Programme DOK und ARCH z. Zt. für 600 Typen in 2000 Funden dimensioniert, sind am Rechner TR 440 beim Großrechenzentrum für die Wissenschaft in Berlin in Anwendung."* [@goldmann_chronologische_1972, 98.]
 
+---
 
+## Gliederungsvorschlag
 
+* [Zielsetzung, Einleitung](#Zielsetzung-des-Beitrags)
+* [Was ist Forschungssoftware was nicht?](#Was-ist-Forschungssoftware?)
+  * [Generelle Kriterien und Überlegungen zu Forschungssoftware](#FAIRe Forschungssoftware?) (und auch RSE und Stand von Forschungssoftware in der Fachgemeinschaft; weitere Unterpunkte)
+* Leitfaden
+  * Einleitung und generelle Vorgehensweise
+  * Kriterien
+  * Bonuskriterien
+  * Tabellarische Zusammenfassung?
+
+---
 
 ## Zielsetzung des Beitrags
 

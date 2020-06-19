@@ -18,10 +18,10 @@ Es wäre auch sinnvoll konkret _eine Liste an Rezensionen zusammenzutragen, in d
 * Angabe der aktuellsten verfügbaren Version mit Datum
 * Grafische Oberfläche oder nur Kommandozeile?
 * Bewertung für Qualität der Dokumentation
-** Installation (war es leicht oder schwer, gibt es 'Haken', sind Anweisungen ausreichend?)
-** Werden technische Details erläutert? (Systemanforderungen, Angaben zu Code und Entwicklungsumgebung, Angaben zu zugrundeliegenden Algorithmen)
-** Gibt es eine Bedienungsanleitung? Wie umfangreich ist sie (kurz oder ausführlich mit diversen Beispielen und auch bebilderung)?
-** Gibt es weiterführendes Trainingsmaterial (Tutorials)?
+  * Installation (war es leicht oder schwer, gibt es 'Haken', sind Anweisungen ausreichend?)
+  * Werden technische Details erläutert? (Systemanforderungen, Angaben zu Code und Entwicklungsumgebung, Angaben zu zugrundeliegenden Algorithmen)
+  * Gibt es eine Bedienungsanleitung? Wie umfangreich ist sie (kurz oder ausführlich mit diversen Beispielen und auch bebilderung)?
+  * Gibt es weiterführendes Trainingsmaterial (Tutorials)?
 * Community: gibt es eine? Ist sie aktiv, hat sie eigene Foren? -> Um weiterführende Hilfe zu bekommen
 * Importformate; Welche Datentypen werden unterstützt? 
 * Exportformate
@@ -58,6 +58,30 @@ Die Frage die ich mir stelle ist: Sind solche Kriterien für Archäologen überh
 Je nach Perspektive werden die Kriterien vermutlich unterschiedlich ausfallen und zutreffen bzw. nicht zutreffen.
 Geht es uns dabei übrigens um Kriterien oder geht es uns um einen Score der am Ende herauskommen soll?
 Also eher ein Leitfaden was man beachten könnte oder eine Auszeichnung in Form eines Scores für bereits existierende Lösungen der sich aus den verschiedenen Kriterien aggregiert?
+
+---
+
+## Überlegungen Martina (hier; 2020-06-19)
+
+* Zielpublikum: Archäologen mit Interesse an Anwendung von Software
+  * eher nicht: Entwickler oder technophobe Archäologen
+* Analogien zu Rezension von Texten:
+  * es wird eine Anwendung rezensiert (ein Text)
+  * es wird geprüft of gewisse Konventionen und Standards eingehalten wurden (Forschungsgeschichte, Forschungsstand)
+  * es wird angegeben, was die Anwendung kann (inhalt des Textes wird zusammengefasst)
+* Was mich an einer Software-Rezension interessieren würde:
+  * Anwendungsfeld
+  * Kosten; Nutzungsbedingungen
+  * Systemanforderungen
+  * Besonderheiten
+  * evlt. Alternativen oder auch ähnliche Software
+* Was mich vor der Lektüre abschrecken würde
+  * Software gibt es schon in einer besseren Form
+  * langer kaum strukturierter Text
+  * nicht sehr Anwedungsorientiert, fehlender Bezug zur Praxis
+* Tabellarische Zusammenfassung für sich wiederholende Kriterien? -> Vergleichbarkeit; Datenbank
+* Angabe von Fallbeispielen
+* Referenzen auf Anwendungsbeispiele
 
 ---
 
