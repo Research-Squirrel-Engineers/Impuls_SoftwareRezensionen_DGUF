@@ -24,6 +24,7 @@ csl: apa-6th-edition.csl
 * [Zielsetzung, Einleitung](#Zielsetzung-des-Beitrags)
 * [Was ist Forschungssoftware was nicht?](#Was-ist-Forschungssoftware?)
   * [Generelle Kriterien und Überlegungen zu Forschungssoftware](#FAIRe Forschungssoftware?) (und auch RSE und Stand von Forschungssoftware in der Fachgemeinschaft; weitere Unterpunkte)
+* Wie sieht die ideale Forschungssoftware aus?
 * Leitfaden
   * Einleitung und generelle Vorgehensweise
   * Kriterien
