@@ -152,171 +152,121 @@ Einen eigenen und für die Archäologien charakteristischer Bereich ist Software
 
 In der praktischen Arbeit spielen vielfach digitale Werkzeuge eine erhebliche Rolle, die die Arbeit unterstützen, aber keinen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben. Ihre Passgenauigkeit setzt wie bei der eigentlichen Forschungssoftware eine genaue Kenntnis des Arbeitsfelds voraus und entsprechend sind nicht selten stehen die eigenen Kolleg\*innen hinter der Entwicklung. Eine angemessene Besprechung der Software kann hier sehr direkt zur Verbesserung des Tools führen. 
 
-## Kriterien und Vorgehensweise zur Rezension von Software
-
-### Vorgehensweise
+## Vorgehensweise bei der Rezension von Software
 
 Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mit einer kurzen Beschreibung der Software beginnen. Zusammengefasst vorgestellt werden sollte der Einsatzbereich der Software, ihre Komponenten und ihr Entstehungskontext. Diese erste Übersicht kann in einer ersten grundsätzlichen Einschätzung der Software hinsichtlich ihrer Nützlichkeit für die Forschung und ihrer handwerklichen Qualität enden. Für die anschließende detaillierte Besprechung der Software und die Begründung der Einschatzung möchten wir die unten folgenden Kriterien vorschlagen. Alle Kriterien sind Ableitungen aus den eingangs erläuterten Prinzipien und Forderungen an Forschungssoftware. 
 
-### Kriterien
-> [AK]: Ab hier bitte ordnen und Dinge auch mal erklären z.B. kann mit ""Builtprozess"
+## Kriterien zur Beurteilung von Software
 
-#### Wissenschaftliches Einsatzgebiet und wissenschaftliche Relevanz
+### Wissenschaftliche Relevanz und Korrektheit
+
+#### Einsatzgebiet und Relevanz
 * Welches wissenschaftliche Problem versucht die Software zu lösen bzw. welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse durchgeführt. Wie sind diese Probleme und Aufgaben von ihrer Relevanz und von ihrer Häufigkeit einzuschätzen? 
 * Wie löst die Software das gegebene Problem? Wie ist die grundsätzliche Funktionsweise konzipiert? Was sind die wesentlichen Bestandteile in Frontend und Backend (z.B. WebApp + Datenbank, CLI + Neuronales Netz, ...)?
 * Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde (natürlich in kurzen Worten: Punktmuster gehen hinein, Magie passiert, Kennwerte kommen heraus)?
 * Gibt es neben der Software noch weitere Alternativen, oder ist sie die einzige für diesen spezifischen Einsatzbereich.
-	* Wenn es Alternativen gibt, worin unterscheiden sie sich mit Blick auf den wissenschaftlichen Einsatz, die Problemlösung
+- Welche Software gibt es noch / was sind Vorteile dieser hier?
+* Wenn es Alternativen gibt, worin unterscheiden sie sich mit Blick auf den wissenschaftlichen Einsatz, die Problemlösung
 * Entspricht der reale Einsatz den generellen Anwendungszenarien, den die Entwickler\*innen vor Augen hatten? Unter
+- Wie ist die Software publiziert und verfügbar (Download, git) und ist sie zitierbar (Zenodo, [CCF](https://citation-file-format.github.io))
 
-#### System, Umgebung und Installation
+#### Korrektheit der Implementierung
+* Sind die Algorithmen korrekt implementiert worden?
+
+### Bedienbarkeit
+
+#### Installation und Nutzungsumgebung
+- Mit welchen Hardwareanforderungen?
+- Lauffähigkeit auf welchen Betriebssystemen? (mehr sind besser)
+- Auf welchen Endgeräten? (Mobil, Desktop, Web)
+- Installation oder Portable?
 * Diese technischen Merkmale sind Kriterien, die die Benutzbarkeit (Usability) betreffen. Die Einschätzung der Nutzbarkeit richtet sich nach den Kompetenzen der Zielgruppe und die Kriterien leiten hier zur genauen Beobachtung an.
-
->[AK: Was genau ist mit Umgebung gemeint?]
-> [MT] wahrscheinlich welche Software braucht man, um die Software zu benutzen; Wenn man sie entwickelt hat man ja üblicherweise eine ganz bestimmte Entwicklungsumgebung (z.B. Python 2 oder Python 3); Die hat später auch Auswirkungen auf die Nutzbarkeit oder auch Erweiterbarkeit
-
 * Handelt es sich um eine Webapp, oder muss die Software installiert werden. Kann sie auch ohne Admin-Rechte installiert werden oder kommt als portable Software?
 * Bei Software die installiert wird: Ist sie plattform-unabhängig oder an bestimmte Betriebssysteme gebunden? 
 * Werden zum Betrieb der Software weitere Programme benötigt, müssen Einstellungen am eigenen System geändert werden?
 * Installationsvorgang: Wird die Installation mit einem Assistenten unterstützt? Wie und wo wird die Software angeboten? Welche Kompetenzen setzt die Installation voraus (Erfahrungen mit GitHub, mit der Commando Prompt)? Ist der Installationsvorgang ausreichend dokumentiert?
-* Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind
+- Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
 
-#### Ressourcenbedarf
-* Ist der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab? 
-* Wurden Spezifikationen veröffentlicht, welche Anforderungen das Programm hat?
-
-#### Interface und Bedienung
+#### Interface
 * Wie intuitiv verständlich ist das Arbeiten mit der Software? 
 * Entsprechen etwa die Benennung der Kommandos, die Anordnung der Menüs oder die Abfolge der vorzunehmenden Aufgaben den Gewohnheiten, oder kommen der praktischen Arbeit entgegen.
 * In welchen Sprachen werden Nutzeroberflächen, Menüs und Hilfen angeboten?
+- Internationalisierung/Lokalisierung - Ist die Software in mehreren Sprachen verfügbar oder kann sie einfach so erweitert werden? Beachtet sie ggf. lokale Anpassungen (andere Einheiten, andere Gepflogenheiten der Forscher in Land XYZ etc.)
 * Müssen eigens zur Nutzung der Software bestimmte Kompetenzen und Kenntnisse erworben werden? Davon zu trennen ist das gegebenenfalls nötige fachliche Vorwissen etwa bei der Nutzung von Statistikprogrammen.
+- Ist die Anwendung behindertengerecht bedienbar?
+- Stützt sich die Anwendung auf Standards zur Barrierefreiheit wie z.B. BITV2? http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
+- Gibt die Software plausible Fehlermeldungen aus? Gibt es einen Log um Fehler nachvollziehen zu können?
 
-
-## Anschlussfähigkeit
+#### Anschlussfähigkeit
 * Welche Datenformate werden von der Software verarbeitet (Inputformate) und in welchen Datenformaten erfolgt die Ausgabe (Outputformate). 
 	* Handelt es sich um offene oder proprietäre Datenformate?  
 	* Handelt es sich um zukunftsfähige Datenformate in der Community - Zur Orientierung schlagen wir aktuell (Stand Sommer 2020) die IT-Empfehlungen des Forschungsdatenzentrums Archäologie & Altertumswissenschaften, IANUS vor [@ianus-forschungsdatenzentrum_fur_archaologie__altertumswissenschaften_it-empfehlungen_2014].
 ** Hält sich die Anwendung an Standards welche im jeweiligen Kontext vorgegeben werden (z.B. W3C Standards zur Annotation oder auch archäologische Standards) und bildet diese standardkonform in den Daten ab?
 * Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)
-
 * Wie können Daten eingegeben werden und wie erfolgt die Ausgabe? 
 * Ist die Anwendung sowohl für den Menschen als auch maschinenlesbar nutzbar/Gibt es Programmierschnittstellen (APIs) oder Webservices?
 
-### Zugänglichkeit, Hilfefunktionen und Community
-- __Wo finde ich mehr Informationen zu dieser Software?__ Hyperlinks und Referenzen.
-
-- __Tutorials, FAQs und Hilfefunktionen__ sind ein weiterer wichtiger Aspekt. Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
-- __Community__ Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen schnell Hilfe googeln kann. Ist das Werkzeug das Erzeugnis eines einzigen Labors und wird von einer Hand voll eingeschworener Kollegen genutzt, oder handelt es sich um eine global etablierte Software mit Nutzerforum, Mailingliste und ganzen Büchern zur Nutzung in bestimmten Kontexten? Selbst wenn ein Werkzeug nur eine kleine Community besitzt kann dieser Mangel doch bis zu einem gewissen Grad von aktiven und leicht erreichbaren Entwicklern ausgeglichen werden, die bereit sind konkrete Fragen schnell und unkompliziert zu beantworten.
-
-_Clemens: Ein Gliederungsversuch, um die breite Gedankenwelt unten zu strukturieren:_
-
-- _# Beurteilung von Software und Diensten in der Archäologie_
-- _## Bedienbarkeit (Nutzerperspektive)_
-- _### System, Umgebung und Installation_
-- _### Interface_
-- _### Ressourcenbedarf_
-- _### Zugänglichkeit, Hilfefunktionen und Community_
-- _## Technik (Entwicklerperspektive)_
-- _### Art und Qualität der Implementierung_
-- _### Anschluss- und Erweiterungsfähigkeit_
-- _## Rechtliche Fragen_
-- _### Datenschutz, Privacy, Datensparsamkeit_
-- _### Lizenzierung_
-
-# Beurteilung von Software und Diensten in der Archäologie
-
-
-
-## Lizenzen
-
-- Unterschied Copyright und Copyleft Lizenzen
-- Welche Lizenz gestattet welche gängigen Anwendungen in der Archäologie? Problem von Creative Commons `non commercial`
-- Sind die Ressourcen, die mit der Software mitgeliefert werden unter einer freien Datenlizenz verfügbar?
-- Erlaubt die Software nur die Erstellung von Daten, die unter einer gewissen Lizenz zur Verfügung gestellt werden können?
-- Behält sich die Software Rechte an den von ihr erstellten Daten vor?
-
-> [MT] Das alles auszuführen würde an dieser Stelle zu weit führen denke ich
-> [AK] Hm...
-
-## Datenschutz, Privacy, Datensparsamkeit
-
-- Welche Daten speichert die Anwendung zu welchem Zweck wie lange? Dienen diese Daten der Forschung bzw. helfen sie die Software zu verbessern?
-- Ist die Software ohne Login anonym bedienbar?
-- Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?
-
-> [MT] Für den 'archäologischen Zweck' führt das zu weit, bzw. müsste etwas knapper sein (eher nach dem Motto: ist die Software Datenschutzrechtlich bedenklich?)
-> [AK] Stimme nicht überein.  
-
-
-## Software
-
-Siehe auch: https://de.wikipedia.org/wiki/Softwarequalität#/media/Datei:ISO_9126_Grafik.png
-
-- Lauffähigkeit auf welchen Betriebssystemen? (mehr sind besser)
-- Auf welchen Endgeräten? (Mobil, Desktop, Web)
-- Installation oder Portable?
-- Mit welchen Hardwareanforderungen?
-- Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?
-- Internationalisierung/Lokalisierung - Ist die Software in mehreren Sprachen verfügbar oder kann sie einfach so erweitert werden? Beachtet sie ggf. lokale Anpassungen (andere Einheiten, andere Gepflogenheiten der Forscher in Land XYZ etc.)
-- Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)
-- Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
-- Ist die Software frei/Open Source?
+#### Ressourcenbedarf
+* Ist der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab? 
+* Wurden Spezifikationen veröffentlicht, welche Anforderungen das Programm hat?
 - Wie ist das Laufzeitverhalten? (Braucht die Software unnötig lange im Vergleich zu anderen Vergleichbaren Programmen?)
 - Wie stabil ist die Software?
-- Wie ist die Software publiziert und verfügbar (Download, git) und ist sie zitierbar (Zenodo, [CCF](https://citation-file-format.github.io))
-- Welche Software gibt es noch / was sind Vorteile dieser hier?
-- Robustheit: Wie geht die Software mit Abstürzen/Stromausfall usw. um? Wird die Arbeit regelmäßig zwischengespeichert?
-- Gibt die Software plausible Fehlermeldungen aus? Gibt es einen Log um Fehler nachvollziehen zu können?
 
-> [MT] Das hier sind ganz brauchbare Kriterien, wobei man hier auch explizit auf ISO 9126 verweisen könnte und dann nur noch die Punkte listet, die im archäologischen Kontext für die Archäologen relevant sind; 
-> [AK] Was eine sehr genau Kenntnis der Interessen "der Archäologen" voraussetzt. Traue ich mir nicht zu, das einzugrenzen. Was würde denn dann wegfallen?
-
-## Community
-
+#### Zugänglichkeit, Hilfefunktionen und Community
+- Wo finde ich mehr Informationen zu dieser Software? Hyperlinks und Referenzen.
+- Tutorials, FAQs und Hilfefunktionen sind ein weiterer wichtiger Aspekt. Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
+- Community Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen schnell Hilfe googeln kann. Ist das Werkzeug das Erzeugnis eines einzigen Labors und wird von einer Hand voll eingeschworener Kollegen genutzt, oder handelt es sich um eine global etablierte Software mit Nutzerforum, Mailingliste und ganzen Büchern zur Nutzung in bestimmten Kontexten? Selbst wenn ein Werkzeug nur eine kleine Community besitzt kann dieser Mangel doch bis zu einem gewissen Grad von aktiven und leicht erreichbaren Entwicklern ausgeglichen werden, die bereit sind konkrete Fragen schnell und unkompliziert zu beantworten.
 - Wird die Software von einer ausreichend großen Community getragen?
 - Wird die Software regelmäßig mit Updates versorgt?
 - Sind die Entwickler der Software gut ansprechbar oder gar persönlich bekannt?
 - Hat die Software eine ausreichend große Anwenderbasis und ggf. eine Communityhilfe?
 - Gibt es ausreichend Tutorials für das Erlernen der Software?
-
-## Archäologische Community
-
 - Gibt es bereits eine archäologische Community für diese Software? (SIG, ...)
 - Sind Best Practices für diese Software für die Community verfügbar?
 - Gibt es Archäologie-relevante erfolgreiche Projekte/Anwendungen, die von dieser Software bereits unterstützt wurden?
+- Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?
+- Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese um ein Verständnis für die Funktionsweise zu entwickeln?
 
-## Dokumentation und Tests
+### Technik
 
+#### Qualität der Implementierung
+* Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind
+- Robustheit: Wie geht die Software mit Abstürzen/Stromausfall usw. um? Wird die Arbeit regelmäßig zwischengespeichert?
+
+#### Dokumentation und Tests
+
+- Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?
 - Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?
 - Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?
 - Ist die Dokumentation aktuell, wird gepflegt und deckt alle Funktionen des Programms ab?
 - Hat der Quellcode Tests die die Kernfunktionen des Programms testen und diese für andere Entwickler aufzeigen?
 - Sind verwendete Algorithmen dokumentiert und hinreichend wissenschaftlich belegt?
 
-## Attraktivität
-
-- Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?
-- Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese um ein Verständnis für die Funktionsweise zu entwickeln?
-
-> [MT] Für den 'archäologischen Zweck' ist das sehr wichtig
-
-
-## Barrierefreiheit
-
-- Ist die Anwendung behindertengerecht bedienbar?
-- Stützt sich die Anwendung auf Standards zur Barrierefreiheit wie z.B. BITV2? http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html
-
-> [MT] Für den 'archäologischen Zweck' führt das zu weit
-> [AK] Stimme nicht überein. 
-
-
-## Sicherheit
+#### Sicherheit
 - Ist die Anwendung auf Sicherheitsanforderungen getestet worden? (Penetrationtests usw.), also ist sie leicht hackbar oder nicht?
 - Setzt die Anwendung Standards zur IT Sicherheit welche von Behörden oder internationalen Organisationen empfohlen werden um? Beispiel OWASP: https://de.wikipedia.org/wiki/Open_Web_Application_Security_Project
 - Hat die Anwendung Abhängigkeiten zu Softwarekomponenten welche bekannte Sicherheitslücken aufweisen und nicht mehr gepflegt werden? Hält dieser Zustand auf absehbare Zeit an?
 
 > [MT] Für den 'archäologischen Zweck' führt das zu weit
 > [AK] Stimme nicht überein. 
+
+### Rechtliche Fragen
+
+- Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)
+
+#### Lizenzierung
+- Ist die Software frei/Open Source?
+- Unterschied Copyright und Copyleft Lizenzen
+- Welche Lizenz gestattet welche gängigen Anwendungen in der Archäologie? Problem von Creative Commons `non commercial`
+- Sind die Ressourcen, die mit der Software mitgeliefert werden unter einer freien Datenlizenz verfügbar?
+- Erlaubt die Software nur die Erstellung von Daten, die unter einer gewissen Lizenz zur Verfügung gestellt werden können?
+- Behält sich die Software Rechte an den von ihr erstellten Daten vor?
+
+#### Datenschutz, Privacy, Datensparsamkeit
+- Welche Daten speichert die Anwendung zu welchem Zweck wie lange? Dienen diese Daten der Forschung bzw. helfen sie die Software zu verbessern?
+- Ist die Software ohne Login anonym bedienbar?
+- Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?
+
 
 ## Bibliographie
 
