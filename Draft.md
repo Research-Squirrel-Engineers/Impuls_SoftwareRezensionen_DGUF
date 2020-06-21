@@ -22,14 +22,16 @@ csl: apa-6th-edition.csl
 ## Gliederungsvorschlag
 
 * [Zielsetzung](#Zielsetzung-des-Beitrags)
-* [Forschungssoftware und Anwendungsbereich der Kriterien](#Was-ist-Forschungssoftware)
-  * [Generelle Kriterien und Überlegungen zu Forschungssoftware](#FAIRe Forschungssoftware?) (und auch RSE und Stand von Forschungssoftware in der Fachgemeinschaft; weitere Unterpunkte)
-* Wie sieht die ideale Forschungssoftware aus?
-* Leitfaden
-  * Einleitung und generelle Vorgehensweise
-  * Kriterien
-  * Bonuskriterien
-  * Tabellarische Zusammenfassung?
+* [Forschungssoftware](#Forschungssoftware)
+  * [Gute Forschungssoftware](#FAIRe Forschungssoftware?)
+    * [Open Science](#open-science) (Open Science; Open Data, Open Source)
+    * [#FAIRe Forschungssoftware](#FAIRe Forschungssoftware) (FAIR, CARE, Open, Gute wissenschafltiche Praxis) (Wie sieht die ideale Forschungssoftware aus?)
+  * [Forschungssoftware als wissenschafltiche Leistung]() (RSE und Stand von Forschungssoftware in der Fachgemeinschaft)
+* [Anwendungsbereich dieses Leitfadens](Anwendungsbereich-dieses-Leitfadens)
+* [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
+* [Kriterien zur Beurteilung von Software](#Kriterien-zur-Beurteilung-von-Software)
+  * ... alle Unterpunkte ab [dort](#Kriterien-zur-Beurteilung-von-Software)
+* Tabellarische Zusammenfassung?
 
 ---
 
@@ -46,7 +48,13 @@ Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche F
 > [MT] Den Begriff 'Anschlussfähigkeit' finde ich merkwürdig. Es ist doch eher Interoperabilität, Konnektivität oder Kompatibilität gemeint oder? Vielleicht einen davon nehmen und dahinter noch '(connectivity)' ergänzen
 >[AK] Begriff kommt von Timo
 
-## Forschungssoftware und Anwendungsbereich der Kriterien
+
+> Bausteine
+> gewisse Standards was open standards angeht / FAIR, CARE https://www.gida-global.org/care etc / "pushen" als von uns und DFG etc gewünscht zukünftige Standards
+> Begründung: Softwaretools greifen tief in die Forschung ein und müssen deshalb bewertbar werden
+> nicht festlegen, was nicht in die Rezension rein muss (keine Grenze ziehen), sondern Fragen aufwerfen, die behandelt werden können
+
+## Forschungssoftware
 
 Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen primär auf die Begutachtung von Forschungssoftware ab. Unter Forschungssoftware verstehen wir Software, die mit Fokus auf einen Einsatz in der Forschung entwickelt wurde, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809]. Dies sind beispielsweise Programme, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen.
 
@@ -56,6 +64,8 @@ Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer 
 
 Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inne haben, jedoch keinen eigentlichen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben, sind in unserem Sinne keine Forschungssoftware.
 
+### Gute Forschungssoftware
+> [MT] Überschrift erst mal Platzhalter, evtl. gibt es noch was aussagekräftigeres
 
 
 
