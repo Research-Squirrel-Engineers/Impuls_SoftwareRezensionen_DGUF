@@ -24,8 +24,9 @@ csl: apa-6th-edition.csl
 * [Zielsetzung](#Zielsetzung-des-Beitrags)
 * [Forschungssoftware](#Forschungssoftware)
   * [Gute Forschungssoftware](#FAIRe Forschungssoftware?)
+    * [FAIR Prinzipien](#FAIR-Prinzipien) (FAIR, CARE, Open, Gute wissenschafltiche Praxis) (Wie sieht die ideale Forschungssoftware aus?)
     * [Open Science](#open-science) (Open Science; Open Data, Open Source)
-    * [#FAIRe Forschungssoftware](#FAIRe Forschungssoftware) (FAIR, CARE, Open, Gute wissenschafltiche Praxis) (Wie sieht die ideale Forschungssoftware aus?)
+    * [CARE Prinzipien](#care-prinzipien) (https://www.gida-global.org/care)
   * [Forschungssoftware als wissenschafltiche Leistung]() (RSE und Stand von Forschungssoftware in der Fachgemeinschaft)
 * [Anwendungsbereich dieses Leitfadens](Anwendungsbereich-dieses-Leitfadens)
 * [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
@@ -67,9 +68,12 @@ Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inn
 ### Gute Forschungssoftware
 > [MT] Überschrift erst mal Platzhalter, evtl. gibt es noch was aussagekräftigeres
 
+> Bausteine
+> Gute Wissenschaftliche Praxis (DFG); nicht nur für Forschungsprozess und Daten auch für verwendete Methoden; dazu gehört auch Forschungssoftware
 
 
-### FAIRe Forschungssoftware?
+
+### FAIR Prinzipien
 Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in vielen Punkten denen entsprechen, die an Forschungsdaten gerichtet werden. Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016] entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Daraus lassen sich Maßnahmen ableiten, die speziell für Software Anwendung finden:
 
 - der Nachweis von Forschungssoftware in Repositorien
@@ -149,15 +153,17 @@ Unter Nutzbarkeit wird oftmals allein UX Design verstanden, was Fragen der Gesta
 Usability umfasst aber noch mehr und schließt alle Aspekte ein, die eine fehlerfreie und effiziente Nutzung durch die Forscherin, den Forscher ermöglichen. Für Forschungssoftware ist es z.B. besonders wichtig, dass die Eingabe von Daten sich an der Eingabepraxis orientiert; wenn etwa die händische Eingabe von Werten sehr typisch ist, dann ist es Aufgabe einer guten Benutzbarkeit, diesen Vorgang mit vorgegebenen Feldformaten, automatischem Speichern, gut sichtbaren Feldern oder ähnlichem zu unterstützen. Ebenso muss Software die üblicherweise von Teams genutzt wird, in denen verschiedene Kompetenzen vertreten sind, ein Rechtemanagement vorsehen, das die unterschiedlichen Verantwortlichkeiten abbilden kann. Forschungssoftware wird nicht im leeren Raum genutzt, sondern trifft auf Erwartungen und Gewohnheiten der Nutzer\*innen, sowohl was ihre Bedienung betrifft, als auch die ergänzenden Angebote zur Unterstützung, wie Tutorials FAQs und ähnliches. Software, die für hochspezielle Fragestellungen verwendet wird, die auf einer Reihe vorhergehender Prozessschritte aufbaut, richtet sich an einen anderen Nutzerkreis, als Software, die Basisfunktionen erfüllt. Weil Forscher\*innen am besten beurteilen können, ob ihre Bedarfe und Gewohnheiten gut adressiert sind und die Forschungssoftware ihnen ein gutes Arbeiten erlaubt, gehört eine Beurteilung dieser Aspekte in die Rezension.
 Ableiten lassen sich Kriterien, auf die sich die Nutzungserfahrung abbilden lässt aus der Forschung und den Referenz-Standards zur Usability. Zu nennen ist unter anderem der ISO/IEC 9126 Standard und spezifisch für Webanwendungen bilden die Empfehlungen und Standards des W3C (@noauthor_w3c_nodate).  
 
-#### Software Engeneering
 
-Wie gut ist der Code
+#### Open Science
+
+#### CARE Prinzipien
 
 ### Ethische Angemessenheit
 
 Unter diesem Punkt ist noch einmal extrapoliert, was sowohl in den FAIR-Prinzipien z.B. hinsichtlich der Autorenschaft als auch der Vertiefung zur Usability implizit mitgetragen wird: Forschungssoftware ist nicht neutral. Sie entsteht nicht unter neutralen Bedingungen, ihre Nutzung erfolgt unter spezifischen Bedingungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen diese Gewohnheiten und Konventionen auch zur Befestigung von Privilegien und Diskriminierungen bei, etwa wenn Tutorials ausschließlich männliche Nutzer kennen, oder die an der Entwicklung beteiligten Personen nicht genannt werden.
 
 Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
+
 
 ##  Anwendungsbereich dieses Leitfadens
 
@@ -178,6 +184,9 @@ Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mi
 ...
 
 ## Kriterien zur Beurteilung von Software
+
+> Software Engineering noch berücksichtigen?
+
 
 ### Wissenschaftliche Relevanz und Korrektheit
 
