@@ -3,7 +3,7 @@ title: Leitfaden Rezension von Forschungssoftware - Kriterien für "gute" Forsch
 layout: draft
 author:
   - Dr. Anne Klammt
-  - Sophie Charlotte Schmidt M.A. 
+  - Sophie Charlotte Schmidt M.A.
   - Martina Trognitz M.A.
   - Timo Homburg M.Sc.
   - Clemens Schmid M.A.
@@ -15,7 +15,9 @@ csl: apa-6th-edition.csl
 
 ---
 
+<div id="zitat">
 *"Die Leitfunde werden dann im Computer durch die Programme ARCH und GGG einer Seriation unterzogen. Diese Programme entwickelte E. Kämmerer. Eine Beschreibung ist der Arbeit beigefügt. Die Programme DOK und ARCH z. Zt. für 600 Typen in 2000 Funden dimensioniert, sind am Rechner TR 440 beim Großrechenzentrum für die Wissenschaft in Berlin in Anwendung."* [@goldmann_chronologische_1972, 98.](#goldmann_chronologische_1972)
+</div>
 
 ---
 
@@ -42,7 +44,7 @@ Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche F
 > [MT] Zweiter Satz; 'allgemeines Grundverständnis' - welches ist das? Vielleicht Literatur dazu?
 > [AK] okay, stimmt, blöde Formulierung. Geändert in "unausgesprochenes Verständnis davon"
 > [MT] 'Review einer Rezension': Review ist ja eigentlich eine Rezension; ist hier also doppelt gemoppelt
-> [AK] Nein, tatsächlich lässt die DGUF Rezensionen noch einmal Gegenlesen. Dann bekommt man eine Rezension und wird gefragt, ob man die hinreichend, inhaltlich richtig und angemessen findet. 
+> [AK] Nein, tatsächlich lässt die DGUF Rezensionen noch einmal Gegenlesen. Dann bekommt man eine Rezension und wird gefragt, ob man die hinreichend, inhaltlich richtig und angemessen findet.
 > [MT] Den Begriff 'Anschlussfähigkeit' finde ich merkwürdig. Es ist doch eher Interoperabilität, Konnektivität oder Kompatibilität gemeint oder? Vielleicht einen davon nehmen und dahinter noch '(connectivity)' ergänzen
 >[AK] Begriff kommt von Timo
 
@@ -78,21 +80,21 @@ Die Offenlegung des Quellcodes ist dabei bereits eine für Forschungssoftware sp
 
 Auch in anderen Punkten muss die Umsetzung auf das Bezug nehmen, was für Software spezifisch ist. Einen sehr konkreten Vorschlag dafür hat 2019 eine Gruppe von Research-Software-Entwickler\*innen aus der Bioinformatik vorgelegt [@lamprecht_towards_2019](#lamprecht_towards_2019). Mit Blick auf die Umsetzbarkeit zur Auffindbarkeit fallen hier unter anderem Softwarerepositorien als Infrastruktur auf, die eigene Funktionen und Formen der Trägerschaften kennt. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die oftmals nicht genuin aus der Forschung kommen. Ähnlich wie die kommerziellen Anbieter von Cloud-Diensten zum Austausch von Dokumenten geben sie aber starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen. Gerade für die Auffindbarkeit ist aber aus den Vorschlägen der Gruppe die Bedeutung der fachwissenschaftlichen Einbindung und der klassischen Arbeit der Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards abzulesen.
 
-> [MT] Kann man kürzer fassen 
+> [MT] Kann man kürzer fassen
 > [AK] Gerne, bitte einfach machen. Der Text ist nicht heilig
 
 Einer eigenen Ausformulierung für Software bedarf auch die Frage der Interoperabilität. So kann Interoperabilität verstanden werden als Abfolge von Prozessen die bei der Erzeugung, Bearbeitung oder Analyse nacheinander aufgerufen werden. Sie kann aber auch als Interoperabilität der verschiedenen Schichten die miteinander korrespondieren müssen, um das Programm auszuführen verstanden werden [@lamprecht_towards_2019, 10 f.](#lamprecht_towards_2019). Forschungssoftware, die nur mit einem Betriebssystem funktioniert ist weniger interoperabel, als solche, die plattformunabhängig programmiert ist. Die Interoperabilität in einem Ablauf von Prozessen erfordert nicht, dass alle Prozessschritte mit der Software abgebildet werden, sondern dass sie über Protokolle, Schnittstellen und Ausgabeformate den Durchlauf ermöglichen.
 
-> [MT] Die Übersetzung aus dem Artikel ist etwas missglückt. 'Interoperability for research software can be understood in two dimensions: as part of workflows (horizontal dimension) and as stack of digital objects that need to work together at compilation and execution times (vertical dimension).'; Dass mit der 'Abfolge von Prozessen die bei der...' müsste umformuliert werden; Dann wird der Zusammenhang mit den Betriebssystemen auch wieder klar. 
+> [MT] Die Übersetzung aus dem Artikel ist etwas missglückt. 'Interoperability for research software can be understood in two dimensions: as part of workflows (horizontal dimension) and as stack of digital objects that need to work together at compilation and execution times (vertical dimension).'; Dass mit der 'Abfolge von Prozessen die bei der...' müsste umformuliert werden; Dann wird der Zusammenhang mit den Betriebssystemen auch wieder klar.
 > [MT] lässt sich auch alles noch etwas straffen
-> [AK] Gerne, bitte einfach machen. 
+> [AK] Gerne, bitte einfach machen.
 
-Einen wichtigen Punkt bildet die eindeutige Autorenschaft. Erst mit ihr kann die wissenschaftliche Leistung, die in die Entwicklung der Software eingeflossen ist, mit der Person verbunden werden. Das ist aber eine Voraussetzung, um dieser akademische Karrierewege zu eröffnen, in denen bislang nur die Qualität und Anzahl klassischer Publikationen gezählt haben. Zukünftig sollten aber in gleicher Weise auch Datenpublikationen, Softwarepublikation und -zitation (https://citation-file-format.github.io, https://doi.org/10.5281/zenodo.1003149), Annotationen und die Softwareentwicklung Kriterien der Beurteilung der wissenschaftlichen Leistung sein (s. NFDI4Culture, RSE4NFDI, NFDI4Objects). Die eindeutige Zuweisung und die Sichtbarmachung der Autorenschaft wird aber zudem auch in der kritischen Auseinandersetzung mit dem Bias von Software eingefordert (FN: Angestoßen wird Letzteres insbesondere von Untersuchungen, die sich mit Software auseinandersetzt, die zur Diskrimination von Gruppen und Individuen führt, so etwa Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen ausgerichtet ist [@breland_how_2017](#breland_how_2017)). 
+Einen wichtigen Punkt bildet die eindeutige Autorenschaft. Erst mit ihr kann die wissenschaftliche Leistung, die in die Entwicklung der Software eingeflossen ist, mit der Person verbunden werden. Das ist aber eine Voraussetzung, um dieser akademische Karrierewege zu eröffnen, in denen bislang nur die Qualität und Anzahl klassischer Publikationen gezählt haben. Zukünftig sollten aber in gleicher Weise auch Datenpublikationen, Softwarepublikation und -zitation (https://citation-file-format.github.io, https://doi.org/10.5281/zenodo.1003149), Annotationen und die Softwareentwicklung Kriterien der Beurteilung der wissenschaftlichen Leistung sein (s. NFDI4Culture, RSE4NFDI, NFDI4Objects). Die eindeutige Zuweisung und die Sichtbarmachung der Autorenschaft wird aber zudem auch in der kritischen Auseinandersetzung mit dem Bias von Software eingefordert (FN: Angestoßen wird Letzteres insbesondere von Untersuchungen, die sich mit Software auseinandersetzt, die zur Diskrimination von Gruppen und Individuen führt, so etwa Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen ausgerichtet ist [@breland_how_2017](#breland_how_2017)).
 Interessanterweise kann gerade die Archäologie und hier die Archäologischen Informationen auf eigene Erfahrungen mit der Nennung der Autorenschaft zurückblicken, wie es das einleitende Zitat zeigt. Autorenschaft von Software unterscheidet sich jedoch heute deutlich von dem, was in der Publikation von Aufsätzen und Büchern gewohnt ist. Die Entwicklung von Software beinhaltet heute ganz wesentlich die neue Verknüpfung und Ergänzung vorhandener Module, entsprechend muss auch das Verständnis von Autorenschaft und wie sie sich auch über die Lebenszeit der Software hinaus dokumentieren lässt spezifisch für Software erfolgen [@katz_software_2016](#katz_software_2016).
 
 > [MT] zweiter Satz nicht verständlich; Das danach verstehe ich auch irgendwie nicht so richtig; Was ist mit Bias der Software gemeint?
 > [AK] Geändert
-> 
+>
 
 Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtlich der grundsätzlichen Ansprüche an Interoperabilität bei der Verwendung in einem Workflow und der Verwendung von Standards und etablierten Paradigmen des Programmierens und der Dokumentation. Die FAIR-Prinzipien haben aber keine direkte Auswirkung auf die Usability und beziehen sich nicht auf die wissenschaftliche Qualität des Tools. Dennoch ergeben sich eine Anzahl von Kritertien, die in die Beurteilung einer Forschungssoftware einfließen und von Angaben, die im Rahmen der Rezension als Serviceleistung zu erbringen sind, wie die Autorenschaft, das Repositorium, mögliche nötige Voraussetzungen zur Verwendbarkeit.
 
@@ -150,11 +152,11 @@ Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberfläc
 
 Einen eigenen und für die Archäologien charakteristischer Bereich ist Software zur Nutzung spezifischer Geräte etwa zur Vermessung, fotografischen Dokumentation, Analyse von Oberflächen und Inhaltsstoffen. Sehr oft findet sich hier proprietäre Software, die mit der Hardware vertrieben wird. Diese Software wird zwar in der Forschung eingesetzt, aber ihre Programmierung ist nicht transparent, vielfach werden zudem Daten in proprietären Formaten erzeugt. Entsprechend können zwar der Umgang mit der Software und die Produktqualität aus Sicht der Nutzerinnen als Erfahrungswerte beschrieben werden, aber es können keine begründeten Aussagen zur Performanz unter veränderten Bedingungen, zur Stabilität und anderes getroffen werden. Einige der im folgenden dargestellten Kriterien zur Rezension von Forschungssoftware können somit auf proprietäre Software angewendet werden und eine Berücksichtigung der Aspekte wird ausdrücklich empfohlen.
 
-In der praktischen Arbeit spielen vielfach digitale Werkzeuge eine erhebliche Rolle, die die Arbeit unterstützen, aber keinen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben. Ihre Passgenauigkeit setzt wie bei der eigentlichen Forschungssoftware eine genaue Kenntnis des Arbeitsfelds voraus und entsprechend sind nicht selten stehen die eigenen Kolleg\*innen hinter der Entwicklung. Eine angemessene Besprechung der Software kann hier sehr direkt zur Verbesserung des Tools führen. 
+In der praktischen Arbeit spielen vielfach digitale Werkzeuge eine erhebliche Rolle, die die Arbeit unterstützen, aber keinen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben. Ihre Passgenauigkeit setzt wie bei der eigentlichen Forschungssoftware eine genaue Kenntnis des Arbeitsfelds voraus und entsprechend sind nicht selten stehen die eigenen Kolleg\*innen hinter der Entwicklung. Eine angemessene Besprechung der Software kann hier sehr direkt zur Verbesserung des Tools führen.
 
 ## Vorgehensweise bei der Rezension von Software
 
-Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mit einer kurzen Beschreibung der Software beginnen. Zusammengefasst vorgestellt werden sollte der Einsatzbereich der Software, ihre Komponenten und ihr Entstehungskontext. Diese erste Übersicht kann in einer ersten grundsätzlichen Einschätzung der Software hinsichtlich ihrer Nützlichkeit für die Forschung und ihrer handwerklichen Qualität enden. Für die anschließende detaillierte Besprechung der Software und die Begründung der Einschatzung möchten wir die unten folgenden Kriterien vorschlagen. Alle Kriterien sind Ableitungen aus den eingangs erläuterten Prinzipien und Forderungen an Forschungssoftware. 
+Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mit einer kurzen Beschreibung der Software beginnen. Zusammengefasst vorgestellt werden sollte der Einsatzbereich der Software, ihre Komponenten und ihr Entstehungskontext. Diese erste Übersicht kann in einer ersten grundsätzlichen Einschätzung der Software hinsichtlich ihrer Nützlichkeit für die Forschung und ihrer handwerklichen Qualität enden. Für die anschließende detaillierte Besprechung der Software und die Begründung der Einschatzung möchten wir die unten folgenden Kriterien vorschlagen. Alle Kriterien sind Ableitungen aus den eingangs erläuterten Prinzipien und Forderungen an Forschungssoftware.
 
 ...
 
@@ -163,7 +165,7 @@ Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mi
 ### Wissenschaftliche Relevanz und Korrektheit
 
 #### Einsatzgebiet und Relevanz
-* Welches wissenschaftliche Problem versucht die Software zu lösen bzw. welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse durchgeführt. Wie sind diese Probleme und Aufgaben von ihrer Relevanz und von ihrer Häufigkeit einzuschätzen? 
+* Welches wissenschaftliche Problem versucht die Software zu lösen bzw. welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse durchgeführt. Wie sind diese Probleme und Aufgaben von ihrer Relevanz und von ihrer Häufigkeit einzuschätzen?
 * Wie löst die Software das gegebene Problem? Wie ist die grundsätzliche Funktionsweise konzipiert? Was sind die wesentlichen Bestandteile in Frontend und Backend (z.B. WebApp + Datenbank, CLI + Neuronales Netz, ...)?
 * Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde (natürlich in kurzen Worten: Punktmuster gehen hinein, Magie passiert, Kennwerte kommen heraus)?
 * Gibt es neben der Software noch weitere Alternativen, oder ist sie die einzige für diesen spezifischen Einsatzbereich?
@@ -189,19 +191,19 @@ Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mi
 * Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
 * Wie stabil verhält sich die Software?
 * Wie ist das Laufzeitverhalten? (Braucht die Software unnötig lange im Vergleich zu anderen vergleichbaren Programmen?)
-* Ist der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab? 
+* Ist der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab?
 
 #### Interface
-* Wie intuitiv verständlich ist das Arbeiten mit der Software? 
+* Wie intuitiv verständlich ist das Arbeiten mit der Software?
 * Entsprechen etwa die Benennung der Kommandos, die Anordnung der Menüs oder die Abfolge der vorzunehmenden Aufgaben den Gewohnheiten, oder kommen der praktischen Arbeit entgegen?
 * Gibt die Software plausible Fehlermeldungen aus? Gibt es einen Log um Fehler nachvollziehen zu können?
 * In welchen Sprachen werden Nutzeroberflächen, Menüs und Hilfen angeboten?
 * Beachtet die Software lokale Anpassungen (andere Einheiten, andere Gepflogenheiten der Forscher in Land XYZ etc.)?
 * Müssen eigens zur Nutzung der Software bestimmte Kompetenzen und Kenntnisse erworben werden? Davon zu trennen ist das gegebenenfalls nötige fachliche Vorwissen etwa bei der Nutzung von Statistikprogrammen.
-* Ist die Anwendung behindertengerecht bedienbar und stützt sie sich auf Standards zur Barrierefreiheit wie z.B. [BITV2](http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html)? 
+* Ist die Anwendung behindertengerecht bedienbar und stützt sie sich auf Standards zur Barrierefreiheit wie z.B. [BITV2](http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html)?
 
 #### Anschlussfähigkeit
-* Welche Datenformate werden von der Software verarbeitet (Inputformate) und in welchen Datenformaten erfolgt die Ausgabe (Outputformate). 
+* Welche Datenformate werden von der Software verarbeitet (Inputformate) und in welchen Datenformaten erfolgt die Ausgabe (Outputformate).
 * Handelt es sich um offene oder proprietäre Datenformate?  
 * Handelt es sich um zukunftsfähige Datenformate in der Community - Zur Orientierung schlagen wir aktuell (Stand Sommer 2020) die IT-Empfehlungen des Forschungsdatenzentrums Archäologie & Altertumswissenschaften, IANUS vor [@ianus-forschungsdatenzentrum_fur_archaologie__altertumswissenschaften_it-empfehlungen_2014].
 * Hält sich die Anwendung an Standards welche im jeweiligen Kontext vorgegeben werden (z.B. W3C Standards zur Annotation oder auch archäologische Standards) und bildet diese standardkonform in den Daten ab?
@@ -215,8 +217,8 @@ Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mi
 * Gibt es ausreichend Tutorials für das Erlernen der Software? Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
 * Sind die Entwickler der Software aktiv und gut erreichbar? Wird die Software regelmäßig mit Updates versorgt?
 * Wird die Software von einer Community getragen? Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen schnell Hilfe googeln kann. Ist das Werkzeug das Erzeugnis eines einzigen Labors und wird von einer Hand voll eingeschworener Kollegen genutzt, oder handelt es sich um eine global etablierte Software mit Nutzerforum, Mailingliste und ganzen Büchern zur Nutzung in bestimmten Kontexten? Selbst wenn ein Werkzeug nur eine kleine Community besitzt kann dieser Mangel doch bis zu einem gewissen Grad von aktiven und leicht erreichbaren Entwicklern ausgeglichen werden, die bereit sind konkrete Fragen schnell und unkompliziert zu beantworten.
-* Gibt es bereits eine speziell archäologische Community für diese Software? (SIG, ...). 
-* Haben ArchäologInnen bereits Best Practices für diese Software formuliert? 
+* Gibt es bereits eine speziell archäologische Community für diese Software? (SIG, ...).
+* Haben ArchäologInnen bereits Best Practices für diese Software formuliert?
 * Gibt es Archäologie-relevante erfolgreiche Projekte/Anwendungen, die von dieser Software bereits unterstützt wurden?
 
 ### Technik
@@ -254,4 +256,3 @@ Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mi
 * Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?
 
 ## Bibliographie
-
