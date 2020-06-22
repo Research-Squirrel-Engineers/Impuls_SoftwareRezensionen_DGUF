@@ -4,6 +4,21 @@ body {
     font-family: 'Bitter', sans-serif !important;
 }
 
-p {
+p,li {
     font-size: 24px !important;
+}
+
+h2 {
+    font-size: 36px !important;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 32px !important;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 28px !important;
+    font-weight: 700;
 }
