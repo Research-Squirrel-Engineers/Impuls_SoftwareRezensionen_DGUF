@@ -1,0 +1,49 @@
+@import 'https://fonts.googleapis.com/css?family=Bitter';
+
+body {
+    font-family: 'Bitter', sans-serif !important;
+}
+
+p,li {
+    font-size: 20px !important;
+}
+
+h1 {
+    font-size: 40px !important;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px !important;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 32px !important;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 28px !important;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.authors {
+    text-align:center;
+    font-style:italic;
+    font-weight:normal;
+    font-size:14px !important;
+}
+
+#zitat {
+    font-size:14px !important;
+    font-style: italic;
+}
