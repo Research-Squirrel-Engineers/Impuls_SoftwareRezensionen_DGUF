@@ -1,6 +1,6 @@
 ---
 title: Leitfaden Rezension von Forschungssoftware - Kriterien für "gute" Forschungssoftware
-
+layout: draft
 author:
   - Dr. Anne Klammt
   - Sophie Charlotte Schmidt M.A. 
