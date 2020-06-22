@@ -8,7 +8,7 @@
 
 <body>
 	<header><h1 align="center">{{page.title}}</h1></header>
-	<p>{% for aut in page.author %}{{aut}}{% if forloop.last == false %},{% endif %}{% endfor %}</p>
+	<p style="text-align:center;font-style:italic;font-size:12">{% for aut in page.author %}{{aut}}{% if forloop.last == false %},{% endif %}{% endfor %}</p>
   <div class="container">
     <div class="row">
       <main class="col-md-12" role="main">
