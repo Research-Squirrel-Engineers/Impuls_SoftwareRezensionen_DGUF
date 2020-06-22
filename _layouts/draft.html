@@ -9,7 +9,7 @@
 
 <body>
 	<header><h1 align="center">{{page.title}}</h1></header>
-	<p class="authors">{% for aut in page.author %}{{aut}}{% if forloop.last == false %},{% endif %}{% endfor %}</p>
+	<p class="authors">{% for aut in page.author %}{{aut}}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
   <div class="container">
     <div class="row">
       <main class="col-md-12" role="main">
