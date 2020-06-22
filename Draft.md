@@ -23,15 +23,18 @@ csl: apa-6th-edition.csl
 
 ## Gliederungsvorschlag
 
-* [Zielsetzung, Einleitung](#Zielsetzung-des-Beitrags)
-* [Was ist Forschungssoftware was nicht?](#Was-ist-Forschungssoftware?)
-  * [Generelle Kriterien und Überlegungen zu Forschungssoftware](#FAIRe Forschungssoftware?) (und auch RSE und Stand von Forschungssoftware in der Fachgemeinschaft; weitere Unterpunkte)
-* Wie sieht die ideale Forschungssoftware aus?
-* Leitfaden
-  * Einleitung und generelle Vorgehensweise
-  * Kriterien
-  * Bonuskriterien
-  * Tabellarische Zusammenfassung?
+* [Zielsetzung](#Zielsetzung-des-Beitrags)
+* [Forschungssoftware](#Forschungssoftware)
+  * [Gute Forschungssoftware](#FAIRe Forschungssoftware?)
+    * [FAIR Prinzipien](#FAIR-Prinzipien) (FAIR, CARE, Open, Gute wissenschafltiche Praxis) (Wie sieht die ideale Forschungssoftware aus?)
+    * [Open Science](#open-science) (Open Science; Open Data, Open Source)
+    * [CARE Prinzipien](#care-prinzipien) (https://www.gida-global.org/care)
+  * [Forschungssoftware als wissenschafltiche Leistung]() (RSE und Stand von Forschungssoftware in der Fachgemeinschaft)
+* [Anwendungsbereich dieses Leitfadens](Anwendungsbereich-dieses-Leitfadens)
+* [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
+* [Kriterien zur Beurteilung von Software](#Kriterien-zur-Beurteilung-von-Software)
+  * ... alle Unterpunkte ab [dort](#Kriterien-zur-Beurteilung-von-Software)
+* Tabellarische Zusammenfassung?
 
 ---
 
@@ -48,16 +51,32 @@ Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche F
 > [MT] Den Begriff 'Anschlussfähigkeit' finde ich merkwürdig. Es ist doch eher Interoperabilität, Konnektivität oder Kompatibilität gemeint oder? Vielleicht einen davon nehmen und dahinter noch '(connectivity)' ergänzen
 >[AK] Begriff kommt von Timo
 
-## Forschungsgegenstand und Forschungsstand
 
-> [MT] hier wäre ein kurzer einleitender Absatz hilfreich
-> [AK] gute Idee bitte einen Vorschlag machen
+> Bausteine
+> gewisse Standards was open standards angeht / FAIR, CARE https://www.gida-global.org/care etc / "pushen" als von uns und DFG etc gewünscht zukünftige Standards
+> Begründung: Softwaretools greifen tief in die Forschung ein und müssen deshalb bewertbar werden
+> nicht festlegen, was nicht in die Rezension rein muss (keine Grenze ziehen), sondern Fragen aufwerfen, die behandelt werden können
 
-### Was ist Forschungssoftware?
-Unter Forschungssoftware verstehen wir Software, die mit einem spezifischen Fokus auf ihren Einsatz in der Forschung entwickelt wurde, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809](#hettrick_2014_14809). Dies könnten beispielsweise Programme sein, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen. Forschungssoftware kann auf einen sehr spezifischen Bedarf gerichtet sein oder bietet generische Lösungen an. Sie ist dabei stets Teil des Forschungsprozesses, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss.
+## Forschungssoftware
 
-### FAIRe Forschungssoftware?
-Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in vielen Punkten denen entsprechen, die an Forschungsdaten gerichtet werden. Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016](#wilkinson_2016) entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Daraus lassen sich Maßnahmen ableiten, die speziell für Software Anwendung finden:
+Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen primär auf die Begutachtung von Forschungssoftware ab. Unter Forschungssoftware verstehen wir Software, die mit Fokus auf einen Einsatz in der Forschung entwickelt wurde, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809]. Dies sind beispielsweise Programme, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen.
+
+Forschungssoftware kann entweder für einen sehr spezifischen Bedarf oder einen allgemeinen Anwendungsbereich entwickelt worden. Sie ist dabei stets Teil des Forschungsprozesses, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss.
+
+Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer Geräte erforderlich ist, wie etwa zur Vermessung, zur fotografischen Dokumentation oder zur Analyse von Oberflächen und Inhaltsstoffen. Häufig handelt es sich um proprietäre Software, die zusammen mit der Hardware vertrieben wird. Obwohl sie im Forschungsprozess eingesetzt wird, entspricht sie nicht unserem Verständnis von Forschungssoftware.
+
+Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inne haben, jedoch keinen eigentlichen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben, sind in unserem Sinne keine Forschungssoftware.
+
+### Gute Forschungssoftware
+> [MT] Überschrift erst mal Platzhalter, evtl. gibt es noch was aussagekräftigeres
+
+> Bausteine
+> Gute Wissenschaftliche Praxis (DFG); nicht nur für Forschungsprozess und Daten auch für verwendete Methoden; dazu gehört auch Forschungssoftware
+
+
+
+### FAIR Prinzipien
+Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in vielen Punkten denen entsprechen, die an Forschungsdaten gerichtet werden. Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016] entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Daraus lassen sich Maßnahmen ableiten, die speziell für Software Anwendung finden:
 
 - der Nachweis von Forschungssoftware in Repositorien
 - die Zitierbarkeit von Software
@@ -136,9 +155,10 @@ Unter Nutzbarkeit wird oftmals allein UX Design verstanden, was Fragen der Gesta
 Usability umfasst aber noch mehr und schließt alle Aspekte ein, die eine fehlerfreie und effiziente Nutzung durch die Forscherin, den Forscher ermöglichen. Für Forschungssoftware ist es z.B. besonders wichtig, dass die Eingabe von Daten sich an der Eingabepraxis orientiert; wenn etwa die händische Eingabe von Werten sehr typisch ist, dann ist es Aufgabe einer guten Benutzbarkeit, diesen Vorgang mit vorgegebenen Feldformaten, automatischem Speichern, gut sichtbaren Feldern oder ähnlichem zu unterstützen. Ebenso muss Software die üblicherweise von Teams genutzt wird, in denen verschiedene Kompetenzen vertreten sind, ein Rechtemanagement vorsehen, das die unterschiedlichen Verantwortlichkeiten abbilden kann. Forschungssoftware wird nicht im leeren Raum genutzt, sondern trifft auf Erwartungen und Gewohnheiten der Nutzer\*innen, sowohl was ihre Bedienung betrifft, als auch die ergänzenden Angebote zur Unterstützung, wie Tutorials FAQs und ähnliches. Software, die für hochspezielle Fragestellungen verwendet wird, die auf einer Reihe vorhergehender Prozessschritte aufbaut, richtet sich an einen anderen Nutzerkreis, als Software, die Basisfunktionen erfüllt. Weil Forscher\*innen am besten beurteilen können, ob ihre Bedarfe und Gewohnheiten gut adressiert sind und die Forschungssoftware ihnen ein gutes Arbeiten erlaubt, gehört eine Beurteilung dieser Aspekte in die Rezension.
 Ableiten lassen sich Kriterien, auf die sich die Nutzungserfahrung abbilden lässt aus der Forschung und den Referenz-Standards zur Usability. Zu nennen ist unter anderem der ISO/IEC 9126 Standard und spezifisch für Webanwendungen bilden die Empfehlungen und Standards des W3C [@noauthor_w3c_nodate](#noauthor_w3c_nodate).  
 
-#### Software Engeneering
 
-Wie gut ist der Code
+#### Open Science
+
+#### CARE Prinzipien
 
 ### Ethische Angemessenheit
 
@@ -146,13 +166,17 @@ Unter diesem Punkt ist noch einmal extrapoliert, was sowohl in den FAIR-Prinzipi
 
 Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
 
-### Was ist keine Forschungssoftware - und kann dennoch mit Hilfe des Leitfadens betrachtet werden?
 
-> [MT] Dies sollte schon mal kurz in der Einleitung zu 'Forschungsgegenstand und Forschungsstand' erwähnt werden
+##  Anwendungsbereich dieses Leitfadens
 
-Einen eigenen und für die Archäologien charakteristischer Bereich ist Software zur Nutzung spezifischer Geräte etwa zur Vermessung, fotografischen Dokumentation, Analyse von Oberflächen und Inhaltsstoffen. Sehr oft findet sich hier proprietäre Software, die mit der Hardware vertrieben wird. Diese Software wird zwar in der Forschung eingesetzt, aber ihre Programmierung ist nicht transparent, vielfach werden zudem Daten in proprietären Formaten erzeugt. Entsprechend können zwar der Umgang mit der Software und die Produktqualität aus Sicht der Nutzerinnen als Erfahrungswerte beschrieben werden, aber es können keine begründeten Aussagen zur Performanz unter veränderten Bedingungen, zur Stabilität und anderes getroffen werden. Einige der im folgenden dargestellten Kriterien zur Rezension von Forschungssoftware können somit auf proprietäre Software angewendet werden und eine Berücksichtigung der Aspekte wird ausdrücklich empfohlen.
+Forschungssoftware
 
-In der praktischen Arbeit spielen vielfach digitale Werkzeuge eine erhebliche Rolle, die die Arbeit unterstützen, aber keinen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben. Ihre Passgenauigkeit setzt wie bei der eigentlichen Forschungssoftware eine genaue Kenntnis des Arbeitsfelds voraus und entsprechend sind nicht selten stehen die eigenen Kolleg\*innen hinter der Entwicklung. Eine angemessene Besprechung der Software kann hier sehr direkt zur Verbesserung des Tools führen.
+Hardwarespezifische Software
+, aber ihre Programmierung ist nicht transparent, vielfach werden zudem Daten in proprietären Formaten erzeugt. Entsprechend können zwar der Umgang mit der Software und die Produktqualität aus Sicht der Nutzerinnen als Erfahrungswerte beschrieben werden, aber es können keine begründeten Aussagen zur Performanz unter veränderten Bedingungen, zur Stabilität und anderes getroffen werden. Einige der im folgenden dargestellten Kriterien zur Rezension von Forschungssoftware können somit auf proprietäre Software angewendet werden und eine Berücksichtigung der Aspekte wird ausdrücklich empfohlen.
+
+Weitere digitale Werkzeuge (*tools*)
+ Ihre Passgenauigkeit setzt wie bei der eigentlichen Forschungssoftware eine genaue Kenntnis des Arbeitsfelds voraus und entsprechend sind nicht selten stehen die eigenen Kolleg\*innen hinter der Entwicklung. Eine angemessene Besprechung der Software kann hier sehr direkt zur Verbesserung des Tools führen.
+
 
 ## Vorgehensweise bei der Rezension von Software
 
@@ -161,6 +185,9 @@ Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mi
 ...
 
 ## Kriterien zur Beurteilung von Software
+
+> Software Engineering noch berücksichtigen?
+
 
 ### Wissenschaftliche Relevanz und Korrektheit
 
