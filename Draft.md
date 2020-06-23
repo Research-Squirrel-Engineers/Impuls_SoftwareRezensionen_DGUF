@@ -66,8 +66,11 @@ Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inn
 ### Gute Forschungssoftware
 > [MT] Überschrift erst mal Platzhalter, evtl. gibt es noch was aussagekräftigeres
 
-> Bausteine
-> Gute Wissenschaftliche Praxis (DFG); nicht nur für Forschungsprozess und Daten auch für verwendete Methoden; dazu gehört auch Forschungssoftware
+In den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" weist die DFG darauf hin, dass für die Qualitätssicherung
+"[...] die Auswahl und Nutzung  von  Forschungssoftware,  deren  Entwicklung  und  Programmierung" von Bedeutung sind. 
+Unabhängig von dem Fachgebiet hat die Herkunft der Software dargestellt zu werden, und der Quellcode öffentlich zugänglicher Software muss "persistent, zitierbar und dokumentiert sein", um die Replizierbarkeit und Reproduzierbarkeit zu gewährleisten.  (https://www.dfg.de/download/pdf/foerderung/rechtliche_rahmenbedingungen/gute_wissenschaftliche_praxis/kodex_gwp.pdf S. 14-15) 
+
+Dieser Anforderungen können anhand der FAIR-Prinzipien, wie sie für Datenmanagement bestehen, genauer erläutert werden:
 
 
 
