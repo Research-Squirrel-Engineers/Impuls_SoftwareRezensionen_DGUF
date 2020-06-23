@@ -29,17 +29,17 @@ author:
             
             - Clemens: Achtung, Leute abschreckend, wenn der Anspruch zu groß ist
             
-            - Lutz: wisssenschaftlich-algorithmisch relevant = Neuzuwachs an Wissen im Bereich der Algorithmen
+            - Lutz: wissenschaftlich-algorithmisch relevant = Neuzuwachs an Wissen im Bereich der Algorithmen
             
             - Martina: das als zusätzliches Kriterim der Bewertung einbauen und nicht als Hauptpunkt?
         
         - wird man nicht in allen Rezensionen in allem Detail erfüllen müssen, trotzdem sollte es im Leitfaden abbilden
    
-        - Forschungssoftware: wichtiger Punkt ist reproduzierbarkeit, dafür braucht es eine gewisse Bewertung des Codes
+        - Forschungssoftware: wichtiger Punkt ist Reproduzierbarkeit, dafür braucht es eine gewisse Bewertung des Codes
         
         - nicht alles wird immer für eine Rezension relevant sein (siehe biblatex archaeology)
         
-        I- dee: gucken, wie Algorithmen getestet wurden als Bewertungsgrundlage
+        - Idee: gucken, wie Algorithmen getestet wurden, als eine Bewertungsgrundlage
         
     - Hinweis: Wenn einer nicht alles rezensieren kann, die gleiche Software von jemand anderem rezensieren lassen
 
@@ -88,6 +88,12 @@ author:
         Bonuskriterien
         Tabellarische Zusammenfassung?
 
+## Entlastung der Bringlast durch Titeländerung
+- Müssen wir wirklich gleich "den Leitfaden" schreiben, oder liefern wir einen Impuls für die Entwicklung eines gemeinsamen Verständnis von Softwarerezensionen in der Archäologie? 
+- Müssen wir für alles das Definitionen treffen, was aktuell in der Diskussion ist, also:
+ - was ist Forschungssoftware und was nicht?
+ - Wer sind die Entwickler\*innen und wer ist das nicht?
+- oder können wir Bezug auf die Diskussion nehmen und ein Arbeistverständnis für uns beschreiben?
 
 ## todo: 
 - Sophie stellt dieses Dokument online
