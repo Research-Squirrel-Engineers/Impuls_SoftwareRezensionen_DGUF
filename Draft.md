@@ -25,11 +25,11 @@ csl: apa-6th-edition.csl
 
 * [Zielsetzung](#Zielsetzung-des-Beitrags)
 * [Forschungssoftware](#Forschungssoftware)
-  * [Gute Forschungssoftware](#FAIRe Forschungssoftware?)
-    * [FAIR Prinzipien](#FAIR-Prinzipien) (FAIR, CARE, Open, Gute wissenschafltiche Praxis) (Wie sieht die ideale Forschungssoftware aus?)
-    * [Open Science](#open-science) (Open Science; Open Data, Open Source)
-    * [CARE Prinzipien](#care-prinzipien) (https://www.gida-global.org/care)
   * [Forschungssoftware als wissenschafltiche Leistung]() (RSE und Stand von Forschungssoftware in der Fachgemeinschaft)
+  * [Gute Forschungssoftware](#FAIRe Forschungssoftware?)
+    * [Open Science](#open-science) (Open Science; Open Data, Open Source)
+    * [FAIR Prinzipien](#FAIR-Prinzipien) (FAIR, CARE, Open, Gute wissenschafltiche Praxis) (Wie sieht die ideale Forschungssoftware aus?)
+    * [CARE Prinzipien](#care-prinzipien) (https://www.gida-global.org/care)
 * [Anwendungsbereich dieser Handreichung](Anwendungsbereich-dieser-Handreichung)
 * [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
 * [Kriterien zur Beurteilung von Software](#Kriterien-zur-Beurteilung-von-Software)
@@ -65,37 +65,44 @@ Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer 
 
 Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inne haben, jedoch keinen eigentlichen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben, sind in unserem Sinne keine Forschungssoftware.
 
-### Gute Forschungssoftware
-> [MT] Überschrift erst mal Platzhalter, evtl. gibt es noch was aussagekräftigeres
+### Forschungssoftware als Wissenschaftliche Leistung
+
+Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendieren die Herausgeber\*innen der Archäologischen Informationen eine Stärkung der Autor\*innen von Forschungssoftware als Produzent\*innen von Wissenschaft. In die Entwicklung von Forschungssoftware fließen häufig einerseits jahrelange technische Erfahrung und Praxis sowie Wissen über wissenschaftliche Standards und Praktiken ein. Diese werden durch die Umsetzung in Code explizit gemacht und/oder weiterentwickelt. Diese Leistung gilt es zu würdigen (Helmholtz-Zentrum: https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/forschungssoftware/) und sichtbar zu machen. 
+
+Dafür werden im Folgenden einige Punkte genannt und weiter ausgeführt.
+
+>[SCS: Noch ein bissl wenig]
+
+
+### Gute Forschungssoftware: Open Science
+
+Open Science (Offene Wissenschaft) bezeichnet eine Wissenschaftspraxis, deren Ziel ein transparenter Forschungsprozess und eine Zugänglichkeit der Ergebnissen für die Wiederverwendung und Weiterentwicklung ist ( https://doi.org/10.5281/zenodo.1212496 ?). Für offene Forschungssoftware gilt, dass ihr Quellcode zugänglich und für die Weiterentwicklung lizenziert sein muss (https://book.fosteropenscience.eu/en/02OpenScienceBasics/03OpenResearchSoftwareAndOpenSource.html)
 
 In den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" weist die DFG darauf hin, dass für die Qualitätssicherung
 "[...] die Auswahl und Nutzung  von  Forschungssoftware,  deren  Entwicklung  und  Programmierung" von Bedeutung sind. 
 Unabhängig von dem Fachgebiet hat die Herkunft der Software dargestellt zu werden, und der Quellcode öffentlich zugänglicher Software muss "persistent, zitierbar und dokumentiert sein", um die Replizierbarkeit und Reproduzierbarkeit zu gewährleisten.  [@deutsche_forschungsgemeinschaft_2019, 14-15](#deutsche_forschungsgemeinschaft_2019)
 
+Helmholtz-Zentrum: https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/forschungssoftware/  
+
 Dieser Anforderungen können anhand der FAIR- und CARE-Prinzipien, wie sie für Datenmanagement bestehen, genauer erläutert werden:
 
+>[SCS: Braucht noch Infos zu Open Data (aber nich zu viel, weil Fokus ja woanders liegt)]
 
 #### FAIR Prinzipien
 Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016] entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Daraus lassen sich Vorgaben ableiten, die speziell für Software Anwendung finden:
 
-- der Nachweis von Forschungssoftware in Repositorien
-- die Zitierbarkeit von Software
-- die eindeutige Autorenschaft
-- Möglichkeiten der "Kommunikation" mit dem Programm
-- die Offenlegung des Quellcodes
-- die Verwendung und Umsetzung von Standards
+Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtlich der grundsätzlichen Ansprüche an Interoperabilität bei der Verwendung in einem Workflow und der Verwendung von Standards und etablierten Paradigmen des Programmierens und der Dokumentation. Die FAIR-Prinzipien beziehen sich nicht auf die wissenschaftliche Qualität des Tools. Dennoch ergeben sich eine Anzahl von Kritertien, die in die Beurteilung einer Forschungssoftware einfließen und von Angaben, die im Rahmen der Rezension als Serviceleistung zu erbringen sind, wie die Autorenschaft, das Repositorium, mögliche nötige Voraussetzungen zur Verwendbarkeit.
 
-Gehen wir sie einzeln durch:
 
 ##### F (Auffindbar)
 
 Um Software auffindbar zu machen gibt es z. B. Softwarerepositorien. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen geben. Von Bedeutung ist die fachwissenschaftlichen Einbindung und die klassische Arbeit von Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards.
 
-Forschungssoftware kann durch die mit einer persistenten URL verknüpften Ablage in einem Repositorium und der Nennung der Autorenschaft zitierbar gemacht werden. Wichtig ist hierbei, dass Software, da sie im Gegensatz zu "schriftlichen Publikationen" kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird, damit bestimmte Stände zitiert werden können. 
-
-
+Forschungssoftware kann durch die mit einer persistenten URL verknüpften Ablage in einem Repositorium und der Nennung der Autorenschaft zitierbar gemacht werden. Wichtig ist hierbei, dass Software, da sie im Gegensatz zu "schriftlichen Publikationen" kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird, damit bestimmte Stände zitiert werden können (https://www.forschungsdaten.info/themen/ethik-und-gute-wissenschaftliche-praxis/softwareentwicklung-und-gute-wissenschaftliche-praxis/). 
 
 #### A (Zugänglichkeit)
+
+Die Zugängglichkeit kann sich einerseits auf die Zugänglichkeit zu dem Programm beziehen als auch auf die Nutzbarkeit. Ein Programm wird z. B. dadurch zugänglich, wenn es kostenlos für verschiedene Plattformen zur Verfügung steht, wenn die technischen Anforderungen an die Hardware von den meisten derzeitigen Rechnern zu leisten sind und eine verständliche Anleitung zur Nutzung des Programms zur Verfügung steht.
 
 Unter Nutzbarkeit wird oftmals allein UX Design verstanden, was Fragen der Gestaltung und Bedienbarkeit grafischer Oberflächen von Programmen (GUI) und Webseiten beinhaltet. Hier geht es dann um die Benutzbarkeit von Webanwendungen mit verschiedenen Endgeräten (Responsivität), die Strukturierung von Informationen über die Menüführung hinweg, die Verständlichkeit von Texten und auch die Barrierefreiheit (Farbkontraste, Screenreader u.ä.).
 
@@ -108,28 +115,22 @@ Einer eigenen Ausformulierung für Software bedarf die Frage der Interoperabilit
 
 ##### R (Nachnutzbarkeit)
 
-
 Mit der Forderung nach der Offenlegung des Quellcodes (Open Source), entspricht dem Gedanken der Nachnutzbarkeit (reusabel). Vielfach wird er  noch erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen (Free Source). Letzteres wird als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.). oder von Research-Software-Engineers in der "de-RSE e.V." [@anzt_environment_2020](#anzt_environment_2020). 
 
+Code kann nur dann von anderen nachgenutzt werden, wenn er unter einer dementsprechenden Lizenz zur Verfügung gestellt wird...
+>[SCS: Hier muss noch was]
 
 
-
-Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtlich der grundsätzlichen Ansprüche an Interoperabilität bei der Verwendung in einem Workflow und der Verwendung von Standards und etablierten Paradigmen des Programmierens und der Dokumentation. Die FAIR-Prinzipien haben aber keine direkte Auswirkung auf die Usability und beziehen sich nicht auf die wissenschaftliche Qualität des Tools. Dennoch ergeben sich eine Anzahl von Kritertien, die in die Beurteilung einer Forschungssoftware einfließen und von Angaben, die im Rahmen der Rezension als Serviceleistung zu erbringen sind, wie die Autorenschaft, das Repositorium, mögliche nötige Voraussetzungen zur Verwendbarkeit.
-
-> [MT] Dieser Absatz sollte besser in den Anfang dieses Abschnittes eingearbeitet werden
-> [MT] Insgesamt kann man das ganze aber auch weiter straffen; Wir wollen ja nicht nur die IT-Nerds, sondern auch die Archäologen mit dem Aufsatz erreichen. Da sollte es reichen knapp und einleuchtend die wichtigen Begriffe einzuführen und dann einfach auf entsprechende Literatur zu verweisen.
-> [AK] Bitte konkreten Vorschlag machen.  
-> [SCS] Ich finde den letzten Absatz an dieser Stelle gut (Überleitung zu fachl. Beurteilung) und hab oben etwas umgebaut. 
-
-#### Open Science
-
+Die FAIR-Prinzipien wurden aus dem Forschungsdatenmanagement übernommen. Im Bereich des Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
 
 #### CARE-Prinzipien
 
-Die Offenlegung von Code hatte zur Grundlage Prinzipien die aus dem Forschungsdatenmanagement übernommen wurden. Im Bereichd es Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
+Die CARE-Prinzipien wurden von der Research Data Alliance International Indigenous Data Sovereignty Interest Group auf Basis der UN Declaration on the Rights of Indigenous Peoples (UNDRIP) entwickelt, die die Rechte und Authorität der Indigenen bezüglich ihres kulturellen Erbes und auch Wissens bestätigt. 
+
+Folgende Prinzipien wurden aufgestellt und elaboriert: 
 
 - Collective Benefit (gemeinschaftlicher Nutzen für Indigene Menschen): 
-- Authority to Control (Kontrollmacht für Indigene)
+- Authority to Control (Kontrollmacht für Indigene Menschen)
 - Responsibility (Verantwortung für die positive Folgen der Datennutzung)
 - Ethics (Rechte und Wohl der Indigenen Menschen)
 
@@ -153,22 +154,19 @@ Gerade die Archäologie und hier die Archäologischen Informationen können auf 
 Software, die auf Indigenem Wissen beruht
 
 #####  R
-responsibilty: Verantworttung für Code übernehmen? 
+responsibilty: Verantwortung für Code übernehmen? 
 
 ##### E 
 ethics: siehe Hinweis Hautfarbe (in der Fußnote 2 ganz unten)
  Angestoßen wird Letzteres insbesondere von Untersuchungen, die sich mit Software auseinandersetzt, die zur Diskrimination von Gruppen und Individuen führt, so etwa Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen ausgerichtet ist [@breland_how_2017](#breland_how_2017).
 
 
-
-### Ethische Angemessenheit
-
 Unter diesem Punkt ist noch einmal extrapoliert, was sowohl in den FAIR-Prinzipien z.B. hinsichtlich der Autorenschaft als auch der Vertiefung zur Usability implizit mitgetragen wird: Forschungssoftware ist nicht neutral. Sie entsteht nicht unter neutralen Bedingungen, ihre Nutzung erfolgt unter spezifischen Bedingungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen diese Gewohnheiten und Konventionen auch zur Befestigung von Privilegien und Diskriminierungen bei, etwa wenn Tutorials ausschließlich männliche Nutzer kennen, oder die an der Entwicklung beteiligten Personen nicht genannt werden.
 
 Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
 
 
-
+Die FAIR und CARE Richtlinien dienen vor allem der allgmeinen technischen Bewertung von Software. Jedoch gibt es noch eine Reihe fachlicher Spezifika, auf die wir im Folgenden eingehen wollen.
 
 ### Fachliche Beurteilung
 
