@@ -72,7 +72,7 @@ In den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" weist die DFG 
 "[...] die Auswahl und Nutzung  von  Forschungssoftware,  deren  Entwicklung  und  Programmierung" von Bedeutung sind. 
 Unabhängig von dem Fachgebiet hat die Herkunft der Software dargestellt zu werden, und der Quellcode öffentlich zugänglicher Software muss "persistent, zitierbar und dokumentiert sein", um die Replizierbarkeit und Reproduzierbarkeit zu gewährleisten.  [@deutsche_forschungsgemeinschaft_2019, 14-15](#deutsche_forschungsgemeinschaft_2019)
 
-Dieser Anforderungen können anhand der FAIR-Prinzipien, wie sie für Datenmanagement bestehen, genauer erläutert werden:
+Dieser Anforderungen können anhand der FAIR- und CARE-Prinzipien, wie sie für Datenmanagement bestehen, genauer erläutert werden:
 
 
 #### FAIR Prinzipien
@@ -101,6 +101,26 @@ Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtli
 > [MT] Insgesamt kann man das ganze aber auch weiter straffen; Wir wollen ja nicht nur die IT-Nerds, sondern auch die Archäologen mit dem Aufsatz erreichen. Da sollte es reichen knapp und einleuchtend die wichtigen Begriffe einzuführen und dann einfach auf entsprechende Literatur zu verweisen.
 > [AK] Bitte konkreten Vorschlag machen.  
 > [SCS] Ich finde den letzten Absatz an dieser Stelle gut (Überleitung zu fachl. Beurteilung) und hab oben etwas umgebaut. 
+
+#### CARE-Prinzipien
+
+Die Offenlegung von Code hatte zur Grundlage Prinzipien die aus dem Forschungsdatenmanagement übernommen wurden. Im Bereichd es Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
+
+- Collective Benefit
+- Authority to Control
+- Responsibility
+- Ethics
+
+Lassen sich die CARE-Prinzipien auch auf Forschungssoftware übertragen?
+
+
+ja, 
+collective benefit: CC Veröffentlichung, wenn aus Forschungsgeldern bezahlte entwicklung?
+auhtority to control: ?nicht in militärischen Zwecken???
+responsibilty: Verantworttung für Code übernehmen?
+ethics: siehe Hinweis Hautfarbe (in der Fußnote 2 ganz unten)
+
+
 
 ### Fachliche Beurteilung
 
