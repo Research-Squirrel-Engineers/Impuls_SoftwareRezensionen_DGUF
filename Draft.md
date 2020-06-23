@@ -42,11 +42,13 @@ csl: apa-6th-edition.csl
 
 Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der angefertigten Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten?
 
-
-
 > [MT] Den Begriff 'Anschlussfähigkeit' finde ich merkwürdig. Es ist doch eher Interoperabilität, Konnektivität oder Kompatibilität gemeint oder? Vielleicht einen davon nehmen und dahinter noch '(connectivity)' ergänzen
 >[AK] Begriff kommt von Timo
 
+In dieser Handreichung erläutern wir einige Kriterien für gute Forschungssoftware. Dabei folgen wir den Empfehlungen der DFG und weisen auf sogenannte "open standards" hin, da Software im- und explizit tief in die Forschung eingreift (für die Archäologie siehe z.B. @schmidt_marwick_2020) und nur durch die Offenlegung von Quellcode eine Bewertbarkeit der durch die Software geleisteten Abläufe gewährleistet ist. 
+Wir empfehlen eine Vorgehensweise bei der Softwarerezension und sammeln Kriterien, die für die Bewertung einer Software von Bedeutung sein können. Dabei ergibt sich aus der Vielfalt der möglichen Besprechungsgegenständen, dass nicht alle Kriterien in jedem Fall von Bedeutung sein werden.
+
+Ziel dieser Handreichung ist es Fragen und Themen aufzuwerfen, die der/ dem Rezensent*in die Arbeit erleichtern können. Die weitere Diskussion zu diesen Theme ist erwünscht, -- hier website und Kontaktdaten einfügen ? --
 
 > Bausteine
 > gewisse Standards was open standards angeht / FAIR, CARE https://www.gida-global.org/care etc / "pushen" als von uns und DFG etc gewünscht zukünftige Standards
@@ -73,7 +75,7 @@ Unabhängig von dem Fachgebiet hat die Herkunft der Software dargestellt zu werd
 Dieser Anforderungen können anhand der FAIR-Prinzipien, wie sie für Datenmanagement bestehen, genauer erläutert werden:
 
 
-### FAIR Prinzipien
+#### FAIR Prinzipien
 Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016] entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Daraus lassen sich Vorgaben ableiten, die speziell für Software Anwendung finden:
 
 - der Nachweis von Forschungssoftware in Repositorien
