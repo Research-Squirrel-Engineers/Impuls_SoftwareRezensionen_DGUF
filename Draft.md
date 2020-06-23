@@ -2,7 +2,7 @@
 title: Handreichung zur Rezension von Forschungssoftware - Kriterien für "gute" Forschungssoftware
 layout: draft
 author:
-  - Dr. Anne Klammt
+  - Anne Klammt, Deutsches Forum für Kunstgeschichte Paris
   - Sophie Charlotte Schmidt M.A.
   - Martina Trognitz M.A.
   - Timo Homburg M.Sc.
@@ -42,18 +42,12 @@ csl: apa-6th-edition.csl
 
 Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der angefertigten Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten?
 
-> [MT] Den Begriff 'Anschlussfähigkeit' finde ich merkwürdig. Es ist doch eher Interoperabilität, Konnektivität oder Kompatibilität gemeint oder? Vielleicht einen davon nehmen und dahinter noch '(connectivity)' ergänzen
->[AK] Begriff kommt von Timo
+
 
 In dieser Handreichung erläutern wir einige Kriterien für gute Forschungssoftware. Dabei folgen wir den Empfehlungen der DFG und weisen auf sogenannte "open standards" hin, da Software im- und explizit tief in die Forschung eingreift (für die Archäologie siehe z.B. [@schmidt_marwick_2020](#schmidt_marwick_2020) und nur durch die Offenlegung von Quellcode eine Bewertbarkeit der durch die Software geleisteten Abläufe gewährleistet ist. 
 Wir empfehlen eine Vorgehensweise bei der Softwarerezension und sammeln Kriterien, die für die Bewertung einer Software von Bedeutung sein können. Dabei ergibt sich aus der Vielfalt der möglichen Besprechungsgegenständen, dass nicht alle Kriterien in jedem Fall von Bedeutung sein werden.
 
 Ziel dieser Handreichung ist es Fragen und Themen aufzuwerfen, die der/ dem Rezensent*in die Arbeit erleichtern können. Die weitere Diskussion zu diesen Theme ist erwünscht, -- hier website und Kontaktdaten einfügen ? --
-
-> Bausteine
-> gewisse Standards was open standards angeht / FAIR, CARE https://www.gida-global.org/care etc / "pushen" als von uns und DFG etc gewünscht zukünftige Standards
-> Begründung: Softwaretools greifen tief in die Forschung ein und müssen deshalb bewertbar werden
-> nicht festlegen, was nicht in die Rezension rein muss (keine Grenze ziehen), sondern Fragen aufwerfen, die behandelt werden können
 
 ## Forschungssoftware
 
@@ -121,6 +115,7 @@ Code kann nur dann von anderen nachgenutzt werden, wenn er unter einer dementspr
 >[SCS: Hier muss noch was]
 
 
+
 Die FAIR-Prinzipien wurden aus dem Forschungsdatenmanagement übernommen. Im Bereich des Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
 
 #### CARE-Prinzipien
@@ -166,32 +161,27 @@ Unter diesem Punkt ist noch einmal extrapoliert, was sowohl in den FAIR-Prinzipi
 Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
 
 
-Die FAIR und CARE Richtlinien dienen vor allem der allgmeinen technischen Bewertung von Software. Jedoch gibt es noch eine Reihe fachlicher Spezifika, auf die wir im Folgenden eingehen wollen.
+Die FAIR und CARE Richtlinien dienen vor allem der allgmeinen technischen und ethischen Bewertung von Software. Jedoch gibt es noch eine Reihe fachlicher Spezifika, auf die wir im Folgenden eingehen wollen.
 
 ### Fachliche Beurteilung
 
 Es bedarf also weiterer Kriterien, um festzustellen, was eine gute Forschungssoftware ist, und um in einer Rezension die Leistung der Entwickler\*innen angemessen zu beurteilen.
 Die Beschäftigung mit der wissenschaftlichen Nutzung, also den Nutzungsszenarien von Forschungssoftware ist in der archäologischen Forschung bereits verankert (bezogen auf die in der Ur- und Frühgeschichte und der Archäologie des Mittelalters betriebene Forschung). Die AG CAA e.V. führt seit 2010 jährlich Workshops durch, in denen Tutorials zu Software durchgeführt und Fallbeispiele diskutiert werden sowie Entwickler\*innen ihre Tools zur Diskussion stellen. Auch in den Fachzeitschriften und Tagungen mit anderen thematischen, räumlichen und zeitlichen Schwerpunkten werden in gewisser Regelmäßigkeit entsprechende Fallbeispiele publiziert. Und Tagungen, Sammelbände uns Ausstellungen nehmen sich bestimmter Themen an, wie der Auswertung von LIDAR-Daten oder 3D-Rekonstruktionen (LIT./LIT).
 
-> [MT] Warum werden weitere Kriterien benötigt; warum reicht FAIR allein nicht?
-> [MT] Was genau ist eigentlich mit 'fachlicher Beurteilung' gemeint?
-> [AK] Geändert in "archäologischer"
-
 Mit den Fallbeispielen verwandt, aber aus einem anderen Fokus geschrieben, sind Publikationen von Forschungsergebnissen, die unter dem Einsatz spezifischer Forschungssoftware erzielt wurden. In eigenen Abschnitten zur Vorgehensweise der Untersuchung wird hier auch die Software beschrieben jedoch nur insoweit, wie es für das Verständnis der methodischen Vorgehensweise erforderlich ist (exemplarisch: Zimmermann, Saile, Freund). Während dabei Aspekte wie die Oberflächengestaltung kaum eine Rolle spielen, werden je nach Qualität der Arbeit die zugrundeliegenden Berechnungswege, die Modellierung der Daten und die Wechselbeziehung mit dem Forschungsdesign fassbar. Aus ihnen lassen sich im Idealfall Ansätze zur Weiterentwicklung der Software oder auch zur Ergänzung weiterer mathematischer Verfahren ableiten. Eröffnen die zuvor als Fallbeispiele eingeordneten Publikationen der Forschung Software, kann die fachwissenschaftliche Forschung durch die intensive Nutzung und Kritik der Ergebnisse die Entwicklung der Software vorantreiben. Letzteres ist auch der Fall bei Arbeiten einer insgesamt kleineren Anzahl von Autorinnen und Autoren, die sich in ihren Beiträgen mit der Leistungsfähigkeit und den Parametern  der Rechnungen selbst, bzw. den Algorithmen auseinandersetzen (exemplarisch: Irmela Herzog 2012, 2014 und Gerhard Roth LIT).
-
-> [MT] Zimmermann, Saile, Freund fehlen in der bib
-> [MT] vorletzten Satz verstehe ich nicht
-> [MT] Den Unterschied zwischen dem was Zimmermann, Saile und Freund tun und dem was Herzog und Roth tun müsste man für Archäologen noch verständlicher formulieren.
-> [AK] Gerne, bitte machen
 
 Zusammengefasst können aus den eigenen fachlichen Traditionen der Archäologie Kriterien für eine Rezension abgeleitet werden, die das Potenzial für die wissenschaftliche Arbeit und die Passung zum Forschungsfeld beschreibt.
 
 
 ### Die handwerkliche Qualität
 
-> [MT] dieser und die nächsten drei Abschnitte sind ja eigentlich schon etwas konkretere Kriterien. Müsste man etwas umbauen, denke ich
-
 Die Frage der Interoperabilität und im gewissen Maße auch der Zugänglichkeit führt zur Qualität des Software Engineering. Bewusst ist dies hier als "handwerkliche" Qualität bezeichnet, denn Software Engineering erfordert spezifische Kompetenzen und Skills. Es baut auf eigene Wissensbestände zu ihrer Vermittlung und hinter der handwerklichen Qualität steht eine eigene Forschung aus den anwendungsbezogenen Wissenschaften. Wie bei handwerklichen Produkten ist die Qualität aber auch für die Nutzer\*innen erkennbar und zwar, wenn es um alle Aspekte der Nutzbarkeit geht. Davon etwas abgesetzt ist die Qualität des Programmcodes, die Art der Dokumentation, die Einbindung und Bezugnahme auf die Entwicklungen und Communities im Software Engineering. Letzteres sind Kriterien, die unmittelbar mit der Zukunftsfähigkeit der Software verbunden sind und daher ein wichtiges Merkmal sind, wenn es um den Einsatz von Software auf institutioneller Ebene oder für langfristige Vorhaben geht.
+
+
+
+
+
+
 
 
 ##  Anwendungsbereich dieser Handreichung
