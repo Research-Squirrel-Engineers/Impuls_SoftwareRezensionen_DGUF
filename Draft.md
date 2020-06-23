@@ -43,10 +43,7 @@ csl: apa-6th-edition.csl
 Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der angefertigten Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten?
 
 
-> [MT] Zweiter Satz; 'allgemeines Grundverständnis' - welches ist das? Vielleicht Literatur dazu?
-> [AK] okay, stimmt, blöde Formulierung. Geändert in "unausgesprochenes Verständnis davon"
-> [MT] 'Review einer Rezension': Review ist ja eigentlich eine Rezension; ist hier also doppelt gemoppelt
-> [AK] Nein, tatsächlich lässt die DGUF Rezensionen noch einmal Gegenlesen. Dann bekommt man eine Rezension und wird gefragt, ob man die hinreichend, inhaltlich richtig und angemessen findet.
+
 > [MT] Den Begriff 'Anschlussfähigkeit' finde ich merkwürdig. Es ist doch eher Interoperabilität, Konnektivität oder Kompatibilität gemeint oder? Vielleicht einen davon nehmen und dahinter noch '(connectivity)' ergänzen
 >[AK] Begriff kommt von Timo
 
