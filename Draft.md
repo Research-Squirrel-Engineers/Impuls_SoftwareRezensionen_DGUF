@@ -83,18 +83,12 @@ Aus dieser Definition von Forschungssoftware ergeben sich Anforderungen, die in 
 - die Offenlegung des Quellcodes
 - die Verwendung und Umsetzung von Standards
 
-> [MT] FAIR: Findable, accessible, interoperable and reusable (!, nicht reproduzierbar)
-> [MT] statt 'Anwendung von Standards' vielleicht lieber 'Verwendung und Umsetzung von Standards'
-> [AK] Oui! Merci
 
 Die Offenlegung des Quellcodes ist dabei bereits eine für Forschungssoftware spezifische Ableitung, die keine Gültigkeit für Forschungsdaten hat, weil Forschungsdaten andere Informationen beinhalten [@lamprecht_towards_2019, 3 f.](#lamprecht_towards_2019). Die Forderung nach der Offenlegung des Quellcodes (Open Source) wird dabei vielfach noch erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen (Free Source). Letzteres wird als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.). oder von Research-Software-Engineers in der "de-RSE e.V." [@anzt_environment_2020](#anzt_environment_2020).
 
-> [FT] hier Hinweis auf https://arxiv.org/pdf/2005.01469.pdf hinzufügen und deRSE -> anzt_environment_2020
 >
 > [AK] ja! sehr gut und ich denke auch schon in Definition muss der Punkt "Fprschungssoftware ist lebendiges Ding" übernommen werden.
 > [FT] ja muss ich noch reinfuddeln
-> [MT] habe den zweiten Satz in zwei geteilt. Zum Gendern: Forschenden sowie Entwickler und Entwicklerinnen (?)
-> [AK] ich persönlich finde Forschende, Lesende und Studierende keine grammatikalisch befriedigende Lösung. Eine Leserin ist man immer, auch wenn man gerade schläft, eine Lesende nur genau dann, wenn man wirklich liest. Zusätzlich öffnet der Genderstar den Text für nicht-binäre Optionen. Ich bin hier aber für Mehrheitsentscheide offen und eher entspannt.
 
 Auch in anderen Punkten muss die Umsetzung auf das Bezug nehmen, was für Software spezifisch ist. Einen sehr konkreten Vorschlag dafür hat 2019 eine Gruppe von Research-Software-Entwickler\*innen aus der Bioinformatik vorgelegt [@lamprecht_towards_2019](#lamprecht_towards_2019). Mit Blick auf die Umsetzbarkeit zur Auffindbarkeit fallen hier unter anderem Softwarerepositorien als Infrastruktur auf, die eigene Funktionen und Formen der Trägerschaften kennt. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die oftmals nicht genuin aus der Forschung kommen. Ähnlich wie die kommerziellen Anbieter von Cloud-Diensten zum Austausch von Dokumenten geben sie aber starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen. Gerade für die Auffindbarkeit ist aber aus den Vorschlägen der Gruppe die Bedeutung der fachwissenschaftlichen Einbindung und der klassischen Arbeit der Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards abzulesen.
 
