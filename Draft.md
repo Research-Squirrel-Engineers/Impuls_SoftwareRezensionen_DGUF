@@ -1,5 +1,5 @@
 ---
-title: Leitfaden Rezension von Forschungssoftware - Kriterien für "gute" Forschungssoftware
+title: Handreichung zur Rezension von Forschungssoftware - Kriterien für "gute" Forschungssoftware
 layout: draft
 author:
   - Dr. Anne Klammt
@@ -30,7 +30,7 @@ csl: apa-6th-edition.csl
     * [Open Science](#open-science) (Open Science; Open Data, Open Source)
     * [CARE Prinzipien](#care-prinzipien) (https://www.gida-global.org/care)
   * [Forschungssoftware als wissenschafltiche Leistung]() (RSE und Stand von Forschungssoftware in der Fachgemeinschaft)
-* [Anwendungsbereich dieses Leitfadens](Anwendungsbereich-dieses-Leitfadens)
+* [Anwendungsbereich dieser Handreichung](Anwendungsbereich-dieser-Handreichung)
 * [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
 * [Kriterien zur Beurteilung von Software](#Kriterien-zur-Beurteilung-von-Software)
   * ... alle Unterpunkte ab [dort](#Kriterien-zur-Beurteilung-von-Software)
@@ -167,7 +167,7 @@ Unter diesem Punkt ist noch einmal extrapoliert, was sowohl in den FAIR-Prinzipi
 Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
 
 
-##  Anwendungsbereich dieses Leitfadens
+##  Anwendungsbereich dieser Handreichung
 
 Forschungssoftware
 
