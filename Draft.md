@@ -3,13 +3,12 @@ title: Handreichung zur Rezension von Forschungssoftware - Kriterien für "gute"
 layout: draft
 author:
   - Anne Klammt, Deutsches Forum für Kunstgeschichte Paris
-  - Sophie Charlotte Schmidt
-  - Martina Trognitz
   - Timo Homburg
   - Clemens Schmid
+  - Sophie Charlotte Schmidt
   - Lutz Schubert
   - Florian Thiery, Research Squirrel Enginners
-
+  - Martina Trognitz
 bibliography: literatur.bib
 csl: apa-6th-edition.csl
 
