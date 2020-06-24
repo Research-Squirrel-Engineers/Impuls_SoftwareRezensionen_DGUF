@@ -7,7 +7,7 @@ author:
   - Clemens Schmid
   - Sophie Charlotte Schmidt
   - Lutz Schubert
-  - Florian Thiery, Research Squirrel Enginners
+  - Florian Thiery, Research Squirrel Engineers
   - Martina Trognitz
   
 bibliography: literatur.bib
