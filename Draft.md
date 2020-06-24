@@ -4,7 +4,7 @@ layout: draft
 author:
   - Anne Klammt, Deutsches Forum für Kunstgeschichte Paris
   - Timo Homburg
-  - Clemens Schmid
+  - Clemens Schmid, Max-Planck-Institut für Menschheitsgeschichte Jena
   - Sophie Charlotte Schmidt
   - Lutz Schubert
   - Florian Thiery, Research Squirrel Engineers
