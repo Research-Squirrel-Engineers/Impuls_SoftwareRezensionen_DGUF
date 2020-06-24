@@ -9,6 +9,7 @@ author:
   - Lutz Schubert
   - Florian Thiery, Research Squirrel Enginners
   - Martina Trognitz
+  
 bibliography: literatur.bib
 csl: apa-6th-edition.csl
 
