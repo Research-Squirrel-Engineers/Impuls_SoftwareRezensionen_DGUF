@@ -258,7 +258,7 @@ Eine Softwarerezension sollte wie die Besprechung einer Publikation zunächst mi
 * Handelt es sich um offene oder proprietäre Datenformate?  
 * Handelt es sich um zukunftsfähige Datenformate in der Community - Zur Orientierung schlagen wir aktuell (Stand Sommer 2020) die IT-Empfehlungen des Forschungsdatenzentrums Archäologie & Altertumswissenschaften, IANUS vor [@ianus-forschungsdatenzentrum_fur_archaologie__altertumswissenschaften_it-empfehlungen_2014].
 * Hält sich die Anwendung an Standards welche im jeweiligen Kontext vorgegeben werden (z.B. W3C Standards zur Annotation oder auch archäologische Standards) und bildet diese standardkonform in den Daten ab?
-* Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)?
+* Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF [@lassila1998resource](#lassila1998resource) für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)?
 * Ist die Anwendung sowohl für den Menschen als auch maschinenlesbar nutzbar (z.B. Gibt es Programmierschnittstellen (APIs) oder Webservices?)
 
 #### Zugänglichkeit, Hilfefunktionen und Community
