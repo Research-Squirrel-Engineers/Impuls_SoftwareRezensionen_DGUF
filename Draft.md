@@ -51,7 +51,7 @@ Die hier vorgestellten Überlegungen, Kriterien und Vorschläge sollen den Rezen
 
 ## Forschungssoftware
 
-Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen primär auf die Begutachtung von Forschungssoftware ab. Unter Forschungssoftware verstehen wir Software, die mit Fokus auf einen Einsatz in der Forschung entwickelt wurde, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809]. Dies sind beispielsweise Programme, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen.
+Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen primär auf die Begutachtung von Forschungssoftware ab. Unter Forschungssoftware verstehen wir Software, die mit Fokus auf einen Einsatz in der Forschung entwickelt wurde, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809](#hettrick_2014_14809). Dies sind beispielsweise Programme, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen.
 
 Forschungssoftware kann entweder für einen sehr spezifischen Bedarf oder einen allgemeinen Anwendungsbereich entwickelt worden. Sie ist dabei stets Teil des Forschungsprozesses, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss.
 
@@ -61,29 +61,19 @@ Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer 
 
 In der modernen Forschung ist ein Arbeiten ohne digitale Werkzeuge undenkbar. Dies trifft ebenfalls auf die historische und altertumswissenschaftliche Forschung zu. Mit dem Aufschwung der Digital Humanities wird Forschungssoftware weiterhin und auch zunehmend ein wichtiger Bestandteil des Forschungsprozesses sein.
 
-Trotz der tragenden Rolle, die Forschungssoftware in manch einem Projekt hat, wird die Leistung der Personen, die hinter der Entwicklung und Programmierung stehen akademisch nicht anerkannt [katerbow_2018](#katerbow_2018). Jedoch fließen einerseits bei der Entwicklung von Forschungssoftware teilweise jahrelange technische Erfahrung und Praxis ein. Andererseits wird aber auch Wissen über wissenschaftliche Standards und Praktiken angewendet. Durch die Umsetzung in Code wird Praxis und Wissen explizit gemacht und weiterentwickelt. Diese Leistungen gilt es zu würdigen und sichtbar zu machen [scheliga_pampel_2017](#scheliga_pampel_2017).
+Trotz der tragenden Rolle, die Forschungssoftware in manch einem Projekt hat, wird die Leistung der Personen, die hinter der Entwicklung und Programmierung stehen akademisch nicht anerkannt ([@hettrick_2017](#hettrick_2017), [@scheliga_pampel_2017](#scheliga_pampel_2017) und [@katerbow_2018](#katerbow_2018)). Jedoch fließen einerseits bei der Entwicklung von Forschungssoftware teilweise jahrelange technische Erfahrung und Praxis ein. Andererseits wird aber auch Wissen über wissenschaftliche Standards und Praktiken angewendet. Durch die Umsetzung in Code wird Praxis und Wissen explizit gemacht und weiterentwickelt. Diese Leistungen gilt es zu würdigen und sichtbar zu machen ([@scheliga_pampel_2017](#scheliga_pampel_2017), [@katerbow_2018](#katerbow_2018) sowie [@helmholtz_web](#helmholtz_web)).
 
-RSE
-[hettrick_2017](#hettrick_2017)
+Als erster Schritt in Richtung Sichtbarmachung wurde 2012 die Berufsbezeichnung des "Software Research Engineers" (RSE) geprägt ([@hettrick_2017](#hettrick_2017) und [@baxter_2012](#baxter_2012)). Mittlerweile hat sich auch eine aktive Gemeinschaft gebildet, die unter anderem auch in Deutschland als de-RSE e.V. tätig ist, Konferenzen organisiert und Empfehlungen gibt ([@anzt_environment_2020](#anzt_environment_2020)).
 
-
-
-Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendieren die Redaktion der Archäologischen Informationen eine Stärkung der Autor\*innen von Forschungssoftware als Produzent\*innen von Wissenschaft. In die Entwicklung von Forschungssoftware
-
-
-  (Helmholtz-Zentrum: https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/forschungssoftware/) .
-
-Dafür werden im Folgenden einige Punkte genannt und weiter ausgeführt.
-
->[SCS: Noch ein bissl wenig]
-
-> [MT] Bausteine: (RSE und Stand von Forschungssoftware in der Fachgemeinschaft)
-
+Eine weiterer Baustein zur Sichtbarmachung ist die Rezension von Forschungssoftware. Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendiert die Redaktion der Archäologischen Informationen genau dies. Durch eine dedizierte Rezension von Software analog zu Rezensionen wissenschaftlicher Publikationen, wird die wissenschaftliche Leistung der Autoren und Autorinnen von Forschungssoftware mittels gewohnten Formaten sichtbar und anerkannt.
 
 ### Gute Forschungssoftware
 
-> [MT] Einleitung für Ausführungen weiter unten
-> Bausteine: DFG gute wissenschaftliche Praxis; internationaler Kontext; Aufbauend: zuerst FAIR, dann Open, und als i-tüpfelchen dann CARE
+Um überhaupt Kriterien zur Rezension und Bewertung von Forschungssoftware aufstellen zu können, stellt sich zunächst die Frage was überhaupt eine gute und modernen Standards entsprechende Forschungssoftware ausmacht.
+
+Da die Software ein integraler Bestandteil des Forschungsprozesses ist, gelten zunächst die Regeln der guten wissenschaftlichen Praxis, wie sie die DFG ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) fordert. Allein hieraus ergeben sich schon wichtige Anforderungen wie die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu den Ergebnissen sowie der öffentlicher Zugang der Ergebnisse oder die Archivierung der Materialien die zu einem Forschungergebnis geführt haben.
+
+Wir möchten auf drei Aspekte, die auch dem internationalen Konsens entsprechen, näher eingehen: die FAIR Prinzipien, Open Science und die CARE Prinzipien.
 
 #### FAIR Prinzipien
 Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016] entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Daraus lassen sich Vorgaben ableiten, die speziell für Software Anwendung finden:
@@ -99,7 +89,7 @@ Forschungssoftware kann durch die mit einer persistenten URL verknüpften Ablage
 
 ##### Accessible (Zugänglich)
 
-Die Zugängglichkeit kann sich einerseits auf die Zugänglichkeit zu dem Programm beziehen als auch auf die Nutzbarkeit. Ein Programm wird z. B. dadurch zugänglich, wenn es kostenlos für verschiedene Plattformen zur Verfügung steht, wenn die technischen Anforderungen an die Hardware von den meisten derzeitigen Rechnern zu leisten sind und eine verständliche Anleitung zur Nutzung des Programms zur Verfügung steht.
+Die Zugänglichkeit kann sich einerseits auf die Zugänglichkeit zu dem Programm beziehen als auch auf die Nutzbarkeit. Ein Programm wird z. B. dadurch zugänglich, wenn es kostenlos für verschiedene Plattformen zur Verfügung steht, wenn die technischen Anforderungen an die Hardware von den meisten derzeitigen Rechnern zu leisten sind und eine verständliche Anleitung zur Nutzung des Programms zur Verfügung steht.
 
 > [MT] längere Ausführungen zu den Kriterien verschoben
 
