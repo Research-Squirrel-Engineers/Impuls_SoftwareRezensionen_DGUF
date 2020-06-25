@@ -8,8 +8,8 @@ author:
   - Sophie Charlotte Schmidt
   - Lutz Schubert
   - Florian Thiery, Research Squirrel Engineers
-  - Martina Trognitz
-  
+  - Martina Trognitz, Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
+
 bibliography: literatur.bib
 csl: apa-6th-edition.csl
 
@@ -39,15 +39,15 @@ csl: apa-6th-edition.csl
 ---
 
 ## Zielsetzung des Beitrags<sup>[1](#myfootnote1)</sup>
+Ziel dieses Beitrags ist es Fragen und Themen aufzuwerfen, die für die Rezension von Forschungssoftware und im Forschungsprozess eingesetzten digitalen Werkzeugen relevant sind.
 
 Die Beurteilung einer wissenschaftlichen Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine gute Rezension ausmacht. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie Hinweise für die/den Rezensentin/Rezensenten oder - wie es die DGUF mit den Archäologischen Informationen praktiziert - eines Reviews der angefertigten Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es dabei allein um Aspekte der Nutzbarkeit, der Usability? Sollten nicht auch Fragen der Nachhaltigkeit und der Anschlussfähigkeit einfließen? Müsste nicht auch betrachtet werden, ob es eine wissenschaftliche Dokumentation und Diskussion der rechnerischen Verfahren gibt - etwa bei den vielen Interpolationen von Daten mit Raumbezug, die moderne GIS-Softwarepakete bieten?
 
+In dieser Handreichung erläutern wir einige Kriterien für gute Forschungssoftware. Dabei folgen wir den Empfehlungen der DFG und weisen auf sogenannte "open standards" hin. Software greift im- und explizit tief in den Forschungsprozess ein (für die Archäologie siehe z.B. [@schmidt_marwick_2020](#schmidt_marwick_2020)) und nur durch die Offenlegung von Quellcode ist eine Bewertbarkeit der durch die Software geleisteten Abläufe gewährleistet.
 
+Wir empfehlen eine Vorgehensweise zur Softwarerezension und sammeln Kriterien, die für die Bewertung einer Software von Bedeutung sein können. Aufgrund der Vielfalt der möglichen Besprechungsgegenstände werden nicht in jedem Fall alle Kriterien von Bedeutung sein.
 
-In dieser Handreichung erläutern wir einige Kriterien für gute Forschungssoftware. Dabei folgen wir den Empfehlungen der DFG und weisen auf sogenannte "open standards" hin, da Software im- und explizit tief in die Forschung eingreift (für die Archäologie siehe z.B. [@schmidt_marwick_2020](#schmidt_marwick_2020) und nur durch die Offenlegung von Quellcode eine Bewertbarkeit der durch die Software geleisteten Abläufe gewährleistet ist.
-Wir empfehlen eine Vorgehensweise bei der Softwarerezension und sammeln Kriterien, die für die Bewertung einer Software von Bedeutung sein können. Dabei ergibt sich aus der Vielfalt der möglichen Besprechungsgegenständen, dass nicht alle Kriterien in jedem Fall von Bedeutung sein werden.
-
-Ziel dieser Handreichung ist es Fragen und Themen aufzuwerfen, die der/ dem Rezensent*in die Arbeit erleichtern können. Die weitere Diskussion zu diesen Theme ist erwünscht, -- hier website und Kontaktdaten einfügen ? --
+Die hier vorgestellten Überlegungen, Kriterien und Vorschläge sollen den Rezensentinnen und Rezensenten als Arbeitserleichterung dienen. Diskussionsbeiträge sowie Anregungen zu diesen Beitrag sind erwünscht. Dazu können entweder die Autoren kontaktiert werden oder -- hier website und Kontaktdaten einfügen ? -- genutzt werden.
 
 ## Forschungssoftware
 
@@ -55,13 +55,23 @@ Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen prim�
 
 Forschungssoftware kann entweder für einen sehr spezifischen Bedarf oder einen allgemeinen Anwendungsbereich entwickelt worden. Sie ist dabei stets Teil des Forschungsprozesses, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss.
 
-Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer Geräte erforderlich ist, wie etwa zur Vermessung, zur fotografischen Dokumentation oder zur Analyse von Oberflächen und Inhaltsstoffen. Häufig handelt es sich um proprietäre Software, die zusammen mit der Hardware vertrieben wird. Obwohl sie im Forschungsprozess eingesetzt wird, entspricht sie nicht unserem Verständnis von Forschungssoftware.
-
-Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inne haben, jedoch keinen eigentlichen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben, sind in unserem Sinne keine Forschungssoftware.
+Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer Geräte erforderlich ist, wie etwa zur Vermessung, zur fotografischen Dokumentation oder zur Analyse von Oberflächen und Inhaltsstoffen. Häufig handelt es sich um proprietäre Software, die zusammen mit der Hardware vertrieben wird. Obwohl sie im Forschungsprozess eingesetzt wird, entspricht sie nicht unserem Verständnis von Forschungssoftware. Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inne haben, jedoch keinen eigentlichen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben, sind in unserem Sinne keine Forschungssoftware. Trotzdem können auch diese Tools mittels der vorgestellten Kriterien beurteilt werden.
 
 ### Forschungssoftware als Wissenschaftliche Leistung
 
-Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendieren die Herausgeber\*innen der Archäologischen Informationen eine Stärkung der Autor\*innen von Forschungssoftware als Produzent\*innen von Wissenschaft. In die Entwicklung von Forschungssoftware fließen häufig einerseits jahrelange technische Erfahrung und Praxis sowie Wissen über wissenschaftliche Standards und Praktiken ein. Diese werden durch die Umsetzung in Code explizit gemacht und/oder weiterentwickelt. Diese Leistung gilt es zu würdigen (Helmholtz-Zentrum: https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/forschungssoftware/) und sichtbar zu machen.
+In der modernen Forschung ist ein Arbeiten ohne digitale Werkzeuge undenkbar. Dies trifft ebenfalls auf die historische und altertumswissenschaftliche Forschung zu. Mit dem Aufschwung der Digital Humanities wird Forschungssoftware weiterhin und auch zunehmend ein wichtiger Bestandteil des Forschungsprozesses sein.
+
+Trotz der tragenden Rolle, die Forschungssoftware in manch einem Projekt hat, wird die Leistung der Personen, die hinter der Entwicklung und Programmierung stehen akademisch nicht anerkannt [katerbow_2018](#katerbow_2018). Jedoch fließen einerseits bei der Entwicklung von Forschungssoftware teilweise jahrelange technische Erfahrung und Praxis ein. Andererseits wird aber auch Wissen über wissenschaftliche Standards und Praktiken angewendet. Durch die Umsetzung in Code wird Praxis und Wissen explizit gemacht und weiterentwickelt. Diese Leistungen gilt es zu würdigen und sichtbar zu machen [scheliga_pampel_2017](#scheliga_pampel_2017).
+
+RSE
+[hettrick_2017](#hettrick_2017)
+
+
+
+Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendieren die Redaktion der Archäologischen Informationen eine Stärkung der Autor\*innen von Forschungssoftware als Produzent\*innen von Wissenschaft. In die Entwicklung von Forschungssoftware
+
+
+  (Helmholtz-Zentrum: https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/forschungssoftware/) .
 
 Dafür werden im Folgenden einige Punkte genannt und weiter ausgeführt.
 
@@ -103,7 +113,7 @@ Mit der Forderung nach der Offenlegung des Quellcodes (Open Source), entspricht 
 
 Code kann nur dann von anderen nachgenutzt werden, wenn er unter einer dementsprechenden Lizenz zur Verfügung gestellt wird...
 >[SCS: Hier muss noch was]
-> [MT] das mit dem Open sehe ich an dieser stelle etwas kritisch. FAIR beinhaltet nämlich ganz bewusst nicht die Forderung nach Open. 
+> [MT] das mit dem Open sehe ich an dieser stelle etwas kritisch. FAIR beinhaltet nämlich ganz bewusst nicht die Forderung nach Open.
 
 Die FAIR-Prinzipien wurden aus dem Forschungsdatenmanagement übernommen. Im Bereich des Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
 
