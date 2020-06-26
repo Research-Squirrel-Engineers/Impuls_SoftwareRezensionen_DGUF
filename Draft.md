@@ -27,8 +27,8 @@ csl: apa-6th-edition.csl
 * [Forschungssoftware](#Forschungssoftware)
   * [Forschungssoftware als wissenschafltiche Leistung](#forschungssoftware-als-wissenschaftliche-leistung)
   * [Gute Forschungssoftware](#Gute-Forschungssoftware)
-    * [FAIR Prinzipien](#FAIR-Prinzipien) (FAIR, CARE, Open, Gute wissenschafltiche Praxis) (Wie sieht die ideale Forschungssoftware aus?)
-    * [Open Science](#open-science) (Open Science; Open Data, Open Source)
+    * [FAIR Prinzipien](#FAIR-Prinzipien)
+    * [Open Science](#open-science)
     * [CARE Prinzipien](#care-prinzipien) (https://www.gida-global.org/care)
 * [Anwendungsbereich dieser Handreichung](Anwendungsbereich-dieser-Handreichung)
 * [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
@@ -71,32 +71,31 @@ Eine weiterer Baustein zur Sichtbarmachung ist die Rezension von Forschungssoftw
 
 Um überhaupt Kriterien zur Rezension und Bewertung von Forschungssoftware aufstellen zu können, stellt sich zunächst die Frage was überhaupt eine gute und modernen Standards entsprechende Forschungssoftware ausmacht.
 
-Da die Software ein integraler Bestandteil des Forschungsprozesses ist, gelten zunächst die Regeln der guten wissenschaftlichen Praxis, wie sie die DFG ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) fordert. Allein hieraus ergeben sich schon wichtige Anforderungen wie die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu den Ergebnissen sowie der öffentlicher Zugang der Ergebnisse oder die Archivierung der Materialien die zu einem Forschungergebnis geführt haben.
+Da die Software ein integraler Bestandteil des Forschungsprozesses ist, gelten zunächst die Leitlinien zur Sicherung guter wissenschaftlicher Praxis, wie sie die DFG ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) fordert. Allein hieraus ergeben sich schon wichtige Anforderungen wie die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu den Ergebnissen sowie der öffentlicher Zugang der Ergebnisse und die Archivierung der Materialien die zu einem Forschungsergebnis geführt haben.
 
-Wir möchten auf drei Aspekte, die auch dem internationalen Konsens entsprechen, näher eingehen: die FAIR Prinzipien, Open Science und die CARE Prinzipien.
+Wir möchten auf ein paar der Aspekte die sich aus den DFG-Leitlinien ergeben, näher eingehen. Denn sie entsprechen auch dem internationalen Konsens mit etablierten Prinzipien: die in der Erläuterung zu Leitlinie 13 - Herstellung von öffentlichem Zugang zu Forschungsergebnissen - genannten FAIR-Prinzipien, sowie die Prinzipien der Offenen Wissenschaft (Open Science). Natürlich betreffen diese Prinzipien auch weitere Leitlinien der DFG. Außerdem sollen die CARE-Prinzipien, welche in den Leitlinien 2 und 10 der DFG anklingen, erläutert werden.
 
-#### FAIR Prinzipien
-Wie Forschungsdaten soll -software den FAIR-Prinzipien [@Wilkinson_2016] entsprechen: auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable). Daraus lassen sich Vorgaben ableiten, die speziell für Software Anwendung finden:
+#### FAIR-Prinzipien
+Die FAIR-Prinzipien wurden 2016 als FAIR Data Principles veröffentlicht [@wilkinson_2016](#wilkinson_2016). Sie zielen primär auf Forschungsdaten ab und fordern dass diese auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und reusable (Nachnutzbar) sind. Die Prinzipien können auch auf Forschungssoftware übertragen werden [@lamprecht_towards_2019](#lamprecht_towards_2019).
 
-Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtlich der grundsätzlichen Ansprüche an Interoperabilität bei der Verwendung in einem Workflow und der Verwendung von Standards und etablierten Paradigmen des Programmierens und der Dokumentation. Die FAIR-Prinzipien beziehen sich nicht auf die wissenschaftliche Qualität des Tools. Dennoch ergeben sich eine Anzahl von Kritertien, die in die Beurteilung einer Forschungssoftware einfließen und von Angaben, die im Rahmen der Rezension als Serviceleistung zu erbringen sind, wie die Autorenschaft, das Repositorium, mögliche nötige Voraussetzungen zur Verwendbarkeit.
-
-> [MT] folgenden Abschnitt vom Ende hier her transferiert; muss alles noch sinnvoll aufgeschrieben werden.
-
-Die FAIR-Prinzipien wurden aus dem Forschungsdatenmanagement übernommen. Im Bereich des Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
+Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtlich der grundsätzlichen Ansprüche an Interoperabilität bei der Verwendung in einem Workflow und der Verwendung von Standards und etablierten Paradigmen des Programmierens und der Dokumentation. Die FAIR-Prinzipien beziehen sich nicht auf die wissenschaftliche Qualität des Tools. Dennoch ergeben sich eine Anzahl von Kritertien, die in die Beurteilung einer Forschungssoftware einfließen und von Angaben, die im Rahmen der Rezension als Serviceleistung zu erbringen sind, wie die Autorenschaft, das zur Speicherung verwendete Repositorium oder mögliche nötige Voraussetzungen zur Verwendbarkeit.
 
 ##### Findable (Auffindbar)
 
 Um Software auffindbar zu machen gibt es z. B. Softwarerepositorien. Kommerzielle Anbieter, community-basierte Infrastrukturen und viele weitere Formen haben sich als eigene Systeme entwickelt, die starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen geben. Von Bedeutung ist die fachwissenschaftlichen Einbindung und die klassische Arbeit von Forschungsinfrastrukturen, nämlich Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards.
 
-Forschungssoftware kann durch die mit einer persistenten URL verknüpften Ablage in einem Repositorium und der Nennung der Autorenschaft zitierbar gemacht werden. Wichtig ist hierbei, dass Software, da sie im Gegensatz zu "schriftlichen Publikationen" kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird, damit bestimmte Stände zitiert werden können (https://www.forschungsdaten.info/themen/ethik-und-gute-wissenschaftliche-praxis/softwareentwicklung-und-gute-wissenschaftliche-praxis/).
+Forschungssoftware kann durch die mit einer persistenten URL verknüpften Ablage in einem Repositorium und der Nennung der Autorenschaft zitierbar gemacht werden. Wichtig ist hierbei, dass Software, da sie im Gegensatz zu herkömmlichen Publikationen kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird, damit bestimmte Versionen zitiert werden können (https://www.forschungsdaten.info/themen/ethik-und-gute-wissenschaftliche-praxis/softwareentwicklung-und-gute-wissenschaftliche-praxis/).
 
 ##### Accessible (Zugänglich)
 
-Die Zugänglichkeit kann sich einerseits auf die Zugänglichkeit zu dem Programm beziehen als auch auf die Nutzbarkeit. Ein Programm wird z. B. dadurch zugänglich, wenn es kostenlos für verschiedene Plattformen zur Verfügung steht, wenn die technischen Anforderungen an die Hardware von den meisten derzeitigen Rechnern zu leisten sind und eine verständliche Anleitung zur Nutzung des Programms zur Verfügung steht.
-
-> [MT] längere Ausführungen zu den Kriterien verschoben
+Die Zugänglichkeit kann sich einerseits auf die Zugänglichkeit zu dem Programm beziehen als auch auf dessen Nutzbarkeit. Ein Programm wird z. B. dadurch zugänglich, dass es kostenlos für verschiedene Plattformen zur Verfügung steht und wenn die technischen Anforderungen an die Hardware von den meisten derzeitigen Rechnern zu leisten sind. Eine verständliche Anleitung zur Nutzung des Programms verbessert die Zugänglichkeit im Sinne der Nutzbarkeit.
 
 ##### Interoperable (Interoperabel)
+
+- Möglichkeiten der "Kommunikation" mit dem Programm
+- die Offenlegung des Quellcodes
+- die Verwendung und Umsetzung von Standards
+
 
 Einer eigenen Ausformulierung für Software bedarf die Frage der Interoperabilität. Interoperabilität von Software kann sich auf die Verknüpfungsmöglichkeiten von Prozessen beziehen, die bei der Erzeugung, Bearbeitung oder Analyse nacheinander notwendig werden (horizontale Dimension). Diese Prozessschritte müssen nicht innerhalb einer Software ablaufen, sondern werden häufig über Protokolle, Schnittstellen und Ausgabeformate als Durchlauf durch mehrere Programme ermöglicht. Interoperabilität kann aber auch als die Zusammenarbeit verschiedener digitaler Objekte für die Ausführung eines Prozesses bedeuten (vertikale Dimension) [@lamprecht_towards_2019, 10 f.](#lamprecht_towards_2019). Wenn dabei eine Software z. B. nur mit einem Betriebssystem arbeiten kann, ist sie weniger interoperabel, als solche, die plattformunabhängig programmiert ist
 
@@ -109,6 +108,8 @@ Code kann nur dann von anderen nachgenutzt werden, wenn er unter einer dementspr
 > [MT] das mit dem Open sehe ich an dieser stelle etwas kritisch. FAIR beinhaltet nämlich ganz bewusst nicht die Forderung nach Open.
 
 #### Open Science
+
+(Open Science; Open Data, Open Source)
 
 Open Science (Offene Wissenschaft) bezeichnet eine Wissenschaftspraxis, deren Ziel ein transparenter Forschungsprozess und eine Zugänglichkeit der Ergebnissen für die Wiederverwendung und Weiterentwicklung ist ( https://doi.org/10.5281/zenodo.1212496 ?). Für offene Forschungssoftware gilt, dass ihr Quellcode zugänglich und für die Weiterentwicklung lizenziert sein muss (https://book.fosteropenscience.eu/en/02OpenScienceBasics/03OpenResearchSoftwareAndOpenSource.html)
 
@@ -125,6 +126,10 @@ Dieser Anforderungen können anhand der FAIR- und CARE-Prinzipien, wie sie für 
 > [MT]: FAIR ist nicht automatisch gleich Open(!); Deshalb habe ich das in der Gliederung noch umgeordnet: zuerst FAIR, dann Open Science und dann noch CARE und Ethik. Wenn man FAIR macht ist es gut, wenn man Open Science praktiziert noch besser und wenn man dann auch noch CARE berücksichtigt kann man eigentlich nichts mehr besser machen
 
 #### CARE-Prinzipien
+
+Im Bereich des Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
+
+
 
 Die CARE-Prinzipien wurden von der Research Data Alliance International Indigenous Data Sovereignty Interest Group auf Basis der UN Declaration on the Rights of Indigenous Peoples (UNDRIP) entwickelt, die die Rechte und Authorität der Indigenen bezüglich ihres kulturellen Erbes und auch Wissens bestätigt.
 
@@ -220,7 +225,7 @@ Wissenschaftliche Software ist nur dann gut, wenn sie einen konkreten Zweck verf
 
 ### Bedienbarkeit
 
-Die Frage der Bedienbarkeit von Software führt zur Qualität des Software Engineering. Das ist ihre "handwerkliche" Qualität, denn Software Engineering erfordert spezifische Kompetenzen und Skills. Es baut auf eigene Wissensbestände zu ihrer Vermittlung und hinter der handwerklichen Qualität steht eine eigene Forschung aus den anwendungsbezogenen Wissenschaften. Wie bei handwerklichen Produkten ist die Qualität aber auch für die Nutzer\*innen erkennbar und zwar, wenn es um alle Aspekte der Nutzbarkeit geht. 
+Die Frage der Bedienbarkeit von Software führt zur Qualität des Software Engineering. Das ist ihre "handwerkliche" Qualität, denn Software Engineering erfordert spezifische Kompetenzen und Skills. Es baut auf eigene Wissensbestände zu ihrer Vermittlung und hinter der handwerklichen Qualität steht eine eigene Forschung aus den anwendungsbezogenen Wissenschaften. Wie bei handwerklichen Produkten ist die Qualität aber auch für die Nutzer\*innen erkennbar und zwar, wenn es um alle Aspekte der Nutzbarkeit geht.
 
 Davon etwas abgesetzt ist die Qualität des Programmcodes, die Art der Dokumentation, die Einbindung und Bezugnahme auf die Entwicklungen und Communities im Software Engineering. Letzteres sind Kriterien, die unmittelbar mit der Zukunftsfähigkeit der Software verbunden sind und daher ein wichtiges Merkmal sind, wenn es um den Einsatz von Software auf institutioneller Ebene oder für langfristige Vorhaben geht.
 
@@ -297,7 +302,7 @@ Weiter oben haben wir die handwerkliche Qualität von Software aus der Anwender-
 
 ### Rechtliche Fragen
 
-Software muss sich wie alle wissenschaftlichen Werkzeuge in einen rechtlichen Rahmen einordnen. Dabei sind die Aspekte Lizenzierung und Datenschutz von besonderer Bedeutung. 
+Software muss sich wie alle wissenschaftlichen Werkzeuge in einen rechtlichen Rahmen einordnen. Dabei sind die Aspekte Lizenzierung und Datenschutz von besonderer Bedeutung.
 
 #### Lizenzierung
 * Ist die Software frei/Open Source?
