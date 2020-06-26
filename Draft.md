@@ -71,7 +71,7 @@ Eine weiterer Baustein zur Sichtbarmachung ist die Rezension von Forschungssoftw
 
 ### Herausforderungen für die nachhaltige Entwicklung, Bereitstellung und Pflege von Forschungssoftware
 
-> https://de-rse.org/de/conf2019/talk/PVEXDH/slides.pdf
+> ([@bach_dersews19](#bach_dersews19)) https://de-rse.org/de/conf2019/talk/PVEXDH/slides.pdf
 
 > ([@anzt_environment_2020](#anzt_environment_2020)) -> p.2, re. oben
 
