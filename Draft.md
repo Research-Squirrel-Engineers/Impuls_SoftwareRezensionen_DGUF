@@ -121,10 +121,9 @@ Weitere Aspekte, welche die Zugänglichkeit erleichtern, sind die Verfügbarkeit
 > [MT] 'kostenlos' entfernt. FAIR fordert das nicht. Wir könnten aber 'Kosten' als Kriterium einfügen
 
 ##### Interoperable (Interoperabel)
-- die Offenlegung des Quellcodes
-- die Verwendung und Umsetzung von Standards
 
-Interoperabilität von Software kann sich auf die Verknüpfungsmöglichkeiten von Prozessen beziehen, die bei der Erzeugung, Bearbeitung oder Analyse nacheinander notwendig werden (horizontale Dimension). Diese Prozessschritte müssen nicht innerhalb einer Software ablaufen, sondern werden häufig über Protokolle, Schnittstellen und Ausgabeformate als Durchlauf durch mehrere Programme ermöglicht. Interoperabilität kann aber auch als die Zusammenarbeit verschiedener digitaler Objekte für die Ausführung eines Prozesses bedeuten (vertikale Dimension) [@lamprecht_towards_2019, 10 f.](#lamprecht_towards_2019). Wenn dabei eine Software z. B. nur mit einem Betriebssystem arbeiten kann, ist sie weniger interoperabel, als solche, die plattformunabhängig programmiert ist
+Interoperabilität von Software kann sich zum Einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum Anderen bezieht sie sich auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 10 f.](#lamprecht_towards_2019). Beides wird durch die Verwendung von Standards ermöglicht, welche eine Verwendung von Software auf unterschiedlichen Betriebssystemen ermöglichen.
+
 
 ##### Reusable (Nachnutzbar)
 
