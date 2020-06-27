@@ -77,6 +77,12 @@ Eine weiterer Baustein zur Sichtbarmachung ist die Rezension von Forschungssoftw
 
 ### Herausforderungen für die nachhaltige Entwicklung, Bereitstellung und Pflege von Forschungssoftware
 
+> [MT] Wollen wir dieses Fass in diesem Beitrag wirklich aufmachen?
+> Ich denke, dass wir mit (guter) Forschungssoftware und dem Kriterienkatalog schon genug zu tun haben.
+> Was wir tun könnten ist am Ende noch einen Abschnitt einzufügen nach dem Motto 'was wir nicht behandelt haben, aber im Zusammenhang mit Forschungssoftware noch nicht zufriedenstellend gelöst wurde'. Dort könnte man dann kurz und bündig auf dieses und anderes verweisen
+> Oh, oder wir fügen das kurz und knapp unter F bei FAIR ein.
+
+
 > ([@bach_dersews19](#bach_dersews19)) https://de-rse.org/de/conf2019/talk/PVEXDH/slides.pdf
 
 > ([@anzt_environment_2020](#anzt_environment_2020)) -> p.2, re. oben
