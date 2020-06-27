@@ -94,9 +94,9 @@ Eine weiterer Baustein zur Sichtbarmachung ist die Rezension von Forschungssoftw
 
 Um überhaupt Kriterien zur Rezension und Bewertung von Forschungssoftware aufstellen zu können, stellt sich zunächst die Frage was überhaupt eine gute und modernen Standards entsprechende Forschungssoftware ausmacht.
 
-Da die Software ein integraler Bestandteil des Forschungsprozesses ist, gelten zunächst die Leitlinien zur Sicherung guter wissenschaftlicher Praxis, wie sie die DFG ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) fordert. Allein hieraus ergeben sich schon wichtige Anforderungen wie die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu den Ergebnissen sowie der öffentlicher Zugang der Ergebnisse und die Archivierung der Materialien die zu einem Forschungsergebnis geführt haben.
+Da die Software ein integraler Bestandteil des Forschungsprozesses ist, gelten zunächst die "Leitlinien zur Sicherung guter wissenschaftlicher Praxis", wie sie die DFG ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) fordert. Allein hieraus ergeben sich schon wichtige Anforderungen wie die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu den Ergebnissen sowie der öffentlicher Zugang der Ergebnisse und die Archivierung der Materialien die zu einem Forschungsergebnis geführt haben.
 
-Wir möchten auf ein paar der Aspekte die sich aus den DFG-Leitlinien ergeben, näher eingehen. Denn sie entsprechen auch dem internationalen Konsens mit etablierten Prinzipien: die in der Erläuterung zu Leitlinie 13 - Herstellung von öffentlichem Zugang zu Forschungsergebnissen - genannten FAIR-Prinzipien, sowie die Prinzipien der Offenen Wissenschaft (Open Science). Natürlich betreffen diese Prinzipien auch weitere Leitlinien der DFG. Außerdem sollen die CARE-Prinzipien, welche in den Leitlinien 2 und 10 der DFG anklingen, erläutert werden. Hinweise zur Umsetzung der DFG Leitlinien in Bezug auf Forschungssoftware sind auch auf [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg) zu finden.
+Wir möchten auf ein paar der Aspekte die sich aus den DFG-Leitlinien ergeben, näher eingehen. Denn sie entsprechen auch dem internationalen Konsens mit etablierten Prinzipien: die in der Erläuterung zu Leitlinie 13 - Herstellung von öffentlichem Zugang zu Forschungsergebnissen - genannten FAIR-Prinzipien, sowie die Prinzipien der Offenen Wissenschaft (Open Science). Natürlich betreffen diese Prinzipien auch weitere Leitlinien der DFG. Außerdem sollen die CARE-Prinzipien, welche in den Leitlinien 2 und 10 der DFG anklingen, erläutert werden. Hinweise zur Umsetzung der DFG-Leitlinien in Bezug auf Forschungssoftware sind auch auf [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg) zu finden.
 
 #### FAIR-Prinzipien
 Die FAIR-Prinzipien wurden 2016 als FAIR Data Principles veröffentlicht [@wilkinson_2016](#wilkinson_2016). Sie zielen primär auf Forschungsdaten und deren Metadaten ab und fordern dass diese auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und reusable (Nachnutzbar) sind. Die Prinzipien können auch auf Forschungssoftware und deren Metadaten übertragen werden [@lamprecht_towards_2019](#lamprecht_towards_2019).
@@ -132,25 +132,14 @@ Die Nachnutzbarkeit von Software hängt von mehreren Komponenten ab. Die Metadat
 
 #### Open Science
 
-(Open Science; Open Data, Open Source)
+Open Science (Offene Wissenschaft) bezeichnet eine Wissenschaftspraxis, deren Ziel ein transparenter, replizierbarer und kollaborativer Forschungsprozess ist [@bezjak_openscience_2018, Open Concepts and Principles](#bezjak_openscience_2018). Open Science setzt sich aus mehreren Prinzipien zusammen, die unterschiedliche Stadien im Forschungsprozess betreffen.
 
-Open Science (Offene Wissenschaft) bezeichnet eine Wissenschaftspraxis, deren Ziel ein transparenter Forschungsprozess und eine Zugänglichkeit der Ergebnissen für die Wiederverwendung und Weiterentwicklung ist ( https://doi.org/10.5281/zenodo.1212496 ?). Für offene Forschungssoftware gilt, dass ihr Quellcode zugänglich und für die Weiterentwicklung lizenziert sein muss (https://book.fosteropenscience.eu/en/02OpenScienceBasics/03OpenResearchSoftwareAndOpenSource.html)
+So fordert Open Science nicht nur die Öffnung der Ergebnisse (Open Access), sondern auch der zugrundeliegenden Daten (Open Data), Methoden (Open Methodology) und eben auch der verwendeten Forschungssoftware (Open Source). Für offene Forschungssoftware gilt, dass ihr Quellcode zugänglich und mit einer Lizenz versehen sein muss, welche die Weiterentwicklung erlaubt [@bezjak_openscience_2018, Open Research Software and Open Source](#bezjak_openscience_2018).
 
-In den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" weist die DFG darauf hin, dass für die Qualitätssicherung
-"[...] die Auswahl und Nutzung  von  Forschungssoftware,  deren  Entwicklung  und  Programmierung" von Bedeutung sind.
-Unabhängig von dem Fachgebiet hat die Herkunft der Software dargestellt zu werden, und der Quellcode öffentlich zugänglicher Software muss "persistent, zitierbar und dokumentiert sein", um die Replizierbarkeit und Reproduzierbarkeit zu gewährleisten.  [@deutsche_forschungsgemeinschaft_2019, 14-15](#deutsche_forschungsgemeinschaft_2019)
+In den Leitlinien der DFG klingt die Öffnung von Software-Quellcode im Zusammenhang mit der Qualitätssicherung [@deutsche_forschungsgemeinschaft_2019, 14-15](#deutsche_forschungsgemeinschaft_2019) und der Herstellung von öffentlichem Zugang zu Forschungsergebnissen [@deutsche_forschungsgemeinschaft_2019, 19](#deutsche_forschungsgemeinschaft_2019) an.
 
-Helmholtz-Zentrum: https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/forschungssoftware/  
+Mit der Forderung nach der Offenlegung des Quellcodes (Open Source), wird auch dem Gedanken der Nachnutzbarkeit entsprochen. Die Offenlegung wird erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen (Free Source). Letzteres wird als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.). oder von Research-Software-Engineers in der "de-RSE e.V." [@anzt_environment_2020](#anzt_environment_2020).
 
-Dieser Anforderungen können anhand der FAIR- und CARE-Prinzipien, wie sie für Datenmanagement bestehen, genauer erläutert werden:
-
-Mit der Forderung nach der Offenlegung des Quellcodes (Open Source), entspricht dem Gedanken der Nachnutzbarkeit (reusable). Vielfach wird er  noch erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen (Free Source). Letzteres wird als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.). oder von Research-Software-Engineers in der "de-RSE e.V." [@anzt_environment_2020](#anzt_environment_2020).
-
-
-
->[SCS: Braucht noch Infos zu Open Data (aber nich zu viel, weil Fokus ja woanders liegt)]
-
-> [MT]: FAIR ist nicht automatisch gleich Open(!); Deshalb habe ich das in der Gliederung noch umgeordnet: zuerst FAIR, dann Open Science und dann noch CARE und Ethik. Wenn man FAIR macht ist es gut, wenn man Open Science praktiziert noch besser und wenn man dann auch noch CARE berücksichtigt kann man eigentlich nichts mehr besser machen
 
 #### CARE-Prinzipien
 
