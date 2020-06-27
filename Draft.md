@@ -27,9 +27,9 @@ csl: apa-6th-edition.csl
 * [Forschungssoftware](#Forschungssoftware)
   * [Forschungssoftware als wissenschafltiche Leistung](#forschungssoftware-als-wissenschaftliche-leistung)
   * [Gute Forschungssoftware](#Gute-Forschungssoftware)
-    * [FAIR Prinzipien](#FAIR-Prinzipien)
+    * [FAIR-Prinzipien](#FAIR-Prinzipien)
     * [Open Science](#open-science)
-    * [CARE Prinzipien](#care-prinzipien) (https://www.gida-global.org/care)
+    * [CARE-Prinzipien und Ethos](#care-prinzipien-und-ethos)
 * [Anwendungsbereich dieser Handreichung](Anwendungsbereich-dieser-Handreichung)
 * [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
 * [Kriterien zur Beurteilung von Software](#Kriterien-zur-Beurteilung-von-Software)
@@ -141,7 +141,13 @@ In den Leitlinien der DFG klingt die Öffnung von Software-Quellcode im Zusammen
 Mit der Forderung nach der Offenlegung des Quellcodes (Open Source), wird auch dem Gedanken der Nachnutzbarkeit entsprochen. Die Offenlegung wird erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen (Free Source). Letzteres wird als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.). oder von Research-Software-Engineers in der "de-RSE e.V." [@anzt_environment_2020](#anzt_environment_2020).
 
 
-#### CARE-Prinzipien
+#### CARE-Prinzipien und Ethos
+
+Forschungssoftware ist nicht neutral. Sie entsteht nicht unter neutralen Bedingungen, ihre Nutzung erfolgt unter spezifischen Bedingungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen diese Gewohnheiten und Konventionen auch zur (unbewussten) Festigung von Privilegien und Diskriminierungen bei, etwa wenn Tutorials ausschließlich männliche Nutzer kennen, oder die an der Entwicklung beteiligten Personen nicht genannt werden.
+
+
+Außerdem sollen die CARE-Prinzipien, welche in den Leitlinien 2 (Berufsethos) und 10 (ethische Rahmenbedingungen) der DFG anklingen,
+
 
 Im Bereich des Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
 
@@ -183,7 +189,6 @@ ethics: siehe Hinweis Hautfarbe (in der Fußnote 2 ganz unten)
  Angestoßen wird Letzteres insbesondere von Untersuchungen, die sich mit Software auseinandersetzt, die zur Diskrimination von Gruppen und Individuen führt, so etwa Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen ausgerichtet ist [@breland_how_2017](#breland_how_2017).
 
 
-Unter diesem Punkt ist noch einmal extrapoliert, was sowohl in den FAIR-Prinzipien z.B. hinsichtlich der Autorenschaft als auch der Vertiefung zur Usability implizit mitgetragen wird: Forschungssoftware ist nicht neutral. Sie entsteht nicht unter neutralen Bedingungen, ihre Nutzung erfolgt unter spezifischen Bedingungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen diese Gewohnheiten und Konventionen auch zur Befestigung von Privilegien und Diskriminierungen bei, etwa wenn Tutorials ausschließlich männliche Nutzer kennen, oder die an der Entwicklung beteiligten Personen nicht genannt werden.
 
 Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
 
@@ -214,7 +219,7 @@ Weitere digitale Werkzeuge (*tools*)
 
 ## Vorgehensweise bei der Rezension von Software
 
-In Vorbereitung zur Vormulierung einer Softwarerezension ist es angemessen, zunächst möglichst ihre gesamte Dokumentation zumindest zu visitieren. Das kann Webseiten, Handbücher und wissenschaftliche Publikationen einschließen. Sofern es nicht ohnehin schon erfolgt ist, sollte die Software installiert und mit für sie typischen Testszenarien konfrontiert werden. Das heißt, die oder der Rezensent*In sollte die Software selbst erprobt haben. Zuletzt ist ein Blick in den Programmcode -- sofern offen verfügbar -- sinnvoll.
+In Vorbereitung zur Formulierung einer Softwarerezension ist es angemessen, zunächst möglichst ihre gesamte Dokumentation zumindest zu visitieren. Das kann Webseiten, Handbücher und wissenschaftliche Publikationen einschließen. Sofern es nicht ohnehin schon erfolgt ist, sollte die Software installiert und mit für sie typischen Testszenarien konfrontiert werden. Das heißt, die oder der Rezensent*In sollte die Software selbst erprobt haben. Zuletzt ist ein Blick in den Programmcode -- sofern offen verfügbar -- sinnvoll.
 
 Der Rezensionstext sollte wie die Besprechung einer Publikation zunächst mit einer kurzen, überblicksartigen Beschreibung der Software beginnen. Zusammengefasst vorgestellt werden sollte ihr Einsatzbereich, ihre Komponenten und ihr Entstehungskontext. Für die anschließende detaillierte Besprechung und Einschätzung möchten wir die unten folgenden Kriterien vorschlagen. Diese Kriterien sind konkrete Ableitungen aus den eingangs abstrakt erläuterten Prinzipien und Anforderungen an Forschungssoftware. Nicht allen Kriterien kann und muss das selbe Gewicht zukommen - es ist der oder dem Rezensent*In überlassen Schwerpunkte zu setzen. Zuletzt sollten die Ergebnisse der Betrachtung in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
 
@@ -222,11 +227,11 @@ Der Umfang der Rezension sollte 1000-2000 Worte nicht übersteigen.
 
 ## Kriterien zur Beurteilung von Software
 
-Im folgenden stellen wir einen Katalog von Kriterien vor, die für die Beurteilung wissenschaftlicher Software relevant sein können. Er ist weder vollständig noch au­to­ri­ta­tiv. Nicht jeder gelistete Aspekt ist für jede Software relevant und gegebenfalls ist es nicht möglich, die entsprechende Information abzufragen oder eine gewählte Lösung zu beurteilen.
+Im folgenden stellen wir einen Katalog von Kriterien vor, die für die Beurteilung wissenschaftlicher Software relevant sein können. Er ist weder vollständig noch au­to­ri­ta­tiv. Nicht jeder gelistete Aspekt ist für jede Software relevant und gegebenenfalls ist es nicht möglich, die entsprechende Information abzufragen oder eine gewählte Lösung zu beurteilen.
 
 ### Wissenschaftliche Relevanz und Korrektheit
 
-Wissenschaftliche Software ist nur dann gut, wenn sie einen konkreten Zweck verfolgt und ihre Aufgabe (im wesentlichen) korrekt erfüllt. Tut sie das nicht, so sind alle weiteren Beurteilungskritierien hinfällig. Die Frage der Relevanz sollte für eine archäologische Softwarerezension auf die speziellen Bedingungen und Erfordernisse des Faches Rücksicht nehmen. Demgegenüber mitunter deutlich schwierigier zu beurteilen ist die Korrektheit der Ergebnisse einer Software. Dieses Problem gliedert sich in mehrere Aspekte: Zunächst stellt sich die sehr technische Frage, ob die in der Dokumentation genannten Algorithmen fehlerfrei in Programmcode ausgedrückt wurden. Meist ist schon eine Prüfung dieses Aspekts nicht trivial und übersteigt den Rahmen einer Rezension. Darüber hinaus versprechen wissenschaftliche Softwarewerkzeuge implizit oder explizit, die Beantwortung wissenschaftlicher Fragestellungen zu ermöglichen oder zumindest zu vereinfachen. Eine GIS-Applikation zur Analyse von Punktmustern kann etwa für den Zweck konzipiert sein menschliches Siedlungsverhalten nachherzusagen. Die Frage, ob der Algorithmus dazu semantisch überhaupt in der Lage ist, kann den Umfang einer Rezension bei weitem übersteigen und muss gegebenfalls mit einer kritischen Benenennung der Problemstellung übergangen werden.
+Wissenschaftliche Software ist nur dann gut, wenn sie einen konkreten Zweck verfolgt und ihre Aufgabe (im wesentlichen) korrekt erfüllt. Tut sie das nicht, so sind alle weiteren Beurteilungskriterien hinfällig. Die Frage der Relevanz sollte für eine archäologische Softwarerezension auf die speziellen Bedingungen und Erfordernisse des Faches Rücksicht nehmen. Demgegenüber mitunter deutlich schwieriger zu beurteilen ist die Korrektheit der Ergebnisse einer Software. Dieses Problem gliedert sich in mehrere Aspekte: Zunächst stellt sich die sehr technische Frage, ob die in der Dokumentation genannten Algorithmen fehlerfrei in Programmcode ausgedrückt wurden. Meist ist schon eine Prüfung dieses Aspekts nicht trivial und übersteigt den Rahmen einer Rezension. Darüber hinaus versprechen wissenschaftliche Softwarewerkzeuge implizit oder explizit, die Beantwortung wissenschaftlicher Fragestellungen zu ermöglichen oder zumindest zu vereinfachen. Eine GIS-Applikation zur Analyse von Punktmustern kann etwa für den Zweck konzipiert sein menschliches Siedlungsverhalten nachherzusagen. Die Frage, ob der Algorithmus dazu semantisch überhaupt in der Lage ist, kann den Umfang einer Rezension bei weitem übersteigen und muss gegebenenfalls mit einer kritischen Benennung der Problemstellung übergangen werden.
 
 #### Einsatzgebiet und Relevanz
 * Welches Problem versucht die Software zu lösen bzw. welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse durchgeführt. Wie sind diese Probleme und Aufgaben von ihrer Relevanz und von ihrer Häufigkeit einzuschätzen?
