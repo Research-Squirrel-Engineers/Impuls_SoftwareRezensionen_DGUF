@@ -83,6 +83,7 @@ Eine publizierte Software kann anschließend, ganz so wie in der bisherigen Prax
 > Was wir tun könnten ist am Ende noch einen Abschnitt einzufügen nach dem Motto 'was wir nicht behandelt haben, aber im Zusammenhang mit Forschungssoftware noch nicht zufriedenstellend gelöst wurde'. Dort könnte man dann kurz und bündig auf dieses und anderes verweisen
 > Oh, oder wir fügen das kurz und knapp unter F bei FAIR ein.
 
+> [FT] -> [MT] vllt nicht als extra Kapitel. Wichtig wäre es glaube ich nur, dass wir die Thematik auch hier vllt unter (Kap. Forschungssoftware) kurz erwähnen. Ein/zwei Sätze mehr wollte ich dazu nicht :-)
 
 > ([@bach_dersews19](#bach_dersews19)) https://de-rse.org/de/conf2019/talk/PVEXDH/slides.pdf
 
