@@ -93,7 +93,7 @@
 <select class="bibtex_search bibtex_author" extra="first" search="author">
   <option value="">Search First Author</option>
 </select>-->
-<div id="bibtex_display"></div>
+<div id="bibtex_display" callback="formatCitations()"></div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
         </section>
@@ -106,7 +106,7 @@
 </div>
 </footer>
 <script>
-$( document ).ready(function() {
+function formatCitations(){
     var anchors = document.getElementsByTagName("a");
 for (anchor in anchors){ 
 	console.log(anchor)
@@ -122,7 +122,7 @@ for (anchor in anchors){
   	anchors[anchor].innerHTML="("+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").textContent+" "+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()+")"
   }
 }
-});
+}
 </script>	
 </body>
 </html>
