@@ -108,7 +108,7 @@
 <script>
 var anchors = document.getElementsByTagName("a");
 for (anchor in anchors){ 
-  if(anchor.text().startsWith("@")){
+  if(anchor.textContent.trim().startsWith("@")){
   	anchor.innerHTML="("+$('#'+anchor.href.substring(1)+"author").text()+" "+$('#'+anchor.href.substring(1)+"year").text()+")"
   }
 }
