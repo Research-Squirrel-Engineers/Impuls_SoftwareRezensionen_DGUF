@@ -111,7 +111,7 @@ for (anchor in anchors){
 	console.log(anchor)
 	console.log(anchors[anchor])
 	console.log(anchors[anchor].textContent)
-  if(anchors[anchor].textContent.trim().startsWith("@")){
+  if((typeof anchors[anchor].textContent !== 'undefined') && anchors[anchor].textContent.trim().startsWith("@")){
 	 console.log(anchors[anchor].href)
 	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author"))
 	  console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").text())
