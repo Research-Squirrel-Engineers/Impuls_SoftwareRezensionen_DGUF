@@ -5,6 +5,25 @@
     <script type="text/javascript" src="https://www.cs.cmu.edu/~mmv/bibtex_js.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+	<script>
+function formatCitations(){
+    var anchors = document.getElementsByTagName("a");
+for (anchor in anchors){ 
+	console.log(anchor)
+	console.log(anchors[anchor])
+	console.log(anchors[anchor].textContent)
+  if((typeof anchors[anchor].textContent !== 'undefined') && anchors[anchor].textContent.trim().startsWith("@")){
+	 console.log(anchors[anchor].href)
+	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author"))
+	  console.log('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author")
+	  console.log('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year")
+	  console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").text())
+	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()) 
+  	anchors[anchor].innerHTML="("+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").textContent+" "+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()+")"
+  }
+}
+}
+</script>
 </head>
 
 <body>
@@ -105,24 +124,6 @@
 
 </div>
 </footer>
-<script>
-function formatCitations(){
-    var anchors = document.getElementsByTagName("a");
-for (anchor in anchors){ 
-	console.log(anchor)
-	console.log(anchors[anchor])
-	console.log(anchors[anchor].textContent)
-  if((typeof anchors[anchor].textContent !== 'undefined') && anchors[anchor].textContent.trim().startsWith("@")){
-	 console.log(anchors[anchor].href)
-	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author"))
-	  console.log('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author")
-	  console.log('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year")
-	  console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").text())
-	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()) 
-  	anchors[anchor].innerHTML="("+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").textContent+" "+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()+")"
-  }
-}
-}
-</script>	
+	
 </body>
 </html>
