@@ -109,7 +109,7 @@
 var anchors = document.getElementsByTagName("a");
 for (anchor in anchors){ 
   if(anchors[anchor].textContent.trim().startsWith("@")){
-  	anchors[anchor].innerHTML="("+$('#'+anchors[anchor].href.substring(1)+"author").text()+" "+$('#'+anchors[anchor].href.substring(1)+"year").text()+")"
+  	anchors[anchor].innerHTML="("+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").text()+" "+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()+")"
   }
 }
 </script>	
