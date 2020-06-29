@@ -112,6 +112,10 @@ for (anchor in anchors){
 	console.log(anchors[anchor])
 	console.log(anchors[anchor].textContent)
   if(anchors[anchor].textContent.trim().startsWith("@")){
+	 console.log(anchors[anchor].href)
+	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author"))
+	  console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").text())
+	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()) 
   	anchors[anchor].innerHTML="("+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").text()+" "+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()+")"
   }
 }
