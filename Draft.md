@@ -165,6 +165,8 @@ Gerade in den Altertumswissenschaften, in denen häufig an fremden Kulturen und 
 
 Das CARE-Akronym steht für folgende vier Prinzipien, welche auch bei der Entwicklung von Forschungssoftware Beachtung finden sollten:
 
+> [MT] hier könnte man nach jedem Prinzip eventuell in ein, zwei Sätzen die Relevanz für Software hervorzuheben
+
 - Collective Benefit: gemeinschaftlicher Nutzen für indigene Bevölerung; CC Veröffentlichung, wenn aus Forschungsgeldern bezahlte entwicklung?
 
 Inklusvitiät bei der Entwicklung
