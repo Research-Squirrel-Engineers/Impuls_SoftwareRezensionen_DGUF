@@ -156,7 +156,6 @@ Forschungssoftware ist nicht neutral. Sie entsteht nicht unter neutralen Bedingu
 
 Wie angemessen ist es beispielsweise, wenn für die archäologische Feldarbeit Software zur Datenaufnahme eingesetzt wird, welche für die Mehrheit der Mitarbeiter\*innen vor Ort aufgrund einer Sprachbarriere nicht verständlich ist? Diskriminiert freie und offen lizensierte Software, die aber für ihre Verwendung proprietäre Software oder teure Hardware voraussetzt Forscher und Forscherinnen mit weniger Finanzmitteln?
 
-
 > [MT] der folgende Absatz gibt den Inhalt der Fußnote 2 wider. Sie könnte also gelöscht werden, wenn der gekennzeichnete Satz in '[Forschungssoftware als wissenschaftliche Leistung](#forschungssftware-als-wissenschaftliche-leistung)' nicht benötigt wird.
 
 Dass Software Gruppen und Individuen diskriminieren kann, zeigen entsprechende Untersuchungen, wie etwa der Fall von Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen geeicht ist [@breland_how_2017](#breland_how_2017).
@@ -322,7 +321,6 @@ Software muss sich wie alle wissenschaftlichen Werkzeuge in einen rechtlichen Ra
 * Ist die Software ohne Login anonym bedienbar?
 * Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?
 
-> [MT] Abschnitt aus theoretischem Teil, der hier irgendwo in die Kriterienliste eingearbeitet werden Müsste
 
 ## Anmerkungen
 
