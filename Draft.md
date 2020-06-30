@@ -31,7 +31,7 @@ csl: apa-6th-edition.csl
     * [Open Science](#open-science)
     * [CARE-Prinzipien und Ethos](#care-prinzipien-und-ethos)
   * [Fachliche und technische Beurteilung](#Fachliche-und-technische-Beurteilung)
-* [Anwendungsbereich dieser Handreichung](Anwendungsbereich-dieser-Handreichung)
+* [Anwendungsbereich dieser Handreichung](Anwendungsbereich-dieser-Handreichung) (Benötigen wir diesen Abschnitt?)
 * [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
 * [Kriterien zur Beurteilung von Software](#Kriterien-zur-Beurteilung-von-Software)
   * ... alle Unterpunkte ab [dort](#Kriterien-zur-Beurteilung-von-Software)
@@ -150,50 +150,28 @@ Mit der Forderung nach der Offenlegung des Quellcodes (Open Source), wird auch d
 
 #### CARE-Prinzipien und Ethos
 
+In den Leitlinien der DFG klingen in Leitline 2 und 10 auch ethische Aspekte im Forschungsprozess an, die auch im Bereich der Forschungssoftware Beachtung finden sollten.
+
 Forschungssoftware ist nicht neutral. Sie entsteht nicht unter neutralen Bedingungen, ihre Nutzung erfolgt unter spezifischen Voraussetzungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen diese Gewohnheiten und Konventionen auch zur (unbewussten) Festigung von Privilegien und Diskriminierungen bei, etwa wenn Tutorials ausschließlich männliche Nutzer kennen, oder die an der Entwicklung beteiligten Personen nicht genannt werden.
 
-
-Außerdem sollen die CARE-Prinzipien, welche in den Leitlinien 2 (Berufsethos) und 10 (ethische Rahmenbedingungen) der DFG anklingen,
-
-
-Im Bereich des Datenmanagements wurde darauf hingewiesen, dass es durchaus Gründe gibt, Daten zurückzuhalten, insbesondere wenn es um Rechte Indigener Bevölkerungen geht (siehe auch Marwick und Birch). Von diesen wurden weitere Richtlinien, die mit CARE abzukürzen sind entwickelt (https://www.gida-global.org/care):
+Wie angemessen ist es beispielsweise, wenn für die archäologische Feldarbeit Software zur Datenaufnahme eingesetzt wird, welche für die Mehrheit der Mitarbeiter\*innen vor Ort aufgrund einer Sprachbarriere nicht verständlich ist? Diskriminiert freie und offen lizensierte Software, die aber für ihre Verwendung proprietäre Software oder teure Hardware voraussetzt Forscher und Forscherinnen mit weniger Finanzmitteln?
 
 
+> [MT] der folgende Absatz gibt den Inhalt der Fußnote 2 wider. Sie könnte also gelöscht werden, wenn der gekennzeichnete Satz in '[Forschungssoftware als wissenschaftliche Leistung](#forschungssftware-als-wissenschaftliche-leistung)' nicht benötigt wird.
 
-Die CARE-Prinzipien wurden von der Research Data Alliance International Indigenous Data Sovereignty Interest Group auf Basis der UN Declaration on the Rights of Indigenous Peoples (UNDRIP) entwickelt, die die Rechte und Authorität der Indigenen bezüglich ihres kulturellen Erbes und auch Wissens bestätigt.
+Dass Software Gruppen und Individuen diskriminieren kann, zeigen entsprechende Untersuchungen, wie etwa der Fall von Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen geeicht ist [@breland_how_2017](#breland_how_2017).
 
-Folgende Prinzipien wurden aufgestellt und elaboriert:
+Gerade in den Altertumswissenschaften, in denen häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten die Rechte der indigenen und einheimischen Bevölkerung bezüglich ihres kulturellen Erbes und des damit zusammenhängenden Wissens berücksichtigt werden. Hierfür eignen sich die CARE-Prinzipien (https://www.gida-global.org/care). Sie wurden von der Global Indigenous Data Alliance (GIDA) und der Research Data Alliance (RDA) 2018 auf Basis der UN Declaration on the Rights of Indigenous Peoples (UNDRIP) erarbeitet.
 
-- Collective Benefit (gemeinschaftlicher Nutzen für Indigene Menschen):
-- Authority to Control (Kontrollmacht für Indigene Menschen)
-- Responsibility (Verantwortung für die positive Folgen der Datennutzung)
-- Ethics (Rechte und Wohl der Indigenen Menschen)
+Das CARE-Akronym steht für folgende vier Prinzipien, welche auch bei der Entwicklung von Forschungssoftware Beachtung finden sollten:
 
-Diese CARE-Prinzipien lass sich in einigen Punkten ebenfalls auf Forschungssoftware übertragen, wenn auch teilweise in abgewandelter Bedeutung.
-
-#####  C
-
-collective benefit: CC Veröffentlichung, wenn aus Forschungsgeldern bezahlte entwicklung?
+- Collective Benefit: gemeinschaftlicher Nutzen für indigene Bevölerung; CC Veröffentlichung, wenn aus Forschungsgeldern bezahlte entwicklung?
 
 Inklusvitiät bei der Entwicklung
+- Authority to Control: Kontrollmacht für indigene Bevölkerung; Software, die auf Indigenem Wissen beruht
 
-
-
-##### A auhtority to control:
-
-
-Software, die auf Indigenem Wissen beruht
-
-#####  R
-responsibilty: Verantwortung für Code übernehmen?
-
-##### E
-ethics: siehe Hinweis Hautfarbe (in der Fußnote 2 ganz unten)
- Angestoßen wird Letzteres insbesondere von Untersuchungen, die sich mit Software auseinandersetzt, die zur Diskrimination von Gruppen und Individuen führt, so etwa Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen ausgerichtet ist [@breland_how_2017](#breland_how_2017).
-
-
-
-Weniger auffällig ist zunächst die Frage der Sprachen für die Nutzeroberflächen und Tutorials. Für die Archäologien stellt sich etwa die Frage, wie angemessen es ist, für die archäologische Feldarbeit Software zur Datenaufnahme einzusetzen, die für die Mehrheit der Mitarbeiter\*innen vor Ort nicht verständlich ist und ihnen somit Teile der Tätigkeiten vor Ort verschließt. Zu überlegen ist auch, ob Software, die zwar frei und offen lizensiert ist, aber das Vorhandensein proprietärer Software oder auch teurer Hardware voraussetzt, die Diskriminierung von Forscher\*innen mit weniger Finanzmitteln zur Folge haben kann. Plugins, die zwingend die Benutzung von Software voraussetzt, die wiederum die Erfassung von Nutzerverhalten zum Geschäftsmodell hat, ist ebenfalls problematisch bzw. ist unter Umständen nicht mit institutionellen Vorgaben vereinbar. Alle genannten Aspekte stehen letztlich dem Ziel der Transparenz und Reproduzierbarkeit entgegen.
+- Responsibility: Verantwortung für die positive Folgen der Datennutzung; Verantwortung für Code übernehmen?
+- Ethics: Rechte und Wohl der indigenen Bevölkerung
 
 
 ## Fachliche und technische Beurteilung
@@ -209,7 +187,8 @@ Zusammengefasst können aus den eigenen fachlichen Traditionen der Archäologie 
 
 ##  Anwendungsbereich dieser Handreichung
 
-Forschungssoftware
+> [MT] Die Absätze hier sind irgendwie übrig geblieben und so ganz passen sie nicht zur Überschrift. Entweder streichen oder bei den jeweiligen Kriterien mit einbauen
+> Evtl. wird dieser Abschnitt auch nicht benötigt
 
 Hardwarespezifische Software
 , aber ihre Programmierung ist nicht transparent, vielfach werden zudem Daten in proprietären Formaten erzeugt. Entsprechend können zwar der Umgang mit der Software und die Produktqualität aus Sicht der Nutzerinnen als Erfahrungswerte beschrieben werden, aber es können keine begründeten Aussagen zur Performanz unter veränderten Bedingungen, zur Stabilität und anderes getroffen werden. Einige der im folgenden dargestellten Kriterien zur Rezension von Forschungssoftware können somit auf proprietäre Software angewendet werden und eine Berücksichtigung der Aspekte wird ausdrücklich empfohlen.
