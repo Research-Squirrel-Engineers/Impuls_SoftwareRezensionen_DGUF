@@ -127,7 +127,7 @@ Weitere Aspekte, welche die Zugänglichkeit erleichtern, sind die Verfügbarkeit
 
 ##### Interoperable (Interoperabel)
 
-Interoperabilität von Software kann sich zum Einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum Anderen bezieht sie sich auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 46 f.](#lamprecht_towards_2019). Beides wird durch die Verwendung von Standards ermöglicht, welche eine Verwendung von Software auf unterschiedlichen Betriebssystemen ermöglichen.
+Interoperabilität von Software kann sich zum Einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum Anderen verweist sie auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 46 f.](#lamprecht_towards_2019). Beides wird durch die Verwendung von Standards ermöglicht, welche eine Installation von Software auf unterschiedlichen Betriebssystemen ermöglichen.
 
 
 ##### Reusable (Nachnutzbar)
