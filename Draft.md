@@ -60,9 +60,9 @@ Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer 
 
 > NFDI Abstracts zu Research Software
 
-> https://www.dfg.de/download/pdf/foerderung/programme/nfdi/nfdi_konferenz_2020/nfdi4rse_abstract.pdf
+> https://www.dfg.de/download/pdf/foerderung/programme/nfdi/nfdi_konferenz_2020/nfdi4rse_abstract.pdf @loffler_2020
 
-> https://www.dfg.de/download/pdf/foerderung/programme/nfdi/nfdi_konferenz_2020/nfdixcs_abstract.pdf
+> https://www.dfg.de/download/pdf/foerderung/programme/nfdi/nfdi_konferenz_2020/nfdixcs_abstract.pdf @goedicke_2020
 
 ### Forschungssoftware als wissenschaftliche Leistung
 
