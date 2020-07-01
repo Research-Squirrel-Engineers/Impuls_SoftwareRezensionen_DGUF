@@ -48,7 +48,7 @@ In dieser Handreichung erläutern wir einige Kriterien für gute Forschungssoftw
 
 Wir empfehlen eine Vorgehensweise zur Softwarerezension und sammeln Kriterien, die für die Bewertung einer Software von Bedeutung sein können. Aufgrund der Vielfalt der möglichen Besprechungsgegenstände werden nicht in jedem Fall alle Kriterien von Bedeutung sein.
 
-Die hier vorgestellten Überlegungen, Kriterien und Vorschläge sollen den Rezensentinnen und Rezensenten als Arbeitserleichterung dienen. Diskussionsbeiträge sowie Anregungen zu diesen Beitrag sind erwünscht. Dazu können entweder die Autoren kontaktiert werden oder -- hier website und Kontaktdaten einfügen ? -- genutzt werden.
+Die hier vorgestellten Überlegungen, Kriterien und Vorschläge sollen den Rezensentinnen und Rezensenten als Arbeitserleichterung dienen. Diskussionsbeiträge sowie Anregungen zu diesen Beitrag sind erwünscht. Dazu können entweder die Autoren kontaktiert werden oder -- hier website (https://research-squirrel-engineers.github.io/DGUF_Leitfaden/) und Kontaktdaten einfügen ? -- genutzt werden.
 
 ## Forschungssoftware
 
