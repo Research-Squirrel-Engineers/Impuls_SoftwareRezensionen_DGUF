@@ -162,15 +162,15 @@ Das CARE-Akronym steht für folgende vier Prinzipien, welche auch bei der Entwic
 
 > [MT] hier könnte man nach jedem Prinzip eventuell in ein, zwei Sätzen die Relevanz für Software hervorzuheben
 
-- Collective Benefit: gemeinschaftlicher Nutzen für indigene Bevölerung; CC Veröffentlichung, wenn aus Forschungsgeldern bezahlte entwicklung?
+- **C**ollective Benefit: Dieser Punkt fordert den gemeinschaftlichen Nutzen der Datenerhebung für die indigene Bevölkerung. Er lässt sich leicht auf Software übertragen: Software, die auf Wissen und Erfahrungen von indigenen Bevölkerungen beruht, soll für diese Gruppen einen Nutzen haben. Hier geht es darum, dass Menschen, die einen wichtigen Beitrag für die Entwicklung geleistet haben, honoriert werden und die Anwendung nicht nur Fremden zugute kommt (monetär, durch Reputation u.ä.). 
 
-Inklusvitiät bei der Entwicklung
-- Authority to Control: Kontrollmacht für indigene Bevölkerung; Software, die auf Indigenem Wissen beruht
+- **A**uthority to Control: Die Kontrollmacht über die eigenen Daten ist eine wichtige Forderung Indigener Menschen. Auch dies lässt sich auf Software anwenden: Die Entscheidungsmacht über die Verwendung von anhand ihres Wissens entwickelter Software soll bei der Indigenen Bevölkerung liegen. Dieser Punkt kann verhindern, dass indigenes Wissen unangemessen ausgenutzt wird und kann durch die computertechnische Ermächtigung von Indigenen verstärkt werden.
 
-- Responsibility: Verantwortung für die positive Folgen der Datennutzung; Verantwortung für Code übernehmen?
-- Ethics: Rechte und Wohl der indigenen Bevölkerung
+- **R**esponsibility: Wer mit Indigenen Daten arbeitet, hat die Verantwortung nachvollziehbar aufzuzeigen, wie diese Daten den Indigenen Gruppen zugute kommen. Entwickler von Software haben Verantwortung für die positive Folgen der Software für die Indigenen Gruppen zu übernehmen. Bei der Entwicklung ist es die Verantwortung der Produzenten mögliche schädliche Konsequenzen der Software auszumerzen. Dies kann durch inklusve Ansätze bei der Entwicklung verfolgt werden.
 
+- **E**thics: Rechte und Wohl der indigenen Bevölkerung sollten an erster Stelle bei der Erarbeitung und Bearbeitung eines Datensatzes stehen. Für Software gilt das gleiche, wenn sie indigene Völker betrifft. 
 
+> [SCS] muss nochmal auf angemessene Sprache geprüft werden (Indigene oder indigene wird zB im englischsprachigen diskutiert. "Bevölkerungen" oder "Völker" etc)
 
 
 ## Fachliche und technische Beurteilung
