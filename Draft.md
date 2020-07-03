@@ -52,17 +52,13 @@ Die hier vorgestellten Überlegungen, Kriterien und Vorschläge sollen den Rezen
 
 ## Forschungssoftware
 
-Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen primär auf die Begutachtung von Forschungssoftware ab. Unter Forschungssoftware verstehen wir Software, die mit Fokus auf einen Einsatz in der Forschung entwickelt wurde, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809](#hettrick_2014_14809). Dies sind beispielsweise Programme, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen.
+Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen primär auf die Begutachtung von Forschungssoftware ab. Unter Forschungssoftware verstehen wir Software, `die mit Fokus auf einen Einsatz in der Forschung entwickelt wurde`, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809](#hettrick_2014_14809). Dies sind beispielsweise Programme, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen.
 
 Forschungssoftware kann entweder für einen sehr spezifischen Bedarf oder einen allgemeinen Anwendungsbereich entwickelt worden. Sie ist dabei stets Teil des Forschungsprozesses, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss.
 
 Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer Geräte erforderlich ist, wie etwa zur Vermessung, zur fotografischen Dokumentation oder zur Analyse von Oberflächen und Inhaltsstoffen. Häufig handelt es sich um proprietäre Software, die zusammen mit der Hardware vertrieben wird. Obwohl sie im Forschungsprozess eingesetzt wird, entspricht sie nicht unserem Verständnis von Forschungssoftware. Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inne haben, jedoch keinen eigentlichen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben, sind in unserem Sinne keine Forschungssoftware. Trotzdem können auch diese Tools mittels der vorgestellten Kriterien beurteilt werden.
 
-> NFDI Abstracts zu Research Software
-
-> https://www.dfg.de/download/pdf/foerderung/programme/nfdi/nfdi_konferenz_2020/nfdi4rse_abstract.pdf @loffler_2020
-
-> https://www.dfg.de/download/pdf/foerderung/programme/nfdi/nfdi_konferenz_2020/nfdixcs_abstract.pdf @goedicke_2020
+Forschungssoftware ist in besonderer Weise Herausforderungen nachhaltiger Entwicklung und Pflege ausgesetzt. Ein Hauptfaktor für mangelnde Nachhaltigkeit von Forschungssoftware ist der Mangel an langfristiger Finanzierung für `Forschungssoftware-Ingenieure`, die sich um die geeignete Architektur, Organisation, Implementierung, Dokumentation und Interaktion mit der Gemeinschaft für die Software kümmern, gepaart mit der Umsetzung von Maßnahmen, um die Software während und nach dem Entwicklungsprozess nachhaltig zu machen ([@anzt_environment_2020, 2](#anzt_environment_2020)). Einen Überblick über Bedarfe, Herausforderungen und Lösungsansätze zu Förderung und Finanzierund, Selektion, rechtliche Fragen, Organsiation und Governance, sowie Bündelung von Ressourcen wurden in einem Workshop der deRSE Konferenz in Potsdam 2019 entwickelt ([@bach_dersews19](#bach_dersews19)).
 
 ### Forschungssoftware als wissenschaftliche Leistung
 
@@ -70,30 +66,13 @@ In der modernen Forschung ist ein Arbeiten ohne digitale Werkzeuge undenkbar. Di
 
 Trotz der tragenden Rolle, die Forschungssoftware in manch einem Projekt hat, wird die Leistung der Personen, die hinter der Entwicklung und Programmierung stehen, akademisch nicht anerkannt ([@hettrick_2017](#hettrick_2017), [@scheliga_pampel_2017](#scheliga_pampel_2017) und [@katerbow_2018](#katerbow_2018)). Jedoch fließen einerseits bei der Entwicklung von Forschungssoftware teilweise jahrelange technische Erfahrung und Praxis ein. Andererseits wird aber auch Wissen über wissenschaftliche Standards und Praktiken angewendet. Durch die Umsetzung in Code wird Praxis und Wissen explizit gemacht und weiterentwickelt. Diese Leistungen gilt es zu würdigen und sichtbar zu machen ([@scheliga_pampel_2017](#scheliga_pampel_2017), [@katerbow_2018](#katerbow_2018) sowie [@helmholtz_web](#helmholtz_web)).
 
-Als erster Schritt in Richtung Sichtbarmachung wurde 2012 die Berufsbezeichnung des "Software Research Engineers" (RSE, RSEng) geprägt ([@hettrick_2017](#hettrick_2017) und [@baxter_2012](#baxter_2012)). Mittlerweile hat sich auch eine aktive, internationale und interdisziplinäre Gemeinschaft gebildet, die unter anderem auch in Deutschland als de-RSE e.V. tätig ist, Konferenzen organisiert und Empfehlungen gibt ([@anzt_environment_2020](#anzt_environment_2020)). Auch im internationalen Kontext entwickeln sich immer mehr nationale [RSE Sektionen](https://sorse.github.io/contact/chapters/) und gemeinsam von der RSE Community organisierte Konferenzen, wie z.B. [SORSE](https://sorse.github.io).
+Als erster Schritt in Richtung Sichtbarmachung wurde 2012 die Berufsbezeichnung des "Software Research Engineers" (RSE, RSEng) geprägt ([@hettrick_2017](#hettrick_2017) und [@baxter_2012](#baxter_2012)). Mittlerweile hat sich auch eine aktive, internationale und interdisziplinäre Gemeinschaft gebildet, die unter anderem auch in Deutschland als de-RSE e.V. tätig ist, Konferenzen organisiert und Empfehlungen gibt ([@anzt_environment_2020](#anzt_environment_2020)). Auch im internationalen Kontext entwickeln sich immer mehr nationale [RSE Sektionen](https://sorse.github.io/contact/chapters/) und gemeinsam von der RSE Community organisierte Konferenzen, wie z.B. [SORSE](https://sorse.github.io). Im Rahmen des Aufbaus einer `Nationalen Forschungsdateninfrastruktur (NFDI)` nehmen Forschungssoftware und RSEs einen großen Stellenwert in der wissenchaftlichen Praxis ein ([@loeffler_nfdi4rse20](#loeffler_nfdi4rse20) und [@goedicke_nfdixcs20](#goedicke_nfdixcs20)).
 
-> [MT] die nächsten zwei Absätze standen zunächst noch bei CARE, wo sie aber nicht passten. Sind auch gekürzt.
-> es wird (s. NFDI4Culture, RSE4NFDI, NFDI4Objects) erwähnt: passt das mit den von Florian genannten links oben bei 'Forschungssoftware' zusammen?
-
-Eine der Forderungen der de-RSE e.V. ist, dass Forschungssoftware mittels geeigneten Publikationsmodalitäten sichtbar gemacht werden soll, da ein Publikation und vor allem deren Auffindbarkeit redundante Arbeit vermeidet ([@anzt_environment_2020, 10](#anzt_environment_2020)). Dabei ist die eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Forschungssoftwareentwicklung an die entsprechenden Personen geknüpft werden. Dies eröffnet akademische Karrierewege, in denen bislang nur klassische Publikationen gewertet wurden. Zukünftig sollten aber in gleicher Weise auch Datenpublikationen, Softwareentwicklung und -publikationen (https://citation-file-format.github.io, https://doi.org/10.5281/zenodo.1003149), Annotationen, sowie deren Zitationen als Kriterien der Beurteilung der wissenschaftlichen Leistung sein (s. NFDI4Culture, NFDI4RSE [@loffler_2020](#loffler_2020), NFDI4Objects). 
+Eine der Forderungen der de-RSE e.V. ist, dass Forschungssoftware mittels geeigneten Publikationsmodalitäten sichtbar gemacht werden soll, da ein Publikation und vor allem deren Auffindbarkeit redundante Arbeit vermeidet ([@anzt_environment_2020, 10](#anzt_environment_2020)). Dabei ist die eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Forschungssoftwareentwicklung an die entsprechenden Personen geknüpft werden. Dies eröffnet akademische Karrierewege, in denen bislang nur klassische Publikationen gewertet wurden. Zukünftig sollten aber in gleicher Weise auch Datenpublikationen, Softwareentwicklung und -publikationen (https://citation-file-format.github.io, https://doi.org/10.5281/zenodo.1003149), Annotationen, sowie deren Zitationen als Kriterien der Beurteilung der wissenschaftlichen Leistung sein (s. NFDI4Culture, RSE4NFDI, NFDI4Objects).
 
 Ein Beispiel für die Nennung der Autorschaft bildet das einleitende Zitat, das die Erfahrungen der Archäologischen Informationen widerspiegelt. Allerdings gibt es grundlegende Unterschiede zu gewohnten Publikation von Aufsätzen und Büchern. Da die Entwicklung von Software auf bereits bestehenden Modulen aufbaut, muss das Verständnis von Autorenschaft und wie sie sich auch über die Lebenszeit der Software hinaus dokumentieren lässt spezifisch für Software erfolgen [@katz_software_2016](#katz_software_2016).
 
 Eine publizierte Software kann anschließend, ganz so wie in der bisherigen Praxis der altertumswissenschaftlichen Forschung, begutachtet werden. In einer Rezension kann diese dann einem breiteren Publikum vorgestellt werden. Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendiert die Redaktion der Archäologischen Informationen genau dies. Durch eine dedizierte Rezension von Software analog zu Rezensionen wissenschaftlicher Publikationen, wird die wissenschaftliche Leistung der Autoren und Autorinnen von Forschungssoftware mittels gewohnten Formaten sichtbar und anerkannt.
-
-
-### Herausforderungen für die nachhaltige Entwicklung, Bereitstellung und Pflege von Forschungssoftware
-
-> [MT] Wollen wir dieses Fass in diesem Beitrag wirklich aufmachen?
-> Ich denke, dass wir mit (guter) Forschungssoftware und dem Kriterienkatalog schon genug zu tun haben.
-> Was wir tun könnten ist am Ende noch einen Abschnitt einzufügen nach dem Motto 'was wir nicht behandelt haben, aber im Zusammenhang mit Forschungssoftware noch nicht zufriedenstellend gelöst wurde'. Dort könnte man dann kurz und bündig auf dieses und anderes verweisen
-> Oh, oder wir fügen das kurz und knapp unter F bei FAIR ein.
-
-> [FT] -> [MT] vllt nicht als extra Kapitel. Wichtig wäre es glaube ich nur, dass wir die Thematik auch hier vllt unter (Kap. Forschungssoftware) kurz erwähnen. Ein/zwei Sätze mehr wollte ich dazu nicht :-)
-
-> ([@bach_dersews19](#bach_dersews19)) https://de-rse.org/de/conf2019/talk/PVEXDH/slides.pdf
-
-> ([@anzt_environment_2020](#anzt_environment_2020)) -> p.2, re. oben
 
 ### Gute Forschungssoftware
 
@@ -235,34 +214,16 @@ Die Bedienbarkeit von Software ist von zentraler Bedeutung, da sie als Flaschenh
 
 Die folgenden technischen Merkmale sind Kriterien, die die Benutzbarkeit (Usability) betreffen. Weitere technische Merkmale aus einer eher Entwickler-zentrierten Perspektive betrachten wir weiter unten.
 
-#### Installation und Nutzungsumgebung
-* Wie sind die Hardwareanforderungen? Sind sie dokumentiert und getestet?
-* Auf welchen Endgeräten? (Mobil, Desktop, Web)
-* Lauffähigkeit auf welchen Betriebssystemen?
-* Installation oder Portable? Webapp? Kann die Software auch ohne Admin-Rechte installiert werden?
-* Werden zum Betrieb der Software weitere Programme benötigt, müssen Einstellungen am eigenen System geändert werden?
-* Wird die Installation mit einem Assistenten unterstützt? Welche Kompetenzen setzt die Installation voraus (Erfahrungen mit GitHub, mit der Commando Prompt)? Ist der Installationsvorgang ausreichend dokumentiert?
-* Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
-* Wie stabil verhält sich die Software?
-* Wie ist das Laufzeitverhalten? (Braucht die Software unnötig lange im Vergleich zu anderen vergleichbaren Programmen?)
-* Ist der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab?
+#### Installation, Lizenzierung, Laufzeitverhalten
+Obwohl die meiste Software inzwischen mit Installationsskripten ausgeliefert wird, die fast alle Schritte automatisieren, sind einige Anwendungen - vor allem aus dem Open Source und Private Sektor - nur als source code verfügbar, die selbst compiliert werden müssen. Dies erlaubt nur geschulten Personen, die Anwendung zum Laufen zu bringen, dafür können mehr Endgeräte damit bedient werden und Erweiterungen selber vorgenommen werden. Idealerweise wird ein Spektrum an Möglichkeiten angeboten, doch dies bedeutet zusätzlichen Aufwand für den Entwickler und wird deswegen zumeist nicht angeboten. Stattdessen stellt sich die Frage direkt an die IT Experte des Nutzers. Man muss dabei beachten, dass mehr und mehr Anwendungen web-basiert angeboten werden und damit Plattform-unabhängig(er) sind. Solche Anwendungen sind zumeist dann allerdings an eine (stabile) Netzanbindung gebunden, was gerade auf Ausgrabungen selten gegeben ist. Software, die dennoch offline nutzbarist, ist noch verhältnismäßig selten, wird aber in Zukunft zunehmen. 
+Für die Nutzer ist daher wichtig, von vorneherein zu wissen, auf wie viele Herausforderungen sie sich nlassen müssen, alleine um die Anwendung stabil zum Laufen zu kriegen. Insbesondere professionelle Anwendungen kommen mit einer klaren Liste von Spezifikationen, die sich an die ausführende Hardware und das Betriebssystem stellen um die Anwendung nutzen zu können - dieses Kriterium wird jedoch bei Open Source weniger häufig erfüllt. Idealerweise stellt eine Rezension solche Informationen zur Verfügung - wo vorhanden durch Verweis auf die angegebenen Spezifikationen und wo nicht vorhanden, so zumindest auf Basis des Kenntnisstandes des Benutzers. Dabei sollten die Rezensenten auf die eigene Umgebung verweisen und Erfahrung bei Installation und Ausführung der Software in diesem Kontext erläutern.
 
 #### Interface
-* Wie intuitiv verständlich ist das Arbeiten mit der Software?
-* Entsprechen etwa die Benennung der Kommandos, die Anordnung der Menüs oder die Abfolge der vorzunehmenden Aufgaben den Gewohnheiten, oder kommen der praktischen Arbeit entgegen?
-* Gibt die Software plausible Fehlermeldungen aus? Gibt es einen Log um Fehler nachvollziehen zu können?
-* In welchen Sprachen werden Nutzeroberflächen, Menüs und Hilfen angeboten?
-* Beachtet die Software lokale Anpassungen (andere Einheiten, andere Gepflogenheiten der Forscher in Land XYZ etc.)?
-* Müssen eigens zur Nutzung der Software bestimmte Kompetenzen und Kenntnisse erworben werden? Davon zu trennen ist das gegebenenfalls nötige fachliche Vorwissen etwa bei der Nutzung von Statistikprogrammen.
-* Ist die Anwendung behindertengerecht bedienbar und stützt sie sich auf Standards zur Barrierefreiheit wie z.B. [BITV2](http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html)?
+Nutzbarkeit ist stark bestimmt durch die Software-Oberfläche (UI) - diese mag in manchen Fällen graphisch gestützt sein, in anderen Fällen rein kommando-basiert sein. Die Komplexität der Oberfälche mag dabei für viele Nutzer ein No-Go-Kriterium sein und weite Forschungsfelder beschäftigen sich allein mit der Fragestellung, welche Benutzerführung intuitiv nachvollziehbar ist. Viele Faktoren spielen dabei eine Rolle, angefangen mit Gewöhnung an verschiedene, weit verbreitete Oberflächen-Gestaltungen, wie z.B. Windows gegenüber MAC OS, die jeweils einer anderen Philosophie folgen; aber auch kulturelle Faktoren spielen dabei eine große Rolle, wie alleine schon die Menü- und Text-Orientierung von links nach rechts.
+Die Bewertung der Benutzbarkeit der Oberfläche ist daher ein stark subjektives Kriterium, welches jedoche einige objektive(re) Aspekte mit sich bringen. So sind z.B. Verständlichkeit der Menü-Einträge oder der Kommandos, aber auch die Aussagekraft von Fehlermeldungen und die Bereitstellung einer ausführlichen Hilfe-Seite alles Aspekte die in der Rezension kritisch beugtachtet werden sollten. Barrierefreiheit ist bei Software noch leider ein unzureichend abgedecktes Kriterium, welches allerdings zunehmend Beachtung findet und daher in der Begutachtung berücksichtigt werden sollte. Da die Oberfläche einen hohen Entwicklungsaufwand darstellt, sollte die Kritik relativ zu Kosten und Nutzerspektrum erfolgen: an eine professionelle Software mit 1.000€ Lizenzgebühren darf sicher höhere Ansprüche gestellt werden, als an ein freies R-Paket. Um das subjektive Kriterium abzudecken, ist zudem empfehlenswert, dass die Rezensenten diese auch subjektiv anführen, um dem Leser ein eigenes Bild zu erlauben.
 
-#### Anschlussfähigkeit
-* Welche Datenformate werden von der Software verarbeitet (Inputformate) und in welchen Datenformaten erfolgt die Ausgabe (Outputformate).
-* Handelt es sich um offene oder proprietäre Datenformate?  
-* Handelt es sich um zukunftsfähige Datenformate in der Community - Zur Orientierung schlagen wir aktuell (Stand Sommer 2020) die IT-Empfehlungen des Forschungsdatenzentrums Archäologie & Altertumswissenschaften, IANUS vor [@ianus-forschungsdatenzentrum_fur_archaologie__altertumswissenschaften_it-empfehlungen_2014].
-* Hält sich die Anwendung an Standards welche im jeweiligen Kontext vorgegeben werden (z.B. W3C Standards zur Annotation oder auch archäologische Standards) und bildet diese standardkonform in den Daten ab?
-* Können andere Forschungscommunities durch den Export spezifischer Datenformate profitieren? (z.B. RDF [@lassila1998resource](#lassila1998resource) für Linked Data, GeoJSON für GIS community, TEI für Texte etc.)?
-* Ist die Anwendung sowohl für den Menschen als auch maschinenlesbar nutzbar (z.B. Gibt es Programmierschnittstellen (APIs) oder Webservices?)
+#### Interoperabilität
+Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl, welche Datenformate gelesen, als auch geschrieben werden können. Leider ist das Spektrum an proprietären Formaten auch bei Standard-Software groß und eine Anforderung an volle Kompatibilität sollte aus praktischen Gründen nie gestellt werden, geschweige denn, dass dieser von Rezensenten komplett erfasst werden könnte. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag klar und es ist hilfreich, im Rahmen einer Renzension diesen - soweit bekannt - anzuführen, so dass potenzielle Anwender die Kompatibilität zu ihren Anwendungen prüfen können.
 
 #### Zugänglichkeit, Hilfefunktionen und Community
 * Wo finde ich mehr Informationen zu dieser Software? Hyperlinks und Referenzen.
