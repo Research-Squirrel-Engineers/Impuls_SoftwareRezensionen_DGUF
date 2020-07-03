@@ -52,17 +52,13 @@ Die hier vorgestellten Überlegungen, Kriterien und Vorschläge sollen den Rezen
 
 ## Forschungssoftware
 
-Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen primär auf die Begutachtung von Forschungssoftware ab. Unter Forschungssoftware verstehen wir Software, die mit Fokus auf einen Einsatz in der Forschung entwickelt wurde, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809](#hettrick_2014_14809). Dies sind beispielsweise Programme, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen.
+Die weiter unten vorgestellten Kriterien zur Rezension von Software zielen primär auf die Begutachtung von Forschungssoftware ab. Unter Forschungssoftware verstehen wir Software, `die mit Fokus auf einen Einsatz in der Forschung entwickelt wurde`, also um Forschungsdaten zu erzeugen, zu verarbeiten oder zu analysieren [@hettrick_2014_14809](#hettrick_2014_14809). Dies sind beispielsweise Programme, die der Kalibrierung und Umrechnung von Messwerten, der Annotation von Texten und Objekten, oder der Bereitstellung sowie der Verknüpfung und Visualisierung fachlich relevanter Vokabulare dienen.
 
 Forschungssoftware kann entweder für einen sehr spezifischen Bedarf oder einen allgemeinen Anwendungsbereich entwickelt worden. Sie ist dabei stets Teil des Forschungsprozesses, der in allen seinen Punkten nachvollziehbar und soweit möglich reproduzierbar sein muss.
 
 Im Gegensatz zu Forschungssoftware steht Software, die zur Nutzung spezifischer Geräte erforderlich ist, wie etwa zur Vermessung, zur fotografischen Dokumentation oder zur Analyse von Oberflächen und Inhaltsstoffen. Häufig handelt es sich um proprietäre Software, die zusammen mit der Hardware vertrieben wird. Obwohl sie im Forschungsprozess eingesetzt wird, entspricht sie nicht unserem Verständnis von Forschungssoftware. Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inne haben, jedoch keinen eigentlichen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben, sind in unserem Sinne keine Forschungssoftware. Trotzdem können auch diese Tools mittels der vorgestellten Kriterien beurteilt werden.
 
-> NFDI Abstracts zu Research Software
-
-> https://www.dfg.de/download/pdf/foerderung/programme/nfdi/nfdi_konferenz_2020/nfdi4rse_abstract.pdf
-
-> https://www.dfg.de/download/pdf/foerderung/programme/nfdi/nfdi_konferenz_2020/nfdixcs_abstract.pdf
+Forschungssoftware ist in besonderer Weise Herausforderungen nachhaltiger Entwicklung und Pflege ausgesetzt. Ein Hauptfaktor für mangelnde Nachhaltigkeit von Forschungssoftware ist der Mangel an langfristiger Finanzierung für `Forschungssoftware-Ingenieure`, die sich um die geeignete Architektur, Organisation, Implementierung, Dokumentation und Interaktion mit der Gemeinschaft für die Software kümmern, gepaart mit der Umsetzung von Maßnahmen, um die Software während und nach dem Entwicklungsprozess nachhaltig zu machen ([@anzt_environment_2020, 2](#anzt_environment_2020)). Einen Überblick über Bedarfe, Herausforderungen und Lösungsansätze zu Förderung und Finanzierund, Selektion, rechtliche Fragen, Organsiation und Governance, sowie Bündelung von Ressourcen wurden in einem Workshop der deRSE Konferenz in Potsdam 2019 entwickelt ([@bach_dersews19](#bach_dersews19)).
 
 ### Forschungssoftware als wissenschaftliche Leistung
 
@@ -70,32 +66,13 @@ In der modernen Forschung ist ein Arbeiten ohne digitale Werkzeuge undenkbar. Di
 
 Trotz der tragenden Rolle, die Forschungssoftware in manch einem Projekt hat, wird die Leistung der Personen, die hinter der Entwicklung und Programmierung stehen akademisch nicht anerkannt ([@hettrick_2017](#hettrick_2017), [@scheliga_pampel_2017](#scheliga_pampel_2017) und [@katerbow_2018](#katerbow_2018)). Jedoch fließen einerseits bei der Entwicklung von Forschungssoftware teilweise jahrelange technische Erfahrung und Praxis ein. Andererseits wird aber auch Wissen über wissenschaftliche Standards und Praktiken angewendet. Durch die Umsetzung in Code wird Praxis und Wissen explizit gemacht und weiterentwickelt. Diese Leistungen gilt es zu würdigen und sichtbar zu machen ([@scheliga_pampel_2017](#scheliga_pampel_2017), [@katerbow_2018](#katerbow_2018) sowie [@helmholtz_web](#helmholtz_web)).
 
-Als erster Schritt in Richtung Sichtbarmachung wurde 2012 die Berufsbezeichnung des "Software Research Engineers" (RSE, RSEng) geprägt ([@hettrick_2017](#hettrick_2017) und [@baxter_2012](#baxter_2012)). Mittlerweile hat sich auch eine aktive, internationale und interdisziplinäre Gemeinschaft gebildet, die unter anderem auch in Deutschland als de-RSE e.V. tätig ist, Konferenzen organisiert und Empfehlungen gibt ([@anzt_environment_2020](#anzt_environment_2020)). Auch im internationalen Kontext entwickeln sich immer mehr nationale [RSE Sektionen](https://sorse.github.io/contact/chapters/) und gemeinsam von der RSE Community organisierte Konferenzen, wie z.B. [SORSE](https://sorse.github.io).
+Als erster Schritt in Richtung Sichtbarmachung wurde 2012 die Berufsbezeichnung des "Software Research Engineers" (RSE, RSEng) geprägt ([@hettrick_2017](#hettrick_2017) und [@baxter_2012](#baxter_2012)). Mittlerweile hat sich auch eine aktive, internationale und interdisziplinäre Gemeinschaft gebildet, die unter anderem auch in Deutschland als de-RSE e.V. tätig ist, Konferenzen organisiert und Empfehlungen gibt ([@anzt_environment_2020](#anzt_environment_2020)). Auch im internationalen Kontext entwickeln sich immer mehr nationale [RSE Sektionen](https://sorse.github.io/contact/chapters/) und gemeinsam von der RSE Community organisierte Konferenzen, wie z.B. [SORSE](https://sorse.github.io). Im Rahmen des Aufbaus einer `Nationalen Forschungsdateninfrastruktur (NFDI)` nehmen Forschungssoftware und RSEs einen großen Stellenwert in der wissenchaftlichen Praxis ein ([@loeffler_nfdi4rse20](#loeffler_nfdi4rse20) und [@goedicke_nfdixcs20](#goedicke_nfdixcs20)).
 
-> [MT] die nächsten zwei Absätze standen zunächst noch bei CARE, wo sie aber nicht passten. Sind auch gekürzt.
-> es wird (s. NFDI4Culture, RSE4NFDI, NFDI4Objects) erwähnt: passt das mit den von Florian genannten links oben bei 'Forschungssoftware' zusammen?
-
-Eine der Forderungen der de-RSE e.V. ist, dass Forschungssoftware mittels geeigneten Publikationsmodalitäten sichtbar gemacht werden soll, da ein Publikation und vor allem deren Auffindbarkeit redundante Arbeit vermeidet ([@anzt_environment_2020, 10](#anzt_environment_2020)). Dabei ist die eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Forschungssoftwareentwicklung an die entsprechenden Personen geknüpft werden. Dies eröffnet akademische Karrierewege, in denen bislang nur klassische Publikationen gewertet wurden. Zukünftig sollten aber in gleicher Weise auch Datenpublikationen, Softwareentwicklung und -publikationen (https://citation-file-format.github.io, https://doi.org/10.5281/zenodo.1003149), Annotationen, sowie deren Zitationen als Kriterien der Beurteilung der wissenschaftlichen Leistung sein (s. NFDI4Culture, RSE4NFDI, NFDI4Objects). Die eindeutige Zuweisung und die Sichtbarmachung der Autorenschaft wird zudem auch in der kritischen Auseinandersetzung mit dem Bias von Software eingefordert<sup>[2](#myfootnote2)</sup>.
-
-> [MT] Der letzte Satz und die Fußnote 2 passen hier nicht so gut in den Kontext. Entweder verschieben oder vlt. auch streichen
+Eine der Forderungen der de-RSE e.V. ist, dass Forschungssoftware mittels geeigneten Publikationsmodalitäten sichtbar gemacht werden soll, da ein Publikation und vor allem deren Auffindbarkeit redundante Arbeit vermeidet ([@anzt_environment_2020, 10](#anzt_environment_2020)). Dabei ist die eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Forschungssoftwareentwicklung an die entsprechenden Personen geknüpft werden. Dies eröffnet akademische Karrierewege, in denen bislang nur klassische Publikationen gewertet wurden. Zukünftig sollten aber in gleicher Weise auch Datenpublikationen, Softwareentwicklung und -publikationen (https://citation-file-format.github.io, https://doi.org/10.5281/zenodo.1003149), Annotationen, sowie deren Zitationen als Kriterien der Beurteilung der wissenschaftlichen Leistung sein (s. NFDI4Culture, RSE4NFDI, NFDI4Objects).
 
 Ein Beispiel für die Nennung der Autorschaft bildet das einleitende Zitat, das die Erfahrungen der Archäologischen Informationen widerspiegelt. Allerdings gibt es grundlegende Unterschiede zu gewohnten Publikation von Aufsätzen und Büchern. Da die Entwicklung von Software auf bereits bestehenden Modulen aufbaut, muss das Verständnis von Autorenschaft und wie sie sich auch über die Lebenszeit der Software hinaus dokumentieren lässt spezifisch für Software erfolgen [@katz_software_2016](#katz_software_2016).
 
 Eine publizierte Software kann anschließend, ganz so wie in der bisherigen Praxis der altertumswissenschaftlichen Forschung, begutachtet werden. In einer Rezension kann diese dann einem breiteren Publikum vorgestellt werden. Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendiert die Redaktion der Archäologischen Informationen genau dies. Durch eine dedizierte Rezension von Software analog zu Rezensionen wissenschaftlicher Publikationen, wird die wissenschaftliche Leistung der Autoren und Autorinnen von Forschungssoftware mittels gewohnten Formaten sichtbar und anerkannt.
-
-
-### Herausforderungen für die nachhaltige Entwicklung, Bereitstellung und Pflege von Forschungssoftware
-
-> [MT] Wollen wir dieses Fass in diesem Beitrag wirklich aufmachen?
-> Ich denke, dass wir mit (guter) Forschungssoftware und dem Kriterienkatalog schon genug zu tun haben.
-> Was wir tun könnten ist am Ende noch einen Abschnitt einzufügen nach dem Motto 'was wir nicht behandelt haben, aber im Zusammenhang mit Forschungssoftware noch nicht zufriedenstellend gelöst wurde'. Dort könnte man dann kurz und bündig auf dieses und anderes verweisen
-> Oh, oder wir fügen das kurz und knapp unter F bei FAIR ein.
-
-> [FT] -> [MT] vllt nicht als extra Kapitel. Wichtig wäre es glaube ich nur, dass wir die Thematik auch hier vllt unter (Kap. Forschungssoftware) kurz erwähnen. Ein/zwei Sätze mehr wollte ich dazu nicht :-)
-
-> ([@bach_dersews19](#bach_dersews19)) https://de-rse.org/de/conf2019/talk/PVEXDH/slides.pdf
-
-> ([@anzt_environment_2020](#anzt_environment_2020)) -> p.2, re. oben
 
 ### Gute Forschungssoftware
 
