@@ -236,26 +236,13 @@ Die Bedienbarkeit von Software ist von zentraler Bedeutung, da sie als Flaschenh
 
 Die folgenden technischen Merkmale sind Kriterien, die die Benutzbarkeit (Usability) betreffen. Weitere technische Merkmale aus einer eher Entwickler-zentrierten Perspektive betrachten wir weiter unten.
 
-#### Installation und Nutzungsumgebung
-* Wie sind die Hardwareanforderungen? Sind sie dokumentiert und getestet?
-* Auf welchen Endgeräten? (Mobil, Desktop, Web)
-* Lauffähigkeit auf welchen Betriebssystemen?
-* Installation oder Portable? Webapp? Kann die Software auch ohne Admin-Rechte installiert werden?
-* Werden zum Betrieb der Software weitere Programme benötigt, müssen Einstellungen am eigenen System geändert werden?
-* Wird die Installation mit einem Assistenten unterstützt? Welche Kompetenzen setzt die Installation voraus (Erfahrungen mit GitHub, mit der Commando Prompt)? Ist der Installationsvorgang ausreichend dokumentiert?
-* Läuft die Software auf einer Infrastruktur die mir selbst nicht gehört und die ggf. in Zukunft abgeschaltet werden könnte?
-* Wie stabil verhält sich die Software?
-* Wie ist das Laufzeitverhalten? (Braucht die Software unnötig lange im Vergleich zu anderen vergleichbaren Programmen?)
-* Ist der parallele Betrieb mit weiteren Anwendungen auf einem für den Aufgabenbereich typischen Rechner möglich oder werden Prozesse übermäßig verlangsamt, die Anwendung stürzt gar ab?
+#### Installation, Lizenzierung, Laufzeitverhalten
+Obwohl die meiste Software inzwischen mit Installationsskripten ausgeliefert wird, die fast alle Schritte automatisieren, sind einige Anwendungen - vor allem aus dem Open Source und Private Sektor - nur als source code verfügbar, die selbst compiliert werden müssen. Dies erlaubt nur geschulten Personen, die Anwendung zum Laufen zu bringen, dafür können mehr Endgeräte damit bedient werden und Erweiterungen selber vorgenommen werden. Idealerweise wird ein Spektrum an Möglichkeiten angeboten, doch dies bedeutet zusätzlichen Aufwand für den Entwickler und wird deswegen zumeist nicht angeboten. Stattdessen stellt sich die Frage direkt an die IT Experte des Nutzers. Man muss dabei beachten, dass mehr und mehr Anwendungen web-basiert angeboten werden und damit Plattform-unabhängig(er) sind. Solche Anwendungen sind zumeist dann allerdings an eine (stabile) Netzanbindung gebunden, was gerade auf Ausgrabungen selten gegeben ist. Software, die dennoch offline nutzbarist, ist noch verhältnismäßig selten, wird aber in Zukunft zunehmen. 
+Für die Nutzer ist daher wichtig, von vorneherein zu wissen, auf wie viele Herausforderungen sie sich nlassen müssen, alleine um die Anwendung stabil zum Laufen zu kriegen. Insbesondere professionelle Anwendungen kommen mit einer klaren Liste von Spezifikationen, die sich an die ausführende Hardware und das Betriebssystem stellen um die Anwendung nutzen zu können - dieses Kriterium wird jedoch bei Open Source weniger häufig erfüllt. Idealerweise stellt eine Rezension solche Informationen zur Verfügung - wo vorhanden durch Verweis auf die angegebenen Spezifikationen und wo nicht vorhanden, so zumindest auf Basis des Kenntnisstandes des Benutzers. Dabei sollten die Rezensenten auf die eigene Umgebung verweisen und Erfahrung bei Installation und Ausführung der Software in diesem Kontext erläutern.
 
 #### Interface
-* Wie intuitiv verständlich ist das Arbeiten mit der Software?
-* Entsprechen etwa die Benennung der Kommandos, die Anordnung der Menüs oder die Abfolge der vorzunehmenden Aufgaben den Gewohnheiten, oder kommen der praktischen Arbeit entgegen?
-* Gibt die Software plausible Fehlermeldungen aus? Gibt es einen Log um Fehler nachvollziehen zu können?
-* In welchen Sprachen werden Nutzeroberflächen, Menüs und Hilfen angeboten?
-* Beachtet die Software lokale Anpassungen (andere Einheiten, andere Gepflogenheiten der Forscher in Land XYZ etc.)?
-* Müssen eigens zur Nutzung der Software bestimmte Kompetenzen und Kenntnisse erworben werden? Davon zu trennen ist das gegebenenfalls nötige fachliche Vorwissen etwa bei der Nutzung von Statistikprogrammen.
-* Ist die Anwendung behindertengerecht bedienbar und stützt sie sich auf Standards zur Barrierefreiheit wie z.B. [BITV2](http://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html)?
+Nutzbarkeit ist stark bestimmt durch die Software-Oberfläche (UI) - diese mag in manchen Fällen graphisch gestützt sein, in anderen Fällen rein kommando-basiert sein. Die Komplexität der Oberfälche mag dabei für viele Nutzer ein No-Go-Kriterium sein und weite Forschungsfelder beschäftigen sich allein mit der Fragestellung, welche Benutzerführung intuitiv nachvollziehbar ist. Viele Faktoren spielen dabei eine Rolle, angefangen mit Gewöhnung an verschiedene, weit verbreitete Oberflächen-Gestaltungen, wie z.B. Windows gegenüber MAC OS, die jeweils einer anderen Philosophie folgen; aber auch kulturelle Faktoren spielen dabei eine große Rolle, wie alleine schon die Menü- und Text-Orientierung von links nach rechts.
+Die Bewertung der Benutzbarkeit der Oberfläche ist daher ein stark subjektives Kriterium, welches jedoche einige objektive(re) Aspekte mit sich bringen. So sind z.B. Verständlichkeit der Menü-Einträge oder der Kommandos, aber auch die Aussagekraft von Fehlermeldungen und die Bereitstellung einer ausführlichen Hilfe-Seite alles Aspekte die in der Rezension kritisch beugtachtet werden sollten. Barrierefreiheit ist bei Software noch leider ein unzureichend abgedecktes Kriterium, welches allerdings zunehmend Beachtung findet und daher in der Begutachtung berücksichtigt werden sollte. Da die Oberfläche einen hohen Entwicklungsaufwand darstellt, sollte die Kritik relativ zu Kosten und Nutzerspektrum erfolgen: an eine professionelle Software mit 1.000€ Lizenzgebühren darf sicher höhere Ansprüche gestellt werden, als an ein freies R-Paket. Um das subjektive Kriterium abzudecken, ist zudem empfehlenswert, dass die Rezensenten diese auch subjektiv anführen, um dem Leser ein eigenes Bild zu erlauben.
 
 #### Anschlussfähigkeit
 * Welche Datenformate werden von der Software verarbeitet (Inputformate) und in welchen Datenformaten erfolgt die Ausgabe (Outputformate).
