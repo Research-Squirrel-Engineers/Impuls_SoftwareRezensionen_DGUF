@@ -22,23 +22,6 @@ csl: apa-6th-edition.csl
 
 ---
 
-## Gliederungsvorschlag
-
-* [Zielsetzung](#Zielsetzung-des-Beitrags)
-* [Forschungssoftware](#Forschungssoftware)
-  * [Forschungssoftware als wissenschafltiche Leistung](#forschungssoftware-als-wissenschaftliche-leistung)
-  * [Gute Forschungssoftware](#Gute-Forschungssoftware)
-    * [FAIR-Prinzipien](#FAIR-Prinzipien)
-    * [Open Science](#open-science)
-    * [CARE-Prinzipien und Ethos](#care-prinzipien-und-ethos)
-  * [Fachliche und technische Beurteilung](#Fachliche-und-technische-Beurteilung)
-* [Anwendungsbereich dieser Handreichung](Anwendungsbereich-dieser-Handreichung) (Benötigen wir diesen Abschnitt?)
-* [Vorgehensweise bei der Rezension von Software](#Vorgehensweise-bei-der-Rezension-von-Software)
-* [Kriterien zur Beurteilung von Software](#Kriterien-zur-Beurteilung-von-Software)
-  * ... alle Unterpunkte ab [dort](#Kriterien-zur-Beurteilung-von-Software)
-* Tabellarische Zusammenfassung?
-
----
 
 ## Zielsetzung des Beitrags
 Ziel dieses Beitrags<sup>[1](#myfootnote1)</sup> ist es Fragen und Themen aufzuwerfen, die für die Rezension von Forschungssoftware und im Forschungsprozess eingesetzten digitalen Werkzeugen relevant sind.
