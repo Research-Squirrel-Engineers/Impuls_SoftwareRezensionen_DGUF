@@ -82,7 +82,6 @@ Software wird durch die Speicherung zusammen mit ihren Metadaten in dedizierten 
 
 Die Vergabe von persistenten URLs durch Repositorien, sowie die Nennung der Autorenschaft ermöglicht das Zitieren von Forschungssoftware. Wichtig ist hierbei, dass Software, da sie im Gegensatz zu herkömmlichen Publikationen kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird, damit bestimmte Versionen zitiert werden können [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg).
 
-
 ##### Accessible (Zugänglich)
 
 Entsprechend den FAIR-Prinzipien sollte Software und die sie beschreibenden Metadaten über ihre persistente URL erreichbar sein. Dies sollte auch maschinell über ein offenes und standardisierte Kommunikationsprotokoll möglich sein [@lamprecht_towards_2019](#lamprecht_towards_2019).
@@ -95,11 +94,9 @@ Weitere Aspekte, welche die Zugänglichkeit erleichtern, sind die Verfügbarkeit
 
 Interoperabilität von Software kann sich zum Einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum Anderen verweist sie auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 46 f.](#lamprecht_towards_2019). Beides wird durch die Verwendung von Standards ermöglicht, welche eine Installation von Software auf unterschiedlichen Betriebssystemen ermöglichen.
 
-
 ##### Reusable (Nachnutzbar)
 
 Die Nachnutzbarkeit von Software hängt von mehreren Komponenten ab. Die Metadaten und eine umfassende Dokumentation der Software sollten es anderen ermöglichen Ergebnisse zu reproduzieren, sowie eigene Daten und veränderte Anwendungsfälle zu prozessieren. Eine geeignete Lizenz, welche auch die abhängigen Softwarekomponenten berücksichtigt gibt zudem darüber Auskunft welche Regeln bei der Nutzung gelten und ob eine Weiterentwicklung des Codes möglich ist. Für die Zitierbarkeit ist eine Nennung der Beteiligten notwendig [@lamprecht_towards_2019, 48-49](#lamprecht_towards_2019).
-
 
 #### Open Science
 
@@ -111,7 +108,6 @@ In den Leitlinien der DFG klingt die Öffnung von Software-Quellcode im Zusammen
 
 Mit der Forderung nach der Offenlegung des Quellcodes (Open Source), wird auch dem Gedanken der Nachnutzbarkeit entsprochen. Die Offenlegung wird erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen (Free Source). Letzteres wird als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.). oder von Research-Software-Engineers in der "de-RSE e.V." [@anzt_environment_2020](#anzt_environment_2020).
 
-
 #### CARE-Prinzipien und Ethos
 
 In den Leitlinien der DFG werden in Leitline 2 und 10 ethische Aspekte im Forschungsprozess angesprochen, die auch im Bereich der Forschungssoftware Beachtung finden sollten.
@@ -120,18 +116,24 @@ Tatsächlich ist Forschungssoftware nicht politisch neutral. Ihre Architektur re
 
 Jenseits dieser Beispiele zeigen hochaktuelle, technische Entwicklungen, dass schon Algorithmen an sich sehr wohl Gruppen und Individuen diskriminieren können, wie etwa im Fall von Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen optimiert wurde [@breland_how_2017](#breland_how_2017). <!-- CS: Ich würde den folgenden Satz in eine Fußnote packen: "Dieses Beispiel zeigt auch, ..."--> Auch für diese kritische Auseinandersetzung mit Forschungssoftware sollte deren Autorenschaft zuweisbar gemacht werden.
 
-Eine Personengruppe, die besonders oft zum passiven Spielball von Forschungssoftware und Datenverarbeitung geworden ist, sind indigene Bevölkerungsgruppen. Gerade in den Altertumswissenschaften, in denen häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten die Rechte dieser Bevölkerung bezüglich ihres kulturellen Erbes und des damit zusammenhängenden Wissens berücksichtigt werden. Hierfür eignen sich die CARE-Prinzipien (https://www.gida-global.org/care). Sie wurden von der Global Indigenous Data Alliance (GIDA) und der Research Data Alliance (RDA) 2018 auf Basis der UN Declaration on the Rights of Indigenous Peoples (UNDRIP) erarbeitet und konzentriert sich explizit auf Forschungsdaten. Ihre vier Grundpfeiler Kollektiver Nutzen (**C**ollective Benefit), Souveränität (**A**uthority to Control), Verantwortung (**R**esponsibility) und Ethik (**E**thics) sind jedoch auch für Forschungssoftware und für jeden Kontext, in dem ein Ungleichgewicht von Machtverhältnissen existiert.
+Eine Personengruppe, die besonders oft zum passiven Spielball von Forschungssoftware und Datenverarbeitung geworden ist, sind indigene Bevölkerungsgruppen. Gerade in den Altertumswissenschaften, in denen häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten die Rechte dieser Bevölkerung bezüglich ihres kulturellen Erbes und des damit zusammenhängenden Wissens berücksichtigt werden. Hierfür eignen sich die CARE-Prinzipien (https://www.gida-global.org/care). Sie wurden von der Global Indigenous Data Alliance (GIDA) und der Research Data Alliance (RDA) 2018 auf Basis der UN Declaration on the Rights of Indigenous Peoples (UNDRIP) erarbeitet und konzentriert sich explizit auf Forschungsdaten. Ihre vier Grundpfeiler Kollektiver Nutzen (Collective Benefit), Souveränität (Authority to Control), Verantwortung (Responsibility) und Ethik (Ethics) sind jedoch auch für Forschungssoftware und für jeden Kontext, in dem ein Ungleichgewicht von Machtverhältnissen existiert.
 
-- **C**ollective Benefit: Dieser Punkt fordert den gemeinschaftlichen Nutzen der Datenerhebung für die indigene Bevölkerung. Er lässt sich leicht auf Software übertragen: Software, die auf Wissen und Erfahrungen von indigenen Bevölkerungen beruht, soll für diese Gruppen einen Nutzen haben. Hier geht es darum, dass Menschen, die einen wichtigen Beitrag für die Entwicklung geleistet haben, honoriert werden und die Anwendung nicht nur Fremden zugute kommt (monetär, durch Reputation u.ä.).
+##### Collective Benefit (Kollektiver Nutzen)
 
-- **A**uthority to Control: Die Kontrollmacht über die eigenen Daten ist eine wichtige Forderung Indigener Menschen. Auch dies lässt sich auf Software anwenden: Die Entscheidungsmacht über die Verwendung von anhand ihres Wissens entwickelter Software soll bei der Indigenen Bevölkerung liegen. Dieser Punkt kann verhindern, dass indigenes Wissen unangemessen ausgenutzt wird und kann durch die computertechnische Ermächtigung von Indigenen verstärkt werden.
+Dieser Punkt fordert den gemeinschaftlichen Nutzen der Datenerhebung für die indigene Bevölkerung. Er lässt sich leicht auf Software übertragen: Software, die auf Wissen und Erfahrungen von indigenen Bevölkerungen beruht, soll für diese Gruppen einen Nutzen haben. Hier geht es darum, dass Menschen, die einen wichtigen Beitrag für die Entwicklung geleistet haben, honoriert werden und die Anwendung nicht nur Fremden zugute kommt (monetär, durch Reputation u.ä.).
 
-- **R**esponsibility: Wer mit Indigenen Daten arbeitet, hat die Verantwortung nachvollziehbar aufzuzeigen, wie diese Daten den Indigenen Gruppen zugute kommen. Entwickler von Software haben Verantwortung für die positive Folgen der Software für die Indigenen Gruppen zu übernehmen. Bei der Entwicklung ist es die Verantwortung der Produzenten mögliche schädliche Konsequenzen der Software auszumerzen. Dies kann durch inklusve Ansätze bei der Entwicklung verfolgt werden.
+##### Authority to Control (Souveränität)
 
-- **E**thics: Rechte und Wohl der indigenen Bevölkerung sollten an erster Stelle bei der Erarbeitung und Bearbeitung eines Datensatzes stehen. Für Software gilt das gleiche, wenn sie indigene Völker betrifft.
+Die Kontrollmacht über die eigenen Daten ist eine wichtige Forderung Indigener Menschen. Auch dies lässt sich auf Software anwenden: Die Entscheidungsmacht über die Verwendung von anhand ihres Wissens entwickelter Software soll bei der Indigenen Bevölkerung liegen. Dieser Punkt kann verhindern, dass indigenes Wissen unangemessen ausgenutzt wird und kann durch die computertechnische Ermächtigung von Indigenen verstärkt werden.
+
+##### Responsibility (Verantwortung)
+
+Wer mit Indigenen Daten arbeitet, hat die Verantwortung nachvollziehbar aufzuzeigen, wie diese Daten den Indigenen Gruppen zugute kommen. Entwickler von Software haben Verantwortung für die positive Folgen der Software für die Indigenen Gruppen zu übernehmen. Bei der Entwicklung ist es die Verantwortung der Produzenten mögliche schädliche Konsequenzen der Software auszumerzen. Dies kann durch inklusve Ansätze bei der Entwicklung verfolgt werden.
+
+##### Ethics (Ethik)
+Rechte und Wohl der indigenen Bevölkerung sollten an erster Stelle bei der Erarbeitung und Bearbeitung eines Datensatzes stehen. Für Software gilt das gleiche, wenn sie indigene Völker betrifft.
 
 > [SCS] muss nochmal auf angemessene Sprache geprüft werden (Indigene oder indigene wird zB im englischsprachigen diskutiert. "Bevölkerungen" oder "Völker" etc)
-
 
 ## Fachliche und technische Beurteilung
 
