@@ -62,13 +62,14 @@ Eine publizierte Software kann anschließend, ganz so wie in der bisherigen Prax
 
 ### Gute Forschungssoftware
 
-Um überhaupt Kriterien zur Rezension und Bewertung von Forschungssoftware aufstellen zu können, stellt sich zunächst die Frage was überhaupt eine gute und modernen Standards entsprechende Forschungssoftware ausmacht.
+Um überhaupt Kriterien zur Rezension und Bewertung von Forschungssoftware aufstellen zu können, stellt sich zunächst die Frage, was überhaupt gute und modernen Standards entsprechende Forschungssoftware ausmacht. Natürlich gehören dazu eine Vielzahl fachlicher und technischer Aspekte, die weiter unten beleuchtet werden sollen. Darüber hinaus muss Software aber wie jedes andere Werkzeug zunächst hinsichtlich ihrer generellen Eignung für nachhaltiges und ethisches wissenschaftliches Arbeiten bewertet werden.
 
-Da die Software ein integraler Bestandteil des Forschungsprozesses ist, gelten zunächst die "Leitlinien zur Sicherung guter wissenschaftlicher Praxis", wie sie die DFG ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) fordert. Allein hieraus ergeben sich schon wichtige Anforderungen wie die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu den Ergebnissen sowie der öffentlicher Zugang der Ergebnisse und die Archivierung der Materialien die zu einem Forschungsergebnis geführt haben.
+Die Deutsche Forschungsgemeinschaft (DFG) formuliert mit ihren "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) eine Reihe von Vorgaben für gutes wissenschaftliches Arbeiten. Die Leitlinien entsprechen einem internationalen Konsens und etablierten Prinzipien. Zu den Anforderungen gehören etwa die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu Ergebnissen, die öffentliche Zugänglichkeit von Ergebnissen und die Archivierung der notwendigen Materialien, die zu Ergebnissen geführt haben.
 
-Wir möchten auf ein paar der Aspekte, die sich aus den DFG-Leitlinien ergeben, näher eingehen. Sie entsprechen dem internationalen Konsens und etablierten Prinzipien: die in der Erläuterung zu Leitlinie 13 - Herstellung von öffentlichem Zugang zu Forschungsergebnissen - genannten FAIR-Prinzipien, sowie die Prinzipien der Offenen Wissenschaft (Open Science). Außerdem sollen die CARE-Prinzipien, welche in den Leitlinien 2 und 10 der DFG anklingen, erläutert werden. Hinweise zur Umsetzung der DFG-Leitlinien in Bezug auf Forschungssoftware sind unter [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg) zu finden.
+Einige der Kriterien, die in den DFG-Leitlinien explizit und implizit anklingen, sollen im folgenden näher ausgeführt werden: Die in der Erläuterung zu Leitlinie 13 (*Herstellung von öffentlichem Zugang zu Forschungsergebnissen*) genannten FAIR-Prinzipien, die Prinzipien der Offenen Wissenschaft (Open Science) und zuletzt die CARE-Prinzipien, welche in den Leitlinien 2 und 10 anklingen. Darüber hinaus sind weitere Hinweise zur Umsetzung der DFG-Leitlinien in Bezug auf Forschungssoftware unter [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg) zu finden.
 
 #### FAIR-Prinzipien
+
 Die FAIR-Prinzipien wurden 2016 als FAIR Data Principles veröffentlicht [@wilkinson_2016](#wilkinson_2016). Sie zielen primär auf Forschungsdaten und deren Metadaten ab und fordern dass diese auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable) sind. Die Prinzipien können auch auf Forschungssoftware und deren Metadaten übertragen werden ([@lamprecht_towards_2019](#lamprecht_towards_2019), [@goedicke_2020](#goedicke_2020)).
 
 Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtlich der grundsätzlichen Ansprüche an Interoperabilität bei der Verwendung in einem Workflow und der Verwendung von Standards und etablierten Paradigmen des Programmierens und der Dokumentation. Die FAIR-Prinzipien beziehen sich nicht auf die wissenschaftliche Qualität des Tools. Dennoch ergeben sich eine Anzahl von Kritertien, die in die Beurteilung einer Forschungssoftware einfließen und von Angaben, die im Rahmen der Rezension als Serviceleistung zu erbringen sind, wie die Autorenschaft, das zur Speicherung verwendete Repositorium oder mögliche nötige Voraussetzungen zur Verwendbarkeit.
@@ -80,7 +81,6 @@ Ein Fokus der FAIR-Prinzipien ist, dass Daten, bzw. Forschungssoftware, und Meta
 Software wird durch die Speicherung zusammen mit ihren Metadaten in dedizierten Softwarerepositorien auffindbar, welche kommerziell, community-basiert und in vielen weiteren Formen starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen geben. Die Auffindbarkeit wird durch die fachwissenschaftliche Einbindung und die klassische Arbeit von Forschungsinfrastrukturen zusätzlich erhöht, da sie Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards zur Indexierung betreiben ([@lamprecht_towards_2019](#lamprecht_towards_2019) und [@anzt_environment_2020, 10](#anzt_environment_2020)).
 
 Die Vergabe von persistenten URLs durch Repositorien, sowie die Nennung der Autorenschaft ermöglicht das Zitieren von Forschungssoftware. Wichtig ist hierbei, dass Software, da sie im Gegensatz zu herkömmlichen Publikationen kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird, damit bestimmte Versionen zitiert werden können [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg).
-
 
 ##### Accessible (Zugänglich)
 
@@ -94,11 +94,9 @@ Weitere Aspekte, welche die Zugänglichkeit erleichtern, sind die Verfügbarkeit
 
 Interoperabilität von Software kann sich zum Einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum Anderen verweist sie auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 46 f.](#lamprecht_towards_2019). Beides wird durch die Verwendung von Standards ermöglicht, welche eine Installation von Software auf unterschiedlichen Betriebssystemen ermöglichen.
 
-
 ##### Reusable (Nachnutzbar)
 
 Die Nachnutzbarkeit von Software hängt von mehreren Komponenten ab. Die Metadaten und eine umfassende Dokumentation der Software sollten es anderen ermöglichen Ergebnisse zu reproduzieren, sowie eigene Daten und veränderte Anwendungsfälle zu prozessieren. Eine geeignete Lizenz, welche auch die abhängigen Softwarekomponenten berücksichtigt gibt zudem darüber Auskunft welche Regeln bei der Nutzung gelten und ob eine Weiterentwicklung des Codes möglich ist. Für die Zitierbarkeit ist eine Nennung der Beteiligten notwendig [@lamprecht_towards_2019, 48-49](#lamprecht_towards_2019).
-
 
 #### Open Science
 
@@ -110,33 +108,32 @@ In den Leitlinien der DFG klingt die Öffnung von Software-Quellcode im Zusammen
 
 Mit der Forderung nach der Offenlegung des Quellcodes (Open Source), wird auch dem Gedanken der Nachnutzbarkeit entsprochen. Die Offenlegung wird erweitert um die Forderung, den Code zudem frei nutzbar zur Verfügung zu stellen (Free Source). Letzteres wird als FOSS (Free/Libre Open Source Software) bezeichnet und wird in Deutschland z.B. von anwendungsbezogenen Wissenschaftler\*innen und Entwickler\*innen aus der Geoinformatik vertreten (FOSSGIS e.V.). oder von Research-Software-Engineers in der "de-RSE e.V." [@anzt_environment_2020](#anzt_environment_2020).
 
-
 #### CARE-Prinzipien und Ethos
 
 In den Leitlinien der DFG werden in Leitline 2 und 10 ethische Aspekte im Forschungsprozess angesprochen, die auch im Bereich der Forschungssoftware Beachtung finden sollten.
 
-Forschungssoftware ist nicht neutral. Sie entsteht nicht unter neutralen Bedingungen, ihre Nutzung erfolgt unter spezifischen Voraussetzungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen diese Gewohnheiten und Konventionen zur (unbewussten) Festigung von Privilegien und Diskriminierungen bei, etwa wenn Tutorials ausschließlich männliche Nutzer kennen, oder die an der Entwicklung beteiligten Personen nicht genannt werden.
+Tatsächlich ist Forschungssoftware nicht politisch neutral. Ihre Architektur reflektiert ihre Entstehungsbedingungen, ihre Nutzung erfolgt unter spezifischen Voraussetzungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen gerade diese Gewohnheiten zur (unbewussten) Festigung von Privilegien und Diskriminierungen bei: Für archäologische Feldarbeit wird oft Software zur Datenaufnahme eingesetzt, die für die Mehrheit der Mitarbeiter\*innen vor Ort aufgrund einer Sprachbarriere nicht verständlich ist, proprietäre Software oder teure Hardware benachteiligt Forscher und Forscherinnen mit weniger Finanzmitteln und Handbücher kennen oft ausschließlich männliche Nutzer. 
 
-Wie angemessen ist es beispielsweise, wenn für die archäologische Feldarbeit Software zur Datenaufnahme eingesetzt wird, welche für die Mehrheit der Mitarbeiter\*innen vor Ort aufgrund einer Sprachbarriere nicht verständlich ist? Diskriminiert freie und offen lizensierte Software, die aber für ihre Verwendung proprietäre Software oder teure Hardware voraussetzt Forscher und Forscherinnen mit weniger Finanzmitteln?
+Jenseits dieser Beispiele zeigen hochaktuelle, technische Entwicklungen, dass schon Algorithmen an sich sehr wohl Gruppen und Individuen diskriminieren können, wie etwa im Fall von Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen optimiert wurde [@breland_how_2017](#breland_how_2017). <!-- CS: Ich würde den folgenden Satz in eine Fußnote packen: "Dieses Beispiel zeigt auch, ..."--> Auch für diese kritische Auseinandersetzung mit Forschungssoftware sollte deren Autorenschaft zuweisbar gemacht werden.
 
-Dass Software Gruppen und Individuen diskriminieren kann, zeigen entsprechende Untersuchungen, wie etwa der Fall von Facial-Recognition-Software, die ausschließlich auf die Erkennung hellhäutiger Menschen geeicht ist [@breland_how_2017](#breland_how_2017). Auch für diese kritische Auseinandersetzung mit Forschungssoftware sollte deren Autorenschaft zuweisbar gemacht werden.
+Eine Personengruppe, die besonders oft zum passiven Spielball von Forschungssoftware und Datenverarbeitung geworden ist, sind indigene Bevölkerungsgruppen. Gerade in den Altertumswissenschaften, in denen häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten die Rechte dieser Bevölkerung bezüglich ihres kulturellen Erbes und des damit zusammenhängenden Wissens berücksichtigt werden. Hierfür eignen sich die CARE-Prinzipien (https://www.gida-global.org/care). Sie wurden von der Global Indigenous Data Alliance (GIDA) und der Research Data Alliance (RDA) 2018 auf Basis der UN Declaration on the Rights of Indigenous Peoples (UNDRIP) erarbeitet und konzentriert sich explizit auf Forschungsdaten. Ihre vier Grundpfeiler Kollektiver Nutzen (Collective Benefit), Souveränität (Authority to Control), Verantwortung (Responsibility) und Ethik (Ethics) sind jedoch auch für Forschungssoftware und für jeden Kontext relevant, in dem ein Ungleichgewicht von Machtverhältnissen existiert.
 
-Gerade in den Altertumswissenschaften, in denen häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten die Rechte der indigenen und einheimischen Bevölkerung bezüglich ihres kulturellen Erbes und des damit zusammenhängenden Wissens berücksichtigt werden. Hierfür eignen sich die CARE-Prinzipien (https://www.gida-global.org/care). Sie wurden von der Global Indigenous Data Alliance (GIDA) und der Research Data Alliance (RDA) 2018 auf Basis der UN Declaration on the Rights of Indigenous Peoples (UNDRIP) erarbeitet.
+##### Collective Benefit (Kollektiver Nutzen)
 
-Das CARE-Akronym steht für folgende vier Prinzipien, welche auch bei der Entwicklung von Forschungssoftware Beachtung finden sollten:
+Dieser Punkt fordert den gemeinschaftlichen Nutzen der Datenerhebung für die indigene Bevölkerung. Er lässt sich leicht auf Software übertragen: Software, die auf Wissen und Erfahrungen von indigenen Bevölkerungen beruht, soll für diese Gruppen einen Nutzen haben. Hier geht es darum, dass Menschen, die einen wichtigen Beitrag für die Entwicklung geleistet haben, honoriert werden und die Anwendung nicht nur Fremden zugute kommt (monetär, durch Reputation u.ä.).
 
-> [MT] hier könnte man nach jedem Prinzip eventuell in ein, zwei Sätzen die Relevanz für Software hervorzuheben
+##### Authority to Control (Souveränität)
 
-- **C**ollective Benefit: Dieser Punkt fordert den gemeinschaftlichen Nutzen der Datenerhebung für die indigene Bevölkerung. Er lässt sich leicht auf Software übertragen: Software, die auf Wissen und Erfahrungen von indigenen Bevölkerungen beruht, soll für diese Gruppen einen Nutzen haben. Hier geht es darum, dass Menschen, die einen wichtigen Beitrag für die Entwicklung geleistet haben, honoriert werden und die Anwendung nicht nur Fremden zugute kommt (monetär, durch Reputation u.ä.).
+Die Kontrollmacht über die eigenen Daten ist eine wichtige Forderung Indigener Menschen. Auch dies lässt sich auf Software anwenden: Die Entscheidungsmacht über die Verwendung von anhand ihres Wissens entwickelter Software soll bei der Indigenen Bevölkerung liegen. Dieser Punkt kann verhindern, dass indigenes Wissen unangemessen ausgenutzt wird und kann durch die computertechnische Ermächtigung von Indigenen verstärkt werden.
 
-- **A**uthority to Control: Die Kontrollmacht über die eigenen Daten ist eine wichtige Forderung Indigener Menschen. Auch dies lässt sich auf Software anwenden: Die Entscheidungsmacht über die Verwendung von anhand ihres Wissens entwickelter Software soll bei der Indigenen Bevölkerung liegen. Dieser Punkt kann verhindern, dass indigenes Wissen unangemessen ausgenutzt wird und kann durch die computertechnische Ermächtigung von Indigenen verstärkt werden.
+##### Responsibility (Verantwortung)
 
-- **R**esponsibility: Wer mit Indigenen Daten arbeitet, hat die Verantwortung nachvollziehbar aufzuzeigen, wie diese Daten den Indigenen Gruppen zugute kommen. Entwickler von Software haben Verantwortung für die positive Folgen der Software für die Indigenen Gruppen zu übernehmen. Bei der Entwicklung ist es die Verantwortung der Produzenten mögliche schädliche Konsequenzen der Software auszumerzen. Dies kann durch inklusve Ansätze bei der Entwicklung verfolgt werden.
+Wer mit Indigenen Daten arbeitet, hat die Verantwortung nachvollziehbar aufzuzeigen, wie diese Daten den Indigenen Gruppen zugute kommen. Entwickler von Software haben Verantwortung für die positive Folgen der Software für die Indigenen Gruppen zu übernehmen. Bei der Entwicklung ist es die Verantwortung der Produzenten mögliche schädliche Konsequenzen der Software auszumerzen. Dies kann durch inklusve Ansätze bei der Entwicklung verfolgt werden.
 
-- **E**thics: Rechte und Wohl der indigenen Bevölkerung sollten an erster Stelle bei der Erarbeitung und Bearbeitung eines Datensatzes stehen. Für Software gilt das gleiche, wenn sie indigene Völker betrifft.
+##### Ethics (Ethik)
+Rechte und Wohl der indigenen Bevölkerung sollten an erster Stelle bei der Erarbeitung und Bearbeitung eines Datensatzes stehen. Für Software gilt das gleiche, wenn sie indigene Völker betrifft.
 
 > [SCS] muss nochmal auf angemessene Sprache geprüft werden (Indigene oder indigene wird zB im englischsprachigen diskutiert. "Bevölkerungen" oder "Völker" etc)
-
 
 ## Fachliche und technische Beurteilung
 
