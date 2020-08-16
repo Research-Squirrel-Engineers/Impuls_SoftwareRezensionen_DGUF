@@ -11,6 +11,7 @@ author:
     name: Timo Homburg
     affiliation: Hochschule Mainz 
     orcid: 0000-0002-9499-5840
+    bio: "Timo Homburg stduierte Informatik mit den Schwerpunkten Computerlinguistik (Assyrologie), Semantic Web und Sinologie. In den letzten Jahren arbeitete er im Bereich der GIS Anwendungen in der Geoinformatik. Seine Doktorarbeit beschäftigt sich mit der besseren Integration von Geodaten in ein Semantic Web Umfeld. Sein aktuelles Forschungsvorhaben beschäftigt sich mit der Schaffung digitaler Standards im Bereich Assyrologie und der Best Practice Dokumentation von Ausgrabungen mit Keilschrifttexten - eine Erweiterung seiner Publikationen zum Thema Keilschrift in den Digital Humanities."
   -  
     name: Clemens Schmid
     affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
@@ -289,6 +290,5 @@ Wie oben beschrieben gibt es eine große Anzahl weiterer Merkmale, die für die 
 ## Anmerkungen
 
 <a name="myfootnote1">1</a>: Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven wurde die Frage nach den Inhalten einer Rezension von Software und Anwendungen für die Archäologie von Sophie Charlotte Schmidt, Kai-Christian Bruhn und Siegmund Freud. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in der vorliegenden Reihe haben wir das Thema aufgegriffen und möchten mit der vorliegenden Handreichung einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten. Die Handreichung kann auch zur Orientierung bei Entscheidungen zum Einsatz einer Software in der eigenen Forschung dienen.
-
 
 ## Bibliographie
