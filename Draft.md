@@ -3,14 +3,35 @@ title: Diskussionsbeitrag - Handreichung zur Rezension von Forschungssoftware - 
 
 layout: draft
 author:
-  - Anne Klammt, Deutsches Forum für Kunstgeschichte Paris (0000-0003-3697-9241)
-  - Timo Homburg, Hochschule Mainz (0000-0002-9499-5840)
-  - Clemens Schmid, Max-Planck-Institut für Menschheitsgeschichte Jena (0000-0003-3448-5715)
-  - Sophie Charlotte Schmidt (0000-0003-4696-2101)
-  - Lutz Schubert
-  - Florian Thiery, Research Squirrel Engineers (0000-0002-3246-3531)
-  - Martina Trognitz, Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien (0000-0003-0485-6861)
-
+  - anneklammt:
+    - name: Anne Klammt
+    - affiliation: Deutsches Forum für Kunstgeschichte Paris 
+    - orcid: 0000-0003-3697-9241
+  - timohomburg
+    - name: Timo Homburg
+    - affiliation: Hochschule Mainz 
+    - orcid: 0000-0002-9499-5840
+  - clemensschmid: 
+    - name: Clemens Schmid
+    - affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
+    - orcid: 0000-0003-3448-5715
+  - sophiecharlotteschmidt:
+    - name: Sophie Charlotte Schmidt
+    - affiliation: 
+    - orcid: 0000-0003-4696-2101
+  - lutzschubert:
+    - name: Lutz Schubert
+    - affiliation:
+    - orcid:
+  - florianthiery:
+    - name: Florian Thiery
+    - affiliation: Research Squirrel Engineers
+    - orcid: 0000-0002-3246-3531
+  - martinatrognitz:
+    name: Martina Trognitz
+    affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
+    orcid: 0000-0003-0485-6861
+    
 bibliography: literatur.bib
 csl: apa-6th-edition.csl
 
