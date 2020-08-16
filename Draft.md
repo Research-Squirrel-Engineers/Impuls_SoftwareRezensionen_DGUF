@@ -7,7 +7,7 @@ author:
     - name: Anne Klammt
     - affiliation: Deutsches Forum für Kunstgeschichte Paris 
     - orcid: 0000-0003-3697-9241
-  - timohomburg
+  - timohomburg:
     - name: Timo Homburg
     - affiliation: Hochschule Mainz 
     - orcid: 0000-0002-9499-5840
