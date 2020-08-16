@@ -287,7 +287,7 @@ Eine solche oder ähnliche Konfiguration sorgt dafür, dass die Aktualisierung u
 * **Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?**
 Essentiell für einen Entwickler welcher Zeit mit der Erweiterung oder Nutzung einer Software verbringen möchte ist es den Einstieg möglichst einfach zu gestalten.
 Hierfür ist eine aussagekräftige ReadMe Datei notwendig welche kurz die Verwendung des fertig erstellten Programmes mit Defaulteinstellungen demonstriert. (Zu sehen zum Beispiel bei [Bibtex_JS](https://github.com/pcooksey/bibtex-js))
-Idealerweise werden dem Repository noch Beispieldaten für ein besseres Verständnis des Programmablaufs beigelegt und ggf. weitere häufig verwendete Anwendungsfälle der Software in Beispielen vorgestellt. (siehe ([Bibtex_JS Beispiele](https://github.com/pcooksey/bibtex-js/tree/master/test).
+Idealerweise werden dem Repository noch Beispieldaten für ein besseres Verständnis des Programmablaufs beigelegt und ggf. weitere häufig verwendete Anwendungsfälle der Software in Beispielen vorgestellt. (siehe [Bibtex_JS Beispiele](https://github.com/pcooksey/bibtex-js/tree/master/test)).
 Abhängig von der Komplexität der Software kann es sinnvoll sein ein ggf. auch von einer Nutzercommunity gepflegtes Wiki bereitzustellen um nach Einarbeitung des Entwicklers fortgeschrittene Optionen zu erläutern. (siehe [Bibtex_JS Wiki](https://github.com/pcooksey/bibtex-js/wiki))
 
 * **Hat der Quellcode Tests, die die Kernfunktionen des Programms testen und diese für andere Entwickler aufzeigen?**
@@ -295,8 +295,11 @@ Jede Software kann durch Tests auf ihre antizipierte Funktionalität hin überpr
 
 Eine weiterführende Frage ist hier wie hoch die Testabdeckung des jeweiligen Umfangs des Programms ist. Wurden tatsächlich alle Funktionen des Programms durch Tests abgedeckt? Wenn nein zu welchem Prozentsatz und deckt dieser Prozentsatz die wesentlichen Funktionen ab die das Programm seinen Benutzern bereitstellt? Diese Frage wird aber allgemeinhin nur durch Experten beantwortbar sein.
 
-* Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?
-* Sind die Entwickler der Software aktiv und gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es Contribution Guidelines?
+* **Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?**
+
+
+* **Sind die Entwickler der Software aktiv und gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es Contribution Guidelines?**
+
 
 #### Qualität der Implementierung
 
@@ -309,8 +312,6 @@ Eine weiterführende Frage ist hier wie hoch die Testabdeckung des jeweiligen Um
 * Ist die Anwendung auf Sicherheitsanforderungen getestet worden? (Penetrationtests usw.), also ist sie leicht hackbar oder nicht?
 * Setzt die Anwendung Standards zur IT Sicherheit welche von Behörden oder internationalen Organisationen empfohlen werden um? Beispiel [OWASP](https://de.wikipedia.org/wiki/Open_Web_Application_Security_Project)
 * Hat die Anwendung Abhängigkeiten zu Softwarekomponenten welche bekannte Sicherheitslücken aufweisen und nicht mehr gepflegt werden? Hält dieser Zustand auf absehbare Zeit an?
-
-
 
 ## Weitere Merkmale und Spezifikationen
 Wie oben beschrieben gibt es eine große Anzahl weiterer Merkmale, die für die Leser interessant sein können, aber keiner Einschätzung oder Beurteilung benötigen. Denkbar ist etwa diese, wie man es vielfach bei Vergleichsportalen findet, tabellarisch zusammengefasst werden. Wir haben hier auch einige Merkmale wiederholt, die auch in unserem Fragekatalog vorhanden sind. Auch um zu zeigen, wie man gegebenenfalls Gewichtungen in der Besprechung vornhemen kann, ohne ganze Aspekte unerwähnt zu lassen.
