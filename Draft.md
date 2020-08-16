@@ -28,9 +28,9 @@ author:
     - affiliation: Research Squirrel Engineers
     - orcid: 0000-0002-3246-3531
   - martinatrognitz:
-    name: Martina Trognitz
-    affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
-    orcid: 0000-0003-0485-6861
+    - name: Martina Trognitz
+    - affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
+    - orcid: 0000-0003-0485-6861
     
 bibliography: literatur.bib
 csl: apa-6th-edition.csl
