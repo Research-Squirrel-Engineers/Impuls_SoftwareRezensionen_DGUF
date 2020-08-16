@@ -242,9 +242,16 @@ Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Softwar
 ##### Dateningest, Interoperabilität und Schnittstellen
 Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl, welche Datenformate gelesen, als auch geschrieben werden können. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag klar und es ist hilfreich, im Rahmen einer Rezension diesen anzuführen. Auch die Form des Uploads von Daten und das Vorhandensein von Schnittstellen machen einen wesentlichen Aspekt des praktischen Einsatz aus und sollten in einer Rezension bedacht werden.
 
-* **Welche Datenformate werden eingelesen?** 
-* **Welche Datenformate werden ausgegeben?** Sind diese Formate gängig und offen, oder bedürfen sie einer weiteren Transformation?
+* **Welche Datenformate werden wie eingelesen?** 
+Bei der Auswahl der Datenformate die von einer Software eingelesen werden können sollten gibt es verschiedene Gesichtspunkte zu beachten:
+  * Sind alle relevanten Datenformate für die Aufgabe welche die Software lösen soll einlesbar? Diese Einschätzung sollte auf dem Arbeitsalltag eines typischen Anwenders beruhen
+  * Können Datenformate auch von gängigen Repositories eingelesen werden (z.B. Webservices, Git, Cloud Services)?
+  * Werden auch offene Datenformate unterstützt?
+* **Welche Datenformate werden ausgegeben?**
+Die Ausgabe von Daten nach der Bearbeitung sollte am besten in Datenformaten erfolgen die eine Weiterverarbeitung in anderen (auch Open Source) Softwarepaketen zulassen. Dies bedarf üblicherweise mindestens eines Formates dessen Spezifikation frei verfügbar ist, sodass Open Source Software dafür entwickelt werden kann.
+Sollten nur Exporte in einem proprietärem, ggf. von der Software definierten Format möglich sein muss es dafür schwerwiegende Gründe geben.
 * **Wie können Daten eingeladen werden? Als Masseningest oder einzelne uploads?**
+Für Entwickler aber auch für Projekte ist es entscheidend ob eine Software einen einmal definierten Task massenweise auf eine Reihe von Dateien ausführen kann. Ein Beispiel kann hier eine Transformation von Bilddaten sein die auf jedes aufgenommene Bild einer Ausgrabung ausgeführt werden soll. Um dies zu gewährleisten muss die Software die Spezifikation entweder eines Ordners von Dateien unterstützen 
 * **Gibt es eine API?**
 
 ##### Konformität mit Regelungen zum Datenschutz, Fragen der Privacy und der Datensparsamkeit
@@ -252,8 +259,14 @@ Für den Einsatz in der universitären Forschung und der Lehre ist die Frage des
  
 * **Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)?** 
 Oft muss damit gerechnet werden, dass die Software in verschiedenen Anwendungskontexten und von Menschen in verschiedenen kulturellen Kontexten und in verschiedenen Ländern verwendet wird. Diese Länder können ggf. Gesetze erlassen haben welche der Ausführung/Installation der Software entgegenstehen. Ein Beispiel sind Kartendarstellungen welche z.B. Grenzkonflikte wie diese in Kashmir in Indien, Pakistan, China und dem Rest der Welt unterschiedlich auf der Karte angezeigt werden müssen. Ein weiteres Beispiel stellt der Datenschutz z.B. in der europäischen Union dar.
-* **Welche Daten speichert die Anwendung zu welchem Zweck wie lange?** Dienen diese Daten der Forschung bzw. helfen sie die Software zu verbessern?
+* **Welche Daten speichert die Anwendung zu welchem Zweck wie lange?**
+In vielen Softwareanwendungen, oftmals Webdiensten werden Daten der Benutzer zur Verbesserung der Anwendungen als solche anonymisiert erfasst. Kommerzielle Anbieter von Software erfassen jedoch oft weitaus mehr Daten als diese und verwenden diese auch z.B. zur Übertragung and Drittanbieter. 
+Hier sollte sich ein Reviewer die Frage stellen welche Daten erhoben werden, ob eine Zustimmung des Benutzers eingeholt wird, wie lange die Daten gespeichert werden und ob eine Anwendung ohne eine solche Einwilligung zur Übertragung von Nutzerdaten überhaupt bedienbar ist.
+Falls eine Datenerhebung stattfindet wäre zu hinterfragen ob der Zweck der Datenerfassung einem dem Reviewer als gerechtfertigt erscheint und ob diese Datenerhebung zur Verbesserung der Software beiträgt oder anderen Interessen dient.
+
+Üblicherweise sollten solche Informationen in der Softwaredokumentation vorhanden sein und können auf dieser Grundlage bewertet werden. Eine weitergehende Analyse ob diese Informationen den Tatsachen entsprchen wird hier wiederum nur Experten vorbehalten sein.
 * **Ist die Software ohne Login anonym bedienbar?**
+
 * **Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?**
 
 
