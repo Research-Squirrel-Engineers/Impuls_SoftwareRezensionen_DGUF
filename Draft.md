@@ -213,7 +213,7 @@ Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Softwar
 * Wo finde ich mehr Informationen zu dieser Software? Hyperlinks und Referenzen.
 
 ##### Dateningest, Interoperabilität und Schnittstellen
-Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl, welche Datenformate gelesen, als auch geschrieben werden können. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag klar und es ist hilfreich, im Rahmen einer Rezension diesen anzuführen. Auch die Form des Uplods von Daten und das Vorhandensein von Schnittstellen machen einen wesentlichen Aspekt des praktischen Einsatz aus und sollten in einer Rezension bedacht werden.
+Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl, welche Datenformate gelesen, als auch geschrieben werden können. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag klar und es ist hilfreich, im Rahmen einer Rezension diesen anzuführen. Auch die Form des Uploads von Daten und das Vorhandensein von Schnittstellen machen einen wesentlichen Aspekt des praktischen Einsatz aus und sollten in einer Rezension bedacht werden.
 
 * **Welche Datenformate werden eingelesen?** 
 * **Welche Datenformate werden ausgegeben?** Sind diese Formate gängig und offen, oder bedürfen sie einer weiteren Transformation?
@@ -233,6 +233,7 @@ Für den Einsatz in der universitären Forschung und der Lehre ist die Frage des
 Hier geht es nun um die Sicht aus Perspektive der Entwickler, die auch Nutzer sind, aber zusätzlich mit weiteren Interessen/Anwendungsszenarien auf die Software schauen. Die folgenden Fragen richten sich somit direkt auf den Programmcode und die Softwarearchitecḱtur richten. Eine Beurteilung derselben erfordert also, den Programmcode herunterzuladen und in Stichproben durchzusehen. Das ist bei proprietärer Software meist nicht möglich.
 
 #### Dokumentation und Tests
+Die Dokumentation von Software kann auf verschiedene Arten erfolgen. Man unterscheidet die Dokumentation des Quellcodes, d.h. von Klassen oder einzelnen Methoden, die Dokumentation des Buildprozesses, d.h. wie die Software aus dem Quellcode zu erzeugen ist, eine Entwicklerdokumentation in Form von Beispielen der Benutzung der Software und der Dokumentation dessen wie die Software getestet wurde bzw. welche Testcases von der Software abgedeckt wurden.
 * Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?
 * Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?
 * Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?
@@ -242,6 +243,7 @@ Hier geht es nun um die Sicht aus Perspektive der Entwickler, die auch Nutzer si
 * Sind die Entwickler der Software aktiv und gut erreichbar? Wird die Software regelmäßig mit Updates versorgt?
 
 #### Qualität der Implementierung
+
 * Entspricht die Implementierung dem Stand der Technik?
 * Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.
 * Wie robust ist die Software gegenüber äußeren Einflüssen? Wie geht die Software mit Abstürzen/Stromausfall usw. um? Wird die Arbeit regelmäßig zwischengespeichert?
@@ -254,9 +256,9 @@ Hier geht es nun um die Sicht aus Perspektive der Entwickler, die auch Nutzer si
 
 
 ## Weitere Merkmale und Spezifikationen
-Wie oben beschrieben gibt es eine große Anzahl weiterer Merkmale, die für die Leser interessant sein können, aber keiner inschätzung oder Beurteilung benötigen. Denkbar ist etwa diese, wie man es vielfach bei Vergleichsportale findet, tabellarisch zusammengefasst werden. Wir haben hier auch einige Merkmale wiederholt, die auch in unserem Fragekatalog vorhanden sind. AUch um zu zeigen, wie man gegebenenfalls auch Gewichtungen ind er besprechung vornhemen kann, ohne ganze Aspekte unerwähnt zu lassen.
+Wie oben beschrieben gibt es eine große Anzahl weiterer Merkmale, die für die Leser interessant sein können, aber keiner Einschätzung oder Beurteilung benötigen. Denkbar ist etwa diese, wie man es vielfach bei Vergleichsportalen findet, tabellarisch zusammengefasst werden. Wir haben hier auch einige Merkmale wiederholt, die auch in unserem Fragekatalog vorhanden sind. Auch um zu zeigen, wie man gegebenenfalls Gewichtungen in der Besprechung vornhemen kann, ohne ganze Aspekte unerwähnt zu lassen.
 
-* Vorhandensein der Spezifikation für Installtionen
+* Vorhandensein der Spezifikation für Installationen
 * Opensource, Free and OpenSource
 * Tutorials and Trialdata (zur freien Nutzung?)
 * Input- / Outputformate
