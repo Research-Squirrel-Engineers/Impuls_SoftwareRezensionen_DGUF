@@ -219,10 +219,15 @@ Die folgenden Fragen richten sich auf technischen Merkmale, die die Benutzbarkei
 ##### Interface
 Die Nutzbarkeit wird zentral von den Möglichkeiten der Kommunikation von Mensch und Software bestimmt, also dem der Software-Oberfläche (UI). Diese mag in manchen Fällen graphisch gestützt sein, in anderen Fällen rein kommando-basiert. Die Gestaltung von Oberflächen und die Nutzerführung in Menüstrukturen sind ein eigenes Aufgabenfeld in der Softwareentwicklung und können erhebliche Kosten erzeugen. Gut an den Nutzer-angepasste Lösungen sind das Ergebnis einer genauen Kenntnis der Zielgruppe ihre Gewohnheiten und Bedarfe im Falle archäologischer Forschungssoftware also Forschungspraxis. Ein gutes Interface unterstützt das fehlerfreie effiziente Arbeiten. So sind z.B. Verständlichkeit der Menü-Einträge oder der Kommandos, aber auch die Aussagekraft von Fehlermeldungen Aspekte die in der Rezension betrachtet werden sollten. Barrierefreiheit ist bislang ein unzureichend abgedecktes Kriterium, das aber ebenfalls die Effizienz und den möglichen Nutzerkreis adressiert. Auch bei diesem Punkt liegen Gewichtung und im Ermessen des Rezensenten.
 
-* **Passt die UI (GUI oder Konsole) zum Nutzerkreis?** Stellt z.B. die Nutzung einer eigens zu installierenden Shell eine Hürde dar?
+* **Passt die UI (GUI oder Konsole) zum Nutzerkreis?**
+
+Stellt z.B. die Nutzung einer eigens zu installierenden Shell eine Hürde dar?
 * **Orientiert sich die Menüführung an bestimmten Vorbildern?** Das muss man nicht bewerten
-* **Ist das Menü mehrsprachig bzw. in welchen Sprachen wird es angeboten?**  
-* **Sind die Fehlermeldungen für die Rezensentin gut verständlich?** Sind auffallend/gut sichtbar
+[TH] Hiermit meine ich ob z.B. Tastenkürzel die in anderen Softwares gängig sind so übernommen werden oder ob gänzlich andere Standards gesetzt werden. Letztlich ist es eine Frage der Schwierigkeit der Einarbeitung in die Software ob sie genutzt wird und Menüführungen, Tastenkürzel oder andere Funktionen die sich an anderen Softwares orientieren erleichtern die Einarbeitung immens.
+* **Ist das Programm mehrsprachig bzw. in welchen Sprachen wird es angeboten?**
+Je nachdem von wem das Programm eingesetzt werden soll, sollte das Programm in mehreren Sprachen angeboten werden. Üblicherweise wird man das Programm zumindest in einer englischen Fassung erwarten. Sollten verschiedene Sprachversionen gestestet werden, so ist darauf zu achten, dass das Layout der Anwendung in den verschiedenen Sprachen weiterhin sichtbar ist. Beschriftungen von Buttons beispielsweise können sich in der Länge des Textes in verschiedenen Sprachen stark unterscheiden, sodass bei schlechter Programmierung der Anwendung ggf. Texte im Benutzerinterface abschnitten sind.
+* **Sind die Fehlermeldungen für die Rezensentin gut verständlich?**
+Fehlermeldungen dienen zwei Funktionen. Die erste Funktion ist eine Fehlermeldung an den Benutzer, sodass dieser eine Aktion zur Behebung des Fehlers ergreifen kann. Diese Fehlermeldungen müssen für den Nutzer verständlich formuliert und auffallend in der Anwendung platziert werden. Versteht ein Benutzer den Inhalt der Fehlermeldung nicht, so hat die Fehlermeldung ihren Nutzen verfehlt. Die zweite Funktion einer Fehlermeldung ist ggf. ein Feedback an die Entwickler der Anwendung. Dieses muss die Fehlermeldung so kommunizieren und ggf. auch einen Fehlerreport zur Behebung des Fehlers an die Entwickler schicken. Unverständliche Fehlermeldungen wie Stack Traces oder aus der Ausführungsumgebung übernommene Fehlermeldungen verfehlen oft ihre Wirkung.
 
 ##### Zielgruppe
 * **Ist die archäologische Nutzung vorgesehen?** Entspricht der archäologische Einsatz den generellen Anwendungszenarien, den die Entwickler\*innen vor Augen hatten? Hat das Einfluss auf die Nutzbarkeit aus wissenschaftlicher Perspektive? z.B. "Diese CAD Software ist für Architekturanwendungen konzipiert und konfrontiert den durchschnittlichen Grabungstechniker mit überwältigendem Funktionsumfang"
@@ -328,8 +333,9 @@ Schließlich ist es für Entwickler oft interessant die Software selbst mitzuges
 
 #### Qualität der Implementierung
 
-* Entspricht die Implementierung dem Stand der Technik?
-* Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.
+* **Entspricht die Implementierung dem Stand der Technik?**
+
+* **Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.**
 * Wie robust ist die Software gegenüber äußeren Einflüssen? Wie geht die Software mit Abstürzen/Stromausfall usw. um? Wird die Arbeit regelmäßig zwischengespeichert?
 * Wird Continuous Integration zur Absicherung der Implementierungsqualität verwendet?
 
