@@ -43,6 +43,13 @@ h4 {
     font-size:14px !important;
 }
 
+.keywords {
+    text-align:center;
+    font-style:italic;
+    font-weight:normal;
+    font-size:14px !important;
+}
+
 #zitat {
     font-size:14px !important;
     font-style: italic;
