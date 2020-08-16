@@ -15,12 +15,12 @@ for (anchor in anchors){
 	console.log(anchors[anchor].innerHTML)
   if((typeof anchors[anchor].innerHTML !== 'undefined') && anchors[anchor].innerHTML.trim().startsWith("@")){
 	 console.log(anchors[anchor].href)
-	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author"))
-	  console.log('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author")
-	  console.log('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year")
-	  console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").html())
-	 console.log($('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").html()) 
-  	anchors[anchor].innerHTML="("+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").textContent+" "+$('#'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()+")"
+	 console.log($('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author"))
+	  console.log('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author")
+	  console.log('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year")
+	  console.log($('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").html())
+	 console.log($('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").html()) 
+  	anchors[anchor].innerHTML="("+$('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author").textContent+" "+$('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()+")"
   }
 }
 }
