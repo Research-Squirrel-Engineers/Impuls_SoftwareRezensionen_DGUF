@@ -31,7 +31,7 @@ for (anchor in anchors){
 	  console.log(author)
 	 console.log($('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").html()) 
 	if(year!="" && author!="")
-  		anchors[anchor].innerHTML="("+author+" "+year+")"
+  		anchors[anchor].innerHTML=""+author+" ("+year+")"
   }
 }
 }
