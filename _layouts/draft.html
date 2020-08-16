@@ -57,7 +57,11 @@ for (anchor in anchors){
 </div>
 <div class="if bibtex_template" style="display: none;">
     <ul> <li class="bibtexVar" id="+BIBTEXKEY+" extra="BIBTEXKEY">
-      <span class="if url">
+      <div class="if author">
+        <span class="author bibtexVar" id="bib+BIBTEXKEY+author" extra="BIBTEXKEY"></span>
+      </div>
+        <span class="if year"><span class="year bibtexVar" id="bib+BIBTEXKEY+year" extra="BIBTEXKEY"></span></span>
+	 <span class="if url">
 		<a class="bibtexVar" href="+URL+" extra="URL" target="_blank" >
         <span style="text-decoration: underline;" class="title"></span>
 		</a>
@@ -72,9 +76,6 @@ for (anchor in anchors){
 		        </a>
             </span>
       </span>
-      <div class="if author">
-        <span class="author bibtexVar" id="bib+BIBTEXKEY+author" extra="BIBTEXKEY"></span>
-      </div>
       <div>
         <span class="if journal"><em><span class="journal"></span></em>,</span>
         <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
@@ -87,7 +88,7 @@ for (anchor in anchors){
         <span class="if journal number">(<span class="number"></span>),</span>
         <span class="if pages"> pages <span class="pages"></span>,</span>
         <span class="if month"><span class="month"></span>,</span>
-        <span class="if year"><span class="year bibtexVar" id="bib+BIBTEXKEY+year" extra="BIBTEXKEY"></span>.</span>
+
         <span class="if note"><span class="note"></span>.</span>
 		<span class="if doi">
 	    <a class="bibtexVar" href="https://doi.org/+DOI+" target="_blank"  extra="DOI">
