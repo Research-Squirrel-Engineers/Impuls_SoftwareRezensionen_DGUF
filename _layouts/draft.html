@@ -40,7 +40,7 @@ for (anchor in anchors){
 
 <body>
 	<header><h1 align="center">{{page.title}}</h1></header>
-	<p class="authors">{% for aut in page.author %}{{aut.name}}{% if aut.affiliation %},{{aut.affiliation}}{% endif %} {% if aut.orcid %}(<a href="https://orcid.org/{{aut.orcid}}" target="_blank">({{aut.orcid}})</a>{% endif %}{% if forloop.last == false %}, {% endif %}<br/>{% endfor %}</p>
+	<p class="authors">{% for aut in page.author %}{{aut.name}}{% if aut.affiliation %},{{aut.affiliation}}{% endif %} {% if aut.orcid %}<a href="https://orcid.org/{{aut.orcid}}" target="_blank">({{aut.orcid}})</a>{% endif %}{% if forloop.last == false %}, {% endif %}<br/>{% endfor %}</p>
   <div class="container">
     <div class="row">
       <main class="col-md-12" role="main">
