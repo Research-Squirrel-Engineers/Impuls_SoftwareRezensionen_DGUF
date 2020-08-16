@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 	<script>
-function formatCitations(){
+function formatCitations(item){
     var anchors = document.getElementsByTagName("a");
 for (anchor in anchors){ 
 	console.log(anchor)
@@ -112,7 +112,7 @@ for (anchor in anchors){
 <select class="bibtex_search bibtex_author" extra="first" search="author">
   <option value="">Search First Author</option>
 </select>-->
-<div id="bibtex_display" callback="function(formatCitations)"></div>
+<div id="bibtex_display" callback="formatCitations(bibtex_display)"></div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
         </section>
