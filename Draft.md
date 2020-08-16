@@ -251,18 +251,30 @@ Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibi
 Für den Einsatz in der universitären Forschung und der Lehre ist die Frage des Datenschutz vielfach entscheidend dafür, ob die Software überhaupt genutzt werden darf. Eine Einschätzung der Regelungen sofern sie sich nicht eindeutig auf die europäischen Rahmenrichtlinien beziehen, ist teilweise jedoch kaum möglich und Gegenstand von juristischen Diskussionen. Auch hier kann die Rezensension aber bereits durch den Hinweis auf das Thema einen wichtigen Service für die Leser bringen.Dies gilt auch für Datensparsamkeit und das Hinterfragen von Registrierungsvorgängen, Cookies und ähnlichem. 
  
 * **Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)?** 
+Oft muss damit gerechnet werden, dass die Software in verschiedenen Anwendungskontexten und von Menschen in verschiedenen kulturellen Kontexten und in verschiedenen Ländern verwendet wird. Diese Länder können ggf. Gesetze erlassen haben welche der Ausführung/Installation der Software entgegenstehen. Ein Beispiel sind Kartendarstellungen welche z.B. Grenzkonflikte wie diese in Kashmir in Indien, Pakistan, China und dem Rest der Welt unterschiedlich auf der Karte angezeigt werden müssen. Ein weiteres Beispiel stellt der Datenschutz z.B. in der europäischen Union dar.
 * **Welche Daten speichert die Anwendung zu welchem Zweck wie lange?** Dienen diese Daten der Forschung bzw. helfen sie die Software zu verbessern?
 * **Ist die Software ohne Login anonym bedienbar?**
 * **Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?**
 
 
 ### Entwickler-Perspektive und Softwarequalität
-Hier geht es nun um die Sicht aus Perspektive der Entwickler, die auch Nutzer sind, aber zusätzlich mit weiteren Interessen/Anwendungsszenarien auf die Software schauen. Die folgenden Fragen richten sich somit direkt auf den Programmcode und die Softwarearchitecḱtur richten. Eine Beurteilung derselben erfordert also, den Programmcode herunterzuladen und in Stichproben durchzusehen. Das ist bei proprietärer Software meist nicht möglich.
+Hier geht es nun um die Sicht aus Perspektive der Entwickler, die auch Nutzer sind, aber zusätzlich mit weiteren Interessen/Anwendungsszenarien auf die Software schauen. Die folgenden Fragen richten sich somit direkt auf den Programmcode und die Softwarearchitecḱtur. Eine Beurteilung derselben erfordert also, den Programmcode herunterzuladen und in Stichproben durchzusehen. Das ist bei proprietärer Software meist nicht möglich.
+Eine gute Zusammenfassung der Entwicklerperspektive auf die Softwarequalität bietet [@jung2004measuring](#jung2004measuring). Das Paper wendet die Vorgaben des ISO/IEC 9126 Standards, Anteile dessen bereits in den vorherigen Abschnitten diskutiert wurden, an.
 
 #### Dokumentation und Tests
-Die Dokumentation von Software kann auf verschiedene Arten erfolgen. Man unterscheidet die Dokumentation des Quellcodes, d.h. von Klassen oder einzelnen Methoden, die Dokumentation des Buildprozesses, d.h. wie die Software aus dem Quellcode zu erzeugen ist, eine Entwicklerdokumentation in Form von Beispielen der Benutzung der Software und der Dokumentation dessen wie die Software getestet wurde bzw. welche Testcases von der Software abgedeckt wurden.
-* Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?
-* Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?
+Die Dokumentation von Software ist essentiell für ein umfassendes Verständnis eines Softwareentwicklers welcher die Software ggf. erweitern möchte. Nur durch eine ausreichende Dokumentation wird zum einen eine ausreichend große Community von potenziellen Entwicklern angesprochen und zum anderen ein umfassendes Verständnis der Intention der Software, der Ausgereiftheit und des aktuellen Entwicklungsstandes möglich. Die Dokumentation erfolgt in verschiedenen Bestandteilen. Man unterscheidet die Dokumentation des Quellcodes, d.h. von Klassen oder einzelnen Methoden, die Dokumentation des Buildprozesses, d.h. wie die Software aus dem Quellcode zu erzeugen ist, eine Entwicklerdokumentation in Form von Beispielen der Benutzung der Software und der Dokumentation dessen wie die Software getestet wurde bzw. welche Testcases von der Software abgedeckt wurden.
+Software Repositories wie Github oder Gitlab bieten oft Vorlagen oder Best Practices um diese Anforderungen in jeglichen Programmiersprachen umsetzen zu können.
+Schließlich kann die Softwaredokumentation von Statistiken über die Software selbst bezüglich Komplexität, der verwendeten Lizenzen und Abhängigkeiten begleitet sein. 
+
+Kernfragen welche ein Reviewer beantworten sollte sind die folgenden:
+* **Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?** 
+Best Practices sind hier beispielsweise Quellcode Dokumentationen mit [Doxygen](https://www.doxygen.nl/index.html), [JavaDoc](http://www.oracle.com/technetwork/java/javase/documentation/javadoc-137458.html), [JsDoc](https://jsdoc.app) oder auch das für Python beliebte [ReadTheDocs](https://readthedocs.org). Alle Dokumentationen erzeugen eine HTML Repräsentation der Quellcodedokumentation welche im Falle von ReadTheDocs direkt auch im Internet gehostet wird. Im Falle von anderen Dokumenationstools ist es gute Praxis diese beispielsweise als Github Page mit dem Repository bereitzustellen.
+* **Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?**
+Ebenso wichtig wie ein grundlegendes Verständnis des Aufbaus des Programms ist die Bauanleitung der Software. 
+  * Ist dokumentiert wie die Software erstellt werden kann? 
+  * Funktioniert das Erstellen der Software mit dem angegebenen Weg?
+Während in der Vergangenheit hier mit Anleitungen in Readme Files oder ähnlichen natürlichsprachlichten Beschreibungen gearbeitet wurde, hat es sich seit vielen Jahren zu einem Standard etabliert maschinenlesbare Bauanleitungen für Software bereitzustellen. Diese kann im Allgemeinen auch als gute Praxis angesehen werden, denn zum einen ist der Weg des Erstellens der Software eindeutig maschinenlesbar beschrieben, zum anderen ist der Aufruf des Buildprozess meist durch Ausführung eines einzigen Skriptes für den Entwickler einfach gehalten.
+Beispiele für solche Skripts finden sich z.B. in [Apache Maven](https://maven.apache.org) oder [Gradle](https://gradle.org). 
 * Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?
 * Ist die Dokumentation aktuell, wird gepflegt und deckt alle Funktionen des Programms ab?
 * Hat der Quellcode Tests, die die Kernfunktionen des Programms testen und diese für andere Entwickler aufzeigen?
