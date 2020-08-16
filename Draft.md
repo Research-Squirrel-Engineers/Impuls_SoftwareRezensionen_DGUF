@@ -3,34 +3,34 @@ title: Diskussionsbeitrag - Handreichung zur Rezension von Forschungssoftware - 
 
 layout: draft
 author:
-  - anneklammt:
-    - name: Anne Klammt
-    - affiliation: Deutsches Forum für Kunstgeschichte Paris 
-    - orcid: 0000-0003-3697-9241
-  - timohomburg:
-    - name: Timo Homburg
-    - affiliation: Hochschule Mainz 
-    - orcid: 0000-0002-9499-5840
-  - clemensschmid: 
-    - name: Clemens Schmid
-    - affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
-    - orcid: 0000-0003-3448-5715
-  - sophiecharlotteschmidt:
-    - name: Sophie Charlotte Schmidt
-    - affiliation: 
-    - orcid: 0000-0003-4696-2101
-  - lutzschubert:
-    - name: Lutz Schubert
-    - affiliation:
-    - orcid:
-  - florianthiery:
-    - name: Florian Thiery
-    - affiliation: Research Squirrel Engineers
-    - orcid: 0000-0002-3246-3531
-  - martinatrognitz:
-    - name: Martina Trognitz
-    - affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
-    - orcid: 0000-0003-0485-6861
+  - 
+    name: Anne Klammt
+    affiliation: Deutsches Forum für Kunstgeschichte Paris 
+    orcid: 0000-0003-3697-9241
+  - 
+    name: Timo Homburg
+    affiliation: Hochschule Mainz 
+    orcid: 0000-0002-9499-5840
+  -  
+    name: Clemens Schmid
+    affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
+    orcid: 0000-0003-3448-5715
+  - 
+    name: Sophie Charlotte Schmidt
+    affiliation: 
+    orcid: 0000-0003-4696-2101
+  - 
+    name: Lutz Schubert
+    affiliation:
+    orcid:
+  - 
+    name: Florian Thiery
+    affiliation: Research Squirrel Engineers
+    orcid: 0000-0002-3246-3531
+  - 
+    name: Martina Trognitz
+    affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
+    orcid: 0000-0003-0485-6861
     
 bibliography: literatur.bib
 csl: apa-6th-edition.csl
