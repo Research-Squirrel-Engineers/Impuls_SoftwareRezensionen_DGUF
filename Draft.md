@@ -323,8 +323,8 @@ Oft stellen sich bei der Bedienung der Software fehlende Funktionalitäten oder 
 
 Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports eingereicht werden können, am besten noch welche Inhalte diese für eine bestmögliche Verarbeitung enthalten sollten (Was ist das Problem, wann tritt es auf usw.). Einen Eindruck davon kann man beispielsweise bei der Durchsicht von Issues in Github oder Gitlab gewinnen. Haben die Entwickler Anfragen zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Tickets zu bereits geschlossenen Tickets und wie lange hat es gebraucht bis eine Änderung eingefpflegt wurde?
 
-Zudem können Entwickler proaktiv in einer Roadmap kommunizieren welche Änderungen in nächster Zeit in das Program enigepflegt werden sollen und welche Issues für das nächste Release angegangen werden. 
-Schließlich ist es für Entwickler oft interessant die Software selbst mitzugestalten und einen Beitrag zu ihrer Verbesserung zu geben. Dafür sollte von den Entwicklern der Software selbst als Best Practice eine Contribution Guideline erstellt werden um klarzustellen unter welchen Umständen und wie Änderungen von anderen Entwicklern an der Software angenommen und integriert werden.
+Zudem können Entwickler proaktiv in einer Roadmap kommunizieren welche Änderungen in nächster Zeit in das Program eingepflegt werden sollen und welche Issues für das nächste Release angegangen werden. 
+Schließlich ist es für Entwickler oft interessant die Software selbst mitzugestalten und einen Beitrag zu ihrer Verbesserung zu geben. Dafür sollte von den Entwicklern der Software selbst als Best Practice eine Contribution Guideline (siehe z.B. [hier](https://projectacrn.github.io/latest/developer-guides/contribute_guidelines.html)) erstellt werden um klarzustellen unter welchen Umständen und wie Änderungen von anderen Entwicklern an der Software angenommen und integriert werden.
 
 #### Qualität der Implementierung
 
