@@ -296,10 +296,19 @@ Jede Software kann durch Tests auf ihre antizipierte Funktionalität hin überpr
 Eine weiterführende Frage ist hier wie hoch die Testabdeckung des jeweiligen Umfangs des Programms ist. Wurden tatsächlich alle Funktionen des Programms durch Tests abgedeckt? Wenn nein zu welchem Prozentsatz und deckt dieser Prozentsatz die wesentlichen Funktionen ab die das Programm seinen Benutzern bereitstellt? Diese Frage wird aber allgemeinhin nur durch Experten beantwortbar sein.
 
 * **Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?**
+Entwickler werden mit mehr oder weniger Schwierigkeiten in der Lage sein eine Software zu bauen und auszuführen. Allerdings will auch dieser Zeiteinsatz oft wohlbedacht sein. Tatsächlich werden Softwares welche leicht installierbar und vor allem testbar sind sowohl von Entwicklern die einen schnellen Einblick in die Funktionalität bekommen wollen als auch von anderen Benutzern einen besseren Anklang finden als andere.
 
+Es liegt in der Natur der Sache, dass es hierbei je nach Art der Anwendung unterschiedliche Ausführungsformen gibt. Eine Webanwendung kann als Beispiel im Internet gehostet sein und dem Benutzer einen Testaccount zur Verfügung stellen (z.B. [CWRCWriter](https://cwrc.ca)), eine Desktop Anwendung kann bereits eine installierebare Anwendung oder ein Installerpaket mitliefern. Serveranwendungen können für einen Test als Images von virtuellen Maschinen oder - in letzter Zeit üblicher - als Dockerimages in Portalen wie [Dockerhub](https://hub.docker.com) für ein einfaches Testen hinterlegt werden.
+
+Eine Anwendung die in dieser Kategorie punkten will sollte zumindest eine dieser Möglichkeiten bereitstellen.
 
 * **Sind die Entwickler der Software aktiv und gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es Contribution Guidelines?**
+Oft stellen sich bei der Bedienung der Software fehlende Funktionalitäten oder Fehler im Programm heraus. In manchen Fällen machen diese die Benutzung der Software für bestimmte Anwendungsfälle unmöglich oder verschlechtern die Ergebnisse die mit der Software erreicht werden können signifikant, auch wenn die Software möglicherweise in allen anderen Belangen den Erwartungen entspricht. In solchen Fällen ist die Verfügbarkeit der Entwickler und deren Feedback auf Supportanfragen ein entscheidendes Kriterium.
 
+Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports eingereicht werden können, am besten noch welche Inhalte diese für eine bestmögliche Verarbeitung enthalten sollten (Was ist das Problem, wann tritt es auf usw.). Einen Eindruck davon kann man beispielsweise bei der Durchsicht von Issues in Github oder Gitlab gewinnen. Haben die Entwickler Anfragen zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Tickets zu bereits geschlossenen Tickets und wie lange hat es gebraucht bis eine Änderung eingefpflegt wurde?
+
+Zudem können Entwickler proaktiv in einer Roadmap kommunizieren welche Änderungen in nächster Zeit in das Program enigepflegt werden sollen und welche Issues für das nächste Release angegangen werden. 
+Schließlich ist es für Entwickler oft interessant die Software selbst mitzugestalten und einen Beitrag zu ihrer Verbesserung zu geben. Dafür sollte von den Entwicklern der Software selbst als Best Practice eine Contribution Guideline erstellt werden um klarzustellen unter welchen Umständen und wie Änderungen von anderen Entwicklern an der Software angenommen und integriert werden.
 
 #### Qualität der Implementierung
 
