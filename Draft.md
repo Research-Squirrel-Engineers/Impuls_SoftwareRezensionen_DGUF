@@ -38,6 +38,9 @@ csl: apa-6th-edition.csl
 keywords: 
   - Leitfaden
   - Softwarebewertung
+keywordsen: 
+  - Leitfaden
+  - Softwarebewertung
 ---
 
 <div id="zitat" markdown="1">
