@@ -262,8 +262,9 @@ Hier geht es nun um die Sicht aus Perspektive der Entwickler, die auch Nutzer si
 Eine gute Zusammenfassung der Entwicklerperspektive auf die Softwarequalität bietet [@jung2004measuring](#jung2004measuring). Das Paper wendet die Vorgaben des ISO/IEC 9126 Standards, Anteile dessen bereits in den vorherigen Abschnitten diskutiert wurden, an.
 
 #### Dokumentation und Tests
-Die Dokumentation von Software ist essentiell für ein umfassendes Verständnis eines Softwareentwicklers welcher die Software ggf. erweitern möchte. Nur durch eine ausreichende Dokumentation wird zum einen eine ausreichend große Community von potenziellen Entwicklern angesprochen und zum anderen ein umfassendes Verständnis der Intention der Software, der Ausgereiftheit und des aktuellen Entwicklungsstandes möglich. Die Dokumentation erfolgt in verschiedenen Bestandteilen. Man unterscheidet die Dokumentation des Quellcodes, d.h. von Klassen oder einzelnen Methoden, die Dokumentation des Buildprozesses, d.h. wie die Software aus dem Quellcode zu erzeugen ist, eine Entwicklerdokumentation in Form von Beispielen der Benutzung der Software und der Dokumentation dessen wie die Software getestet wurde bzw. welche Testcases von der Software abgedeckt wurden.
-Software Repositories wie Github oder Gitlab bieten oft Vorlagen oder Best Practices um diese Anforderungen in jeglichen Programmiersprachen umsetzen zu können.
+Die Dokumentation von Software ist essentiell für ein umfassendes Verständnis eines Softwareentwicklers welcher die Software ggf. erweitern möchte. Nur durch eine ausreichende Dokumentation wird zum einen eine ausreichend große Community von potenziellen Entwicklern angesprochen und zum anderen ein umfassendes Verständnis der Intention der Software, der Ausgereiftheit und des aktuellen Entwicklungsstandes möglich. 
+Die Dokumentation erfolgt in verschiedenen Bestandteilen. Man unterscheidet die Dokumentation des Quellcodes, d.h. von Klassen oder einzelnen Methoden, die Dokumentation des Buildprozesses, d.h. wie die Software aus dem Quellcode zu erzeugen ist, eine Entwicklerdokumentation in Form von Beispielen der Benutzung der Software und der Dokumentation dessen wie die Software getestet wurde bzw. welche Testcases von der Software abgedeckt wurden.
+Software Repositories wie [Github](https://github.com) oder [Gitlab](https://gitlab.com) bieten oft Vorlagen oder Best Practices um diese Anforderungen in jeglichen Programmiersprachen umsetzen zu können.
 Schließlich kann die Softwaredokumentation von Statistiken über die Software selbst bezüglich Komplexität, der verwendeten Lizenzen und Abhängigkeiten begleitet sein. 
 
 Kernfragen welche ein Reviewer beantworten sollte sind die folgenden:
@@ -274,18 +275,25 @@ Ebenso wichtig wie ein grundlegendes Verständnis des Aufbaus des Programms ist 
   * Ist dokumentiert wie die Software erstellt werden kann? 
   * Funktioniert das Erstellen der Software mit dem angegebenen Weg?
 Während in der Vergangenheit hier mit Anleitungen in Readme Files oder ähnlichen natürlichsprachlichten Beschreibungen gearbeitet wurde, hat es sich seit vielen Jahren zu einem Standard etabliert maschinenlesbare Bauanleitungen für Software bereitzustellen. Diese kann im Allgemeinen auch als gute Praxis angesehen werden, denn zum einen ist der Weg des Erstellens der Software eindeutig maschinenlesbar beschrieben, zum anderen ist der Aufruf des Buildprozess meist durch Ausführung eines einzigen Skriptes für den Entwickler einfach gehalten.
-Beispiele für solche Skripts finden sich z.B. in [Apache Maven](https://maven.apache.org) oder [Gradle](https://gradle.org). 
-* Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?
-* Ist die Dokumentation aktuell, wird gepflegt und deckt alle Funktionen des Programms ab?
+Beispiele für solche Skripts finden sich z.B. in [Apache Maven](https://maven.apache.org) oder [Gradle](https://gradle.org)
+* **Ist die Dokumentation aktuell, wird gepflegt und deckt alle Funktionen des Programms ab?**
+Eine Bewertung der Aktualität der Dokumentation ist oft relativ einfach vorzunehmen wenn State Of The Art Tools verwendet werden. Diese bieten meist einen Zeitstempel zur Überprüfung des Generierungsdatums der Dokumentation. Dieses kann nun in Relation zum letzten Releasezeitpunkts des Programms bewertet werden.
+Gute Praxis ist es hier die Generierung der Dokumentation und das Hosten dieser auf der jeweiligen Plattform mit in den Entwicklungsprozess über Continuous Integration zu integrieren.
+Ein Beispiel hierfür bietet das [Github Repository des SPARQLing Unicorn QGIS Plugins](https://github.com/sparqlunicorn/sparqlunicornGoesGIS). Ein Continuous Integration Prozess erstellt die Dokumentation bei jeder Veränderung des Quellcodes durch die Entwickler neu und publiziert diese auf der [Github Page des Repositories](https://sparqlunicorn.github.io/sparqlunicornGoesGIS/).
+Eine solche oder ähnliche Konfiguration sorgt dafür, dass die Aktualisierung und Publizierung der aktuellen Dokumentation nicht vergessen werden kann.
+* **Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?**
+Essentiell für einen Entwickler welcher Zeit mit der Erweiterung oder Nutzung einer Software verbringen möchte ist es den Einstieg möglichst einfach zu gestalten.
+
 * Hat der Quellcode Tests, die die Kernfunktionen des Programms testen und diese für andere Entwickler aufzeigen?
 * Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?
-* Sind die Entwickler der Software aktiv und gut erreichbar? Wird die Software regelmäßig mit Updates versorgt?
+* Sind die Entwickler der Software aktiv und gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es Contribution Guidelines?
 
 #### Qualität der Implementierung
 
 * Entspricht die Implementierung dem Stand der Technik?
 * Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.
 * Wie robust ist die Software gegenüber äußeren Einflüssen? Wie geht die Software mit Abstürzen/Stromausfall usw. um? Wird die Arbeit regelmäßig zwischengespeichert?
+* Wird Continuous Integration zur Absicherung der Implementierungsqualität verwendet?
 
 #### Sicherheit
 * Ist die Anwendung auf Sicherheitsanforderungen getestet worden? (Penetrationtests usw.), also ist sie leicht hackbar oder nicht?
