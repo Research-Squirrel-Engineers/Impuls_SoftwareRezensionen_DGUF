@@ -18,9 +18,17 @@ for (anchor in anchors){
 	 console.log($('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author"))
 	  console.log('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author")
 	  console.log('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year")
-	  console.log($('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author > span[class=last] ").html().trim())
+	  year=""
+	  if (typeof $('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year") !== 'undefined'){
+	  	year=$('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()
+	  }
+	  author=""
+	  if (typeof $('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author > span[class=last] ") !== 'undefined'){
+	  	author=$('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author > span[class=last] ").html().trim()
+	  }
+	  console.log(author)
 	 console.log($('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").html()) 
-  	anchors[anchor].innerHTML="("+$('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"author > span[class=last] ").html().trim()+" "+$('#bib'+anchors[anchor].href.substring(anchors[anchor].href.lastIndexOf('#')+1)+"year").text()+")"
+  	anchors[anchor].innerHTML="("+author+" "+year+")"
   }
 }
 }
