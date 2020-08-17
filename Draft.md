@@ -11,7 +11,7 @@ author:
     name: Timo Homburg
     affiliation: Hochschule Mainz 
     orcid: 0000-0002-9499-5840
-    bio: "Timo Homburg stduierte Informatik mit den Schwerpunkten Computerlinguistik (Assyrologie), Semantic Web und Sinologie. In den letzten Jahren arbeitete er im Bereich der GIS Anwendungen in der Geoinformatik. Seine Doktorarbeit beschäftigt sich mit der besseren Integration von Geodaten in ein Semantic Web Umfeld. Sein aktuelles Forschungsvorhaben beschäftigt sich mit der Schaffung digitaler Standards im Bereich Assyrologie und der Best Practice Dokumentation von Ausgrabungen mit Keilschrifttexten - eine Erweiterung seiner Publikationen zum Thema Keilschrift in den Digital Humanities."
+    bio: "Timo Homburg studierte Informatik mit den Schwerpunkten Computerlinguistik (Assyrologie), Semantic Web und Sinologie. In den letzten Jahren arbeitete er im Bereich der GIS Anwendungen in der Geoinformatik. Seine Doktorarbeit beschäftigt sich mit der besseren Integration von Geodaten in ein Semantic Web Umfeld. Sein aktuelles Forschungsvorhaben beschäftigt sich mit der Schaffung digitaler Standards im Bereich Assyrologie und der Best Practice Dokumentation von Ausgrabungen mit Keilschrifttexten - eine Erweiterung seiner Publikationen zum Thema Keilschrift in den Digital Humanities."
   -  
     name: Clemens Schmid
     affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
@@ -28,6 +28,7 @@ author:
     name: Florian Thiery
     affiliation: Research Squirrel Engineers
     orcid: 0000-0002-3246-3531
+    bio: "TODO"
   - 
     name: Martina Trognitz
     affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
