@@ -212,6 +212,7 @@ Die folgenden Fragen richten sich auf technischen Merkmale, die die Benutzbarkei
 
 ##### Installation
 * **Wie funktioniert die Installation und wo wird die Software vorgehalten?** Gibt es ein Installationsskript oder ist die Software nur als Source Code verfügbar, der zunächst selbst kompiliert werden muss? Ist die Lösung angemessen für den Nutzerkreis? Installationsskripte ermöglichen einen viel breiteren Anwenderkreis, das Kompilieren erlaubt geübten Nutzern die Installation u.U. auf verschiedenen Endgeräten. 
+Installiert das Installationsskript alle Abhängigkeiten um die Software zum laufen zu bringen oder gibt sie Hinweise auf weitere Installationen die durch den Benutzer vorgenommen werden müssen? 
 * **Handelt es sich um eine standalone Software, oder um eine Webanwendung?** Passt die Lösung zum archäologischen Einsatz? Ist z.B. eine Webanwendung unter allen Arbeitsbedingungen und Einsatzgebieten sinnvoll? Ist vielleicht auch beides möglich?
 * **Ist klar erkennbar, welche Voraussetzungen die Hardware zu erfüllen hat?** Spezifikationen vorhanden?
 * **Was waren die eigenen Erfahrungen bei der Installation der Software?** Dabei ist natürlich wichtig die eigene Umgebung und eigene Kompetenz darzustellen.
@@ -220,6 +221,7 @@ Die folgenden Fragen richten sich auf technischen Merkmale, die die Benutzbarkei
 Die Nutzbarkeit wird zentral von den Möglichkeiten der Kommunikation von Mensch und Software bestimmt, also dem der Software-Oberfläche (UI). Diese mag in manchen Fällen graphisch gestützt sein, in anderen Fällen rein kommando-basiert. Die Gestaltung von Oberflächen und die Nutzerführung in Menüstrukturen sind ein eigenes Aufgabenfeld in der Softwareentwicklung und können erhebliche Kosten erzeugen. Gut an den Nutzer-angepasste Lösungen sind das Ergebnis einer genauen Kenntnis der Zielgruppe ihre Gewohnheiten und Bedarfe im Falle archäologischer Forschungssoftware also Forschungspraxis. Ein gutes Interface unterstützt das fehlerfreie effiziente Arbeiten. So sind z.B. Verständlichkeit der Menü-Einträge oder der Kommandos, aber auch die Aussagekraft von Fehlermeldungen Aspekte die in der Rezension betrachtet werden sollten. Barrierefreiheit ist bislang ein unzureichend abgedecktes Kriterium, das aber ebenfalls die Effizienz und den möglichen Nutzerkreis adressiert. Auch bei diesem Punkt liegen Gewichtung und im Ermessen des Rezensenten.
 
 * **Passt die UI (GUI oder Konsole) zum Nutzerkreis?**
+Jeder Nutzerkreis, auch der des Reviewers wird bestimmte Erwartungen an die Präsentation der Anwendung haben. Beispielsweise ist es möglich das ein Benutzerkreis sich mit einer Kommandozeilenanwendung sehr gut zurechtfinden wird. Ein anderer Benutzerkreis wird mit dieser Form der Präsentation der Anwendung vermutlich weniger klarkommen.
 
 Stellt z.B. die Nutzung einer eigens zu installierenden Shell eine Hürde dar?
 * **Orientiert sich die Menüführung an bestimmten Vorbildern?** Das muss man nicht bewerten
@@ -235,12 +237,13 @@ Fehlermeldungen dienen zwei Funktionen. Die erste Funktion ist eine Fehlermeldun
 ##### Hilfefunktionen, Tutorials und Community
 Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Software von einer Community getragen wird. Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen Hilfe in Foren findet. Ist der Nutzerkreis sehr klein findet der Wissenstransfer dagegen häufig im persönlichen Austausch statt, ist somit kaum dokumentiert und hängt stark von personellen Netzwerken ab. Diese können wiederum den großen Vorteil bieten, dass konkrete Fragen individuell von den Entwicklern aufgegriffen werden. Belege dafür können sich in öffentlichen Kommentarfunktionen von Webseiten der Entwickler und z.B. über Issues im Softwarerepositorium abzeichnen.
 
-* Gibt es ausreichend Tutorials für das Erlernen der Software? Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
-* Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese um ein Verständnis für die Funktionsweise zu entwickeln?
+* **Gibt es ausreichend Tutorials für das Erlernen der Software?**
+Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
+* **Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese um ein Verständnis für die Funktionsweise zu entwickeln?**
 
 * Wird die Software von einer Community getragen? 
 * Gibt es bereits eine speziell archäologische Community für diese Software? (SIG, ...).
-* Haben ArchäologInnen bereits Best Practices für diese Software formuliert?
+* **Haben ArchäologInnen bereits Best Practices für diese Software formuliert?**
 
 * Wo finde ich mehr Informationen zu dieser Software? Hyperlinks und Referenzen.
 
@@ -267,16 +270,12 @@ Für den Einsatz in der universitären Forschung und der Lehre ist die Frage des
  
 * **Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)?** 
 Oft muss damit gerechnet werden, dass die Software in verschiedenen Anwendungskontexten und von Menschen in verschiedenen kulturellen Kontexten und in verschiedenen Ländern verwendet wird. Diese Länder können ggf. Gesetze erlassen haben welche der Ausführung/Installation der Software entgegenstehen. Ein Beispiel sind Kartendarstellungen welche z.B. Grenzkonflikte wie diese in Kashmir in Indien, Pakistan, China und dem Rest der Welt unterschiedlich auf der Karte angezeigt werden müssen. Ein weiteres Beispiel stellt der Datenschutz z.B. in der europäischen Union dar.
-* **Welche Daten speichert die Anwendung zu welchem Zweck wie lange?**
+* **Welche Daten speichert die Anwendung zu welchem Zweck wie lange? Werden Daten an Dritte übertragen?**
 In vielen Softwareanwendungen, oftmals Webdiensten werden Daten der Benutzer zur Verbesserung der Anwendungen als solche anonymisiert erfasst. Kommerzielle Anbieter von Software erfassen jedoch oft weitaus mehr Daten als diese und verwenden diese auch z.B. zur Übertragung and Drittanbieter. 
 Hier sollte sich ein Reviewer die Frage stellen welche Daten erhoben werden, ob eine Zustimmung des Benutzers eingeholt wird, wie lange die Daten gespeichert werden und ob eine Anwendung ohne eine solche Einwilligung zur Übertragung von Nutzerdaten überhaupt bedienbar ist.
 Falls eine Datenerhebung stattfindet wäre zu hinterfragen ob der Zweck der Datenerfassung einem dem Reviewer als gerechtfertigt erscheint und ob diese Datenerhebung zur Verbesserung der Software beiträgt oder anderen Interessen dient.
 
 Üblicherweise sollten solche Informationen in der Softwaredokumentation vorhanden sein und können auf dieser Grundlage bewertet werden. Eine weitergehende Analyse ob diese Informationen den Tatsachen entsprchen wird hier wiederum nur Experten vorbehalten sein.
-* **Ist die Software ohne Login anonym bedienbar?**
-
-* **Benötigt die Software eine Internetverbindung und werden personenbezogene Daten an Dritte übertragen?**
-
 
 ### Entwickler-Perspektive und Softwarequalität
 Hier geht es nun um die Sicht aus Perspektive der Entwickler, die auch Nutzer sind, aber zusätzlich mit weiteren Interessen/Anwendungsszenarien auf die Software schauen. Die folgenden Fragen richten sich somit direkt auf den Programmcode und die Softwarearchitecḱtur. Eine Beurteilung derselben erfordert also, den Programmcode herunterzuladen und in Stichproben durchzusehen. Das ist bei proprietärer Software meist nicht möglich.
@@ -334,15 +333,24 @@ Schließlich ist es für Entwickler oft interessant die Software selbst mitzuges
 #### Qualität der Implementierung
 
 * **Entspricht die Implementierung dem Stand der Technik?**
+Die Frage ob die Entwicklung dem Stand der Technik entspricht muss meist anwendungsbezogen beantwortet werden und verlangt ein technisches Verständnis der Abläufe innerhalb der Anwendung. Allerdings können einige Aspekte durchaus auch ohne Fachwissen bewertet werden.
+Hierzu gehören unter anderem folgende Aspekte:
+  * Ist die Anwendung auf vielen verschiedenen Endgeräten bedienbar? (z.B. Handy, verschiedene Betriebssysteme usw.)
+  * Wie ist die Optik der Anwendung? Verwendet sie Elemente vergleichbarer Anwendungen (z.B. Elemente der aktuellen Android Version, verwendet die Webanwendung Adobe Flash, Java Applets oder ähnlich veraltete Technologien?)
+  * Werden im Github Repository Mängel an der Anwendung betreffend Security angemerkt oder automatisiert annotiert?
+Eine tiefergehende Analyse der Anwendung wird einem Experten vorbehalten sein.
 
 * **Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.**
-* Wie robust ist die Software gegenüber äußeren Einflüssen? Wie geht die Software mit Abstürzen/Stromausfall usw. um? Wird die Arbeit regelmäßig zwischengespeichert?
-* Wird Continuous Integration zur Absicherung der Implementierungsqualität verwendet?
+Die Performanz einer Anwendung ist je nach Anwendungstyp von mehr oder weniger Wichtigkeit. Ein Reviewer sollte hier bewerten ob die Software ihre Aufgabe in der vom Reviewer angemessenen Zeit erfüllt. Gegebenenfalls kann der Reviewer die Ausführungszeit weiterer verwandte Softwareimplementierungen mit der von ihm zu testenden vergleichen.
+Ein Reviewer wird wahrscheinlich nicht in der Lage sein die Gründe für eine mangelnde Performanz der Software zu erkennen, 
 
-#### Sicherheit
-* Ist die Anwendung auf Sicherheitsanforderungen getestet worden? (Penetrationtests usw.), also ist sie leicht hackbar oder nicht?
-* Setzt die Anwendung Standards zur IT Sicherheit welche von Behörden oder internationalen Organisationen empfohlen werden um? Beispiel [OWASP](https://de.wikipedia.org/wiki/Open_Web_Application_Security_Project)
-* Hat die Anwendung Abhängigkeiten zu Softwarekomponenten welche bekannte Sicherheitslücken aufweisen und nicht mehr gepflegt werden? Hält dieser Zustand auf absehbare Zeit an?
+* **Robustheit der Software**
+Die Robustheit einer Software ist ein wünschenswerter Aspekt, welcher im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben die diese auszuführen hat regelmäßig sichert um bei einem unvorhergesehenen äußeren Einfluss wie einem Stromausfall, einer plötzlichen Beendigung oder Absturz des Programms wieder an dem Punkt anknüpfen zu können an dem die Software vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten die das Benutzererlebnis negativ beeinflussen.
+Ein Beispiel für eine solche Robustheit ist das Zwischenspeichern in einem Textverarbeitungsprogramm nach einem gewissen Zeitintervall. Das Textdokument ist somit im Falle eines Absturzes wiederherstellbar.
+Abhängig vom Anwendungsfall kann es auch gewünscht sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann.
+
+* **Wird Continuous Integration zur Absicherung der Implementierungsqualität verwendet?**
+Für einen Entwickler ist nicht nur das Vorhandensein und die Dokumentation des Quellcodes entscheidend, sondern er wird meistens auch einen Hinweis zur Funktionalität und Kompilierbarkeit des Quellcodes erwarten. Continuous Integration wie schon in den vorherigen Abschnitten angesprochen kann ein solches Qualitätsmerkmal darstellen. Der Continuous Integration Prozess überprüft die Kompilierbarkeit der Software nach jeder Änderung und kann diese am Repository mit einer Statusanzeige sichtbar machen. Es ist ein Zeichen von gut gewartetem Quellcode wenn dieser in der aktuell vorliegenden Version und ggf. in der aktuellen Entwicklerversion kompiliert.
 
 ## Weitere Merkmale und Spezifikationen
 Wie oben beschrieben gibt es eine große Anzahl weiterer Merkmale, die für die Leser interessant sein können, aber keiner Einschätzung oder Beurteilung benötigen. Denkbar ist etwa diese, wie man es vielfach bei Vergleichsportalen findet, tabellarisch zusammengefasst werden. Wir haben hier auch einige Merkmale wiederholt, die auch in unserem Fragekatalog vorhanden sind. Auch um zu zeigen, wie man gegebenenfalls Gewichtungen in der Besprechung vornhemen kann, ohne ganze Aspekte unerwähnt zu lassen.
