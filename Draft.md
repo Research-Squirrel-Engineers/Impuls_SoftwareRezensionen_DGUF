@@ -206,12 +206,19 @@ Wissenschaftliche Software hat einen konkreten Zweck, verfolgt und erfüllt eine
 #### Wissenschaftlicher Zweck und Beurteilung der Korrektheit
 
 * **Welches Problem versucht die Software zu lösen?** Welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse von Daten durchgeführt? Wie sind diese Probleme und Aufgaben von ihrer Relevanz und von ihrer Häufigkeit in einem archäologischem Kontext einzuschätzen? z.B. "Schätzung von Bevölkerungsdichte aus Siedlungsgröße" oder "Statikmodellierung für Langhäuser"
+
 * **Gibt es Archäologie-relevante erfolgreiche Projekte/Anwendungen, die von dieser Software bereits unterstützt wurden?** Wie plausibel sind die erzielten Resultate? Wurden Ergebnisse der Projekte kritisiert, die insbesondere auf jene Ergebnisse beruhen, die mit der Software erzielt wurden?
+
 * **Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde?** Welche wesentlichen Schritte durchlaufen Daten, um das Ausgangsproblem zu lösen? z.B. "Die Eingabedaten werden mittels eines Referenzdatensatzes bereinigt, mit hierarchischer Clusteranalyse klassifiziert und zuletzt als paarweise Distanzmatrix visualisiert"
+
 * **Wie löst die Software das gegebene Problem?** Wie ist die grundsätzliche Funktionsweise konzipiert? Was sind die wesentlichen Bestandteile in Frontend und Backend? z.B. "WebApp als Schnittstelle zu einer Datenbank" oder "Command line interface um ein Neuronales Netz für Nachhersage zu trainieren"
+
 * **Wie ist die Software publiziert?** Eignet sich die Software für wissenschaftliche Anwendungen, da sie in einer zitierbaren Publikation vorgestellt wurde? Sind einzelne Versionen klar als solche referenzierbar (etwa mittles DOI)? z.B. "Das Softwarepaket wurde in einer kurzen, zweiseitigen Publikation im Journal *Open Source Software* vorgestellt, diese Publikation schließt aber keine umfassenden Tests oder Vergleiche mit Alternativprodukten ein"
 
 * **Ist die Behauptung, eine bestimmte wissenschaftliche Fragestellung mit dem gewähltem Algorithmus lösen zu können, korrekt?**
+
+> [AK] Hier ist mir nicht klar: Ist das nicht genau das was, ober ausführlich als besonders komplexes Problem erläutert wurde?
+
 * **Sind die Algorithmen korrekt implementiert worden?** 
 * Ist das wissenschaftliche Ergebnis jenseits aller technischen Unterschiede vergleichbar zu anderen Implementierungen/Tools
 * Sind die verwendeten Algorithmen dokumentiert und hinreichend wissenschaftlich belegt?
@@ -261,47 +268,62 @@ Fehlermeldungen dienen zwei Funktionen. Die erste Funktion ist eine Fehlermeldun
 Entspricht der archäologische Einsatz den generellen Anwendungszenarien, den die Entwickler vor Augen hatten? Hat das Einfluss auf die Nutzbarkeit aus wissenschaftlicher Perspektive? Z.B. "Diese CAD Software ist für Architekturanwendungen konzipiert und konfrontiert den durchschnittlichen Grabungstechniker mit überwältigendem Funktionsumfang."
 
 ##### Hilfefunktionen, Tutorials und Community
-Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Software von einer Community getragen wird. Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen Hilfe in Foren findet. Ist der Nutzerkreis sehr klein, findet der Wissenstransfer dagegen häufig im persönlichen Austausch statt, ist somit kaum dokumentiert und hängt stark von personellen Netzwerken ab. Diese können wiederum den großen Vorteil bieten, dass konkrete Fragen individuell von den Entwicklern aufgegriffen werden. Belege dafür können sich in öffentlichen Kommentarfunktionen von Webseiten der Entwickler und z.B. über Issues im Softwarerepositorium abzeichnen.
+Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Software von einer *Community* getragen wird. Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen Hilfe in Foren findet. Ist der Nutzerkreis sehr klein, findet der Wissenstransfer dagegen häufig im persönlichen Austausch statt, ist somit kaum dokumentiert und hängt stark von personellen Netzwerken ab. Diese können wiederum den großen Vorteil bieten, dass konkrete Fragen individuell von den Entwicklern aufgegriffen werden. Belege dafür können sich in öffentlichen Kommentarfunktionen von Webseiten der Entwickler und z.B. über Issues im Softwarerepositorium abzeichnen. Zum Austausch mit den Entwicklern werden weiter unten weitere Kriterien erläutert.
 
 * **Gibt es ausreichend Tutorials für das Erlernen der Software?**
 Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen unabdingbar sind. Ein weiterer Aspekt bei den Anleitungen, Tutorials und FAQs ist die Frage der Sprachen.
-* **Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese um ein Verständnis für die Funktionsweise zu entwickeln?**
 
-* Wird die Software von einer Community getragen? 
-* Gibt es bereits eine speziell archäologische Community für diese Software? (SIG, ...).
+* **Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese, um ein Verständnis für die Funktionsweise zu entwickeln?**
+Dieser Punkt ist eng mit der Frage nach Tutorials verbunden, so greifen Tutorials oftmals auf Übungsdaten zurück. Die Übungsdaten von Forschungssoftware sollten sich dabei eng an der wissenschaftlichen Praxis orientieren und dennoch ohne spezifische Vorkenntnisse verständlich sein. Sie sollten frei zur Verfügung stehen und möglichst ohne Registrierung nutzbar sein. 
+
+> [AK] Hier wäre ein positives Beispiel ideal 
+
+* **Wo finde ich mehr Informationen zu dieser Software? Hyperlinks und Referenzen?**
+Gibt es auf den Informationsseiten der Software oder in den Tutorialmaterialien Hinweise auf weitere Materialien zur Software? Wird auf Publikationen und Beiträge der Entwickler selbst wie auch Rezensionen hingewiesen?
+
+* **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich ?** 
+Beispiele für die Softwareentwicklung, die zunächst ganz aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind die [Pelagios Commons](https://pelagios.org/) und die WebApp [Recogito](https://recogito.pelagios.org/). Aktive Nutzergrupen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Cuommunities großer Softwarepakete wie QGIS oder R entwickelt.
+
+>[AK] Hier wäre ich über konkrete Adressen / Foren /Anlaufstellen für Communities als Beispiele sehr froh !
+
 * **Haben ArchäologInnen bereits Best Practices für diese Software formuliert?**
 
-* Wo finde ich mehr Informationen zu dieser Software? Hyperlinks und Referenzen.
+>[AK] Hier wäre ich über konkrete Beispiele sehr froh und auch eine kurze Erläuterung, was Best Practices an dieser Stelle meint.
+
 
 ##### Dateningest, Interoperabilität und Schnittstellen
-Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl, welche Datenformate gelesen, als auch geschrieben werden können. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag klar und es ist hilfreich, im Rahmen einer Rezension diesen anzuführen. Auch die Form des Uploads von Daten und das Vorhandensein von Schnittstellen machen einen wesentlichen Aspekt des praktischen Einsatz aus und sollten in einer Rezension bedacht werden.
+Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl, welche Datenformate gelesen, als auch geschrieben werden können. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag  (z.B. "speichern unter") klar und es ist hilfreich, im Rahmen einer Rezension dies zu erläutern. Auch die Form des Uploads von Daten und das Vorhandensein von Schnittstellen machen einen wesentlichen Aspekt des praktischen Einsatz aus und sollten in einer Rezension bedacht werden.
 
 * **Welche Datenformate werden wie eingelesen?** 
 Bei der Auswahl der Datenformate die von einer Software eingelesen werden können sollten, gibt es verschiedene Gesichtspunkte zu beachten:
-  * Sind alle relevanten Datenformate für die Aufgabe, welche die Software lösen soll, einlesbar? Diese Einschätzung sollte auf dem Arbeitsalltag eines typischen Anwenders beruhen
-  * Können Datenformate, auch von gängigen Repositories eingelesen werden (z.B. Webservices, Git, Cloud Services)?
-  * Werden auch offene Datenformate unterstützt?
+  * Sind alle relevanten Datenformate für die Aufgabe, die die Software lösen soll, einlesbar? Diese Einschätzung sollte auf dem Arbeitsalltag eines typischen Anwenders beruhen.
+  * Können Datenformate auch von gängigen Repositories eingelesen werden (z.B. Webservices, Git, Cloud Services)?
+  * Werden offene Datenformate unterstützt?
+  
 * **Welche Datenformate werden ausgegeben?**
-Die Ausgabe von Daten nach der Bearbeitung sollte am Besten in Datenformaten erfolgen, die eine Weiterverarbeitung in anderen (auch Open Source) Softwarepaketen zulassen. Dies bedarf üblicherweise mindestens eines Formates, dessen Spezifikation frei verfügbar ist, so dass Open Source Software dafür entwickelt werden kann.
+Die Ausgabe von Daten nach der Bearbeitung sollte am Besten in Datenformaten erfolgen, die eine Weiterverarbeitung in anderen (auch Open Source) Softwarepaketen zulassen. Dies bedarf üblicherweise mindestens eines Formates, dessen Spezifikation frei verfügbar ist, sodass Open Source Software dafür entwickelt werden kann.
 Sollten nur Exporte in einem proprietärem, ggf. von der Software definierten Format möglich sein, muss es dafür schwerwiegende Gründe geben.
-* **Wie können Daten eingeladen werden? Als Masseningest oder einzelne uploads?**
-Für Entwickler, aber auch für Projekte, ist es entscheidend ob eine Software einen einmal definierten Task massenweise auf eine Reihe von Dateien ausführen kann. Ein Beispiel kann hier eine Transformation von Bilddaten sein, die auf jedes aufgenommene Bild einer Ausgrabung ausgeführt werden soll. Um dies zu gewährleisten, muss die Software die Spezifikation entweder eines Ordners von Dateien oder einer Spezifikation von verschiedenen Dateipfaden unterstützen. 
+
+* **Wie können Daten eingeladen werden? Als Masseningest oder einzelne *Uploads*?**
+Für serh viele Anwendunsgszenarien, ist es entscheidend, ob eine Software einen einmal definierten Task massenweise auf eine Reihe von Dateien ausführen kann. Ein Beispiel kann hier eine Transformation von Bilddaten sein, die auf jedes Foto einer Ausgrabungskampagne ausgeführt werden soll. Um dies zu gewährleisten, muss die Software die Spezifikation entweder eines Ordners von Dateien oder einer Spezifikation von verschiedenen Dateipfaden unterstützen. 
+
 * **Gibt es eine API?**
-Diese Frage beschäftigt sich mit dem Vorhandensein einer Programmierschnittstelle (API) für die zu reviewende Software. Neben der Bedienbarkeit durch einen Menschen, ist es wichtig, dass auch andere Software ggf. mit dem Softwarepaket interagieren und dadurch ihre Funktionalität anderer Software zur Verfügung gestellt werden kann.
+Diese Frage beschäftigt sich mit dem Vorhandensein einer Programmierschnittstelle (API). Neben der Bedienbarkeit durch einen Menschen, ist es wichtig, dass auch andere Software ggf. mit dem Softwarepaket interagieren und dadurch ihre Funktionalität anderer Software zur Verfügung gestellt werden kann.
 Eine API gewährleistet eine solche Integration und sollte möglichst offen, ggf. mittels eines Standards wie [OpenAPI](https://www.openapis.org), dokumentiert sein. 
-Je sichtbarer eine API Dokumentation dem Nutzer gemacht wird, desto eher wird eine API verwendet.
+Je sichtbarer eine API Dokumentation dem Nutzer gemacht wird, desto eher wird eine API verwendet. Ein konkretes Beispiel für eine API ist die REST-Schnittstelle von Wikidata, an die man automatisierte Abfragen stellen und Daten von Wikidata beziehen kann. Sie ist zudem umfangreich dokumentiert und bietet eine GUI zum Erlernen der Syntax an.
 
 ##### Konformität mit Regelungen zum Datenschutz, Fragen der Privacy und der Datensparsamkeit
-Für den Einsatz in der universitären Forschung und der Lehre ist die Frage des Datenschutzes vielfach entscheidend dafür, ob die Software überhaupt genutzt werden darf. Eine Einschätzung der Regelungen, sofern sie sich nicht eindeutig auf die europäischen Rahmenrichtlinien beziehen, ist teilweise jedoch kaum möglich und Gegenstand von juristischen Diskussionen. Auch hier kann die Rezensension aber bereits durch den Hinweis auf das Thema einen wichtigen Service für die Leser bringen. Dies gilt auch für Datensparsamkeit und das Hinterfragen von Registrierungsvorgängen, Cookies und ähnlichem. 
+Für den Einsatz in der universitären Forschung und der Lehre entscheidet die Frage nach dem Datenschutz vielfach darüber, ob die Software überhaupt genutzt werden darf. Eine Einschätzung der Regelungen, sofern sie sich nicht eindeutig auf die europäischen Rahmenrichtlinien beziehen, ist teilweise jedoch kaum möglich und Gegenstand von juristischen Diskussionen. Auch hier kann die Rezensension aber bereits durch den Hinweis auf das Thema einen wichtigen Service für die Leser bringen. Dies gilt auch für Datensparsamkeit und das Hinterfragen von Registrierungsvorgängen, Cookies und ähnlichem. 
  
 * **Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)?** 
-Oft muss damit gerechnet werden, dass die Software in verschiedenen Anwendungskontexten von Menschen in verschiedenen kulturellen Kontexten und in verschiedenen Ländern verwendet wird. Diese Länder können ggf. Gesetze erlassen haben, welche der Ausführung/Installation der Software entgegenstehen. Ein Beispiel sind Kartendarstellungen, welche z.B. Grenzkonflikte wie diese in Kashmir in Indien, Pakistan, China und dem Rest der Welt unterschiedlich auf der Karte angezeigt werden müssen. Ein weiteres Beispiel stellt der Datenschutz z.B. in der Europäischen Union dar.
-* **Welche Daten speichert die Anwendung zu welchem Zweck wie lange? Werden Daten an Dritte übertragen?**
-In vielen Softwareanwendungen, oftmals Webdiensten, werden Daten der Benutzer zur Verbesserung der Anwendungen als solche anonymisiert erfasst. Kommerzielle Anbieter von Software erfassen jedoch oft weitaus mehr Daten als diese und verwenden diese auch z.B. zur Übertragung and Drittanbieter. 
-Hier sollte sich ein Reviewer die Frage stellen, welche Daten erhoben werden, ob eine Zustimmung des Benutzers eingeholt wird, wie lange die Daten gespeichert werden und ob eine Anwendung ohne eine solche Einwilligung zur Übertragung von Nutzerdaten überhaupt bedienbar ist.
-Falls eine Datenerhebung stattfindet, wäre zu hinterfragen, ob der Zweck der Datenerfassung einem dem Reviewer als gerechtfertigt erscheint und ob diese Datenerhebung zur Verbesserung der Software beiträgt oder anderen Interessen dient.
+Oft muss damit gerechnet werden, dass die Software in einer Viezahl von Anwendungskontexten von Menschen in unterschiedlichen kulturellen Kontexten und in verschiedenen Ländern verwendet wird. Diese Länder können ggf. Gesetze erlassen haben, die der Ausführung/Installation der Software entgegenstehen. Ein Beispiel sind Kartendarstellungen, die z.B. Grenzkonflikte wie diese in Kashmir, die in Indien, Pakistan, China und den übrigen Staaten jeweils unterschiedlich auf der Karte angezeigt werden müssen. Ein weiteres Beispiel stellt der Datenschutz z.B. in der Europäischen Union dar.
 
-Üblicherweise sollten solche Informationen in der Softwaredokumentation vorhanden sein und können auf dieser Grundlage bewertet werden. Eine weitergehende Analyse ob diese Informationen den Tatsachen entsprechen, wird hier wiederum nur Experten vorbehalten sein.
+* **Welche Daten speichert die Anwendung zu welchem Zweck wie lange? Werden Daten an Dritte übertragen?**
+In vielen Softwareanwendungen, oftmals Webdiensten, werden Daten der Benutzer zur Verbesserung der Anwendungen anonymisiert erfasst. Kommerzielle Anbieter von Software erfassen jedoch oft weitaus mehr Daten und verwenden diese z.B. zur Übertragung and Drittanbieter. 
+Hier sollte sich ein Reviewer die Frage stellen, welche Daten erhoben werden, ob eine Zustimmung des Benutzers eingeholt wird, wie lange die Daten gespeichert werden und ob eine Anwendung ohne eine solche Einwilligung zur Übertragung von Nutzerdaten überhaupt bedienbar ist.
+Falls eine solche Datenerhebung stattfindet, wäre zu hinterfragen, ob der Zweck der Datenerfassung dem Reviewer als gerechtfertigt erscheint und ob diese Datenerhebung zur Verbesserung der Software beiträgt oder anderen Interessen dient.
+
+Üblicherweise sollten solche Informationen in der Softwaredokumentation vorhanden sein und können auf dieser Grundlage bewertet werden. Eine weitergehende Analyse ob diese Informationen den Tatsachen entsprechen, liegt außerhalb des Blickpunkts einer Rezension von Forschungssoftware.
 
 ### Entwickler-Perspektive und Softwarequalität
 Hier geht es nun um die Sicht aus Perspektive der Entwickler, die auch Nutzer sind, aber zusätzlich mit weiteren Interessen/Anwendungsszenarien auf die Software schauen. Die folgenden Fragen richten sich somit direkt auf den Programmcode und die Softwarearchitecḱtur. Eine Beurteilung derselben erfordert also den Programmcode herunterzuladen und in Stichproben durchzusehen. Das ist bei proprietärer Software meist nicht möglich.
@@ -320,45 +342,49 @@ Kernfragen, welche ein Reviewer beantworten sollte sind die folgenden:
 * **Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?** 
 Best Practices sind hier beispielsweise Quellcode Dokumentationen mit [Doxygen](https://www.doxygen.nl/index.html), [JavaDoc](http://www.oracle.com/technetwork/java/javase/documentation/javadoc-137458.html), [JsDoc](https://jsdoc.app) oder auch das für Python beliebte [ReadTheDocs](https://readthedocs.org). Alle Dokumentationen erzeugen eine HTML Repräsentation der Quellcodedokumentation, welche im Falle von ReadTheDocs direkt auch im Internet gehostet wird. Im Falle von anderen Dokumenationstools ist es gute Praxis diese beispielsweise als Github Page mit dem Repository bereitzustellen.
 * **Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?**
-Ebenso wichtig wie ein grundlegendes Verständnis des Aufbaus des Programms ist die Bauanleitung der Software. 
-  * Ist dokumentiert wie die Software erstellt werden kann? 
-  * Funktioniert das Erstellen der Software mit dem angegebenen Weg?
-  
-Während in der Vergangenheit hier mit Anleitungen in Readme Files oder ähnlichen natürlichsprachlichten Beschreibungen gearbeitet wurde, hat es sich seit vielen Jahren zu einem Standard etabliert maschinenlesbare Bauanleitungen für Software bereitzustellen. Diese kann im Allgemeinen auch als gute Praxis angesehen werden, denn zum Einen ist der Weg des Erstellens der Software eindeutig maschinenlesbar beschrieben, zum Anderen ist der Aufruf des Buildprozess meist durch Ausführung eines einzigen Skriptes für den Entwickler einfach gehalten. Ebenfalls dokumentieren die Buildscripts die Abhängigkeiten der Software in Bezug auf verwendete Libraries.
-Beispiele für solche Skripts finden sich z.B. in [Apache Maven](https://maven.apache.org) oder [Gradle](https://gradle.org)
-* **Ist die Dokumentation aktuell, wird gepflegt und deckt alle Funktionen des Programms ab?**
-Eine Bewertung der Aktualität der Dokumentation ist oft relativ einfach vorzunehmen, wenn State Of The Art Tools verwendet werden. Diese bieten meist einen Zeitstempel zur Überprüfung des Generierungsdatums der Dokumentation. Dieses kann nun in Relation zum letzten Releasezeitpunkts des Programms bewertet werden.
-Gute Praxis ist es hier die Generierung der Dokumentation und das Hosten dieser auf der jeweiligen Plattform mit in den Entwicklungsprozess über Continuous Integration zu integrieren.
+Ebenso wichtig wie ein grundlegendes Verständnis des Aufbaus des Programms ist die Bauanleitung der Software. Entsprechend ist zu fragen, ob dokumentiert ist, wie die Software erstellt wurde und funktioniert die Erstellung unter dem angegebenen Weg.
 
-Ein Beispiel hierfür bietet das [Github Repository des SPARQLing Unicorn QGIS Plugins](https://github.com/sparqlunicorn/sparqlunicornGoesGIS). Ein Continuous Integration Prozess erstellt die Dokumentation bei jeder Veränderung des Quellcodes durch die Entwickler neu und publiziert diese auf der [Github Page des Repositories](https://sparqlunicorn.github.io/sparqlunicornGoesGIS/).
-Eine solche oder ähnliche Konfiguration sorgt dafür, dass die Aktualisierung und Publizierung der aktuellen Dokumentation nicht vergessen werden kann.
+Während in der Vergangenheit mit Anleitungen in *README Files* oder ähnlichen natürlichsprachlichen Beschreibungen gearbeitet wurde, hat es sich seit vielen Jahren zu einem Standard etabliert, maschinenlesbare Bauanleitungen (*Buildscripts*) für Software bereitzustellen. Dies kann als gute Praxis angesehen werden, denn zum einen ist eindeutig und maschinenlesbar beschrieben, wie die Software erstellt wurde, zum anderen ist der Aufruf des Buildprozess so meist durch Ausführung eines einzigen Skriptes möglich und somit für den Entwickler einfach gehalten. Ebenfalls dokumentieren die Buildscripts die Abhängigkeiten der Software in Bezug auf verwendete *Libraries*.
+Beispiele für solche Skripts finden sich z.B. in [Apache Maven](https://maven.apache.org) oder [Gradle](https://gradle.org)
+
+* **Ist die Dokumentation aktuell, wird gepflegt und deckt alle Funktionen des Programms ab?**
+Eine Bewertung der Aktualität der Dokumentation ist oft relativ einfach vorzunehmen, wenn Werkzeuge verwendet werden, die dem aktuellen Stand in der Softwareentwicklung entsprechen. Diese beinhalten meist einen Zeitstempel mit dem Datum der Erstellung der Dokumentation. Dieses kann entsprechend mit dem Datum des aktuellen Release verglichen werden. Gute Praxis ist es hier, die Generierung der Dokumentation und das Hosten mit in den Entwicklungsprozess über *Continuous Integration* zu integrieren.
+
+Ein Beispiel hierfür bietet das [Github Repository des SPARQLing Unicorn QGIS Plugins](https://github.com/sparqlunicorn/sparqlunicornGoesGIS). Ein *Continuous Integration* Prozess erstellt die Dokumentation bei jeder Veränderung des Quellcodes durch die Entwickler neu und publiziert diese auf der [Github Page des Repositories](https://sparqlunicorn.github.io/sparqlunicornGoesGIS/).
+Eine solche oder ähnliche Konfiguration sorgt dafür, dass die Aktualisierung und Publikation der aktuellen Dokumentation nicht vergessen werden kann.
 > nice :-)
+
 * **Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?**
-Essentiell für einen Entwickler, welcher Zeit mit der Erweiterung oder Nutzung einer Software verbringen möchte, ist es den Einstieg möglichst einfach zu gestalten.
-Hierfür ist eine aussagekräftige ReadMe Datei notwendig, welche kurz die Verwendung des fertig erstellten Programmes mit Defaulteinstellungen demonstriert. (Zu sehen zum Beispiel bei [Bibtex_JS](https://github.com/pcooksey/bibtex-js)).
-Idealerweise werden dem Repository noch Beispieldaten für ein besseres Verständnis des Programmablaufs beigelegt und ggf. weitere häufig verwendete Anwendungsfälle der Software in Beispielen vorgestellt. (siehe [Bibtex_JS Beispiele](https://github.com/pcooksey/bibtex-js/tree/master/test)).
-Abhängig von der Komplexität der Software kann es sinnvoll sein, ein ggf. auch von einer Nutzercommunity gepflegtes Wiki bereitzustellen, um nach Einarbeitung des Entwicklers fortgeschrittene Optionen zu erläutern. (siehe [Bibtex_JS Wiki](https://github.com/pcooksey/bibtex-js/wiki))
+Essentiell für einen Entwickler, der sich mit der Erweiterung oder Nutzung einer Software befasst, ist es, ihm einen möglichst einfachen Einstieg zu bieten.
+Dafür ist eine aussagekräftige *README* Datei notwendig, die kurz die Verwendung des Programmes mit den Standardeinstellungen demonstriert. Ein Beispiel dafür ist  [Bibtex_JS](https://github.com/pcooksey/bibtex-js).
+Idealerweise werden noch Beispieldaten für ein besseres Verständnis des Programmablaufs beigelegt und ggf. weitere häufig verwendete Anwendungsfälle der Software in Beispielen vorgestellt. Auch dies kann das genannte Beispiel demonstrieren [Bibtex_JS Beispiele](https://github.com/pcooksey/bibtex-js/tree/master/test)).
+Abhängig von der Komplexität der Software kann es sinnvoll sein, ein ggf. auch von einer Nutzercommunity gepflegtes Wiki bereitzustellen, um fortgeschrittene Optionen zu erläutern. (siehe [Bibtex_JS Wiki](https://github.com/pcooksey/bibtex-js/wiki))
 
 * **Hat der Quellcode Tests, die die Kernfunktionen des Programms testen und diese für andere Entwickler aufzeigen?**
-Jede Software kann durch Tests auf ihre antizipierte Funktionalität hin überprüft werden. Tests erfüllen hierbei zwei grundlegende Funktionen. Zum Einen zeigen sie auf welche Anwendungsfälle die Entwickler bei der Entwicklung der Software antizipiert hatten und geben diese Informationen in Form von (hoffentlich funktionierenden) Tests an weitere Entwickler weiter. Zum Anderen geben Tests immer einen Einblick darin, welche Funktionen im jeweiligen Programm als stabil, fehleranfällig oder ggf. noch optimierungsbedürftig gelten können. Kombiniert mit einem Continuous Integration Prozess können Testauswertungen immer aktuell mit jeder Änderung am Quellcode durch die Entwickler erstellt werden.
+Jede Software kann durch Tests auf ihre antizipierte Funktionalität hin überprüft werden. Tests erfüllen hierbei zwei grundlegende Funktionen. Zum einen zeigen sie auf welche Anwendungsfälle hin die Entwickler die Software antizipiert haben und geben diese Information in Form von Tests weiter. Zum anderen geben Tests Auskunft darüber, welche Funktionen im jeweiligen Programm als stabil, fehleranfällig oder ggf. noch optimierungsbedürftig gelten können. Kombiniert mit einem *Continuous Integration* Prozess können Testauswertungen mit jeder Änderung am Quellcode durch die Entwickler erstellt werden.
 > ich glaube du solltest davor CI mal vorstellen...
+> [AK] Ist diese Anregung bereits aufgenommen und verarbeitet?
 
-Eine weiterführende Frage ist hier, wie hoch die Testabdeckung des jeweiligen Umfangs des Programms ist. Wurden tatsächlich alle Funktionen des Programms durch Tests abgedeckt? Wenn nein, zu welchem Prozentsatz und deckt dieser Prozentsatz die wesentlichen Funktionen ab, die das Programm seinen Benutzern bereitstellt? Diese Frage wird aber allgemeinhin nur durch Experten beantwortbar sein.
+Eine weiterführende Frage ist, wie hoch die Testabdeckung des Umfangs des Programms ist, also ob alle Funktionen des Programms durch Tests abgedeckt sind. Ist nur ein Teil abgedeckt, wäre zu betrachten, inwieweit dies die Funktionen betrifft, die das Programm seinen Benutzern bereitstellt. Dies gehört zu den Fragen, die mehrheitlich nur durch Experten beantwortbar sind, vielfach also kaum in einer Rezension betrachtet werden können.
 
-* **Wird es dem Benutzer einfach gemacht die Software zu testen? Gibt es eine VM, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?**
-Entwickler werden mit mehr oder weniger Schwierigkeiten in der Lage sein eine Software zu bauen und auszuführen. Allerdings will auch dieser Zeiteinsatz oft wohlbedacht sein. Tatsächlich werden Softwares, welche leicht installierbar und vor allem testbar sind, sowohl von Entwicklern die einen schnellen Einblick in die Funktionalität bekommen wollen, als auch von anderen Benutzern einen besseren Anklang finden als andere.
+* **Wird es dem Benutzer einfach gemacht, die Software zu testen? Gibt es eine Virtuelle Maschine, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?**
+Entwickler werden mit mehr oder weniger Schwierigkeiten in der Lage sein, eine Software zu bauen und auszuführen. Allerdings will auch dieser Zeiteinsatz oft wohlbedacht sein. Tatsächlich werden Softwares, welche leicht installierbar und vor allem testbar sind, sowohl von Entwicklern die einen schnellen Einblick in die Funktionalität bekommen wollen, als auch von anderen Benutzern einen besseren Anklang finden als andere.
+
+> [AK] Absatz ist für mich Streichkandidat
 
 Es liegt in der Natur der Sache, dass es hierbei, je nach Art der Anwendung, unterschiedliche Ausführungsformen gibt. Eine Webanwendung kann als Beispiel im Internet gehostet sein und dem Benutzer einen Testaccount zur Verfügung stellen (z.B. [CWRCWriter](https://cwrc.ca)), eine Desktop Anwendung kann bereits eine installierebare Anwendung oder ein Installerpaket mitliefern. Serveranwendungen können für einen Test als Images von virtuellen Maschinen oder - in letzter Zeit üblicher - als Dockerimages in Portalen wie [Dockerhub](https://hub.docker.com) für ein einfaches Testen hinterlegt werden.
 
-Eine Anwendung, die in dieser Kategorie punkten will, sollte zumindest eine dieser Möglichkeiten bereitstellen.
+>[AK] Das Thema Installtion hatten wir weiter oben. In diesem Abschnitt soll es aber um Entwickler gehen. Daher bitte überarbeiten. Zudem insgesamt sehr umgangssprachlich formuliert
 
-* **Sind die Entwickler der Software aktiv und gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es Contribution Guidelines?**
-Oft stellen sich bei der Bedienung der Software fehlende Funktionalitäten oder Fehler im Programm heraus. In manchen Fällen machen diese die Benutzung der Software für bestimmte Anwendungsfälle unmöglich oder verschlechtern die Ergebnisse, die mit der Software erreicht werden können signifikant, auch wenn die Software möglicherweise in allen anderen Belangen den Erwartungen entspricht. In solchen Fällen ist die Verfügbarkeit der Entwickler und deren Feedback auf Supportanfragen ein entscheidendes Kriterium.
+* **Sind die Entwickler der Software aktiv und sind sie gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es *Contribution Guidelines*?**
+Oft stellen sich bei der Bedienung der Software heraus, dass Funktionalitäten fehlen oder Fehler im Programm vorhanden sind. In manchen Fällen machen diese Probleme die Benutzung der Software für bestimmte Anwendungsfälle unmöglich oder verschlechtern die Ergebnisse, die mit der Software erreicht werden können signifikant. Dies kann auch der Fall sein, wenn die Software möglicherweise in allen anderen Belangen den Erwartungen entspricht. In solchen Fällen ist die Verfügbarkeit der Entwickler und deren Feedback auf Supportanfragen ein entscheidendes Kriterium.
 
-Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports eingereicht werden können, am Besten noch welche Inhalte diese für eine bestmögliche Verarbeitung enthalten sollten (Was ist das Problem, wann tritt es auf usw.). Einen Eindruck davon kann man beispielsweise bei der Durchsicht von Issues in Github oder Gitlab gewinnen. Haben die Entwickler Anfragen zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Tickets zu bereits geschlossenen Tickets und wie lange hat es gebraucht bis eine Änderung eingefpflegt wurde?
+Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports eingereicht werden können, aund am Besten auch welche Inhalte diese für eine bestmögliche Verarbeitung der Meldungen enthalten sollten. Einen Eindruck davon, ob die Entwickler einen aktiven Austausch pflegen, kann man beispielsweise bei der Durchsicht von Issues in dem Repositorium der Software auf Github oder im Gitlab gewinnen. Haben die Entwickler Anfragen hier zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Tickets zu bereits geschlossenen Tickets und wie lange hat es gebraucht bis eine Änderung eingepflegt wurde?
 
-Zudem können Entwickler proaktiv in einer Roadmap kommunizieren welche Änderungen in nächster Zeit in das Program eingepflegt werden sollen und welche Issues für das nächste Release angegangen werden. 
-Schließlich ist es für Entwickler oft interessant die Software selbst mitzugestalten und einen Beitrag zu ihrer Verbesserung zu geben. Dafür sollte von den Entwicklern der Software selbst als Best Practice eine Contribution Guideline (siehe z.B. [hier](https://projectacrn.github.io/latest/developer-guides/contribute_guidelines.html)) erstellt werden, um klarzustellen unter welchen Umständen und wie Änderungen von anderen Entwicklern an der Software angenommen und integriert werden.
+>[AK] Hier wechselt es zwischen "Issues" und "Tickets", ist das identisch?
+
+Zudem können Entwickler proaktiv in einer Roadmap kommunizieren, welche Änderungen in nächster Zeit in das Program eingepflegt werden sollen und welche Issues für das nächste Release angegangen werden. 
+Schließlich ist es für Entwickler oft interessant die Software selbst mitzugestalten und einen Beitrag zu ihrer Verbesserung zu geben. Dafür sollte von den Entwicklern der Software selbst als Best Practice eine *Contribution Guideline* erstellt werden (siehe z.B. [hier](https://projectacrn.github.io/latest/developer-guides/contribute_guidelines.html)). Sie enthält Angaben dazu unter welchen Umständen und wie Änderungen an der Software von Dritten angenommen und integriert werden.
 
 #### Qualität der Implementierung
 
@@ -367,23 +393,30 @@ Die Frage, ob die Entwicklung dem Stand der Technik entspricht, muss meist anwen
 Hierzu gehören unter anderem folgende Aspekte:
   * Ist die Anwendung auf vielen verschiedenen Endgeräten bedienbar? (z.B. Handy, verschiedene Betriebssysteme usw.)
   * Wie ist die Optik der Anwendung? Verwendet sie Elemente vergleichbarer Anwendungen (z.B. Elemente der aktuellen Android Version, verwendet die Webanwendung Adobe Flash, Java Applets oder ähnlich veraltete Technologien?)
-  * Werden im Github Repository Mängel an der Anwendung betreffend Security angemerkt oder automatisiert annotiert?
-Eine tiefergehende Analyse der Anwendung wird einem Experten vorbehalten sein.
+  * Werden im Github Repository Mängel an der Anwendung die die Security betreffen angemerkt oder automatisiert annotiert?
+
+> [AK] Muss "security" verwendet werden, weil ein Fachbegriff, oder kann er mit Sicherhiet übersetzt werden und dabei auch spezifiziert werden. Mir sit nicht klar um die Sicherheit von was es sich handelt.
 
 * **Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.**
 Die Performanz einer Anwendung ist je nach Anwendungstyp von mehr oder weniger Wichtigkeit. Ein Reviewer sollte hier bewerten, ob die Software ihre Aufgabe in der vom Reviewer angemessenen Zeit erfüllt. Gegebenenfalls kann der Reviewer die Ausführungszeit weiterer verwandte Softwareimplementierungen mit der von ihm zu Testenden vergleichen.
 Ein Reviewer wird wahrscheinlich nicht in der Lage sein die Gründe für eine mangelnde Performanz der Software zu erkennen. 
 
-* **Robustheit der Software**
-Die Robustheit einer Software ist ein wünschenswerter Aspekt, welcher im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben die diese auszuführen hat regelmäßig sichert, um bei einem unvorhergesehenen äußeren Einfluss wie einem Stromausfall, einer plötzlichen Beendigung oder Absturz des Programms wieder an dem Punkt anknüpfen zu können an dem die Software vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten die das Benutzererlebnis negativ beeinflussen.
-Ein Beispiel für eine solche Robustheit ist das Zwischenspeichern in einem Textverarbeitungsprogramm nach einem gewissen Zeitintervall. Das Textdokument ist somit im Falle eines Absturzes wiederherstellbar.
-Abhängig vom Anwendungsfall kann es auch gewünscht sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann.
+> [AK] Frage: Ist die Frage der Performanz, so wie sie hier gestellt wird, nicht 1.) "usability" und 2.) auch ohen Entwicklerwissen zu testen?
 
-* **Wird Continuous Integration zur Absicherung der Implementierungsqualität verwendet?**
-Für einen Entwickler ist nicht nur das Vorhandensein und die Dokumentation des Quellcodes entscheidend, sondern er wird meistens auch einen Hinweis zur Funktionalität und Kompilierbarkeit des Quellcodes erwarten. Continuous Integration wie schon in den vorherigen Abschnitten angesprochen kann ein solches Qualitätsmerkmal darstellen. Der Continuous Integration Prozess überprüft die Kompilierbarkeit der Software nach jeder Änderung und kann diese am Repository mit einer Statusanzeige sichtbar machen. Es ist ein Zeichen von gut gewartetem Quellcode wenn dieser in der aktuell vorliegenden Version und ggf. in der aktuellen Entwicklerversion kompiliert.
+* **Robustheit der Software**
+Die Robustheit einer Software ist ein wünschenswerter Aspekt, der im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben, die sie auszuführt, regelmäßig sichert, um bei einem unvorhergesehenen Abbruch wieder an dem Punkt anknüpfen zu können, an dem sie vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft z.B. bei einem Stromausfall den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten.
+Ein Beispiel für eine solche Robustheit ist das regelmäßige automatisierte Zwischenspeichern in einem Textverarbeitungsprogramm. Das Textdokument ist somit im Falle eines Absturzes der Software wiederherstellbar.
+Abhängig vom Anwendungsfall kann es auch vorteilhaft sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann. Dies kann die Spracheinstellungen oder auch die Anpassung von Masseinheiten, Vorgaben zum Speicherort und ähnliches sein.
+
+> [AK] Sind wir hier noch im spezifischen Entwicklerbereich ? Es klingt für mich nach Usability, denn wir argumentieren hier über das Nutzererlebnis, nicht über technische Kerndaten. Für mich wäre die Frage, kann man nicht kurz erläutern, wie man einen Absturz herbeiführt, um die Robustheit zu testen? Wenn ja, was wäre das richtige Vorgehen?
+
+* **Wird *Continuous Integration* zur Absicherung der Implementierungsqualität verwendet?**
+Für einen Entwickler ist nicht nur das Vorhandensein und die Dokumentation des Quellcodes entscheidend, sondern er wird meistens auch einen Hinweis zur Funktionalität und Kompilierbarkeit des Quellcodes erwarten. *Continuous Integration* kann, wie schon in den vorherigen Abschnitten angesprochen, ein solches Qualitätsmerkmal darstellen. Der *Continuous Integration* Prozess überprüft die Kompilierbarkeit der Software nach jeder Änderung und kann diese am Repository mit einer Statusanzeige sichtbar machen. Es ist ein Zeichen von gut gewartetem Quellcode, wenn dieser in der aktuell vorliegenden Version und ggf. in der aktuellen Entwicklerversion kompiliert.
+
+>[AK] Besser, wenn alles rund um CI aufeinander folgt? 
 
 ## Weitere Merkmale und Spezifikationen
-Wie oben beschrieben, gibt es eine große Anzahl weiterer Merkmale, die für die Leser interessant sein können, aber keiner Einschätzung oder Beurteilung benötigen. Denkbar ist etwa diese, wie man es vielfach bei Vergleichsportalen findet, tabellarisch zusammengefasst werden. Wir haben hier auch einige Merkmale wiederholt, die auch in unserem Fragekatalog vorhanden sind. Auch um zu zeigen, wie man gegebenenfalls Gewichtungen in der Besprechung vornhemen kann, ohne ganze Aspekte unerwähnt zu lassen.
+Wie oben beschrieben, gibt es eine große Anzahl weiterer Merkmale, die für die Leser interessant sein können, aber keiner Einschätzung oder Beurteilung benötigen. Denkbar ist etwa diese tabellarisch zusammengefasst vorzustellen, so wie man es vielfach bei Vergleichsportalen findet. Vorschlagen möchten wir folgende Punkte für eine Tabelle. Dabei haben wir einige Merkmale wiederholt, die bereits in unserem Fragenkatalog vorhanden sind, um zu zeigen, wie man Gewichtungen und Schwerpunktsetzungen in der Besprechung vornehmen kann, ohne Aspekte unerwähnt zu lassen.
 
 * Vorhandensein der Spezifikation für Installationen
 * Opensource, Free and OpenSource
@@ -391,6 +424,7 @@ Wie oben beschrieben, gibt es eine große Anzahl weiterer Merkmale, die für die
 * Input- / Outputformate
 * Alternativprodukte / Konkurrenzangebote
 
+> [AK] Mir fehlen für eine Tabelle weitere Spalten und eine Spaltenüberschrift. Besser zu einem konkreten Vorschlag ausarbeiten?
 
 ## Anmerkungen
 
