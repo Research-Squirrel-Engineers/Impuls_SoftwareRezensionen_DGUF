@@ -1,5 +1,6 @@
 ---
 title: Diskussionsbeitrag - Handreichung zur Rezension von Forschungssoftware - Fragenkatalog für "gute" Forschungssoftware
+title_en: Recommendations for the review of archaeological research software - what constitutes "good" research software
 
 layout: draft
 author:
