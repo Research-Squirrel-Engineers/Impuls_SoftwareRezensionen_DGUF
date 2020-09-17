@@ -36,6 +36,13 @@ h4 {
     margin-bottom: 20px;
 }
 
+h5 {
+    font-size: 24px !important;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .authors {
     text-align:center;
     font-style:italic;
