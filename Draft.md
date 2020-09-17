@@ -23,7 +23,7 @@ author:
     bio: "Clemens Schmid studierte Prähistorische, Historische und Naturwissenschaftliche Archäologie und Informatik in Tübingen und Kiel. Nach Studienabschluss arbeitete er mit computerbasierter Datenanalyse in verschiedenen archäologischen Forschungsprojekten an der Universität Kiel, dem Römisch-Germanischen Zentralmuseum in Mainz und der Universität Bern. Im Augenblick ist er für ein Promotionsprojekt zur quantitativen Nachhersage von Mobilitätsverhalten mit genetischen und historisch-linguistischen Daten in der Abteilung für Archäogenetik des Max-Planck-Instituts für Menschheitsgeschichte in Jena beschäftigt."
   -
     name: Sophie Charlotte Schmidt
-    affiliation:
+    affiliation: Deutsches Archäologisches Institut
     orcid: 0000-0003-4696-2101
   -
     name: Lutz Schubert
