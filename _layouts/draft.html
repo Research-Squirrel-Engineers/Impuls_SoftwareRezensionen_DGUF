@@ -41,7 +41,7 @@ for (anchor in anchors){
 
 <body>
 	<header><h1 align="center">{{page.title}}</h1></header>
-	<p class="authors">{% for aut in page.author %}{% assign naviIndex = {{forloop.index}}{{aut.name}}{% if aut.affiliation %}, {{aut.affiliation}}{% endif %} {% if aut.orcid %}<a href="https://orcid.org/{{aut.orcid}}" target="_blank">({{aut.orcid}})</a>{% endif %}{% if forloop.last == false %}{% if naviIndex==0 %}<sup><a href="#authornote">*</a></sup>{% endif %}, {% endif %}<br/>{% endfor %}</p>
+	<p class="authors">{% for aut in page.author %}{% assign naviIndex = {{forloop.index}}{{aut.name}}{% if aut.affiliation %}, {{aut.affiliation}}{% endif %} {% if aut.orcid %}<a href="https://orcid.org/{{aut.orcid}}" target="_blank">({{aut.orcid}})</a>{% endif %}{% if naviIndex==0 %}<sup><a href="#authornote">*</a></sup>{% endif %}{% if forloop.last == false %}, {% endif %}<br/>{% endfor %}</p>
 	<p class="keywords">Keywords: {% for kw in page.keywords %}<i>{{kw}}</i>{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
 	<div class="container">
     <div class="row">
