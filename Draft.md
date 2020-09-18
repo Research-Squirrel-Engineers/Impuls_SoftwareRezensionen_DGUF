@@ -54,15 +54,9 @@ keywords_en:
 
 ---
 
-<div id="zitat" markdown="1">
-"Die Leitfunde werden dann im Computer durch die Programme ARCH und GGG einer Seriation unterzogen. Diese Programme entwickelte E. Kämmerer. Eine Beschreibung ist der Arbeit beigefügt. Die Programme DOK und ARCH z. Zt. für 600 Typen in 2000 Funden dimensioniert, sind am Rechner TR 440 beim Großrechenzentrum für die Wissenschaft in Berlin in Anwendung." [@goldmann_chronologische_1972, 98.](#goldmann_chronologische_1972)
-</div>
-
----
-
 
 ## Zielsetzung des Beitrags
-Ziel dieses Beitrags<sup>[1](#myfootnote1)</sup> ist es Fragen und Themen aufzuzeigen, welche für die Rezension von Forschungssoftware und im die Forschungsprozess eingesetzten digitalen Werkzeugen relevant sind.
+Ziel dieses Beitrags ist es, die Diskussion um Inhalte und Zielsetzungen von Rezensionen von Forschungssoftware und im Forschungsprozess eingesetzten digitalen Werkzeugen in den Altertumswissenschaften azuregen. Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven beraten wurde das Thema erstmals von Kai-Christian Bruhn, Sophie Charlotte Schmidt und Frank Siegmund. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in den Archäologischen Informationen haben wir das Thema aufgegriffen und möchten einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten.
 
 Die Beurteilung einer Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine Rezension umfassen sollte. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie redaktionelle Hinweise zum Anfertigen einer Rezension oder - wie es die Redaktion der Archäologischen Informationen praktiziert - eines Reviews der angefertigten Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es alleine um die Beurteilung des Beitrags, den Software zur Lösung einer wissenschaftlichen Problemstellung beiträgt? Geht es nicht auch um Aspekte der Nutzbarkeit, der Nachhaltigkeit und Anschlussfähigkeit der Software? Müsste nicht auch betrachtet werden, ob die Software selbst einen wissenschaftlichen Beitrag darstellt? Welche Rolle spielt die Dokumentation des Quellcodes und die Frage der Lizensierung in der Besprechung? Und schließlich, was sind die Leistungen der Software-Entwickler, die eine Besprechung berücksichtigen sollte, und wie kann man so eine Rezension anfertigen?
 
@@ -179,19 +173,11 @@ Wer mit Daten arbeitet, die auf dem Wissen und den Traditionen indigener Gruppen
 ##### Ethics (Ethik)
 Rechte und Wohl der indigenen Bevölkerungsgruppen sollten an erster Stelle bei der Erarbeitung und Bearbeitung eines Datensatzes stehen. Für Software gilt das selbe, wenn sie indigene Gruppen betrifft.
 
-> [SCS] muss nochmal auf angemessene Sprache geprüft werden (Indigene oder indigene wird zB im englischsprachigen diskutiert. "Bevölkerungen" oder "Völker" etc)
-> [AK] habe ein wenig daran gemacht und angelehnt an DFG-Handreichung (https://www.dfg.de/download/pdf/dfg_im_profil/gremien/senat/biologische_vielfalt/191212_erlaeuterungen_entwicklungsvorhaben.pdf) auch ortsansässige Gruppen berücksichtigt. "indigen" als Begriff habe ich nicht angefasst - fehlt mir die Kenntnis.
-
-
 ## Mögliche Vorgehensweise zur Rezension archäologischer Forschungssoftware
 
 Nach unserem Verständnis sollte eine Rezension archäologischer Software, so wie es eine herkömmliche Besprechung einer wissenschaftlichen Publikation leistet, die Software zunächst vorstellen, dabei zusammengefasst Eckdaten vorlegen und den Kontext erläutern. Im Anschluss sollte eine kritische Beurteilung erfolgen.
 
 Umgesetzt auf Software gehören zu den Eckdaten Angaben zur Version und den Releasedaten, zu den Entwicklern, der Lizenz und Weiteres. Als Kontext verstehen wir eine erste Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen. Für die kritische Beurteilung aus unterschiedlicher Perspektive haben wir unten einen Katalog an Fragen zusammengestellt. Zuletzt sollten die Ergebnisse der Betrachtung in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
-
-Der Umfang der Rezension für die Veröffentlichung in den Archäologischen Informationen sollte 1000-2000 Worte nicht übersteigen.
-
-> [AK] Das ist eine Frage der Redaktionsrichtlinien der Arch. Information. meiner Meinung nach nicht unser Doing und engt dei Übertragbarkeit, dieses sehr guten, generellen Aufschlags unnötig ein.
 
 Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung der Dokumentation, begleitender Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die Leser, denn die Leserschaft ist wesentlich heterogener hinsichtlich ihrer Interessen, als man es bei der Besprechung einer Fachpublikation annehmen darf. Es ist eine wichtige Information, ob die Rezension ganz von der Anwendungsperspektive geschrieben ist, oder auch die Entwicklerperspektive umfasst.  
 
