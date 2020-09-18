@@ -1,5 +1,6 @@
 ---
-title: Diskussionsbeitrag - Handreichung zur Rezension von Forschungssoftware - Fragenkatalog für "gute" Forschungssoftware
+title: Diskussionsbeitrag - Handreichung zur Rezension von Forschungssoftware in den Altertumswissenschaften
+/ Impulse - Recommendations for the review of archaeological research software
 
 layout: draft
 author:
