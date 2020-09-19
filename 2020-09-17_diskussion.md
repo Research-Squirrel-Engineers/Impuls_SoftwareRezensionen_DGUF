@@ -7,7 +7,7 @@ Diese Tasks sind:
 
 [] Zusammenfassung in Englisch und Deutsch -> Hubert
 
-[] Formatierung Webseite Schriftgrößen anpassen (in Abstufung zu je 4) -> Timo
+[x] Formatierung Webseite Schriftgrößen anpassen (in Abstufung zu je 4) -> Timo
 
 [] Anmerkung, wie Autorenreihenfolge zu verstehen ist -> Timo
 
