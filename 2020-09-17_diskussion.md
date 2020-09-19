@@ -19,7 +19,7 @@ Diese Tasks sind:
 
 [x] Eingangszitat rausnehmen, Hinweis im Text anpassen und die erste und einzige Fußnote in den Text einarbeiten -> Anne
 
-[] Mit Frank Siegmund abklären, wie es mit einer parallelen Veröffentlichung auf Zenodo wäre (Problematik, dass nicht gleicher Text doppelt veröffentlicht ist und Arch. Inf. keine Zweitveröffentlichungen macht) -> Anne
+[x] Mit Frank Siegmund abklären, wie es mit einer parallelen Veröffentlichung auf Zenodo wäre (Problematik, dass nicht gleicher Text doppelt veröffentlicht ist und Arch. Inf. keine Zweitveröffentlichungen macht) -> Anne
 
 [] Lesen und Änderungsvorschläge adressieren mit Nennung von Köpfen (Zweisung) -> Martina
 
