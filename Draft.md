@@ -56,7 +56,7 @@ keywords_en:
 
 
 ## Zielsetzung des Beitrags
-Ziel dieses Beitrags ist es, die Diskussion um Inhalte und Zielsetzungen von Rezensionen von Forschungssoftware und im Forschungsprozess eingesetzten digitalen Werkzeugen in den Altertumswissenschaften azuregen. Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven beraten wurde das Thema erstmals von Kai-Christian Bruhn, Sophie Charlotte Schmidt und Frank Siegmund. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in den Archäologischen Informationen haben wir das Thema aufgegriffen und möchten einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten.
+Ziel dieses Beitrags ist es, die Diskussion um Inhalte und Zielsetzungen von Rezensionen von Forschungssoftware und im Forschungsprozess eingesetzten digitalen Werkzeugen in den Altertumswissenschaften anzuregen. Aufgeworfen und anschließend im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven beraten wurde das Thema erstmals von Kai-Christian Bruhn, Sophie Charlotte Schmidt und Frank Siegmund. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in den Archäologischen Informationen haben wir das Thema aufgegriffen und möchten einen Beitrag zur Weiterentwicklung dieses wichtigen Themas leisten.
 
 Die Beurteilung einer Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine Rezension umfassen sollte. Unterstützt werden kann dies durch redaktionelle Maßnahmen zur Qualitätssicherung wie redaktionelle Hinweise zum Anfertigen einer Rezension oder - wie es die Redaktion der Archäologischen Informationen praktiziert - eines Reviews der angefertigten Rezension. Die Frage ist jedoch, was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es alleine um die Beurteilung des Beitrags, den Software zur Lösung einer wissenschaftlichen Problemstellung beiträgt? Geht es nicht auch um Aspekte der Nutzbarkeit, der Nachhaltigkeit und Anschlussfähigkeit der Software? Müsste nicht auch betrachtet werden, ob die Software selbst einen wissenschaftlichen Beitrag darstellt? Welche Rolle spielt die Dokumentation des Quellcodes und die Frage der Lizensierung in der Besprechung? Und schließlich, was sind die Leistungen der Software-Entwickler, die eine Besprechung berücksichtigen sollte, und wie kann man so eine Rezension anfertigen?
 
@@ -78,6 +78,8 @@ oder
 Im Gegensatz zur Forschungssoftware steht Software, die zur Nutzung spezifischer Geräte erforderlich ist, wie etwa zur Vermessung, zur fotografischen Dokumentation oder zur Analyse von Oberflächen und Inhaltsstoffen. Häufig handelt es sich dabei um proprietäre Software, die zusammen mit der Hardware vertrieben wird. Obwohl sie im Forschungsprozess eingesetzt wird, entspricht sie nicht unserem Verständnis von Forschungssoftware. Auch digitale Werkzeuge, die eine erhebliche Rolle in der praktischen Arbeit inne haben, jedoch keinen eigentlichen Anteil an der Erhebung, Bearbeitung und Analyse der Daten haben, sind in unserem Sinne keine Forschungssoftware. Trotzdem können auch sie mittels der vorgestellten Kriterien beurteilt werden.
 
 Forschungssoftware ist in besonderer Weise Herausforderungen nachhaltiger Entwicklung und Pflege ausgesetzt. Ein Hauptfaktor für fehlende Nachhaltigkeit von Forschungssoftware ist der Mangel an langfristiger Finanzierung für \`Forschungssoftware-Ingenieure\`, die sich um die geeignete Architektur, Organisation, Implementierung, Dokumentation und Interaktion mit der Gemeinschaft für die Software kümmern, gepaart mit der Umsetzung von Maßnahmen, um die Software während und nach dem Entwicklungsprozess nachhaltig zu machen ([@anzt_environment_2020, 2](#anzt_environment_2020)). Ein Überblick über Bedarfe, Herausforderungen und Lösungsansätze zu Förderung und Finanzierung, Auswahl, rechtliche Fragen, Organisation und Governance, sowie Bündelung von Ressourcen wurde 2019 in einem Workshop der [deRSE Konferenz in Potsdam](https://de-rse.org/de/conf2019/index.html) erstellt ([@bach_dersews19](#bach_dersews19)).
+
+ > [MT] Dieser Absatz nimmt einige Dinge vorweg, die erst im kommenden Teil erläutert werden.
 
 ### Forschungssoftware als wissenschaftliche Leistung
 
@@ -117,9 +119,7 @@ Die Vergabe von persistenten URIs durch Repositorien sowie die Nennung der Autor
 
 ##### Accessible (Zugänglich)
 
-Entsprechend den FAIR-Prinzipien sollte Software und die sie beschreibenden Metadaten über ihre persistente URI erreichbar sein. Dies sollte auch maschinell über ein offenes und standardisierte Kommunikationsprotokoll möglich sein [@lamprecht_towards_2019](#lamprecht_towards_2019).
-
-> [AK] Satz ist kaputt eine offenes Was?
+Entsprechend den FAIR-Prinzipien sollte Software und die sie beschreibenden Metadaten über ihre persistente URI erreichbar sein. Die Daten und Metadaten sollten dabei auch maschinell über ein offenes und standardisierte Kommunikationsprotokoll abrufbar und nutzbar sein [@lamprecht_towards_2019](#lamprecht_towards_2019).
 
 Weitere Aspekte, die die Zugänglichkeit erleichtern, sind die Verfügbarkeit für verschiedene Betriebssysteme, sowie technische Anforderungen, die von aktuell verbreiteten Geräten geleistet werden können. Eine verständliche Anleitung zur Nutzung des Programms verbessert die Zugänglichkeit im Sinne der Nutzbarkeit.
 
@@ -136,9 +136,7 @@ Die Nachnutzbarkeit von Software hängt von mehreren Komponenten ab. Die Metadat
 
 #### Open Science
 
-Open Science (Offene Wissenschaft) bezeichnet eine Wissenschaftspraxis, deren Ziel ein transparenter, replizierbarer und kollaborativer Forschungsprozess ist [@bezjak_openscience_2018, Open Concepts and Principles](#bezjak_openscience_2018). Open Science setzt sich aus mehreren Prinzipien zusammen, die unterschiedliche Stadien im Forschungsprozess betreffen.
-
-> [AK] "replizierbar" kennt der Duden nicht (ich eh nicht), kann man trotzdem natürlich verwenden, wenn es wichtig ist. Ansonsten würde ich hier reproduzierbar als Alternative vorschlagen
+Open Science (Offene Wissenschaft) bezeichnet eine Wissenschaftspraxis, deren Ziel ein transparenter, reproduzierbarer und kollaborativer Forschungsprozess ist [@bezjak_openscience_2018, Open Concepts and Principles](#bezjak_openscience_2018). Open Science setzt sich aus mehreren Prinzipien zusammen, die unterschiedliche Stadien im Forschungsprozess betreffen.
 
 So fordert Open Science nicht nur die Öffnung der Ergebnisse (Open Access), sondern auch der zugrundeliegenden Daten (Open Data), Methoden (Open Methodology) und der verwendeten Forschungssoftware (Open Source). Für offene Forschungssoftware gilt, dass ihr Quellcode zugänglich und mit einer Lizenz versehen sein muss, die die Weiterentwicklung erlaubt [@bezjak_openscience_2018, Open Research Software and Open Source](#bezjak_openscience_2018).
 
@@ -148,7 +146,7 @@ Mit der Forderung nach der Offenlegung des Quellcodes (Open Source) wird auch de
 
 #### CARE-Prinzipien und Ethos
 
-In den Leitlinien der DFG werden in Leitline 2 und 10 ethische Aspekte im Forschungsprozess angesprochen, die nach unserer Meinung auch im Bereich der Forschungssoftware Beachtung finden sollten.
+In den Leitlinien der DFG werden in Leitlinie 2 und 10 ethische Aspekte im Forschungsprozess angesprochen, die nach unserer Meinung auch im Bereich der Forschungssoftware Beachtung finden sollten.
 
 Tatsächlich ist Forschungssoftware nicht politisch neutral. Ihre Architektur reflektiert ihre Entstehungsbedingungen, ihre Nutzung erfolgt unter spezifischen Voraussetzungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen gerade diese Gewohnheiten zur (unbewussten) Festigung von Privilegien und Diskriminierungen bei: Für archäologische Feldarbeit wird oft Software zur Datenaufnahme eingesetzt, die für die Mehrheit der Mitarbeiter vor Ort aufgrund einer Sprachbarriere nicht verständlich ist, proprietäre Software oder teure Hardware benachteiligt die Forschung, die mit weniger Finanzmitteln auskommen muss, und die Texte der Handbücher kennen oft ausschließlich männliche Nutzer.
 
@@ -163,6 +161,7 @@ Dieser Punkt fordert den gemeinschaftlichen Nutzen der Datenerhebung für die in
 Die Kontrollmacht über die eigenen Daten ist eine wichtige Forderung indigener Menschen und der örtlichen Bevölkerung. Auch dies lässt sich auf Software anwenden: Die Entscheidungsmacht über die Verwendung von anhand ihres Wissens entwickelter Software soll bei den genannten Gruppen liegen. Dieser Punkt kann verhindern, dass ihr Wissen unangemessen ausgenutzt wird, und kann durch die computertechnische Ermächtigung von den indigenen und den ortsansässigen Gruppen verstärkt werden.
 
 > [AK] Was genau ist her mit ""computertechnische Ermächtigung" gemeint?
+> [MT] gute Frage ...
 
 ##### Responsibility (Verantwortung)
 
@@ -177,7 +176,7 @@ Rechte und Wohl der indigenen Bevölkerungsgruppen sollten an erster Stelle bei 
 
 Nach unserem Verständnis sollte eine Rezension archäologischer Software, so wie es eine herkömmliche Besprechung einer wissenschaftlichen Publikation leistet, die Software zunächst vorstellen, dabei zusammengefasst Eckdaten vorlegen und den Kontext erläutern. Im Anschluss sollte eine kritische Beurteilung erfolgen.
 
-Umgesetzt auf Software gehören zu den Eckdaten Angaben zur Version und den Releasedaten, zu den Entwicklern, der Lizenz und Weiteres. Als Kontext verstehen wir eine erste Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen. Für die kritische Beurteilung aus unterschiedlicher Perspektive haben wir unten einen Katalog an Fragen zusammengestellt. Zuletzt sollten die Ergebnisse der Betrachtung in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
+Umgesetzt auf Software gehören zu den Eckdaten Angaben zur Version und den Release-Daten, zu den Entwicklern, der Lizenz und Weiteres. Als Kontext verstehen wir eine erste Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen. Für die kritische Beurteilung aus unterschiedlicher Perspektive haben wir unten einen Katalog an Fragen zusammengestellt. Zuletzt sollten die Ergebnisse der Betrachtung in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
 
 Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung der Dokumentation, begleitender Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die Leser, denn die Leserschaft ist wesentlich heterogener hinsichtlich ihrer Interessen, als man es bei der Besprechung einer Fachpublikation annehmen darf. Es ist eine wichtige Information, ob die Rezension ganz von der Anwendungsperspektive geschrieben ist, oder auch die Entwicklerperspektive umfasst.  
 
@@ -236,7 +235,7 @@ Installiert das Installationsskript alle Abhängigkeiten uzum reibungslosen Abla
 Die Nutzbarkeit wird zentral von den Möglichkeiten der Kommunikation von Mensch und Software bestimmt, also dem der Software-Oberfläche (UI). Diese mag in manchen Fällen graphisch gestützt sein (GUI), in anderen Fällen rein kommando-basiert (z.B. API). Die Gestaltung von Oberflächen und die Nutzerführung in Menüstrukturen sind ein eigenes Aufgabenfeld in der Softwareentwicklung und können erhebliche Kosten erzeugen. Gut an den Nutzer angepasste Lösungen sind das Ergebnis einer genauen Kenntnis der Zielgruppe, ihrer Gewohnheiten und Bedarfe, im Falle archäologischer Forschungssoftware also der Forschungspraxis. Ein gutes Interface unterstützt das fehlerfreie effiziente Arbeiten. So sind z.B. Verständlichkeit der Menü-Einträge oder der Kommandos, aber auch die Aussagekraft von Fehlermeldungen Aspekte, die in der Rezension betrachtet werden sollten. Barrierefreiheit ist bislang ein unzureichend abgedecktes Kriterium, das aber ebenfalls die Effizienz und den möglichen Nutzerkreis adressiert. Auch bei diesem Punkt liegt die Gewichtung im Ermessen des Rezensenten.
 
 * **Passt die UI (GUI oder Konsole) zum Nutzerkreis?**
-Jeder Nutzerkreis, auch der des Reviewers wird bestimmte Erwartungen an die Präsentation der Anwendung haben. Beispielsweise ist es möglich, dass ein Benutzerkreis sich mit einer Kommandozeilenanwendung sehr gut zurechtfinden wird. Ein anderer Benutzerkreis wird mit dieser Form der Präsentation der Anwendung Probleme bei der Nutzung haben. z.B. "Die Abfragen an den Dienst können sowohl über die Webapp mit ihrem Suchschlitz und Filterfunktionen, als auch über eine REST-Schnittstelle gestennt werden. Auf diese Weisen werden zwei verschiedene Nutzerhǵruppe angesprochen."
+Jeder Nutzerkreis, auch der des Reviewers wird bestimmte Erwartungen an die Präsentation der Anwendung haben. Beispielsweise ist es möglich, dass ein Benutzerkreis sich mit einer Kommandozeilenanwendung sehr gut zurechtfinden wird. Ein anderer Benutzerkreis wird mit dieser Form der Präsentation der Anwendung Probleme bei der Nutzung haben. z.B. "Die Abfragen an den Dienst können sowohl über die Webapp mit ihrem Suchschlitz und Filterfunktionen, als auch über eine REST-Schnittstelle gestellt werden. Auf diese Weisen werden zwei verschiedene Nutzerhǵruppe angesprochen."
 
 Stellt z.B. die Nutzung einer eigens zu installierenden Shell eine Hürde dar?
 > hier kommt plötzlich Shell ins Spiel...
@@ -257,7 +256,7 @@ Fehlermeldungen dienen zwei Funktionen. Die erste Funktion ist eine Fehlermeldun
 
 ##### Zielgruppe
 * **Ist die archäologische Nutzung vorgesehen?**
-Entspricht der archäologische Einsatz den generellen Anwendungszenarien, den die Entwickler vor Augen hatten? Hat das Einfluss auf die Nutzbarkeit aus wissenschaftlicher Perspektive? Z.B. "Diese CAD Software ist für Architekturanwendungen konzipiert und konfrontiert den durchschnittlichen Grabungstechniker mit überwältigendem Funktionsumfang."
+Entspricht der archäologische Einsatz den generellen Anwendungsszenarien, den die Entwickler vor Augen hatten? Hat das Einfluss auf die Nutzbarkeit aus wissenschaftlicher Perspektive? Z.B. "Diese CAD Software ist für Architekturanwendungen konzipiert und konfrontiert den durchschnittlichen Grabungstechniker mit überwältigendem Funktionsumfang."
 
 ##### Hilfefunktionen, Tutorials und Community
 Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Software von einer *Community* getragen wird. Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen Hilfe in Foren findet. Ist der Nutzerkreis sehr klein, findet der Wissenstransfer dagegen häufig im persönlichen Austausch statt, ist somit kaum dokumentiert und hängt stark von personellen Netzwerken ab. Diese können wiederum den großen Vorteil bieten, dass konkrete Fragen individuell von den Entwicklern aufgegriffen werden. Belege dafür können sich in öffentlichen Kommentarfunktionen von Webseiten der Entwickler und z.B. über Issues im Softwarerepositorium abzeichnen. Zum Austausch mit den Entwicklern werden weiter unten weitere Kriterien erläutert.
@@ -274,7 +273,7 @@ Dieser Punkt ist eng mit der Frage nach Tutorials verbunden, so greifen Tutorial
 Gibt es auf den Informationsseiten der Software oder in den Tutorialmaterialien Hinweise auf weitere Materialien zur Software? Wird auf Publikationen und Beiträge der Entwickler selbst wie auch Rezensionen hingewiesen?
 
 * **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich ?**
-Beispiele für die Softwareentwicklung, die zunächst ganz aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind die [Pelagios Commons](https://pelagios.org/) und die WebApp [Recogito](https://recogito.pelagios.org/). Aktive Nutzergrupen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Cuommunities großer Softwarepakete wie QGIS oder R entwickelt.
+Beispiele für die Softwareentwicklung, die zunächst ganz aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind die [Pelagios Commons](https://pelagios.org/) und die WebApp [Recogito](https://recogito.pelagios.org/). Aktive Nutzergruppen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Cuommunities großer Softwarepakete wie QGIS oder R entwickelt.
 
 >[AK] Hier wäre ich über konkrete Adressen / Foren /Anlaufstellen für Communities als Beispiele sehr froh !
 
@@ -297,7 +296,7 @@ Die Ausgabe von Daten nach der Bearbeitung sollte am Besten in Datenformaten erf
 Sollten nur Exporte in einem proprietärem, ggf. von der Software definierten Format möglich sein, muss es dafür schwerwiegende Gründe geben.
 
 * **Wie können Daten eingeladen werden? Als Masseningest oder einzelne *Uploads*?**
-Für serh viele Anwendunsgszenarien, ist es entscheidend, ob eine Software einen einmal definierten Task massenweise auf eine Reihe von Dateien ausführen kann. Ein Beispiel kann hier eine Transformation von Bilddaten sein, die auf jedes Foto einer Ausgrabungskampagne ausgeführt werden soll. Um dies zu gewährleisten, muss die Software die Spezifikation entweder eines Ordners von Dateien oder einer Spezifikation von verschiedenen Dateipfaden unterstützen.
+Für sehr viele Anwendunsgsszenarien, ist es entscheidend, ob eine Software einen einmal definierten Task massenweise auf eine Reihe von Dateien ausführen kann. Ein Beispiel kann hier eine Transformation von Bilddaten sein, die auf jedes Foto einer Ausgrabungskampagne ausgeführt werden soll. Um dies zu gewährleisten, muss die Software die Spezifikation entweder eines Ordners von Dateien oder einer Spezifikation von verschiedenen Dateipfaden unterstützen.
 
 * **Gibt es eine API?**
 Diese Frage beschäftigt sich mit dem Vorhandensein einer Programmierschnittstelle (API). Neben der Bedienbarkeit durch einen Menschen, ist es wichtig, dass auch andere Software ggf. mit dem Softwarepaket interagieren und dadurch ihre Funktionalität anderer Software zur Verfügung gestellt werden kann.
@@ -305,13 +304,13 @@ Eine API gewährleistet eine solche Integration und sollte möglichst offen, ggf
 Je sichtbarer eine API Dokumentation dem Nutzer gemacht wird, desto eher wird eine API verwendet. Ein konkretes Beispiel für eine API ist die REST-Schnittstelle von Wikidata, an die man automatisierte Abfragen stellen und Daten von Wikidata beziehen kann. Sie ist zudem umfangreich dokumentiert und bietet eine GUI zum Erlernen der Syntax an.
 
 ##### Konformität mit Regelungen zum Datenschutz, Fragen der Privacy und der Datensparsamkeit
-Für den Einsatz in der universitären Forschung und der Lehre entscheidet die Frage nach dem Datenschutz vielfach darüber, ob die Software überhaupt genutzt werden darf. Eine Einschätzung der Regelungen, sofern sie sich nicht eindeutig auf die europäischen Rahmenrichtlinien beziehen, ist teilweise jedoch kaum möglich und Gegenstand von juristischen Diskussionen. Auch hier kann die Rezensension aber bereits durch den Hinweis auf das Thema einen wichtigen Service für die Leser bringen. Dies gilt auch für Datensparsamkeit und das Hinterfragen von Registrierungsvorgängen, Cookies und ähnlichem.
+Für den Einsatz in der universitären Forschung und der Lehre entscheidet die Frage nach dem Datenschutz vielfach darüber, ob die Software überhaupt genutzt werden darf. Eine Einschätzung der Regelungen, sofern sie sich nicht eindeutig auf die europäischen Rahmenrichtlinien beziehen, ist teilweise jedoch kaum möglich und Gegenstand von juristischen Diskussionen. Auch hier kann die Rezension aber bereits durch den Hinweis auf das Thema einen wichtigen Service für die Leser bringen. Dies gilt auch für Datensparsamkeit und das Hinterfragen von Registrierungsvorgängen, Cookies und ähnlichem.
 
 * **Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)?**
-Oft muss damit gerechnet werden, dass die Software in einer Viezahl von Anwendungskontexten von Menschen in unterschiedlichen kulturellen Kontexten und in verschiedenen Ländern verwendet wird. Diese Länder können ggf. Gesetze erlassen haben, die der Ausführung/Installation der Software entgegenstehen. Ein Beispiel sind Kartendarstellungen, die z.B. Grenzkonflikte wie diese in Kashmir, die in Indien, Pakistan, China und den übrigen Staaten jeweils unterschiedlich auf der Karte angezeigt werden müssen. Ein weiteres Beispiel stellt der Datenschutz z.B. in der Europäischen Union dar.
+Oft muss damit gerechnet werden, dass die Software in einer Vielzahl von Anwendungskontexten von Menschen in unterschiedlichen kulturellen Kontexten und in verschiedenen Ländern verwendet wird. Diese Länder können ggf. Gesetze erlassen haben, die der Ausführung/Installation der Software entgegenstehen. Ein Beispiel sind Kartendarstellungen, die z.B. Grenzkonflikte wie diese in Kashmir, die in Indien, Pakistan, China und den übrigen Staaten jeweils unterschiedlich auf der Karte angezeigt werden müssen. Ein weiteres Beispiel stellt der Datenschutz z.B. in der Europäischen Union dar.
 
 * **Welche Daten speichert die Anwendung zu welchem Zweck wie lange? Werden Daten an Dritte übertragen?**
-In vielen Softwareanwendungen, oftmals Webdiensten, werden Daten der Benutzer zur Verbesserung der Anwendungen anonymisiert erfasst. Kommerzielle Anbieter von Software erfassen jedoch oft weitaus mehr Daten und verwenden diese z.B. zur Übertragung and Drittanbieter.
+In vielen Softwareanwendungen, oftmals Webdiensten, werden Daten der Benutzer zur Verbesserung der Anwendungen anonymisiert erfasst. Kommerzielle Anbieter von Software erfassen jedoch oft weitaus mehr Daten und verwenden diese z.B. zur Übertragung an Drittanbieter.
 Hier sollte sich ein Reviewer die Frage stellen, welche Daten erhoben werden, ob eine Zustimmung des Benutzers eingeholt wird, wie lange die Daten gespeichert werden und ob eine Anwendung ohne eine solche Einwilligung zur Übertragung von Nutzerdaten überhaupt bedienbar ist.
 Falls eine solche Datenerhebung stattfindet, wäre zu hinterfragen, ob der Zweck der Datenerfassung dem Reviewer als gerechtfertigt erscheint und ob diese Datenerhebung zur Verbesserung der Software beiträgt oder anderen Interessen dient.
 
@@ -371,11 +370,11 @@ Es liegt in der Natur der Sache, dass es hierbei, je nach Art der Anwendung, unt
 * **Sind die Entwickler der Software aktiv und sind sie gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es *Contribution Guidelines*?**
 Oft stellen sich bei der Bedienung der Software heraus, dass Funktionalitäten fehlen oder Fehler im Programm vorhanden sind. In manchen Fällen machen diese Probleme die Benutzung der Software für bestimmte Anwendungsfälle unmöglich oder verschlechtern die Ergebnisse, die mit der Software erreicht werden können signifikant. Dies kann auch der Fall sein, wenn die Software möglicherweise in allen anderen Belangen den Erwartungen entspricht. In solchen Fällen ist die Verfügbarkeit der Entwickler und deren Feedback auf Supportanfragen ein entscheidendes Kriterium.
 
-Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports eingereicht werden können, aund am Besten auch welche Inhalte diese für eine bestmögliche Verarbeitung der Meldungen enthalten sollten. Einen Eindruck davon, ob die Entwickler einen aktiven Austausch pflegen, kann man beispielsweise bei der Durchsicht von Issues in dem Repositorium der Software auf Github oder im Gitlab gewinnen. Haben die Entwickler Anfragen hier zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Tickets zu bereits geschlossenen Tickets und wie lange hat es gebraucht bis eine Änderung eingepflegt wurde?
+Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports eingereicht werden können, und am Besten auch welche Inhalte diese für eine bestmögliche Verarbeitung der Meldungen enthalten sollten. Einen Eindruck davon, ob die Entwickler einen aktiven Austausch pflegen, kann man beispielsweise bei der Durchsicht von Issues in dem Repositorium der Software auf GitHub oder im GitLab gewinnen. Haben die Entwickler Anfragen hier zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Tickets zu bereits geschlossenen Tickets und wie lange hat es gebraucht bis eine Änderung eingepflegt wurde?
 
 >[AK] Hier wechselt es zwischen "Issues" und "Tickets", ist das identisch?
 
-Zudem können Entwickler proaktiv in einer Roadmap kommunizieren, welche Änderungen in nächster Zeit in das Program eingepflegt werden sollen und welche Issues für das nächste Release angegangen werden.
+Zudem können Entwickler proaktiv in einer Roadmap kommunizieren, welche Änderungen in nächster Zeit in das Programm eingepflegt werden sollen und welche Issues für das nächste Release angegangen werden.
 Schließlich ist es für Entwickler oft interessant die Software selbst mitzugestalten und einen Beitrag zu ihrer Verbesserung zu geben. Dafür sollte von den Entwicklern der Software selbst als Best Practice eine *Contribution Guideline* erstellt werden (siehe z.B. [hier](https://projectacrn.github.io/latest/developer-guides/contribute_guidelines.html)). Sie enthält Angaben dazu unter welchen Umständen und wie Änderungen an der Software von Dritten angenommen und integriert werden.
 
 #### Qualität der Implementierung
@@ -396,9 +395,9 @@ Ein Reviewer wird wahrscheinlich nicht in der Lage sein die Gründe für eine ma
 > [AK] Frage: Ist die Frage der Performanz, so wie sie hier gestellt wird, nicht 1.) "usability" und 2.) auch ohen Entwicklerwissen zu testen?
 
 * **Robustheit der Software**
-Die Robustheit einer Software ist ein wünschenswerter Aspekt, der im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben, die sie auszuführt, regelmäßig sichert, um bei einem unvorhergesehenen Abbruch wieder an dem Punkt anknüpfen zu können, an dem sie vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft z.B. bei einem Stromausfall den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten.
+Die Robustheit einer Software ist ein wünschenswerter Aspekt, der im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben, die sie ausführt, regelmäßig sichert, um bei einem unvorhergesehenen Abbruch wieder an dem Punkt anknüpfen zu können, an dem sie vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft z.B. bei einem Stromausfall den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten.
 Ein Beispiel für eine solche Robustheit ist das regelmäßige automatisierte Zwischenspeichern in einem Textverarbeitungsprogramm. Das Textdokument ist somit im Falle eines Absturzes der Software wiederherstellbar.
-Abhängig vom Anwendungsfall kann es auch vorteilhaft sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann. Dies kann die Spracheinstellungen oder auch die Anpassung von Masseinheiten, Vorgaben zum Speicherort und ähnliches sein.
+Abhängig vom Anwendungsfall kann es auch vorteilhaft sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann. Dies kann die Spracheinstellungen oder auch die Anpassung von Maßeinheiten, Vorgaben zum Speicherort und ähnliches sein.
 
 > [AK] Sind wir hier noch im spezifischen Entwicklerbereich ? Es klingt für mich nach Usability, denn wir argumentieren hier über das Nutzererlebnis, nicht über technische Kerndaten. Für mich wäre die Frage, kann man nicht kurz erläutern, wie man einen Absturz herbeiführt, um die Robustheit zu testen? Wenn ja, was wäre das richtige Vorgehen?
 
