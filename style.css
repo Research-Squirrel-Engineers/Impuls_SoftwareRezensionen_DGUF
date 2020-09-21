@@ -57,6 +57,20 @@ h5 {
     font-size:14px !important;
 }
 
+.abstract {
+    text-align:center;
+    font-style:italic;
+    font-weight:normal;
+    font-size:14px !important;
+}
+
+.abstract_en {
+    text-align:center;
+    font-style:italic;
+    font-weight:normal;
+    font-size:14px !important;
+}
+
 #zitat {
     font-size:14px !important;
     font-style: italic;
