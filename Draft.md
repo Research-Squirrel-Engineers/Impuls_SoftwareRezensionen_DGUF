@@ -1,8 +1,8 @@
 ---
 title: Diskussionsbeitrag - Handreichung zur Rezension von Forschungssoftware in den Altertumswissenschaften / Impulse - Recommendations for the review of archaeological research software
 
-abstract: "Abstract English"
-abstract_en: "Abstract German"
+abstract: "Abstract English / Todo: Hubert"
+abstract_en: "Abstract German / Todo: Hubert"
 layout: draft
 author:
 
