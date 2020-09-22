@@ -9,7 +9,7 @@ Diese Tasks sind:
 
 [x] Formatierung Webseite Schriftgrößen anpassen (in Abstufung zu je 4) -> Timo
 
-[] Anmerkung, wie Autorenreihenfolge zu verstehen ist -> Timo
+[x] Anmerkung, wie Autorenreihenfolge zu verstehen ist -> Timo
 
 [x] Titel kürzen -> Anne (Aufschlag) und alle (Feedback)
 
