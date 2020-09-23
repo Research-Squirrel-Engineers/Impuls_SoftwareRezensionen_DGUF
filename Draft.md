@@ -169,10 +169,7 @@ Wie bei der Besprechung einer wissenschaftlichen Publikation ist die Zusammenset
 
 ### Einsatz in der Archäologie und wissenschaftlicher Zweck
 
-Wissenschaftliche Software hat einen konkreten Zweck, verfolgt und erfüllt eine bestimmte Aufgabe. Dabei sind zwei Dimensionen zu unterscheiden. Dies ist zum einen, und das ist für Forschungssoftware vorrangig, die Frage, ob die Software einen sinnvollen Beitrag zur Bearbeitung der archäologischen Fragestellung liefert. Zum anderen ist zu beurteilen, ob Software eine korrekte Umsetzung der angestrebten Arbeit leistet. Letzteres, also die Korrektheit der Ergebnisse einer Software, ist mitunter schwer zu beurteilen, insbesondere dann, wenn es keine weiteren Implementierungen des Algorithmus in anderen Softwarepaketen gibt. Dieses Problem gliedert sich in mehrere Aspekte: Zunächst stellt sich die sehr technische Frage, ob die in der Dokumentation genannten Algorithmen fehlerfrei in Programmcode ausgedrückt wurden. Meist ist schon eine Prüfung dieses Aspekts nicht trivial und übersteigt den Rahmen einer Rezension. Darüber hinaus versprechen wissenschaftliche Softwarewerkzeuge implizit oder explizit, die Beantwortung wissenschaftlicher Fragestellungen zu ermöglichen oder zumindest zu vereinfachen. Eine GIS-Applikation zur Analyse von Punktmustern kann etwa für den Zweck konzipiert sein, menschliches Siedlungsverhalten nachherzusagen. Die Frage, ob der Algorithmus dazu semantisch überhaupt in der Lage ist, kann den Umfang einer Rezension bei weitem übersteigen. Es bleibt aber beim Rezensenten, eine Einschätzung der Plausibilität vorzunehmen und auch das Problem der Einschätzbarkeit selbst offenzulegen, um so die Leser dafür zu sensibilisieren.
-
-> [MT] Wissenschaftliche Software sollte Forschungssoftware heißen?
-> [MT] die einleitung könntr kürzer sein, da ja Katalog folgt
+Forschungssoftware hat einen konkreten Zweck, verfolgt und erfüllt eine bestimmte Aufgabe. Dabei sind zwei Dimensionen zu unterscheiden. Dies ist zum einen, und das ist für Forschungssoftware vorrangig, die Frage, ob die Software einen sinnvollen Beitrag zur Bearbeitung der archäologischen Fragestellung liefert. Zum anderen ist zu beurteilen, ob Software eine korrekte Umsetzung der angestrebten Arbeit leistet. Letzteres, also die Korrektheit der Ergebnisse einer Software, ist mitunter schwer zu beurteilen, insbesondere dann, wenn es keine weiteren Implementierungen des Algorithmus in anderen Softwarepaketen gibt. Dieses Problem gliedert sich in mehrere Aspekte: Zunächst stellt sich die sehr technische Frage, ob die in der Dokumentation genannten Algorithmen fehlerfrei in Programmcode ausgedrückt wurden. Meist ist schon eine Prüfung dieses Aspekts nicht trivial und übersteigt den Rahmen einer Rezension. Darüber hinaus versprechen wissenschaftliche Softwarewerkzeuge implizit oder explizit, die Beantwortung wissenschaftlicher Fragestellungen zu ermöglichen oder zumindest zu vereinfachen. Eine GIS-Applikation zur Analyse von Punktmustern kann etwa für den Zweck konzipiert sein, menschliches Siedlungsverhalten nachherzusagen. Die Frage, ob der Algorithmus dazu semantisch überhaupt in der Lage ist, kann den Umfang einer Rezension bei weitem übersteigen. Es bleibt aber beim Rezensenten, eine Einschätzung der Plausibilität vorzunehmen und auch das Problem der Einschätzbarkeit selbst offenzulegen, um so die Leser dafür zu sensibilisieren.
 
 #### Wissenschaftlicher Zweck und Beurteilung der Korrektheit
 
@@ -200,18 +197,11 @@ Die Bedienbarkeit von Forschungssoftware ist von zentraler Bedeutung, da sie als
 Die folgenden Fragen richten sich auf technische Merkmale, die die Benutzbarkeit (Usability) betreffen. Weitere technische Merkmale aus einer Entwickler-zentrierten Perspektive betrachten wir weiter unten.
 
 ##### Installation
-* **Wie funktioniert die Installation und wo wird die Software vorgehalten?** Gibt es ein Installationsskript oder ist die Software nur als Quellcode verfügbar, der zunächst selbst kompiliert werden muss? Ist die Lösung angemessen für den Nutzerkreis? Installationsskripte ermöglichen einen viel breiteren Anwenderkreis, das Kompilieren erlaubt geübten Nutzern die Installation u.U. auf verschiedenen Endgeräten.
-
-> Hier ist mir nicht klar ob der "Archäologe" weiß was eine Kompilierung ist...
-Installiert das Installationsskript alle Abhängigkeiten uzum reibungslosen Ablauf der Software oder gibt sie Hinweise auf weitere Installationen die durch den Benutzer vorgenommen werden müssen?
-
-> [AK] Und wieder: es gibt ihn nicht, "den Archäologen". Es gibt nur Leser von Softwarerezensionen in der arch. Info und für die soll die Rezension herausstellen, ob das Programm voll einfach oder voll schwierig zu installieren ist. Wiederum ist "voll schwierig" dann okay, wenn die Software in einem spezifischen Kontext zum Einsatz kommt, in dem man Menschen wie viele der Autorinnen dieses Beitrags hat.
+* **Wie funktioniert die Installation und wo wird die Software vorgehalten?** Gibt es ein Installationsskript oder ist die Software nur als Quellcode verfügbar, der zunächst selbst kompiliert werden muss? Installationsskripte ermöglichen einen viel breiteren Anwenderkreis, das Kompilieren erlaubt geübten Nutzern die Installation u.U. auf verschiedenen Endgeräten. Entsprechend kann in einer Rezension angesporchen werden, ob die gewählte Lösung zum Nutzerkreis passt.
 
 * **Handelt es sich um eine standalone Software, oder um eine Webanwendung?** Passt die Lösung der Plattform zum archäologischen Einsatz? Ist z.B. eine Webanwendung unter allen Arbeitsbedingungen und Einsatzgebieten sinnvoll? Ist vielleicht auch beides möglich?
 * **Ist klar erkennbar, welche Voraussetzungen die Hardware zu erfüllen hat?** Ist eine Spezifikationen vorhanden?
-* **Was waren die eigenen Erfahrungen bei der Installation der Software?** Dabei ist natürlich wichtig, die eigene Umgebung und eigene Kompetenz darzustellen. Manchmal ist es für Leser besonders hilfreich, zu erfahren
-
- [MT] Satz bricht ab
+* **Was waren die eigenen Erfahrungen bei der Installation der Software?** Dabei ist natürlich wichtig, die eigene Umgebung und eigene Kompetenz darzustellen. Manchmal ist es für Leser besonders hilfreich, zu erfahren, wo mögliche Probleme liegen und wie diese zu lösen sind, bzw. wo Hilfe zu finden ist.
 
 ##### Interface
 Die Nutzbarkeit wird zentral von den Möglichkeiten der Kommunikation von Mensch und Software bestimmt, also dem der Software-Oberfläche (UI). Diese mag in manchen Fällen graphisch gestützt sein (GUI), in anderen Fällen rein kommando-basiert (z.B. API). Die Gestaltung von Oberflächen und die Nutzerführung in Menüstrukturen sind ein eigenes Aufgabenfeld in der Softwareentwicklung und können erhebliche Kosten erzeugen. Gut an den Nutzer angepasste Lösungen sind das Ergebnis einer genauen Kenntnis der Zielgruppe, ihrer Gewohnheiten und Bedarfe, im Falle archäologischer Forschungssoftware also der Forschungspraxis. Ein gutes Interface unterstützt das fehlerfreie effiziente Arbeiten. So sind z.B. Verständlichkeit der Menü-Einträge oder der Kommandos, aber auch die Aussagekraft von Fehlermeldungen Aspekte, die in der Rezension betrachtet werden sollten. Barrierefreiheit ist bislang ein unzureichend abgedecktes Kriterium, das aber ebenfalls die Effizienz und den möglichen Nutzerkreis adressiert. Auch bei diesem Punkt liegt die Gewichtung im Ermessen des Rezensenten.
@@ -221,12 +211,10 @@ Jeder Nutzerkreis, auch der des Reviewers wird bestimmte Erwartungen an die Prä
 
 Stellt z.B. die Nutzung einer eigens zu installierenden Shell eine Hürde dar?
 > hier kommt plötzlich Shell ins Spiel...
-> [AK] Ist das nicht letztlich eher ein Punkt, der zur Isntallation und den Spezifikationen gehört?
+> [AK] Ist das nicht letztlich eher ein Punkt, der zur Installation und den Spezifikationen gehört?
 
 * **Orientiert sich die Menüführung an bestimmten Vorbildern?**
-> [anonym] Das muss man nicht bewerten
-> [TH] Hiermit meine ich ob z.B. Tastenkürzel die in anderen Softwares gängig sind so übernommen werden oder ob gänzlich andere Standards gesetzt werden. Letztlich ist es eine Frage der Schwierigkeit der Einarbeitung in die Software, ob sie genutzt wird. Menüführungen, Tastenkürzel oder andere Funktionen die sich an anderen Softwares orientieren erleichtern die Einarbeitung immens.
-> [AK] Hier bin ich ganz bei Timo. Natürlich erleichtert es die Einarbeitung und die Akzeptanz einer Software sehr, wenn sie sich an den Gewohnheiten orientiert.  
+Software, die sich von der Menüführung oder auch Tastenkürzeln an bekannter, in der Community gängiger Software orientiert, erlaubt eine schnellere Einarbeitung. Dies kann somit ein Aspekt sein, der für die Leser einer Rezension interessant ist.
 
 * **Ist das Programm mehrsprachig bzw. in welchen Sprachen wird es angeboten?**
 Je nachdem, von wem das Programm eingesetzt werden soll, sollte das Programm in mehreren Sprachen angeboten werden. Üblicherweise wird man das Programm zumindest in einer englischen Fassung erwarten. Sollten verschiedene Sprachversionen getestet werden, so ist darauf zu achten, dass das Layout der Anwendung in den verschiedenen Sprachen weiterhin sichtbar ist. Beschriftungen von Buttons beispielsweise können sich in der Länge des Textes in verschiedenen Sprachen stark unterscheiden, so dass bei schlechter Programmierung der Anwendung ggf. Texte im Benutzerinterface abschnitten sind.
@@ -256,8 +244,6 @@ Gibt es auf den Informationsseiten der Software oder in den Tutorialmaterialien 
 
 * **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich ?**
 Beispiele für die Softwareentwicklung, die zunächst ganz aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind die [Pelagios Commons](https://pelagios.org/) und die WebApp [Recogito](https://recogito.pelagios.org/). Aktive Nutzergruppen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Cuommunities großer Softwarepakete wie QGIS oder R entwickelt.
-
->[AK] Hier wäre ich über konkrete Adressen / Foren /Anlaufstellen für Communities als Beispiele sehr froh !
 
 * **Haben ArchäologInnen bereits Best Practices für diese Software formuliert?**
 
@@ -311,9 +297,11 @@ Die Dokumentation erfolgt in verschiedenen Bestandteilen. Man unterscheidet die 
 Software Repositories wie [Github](https://github.com) oder [Gitlab](https://gitlab.com) bieten oft Vorlagen oder Best Practices um diese Anforderungen in jeglichen Programmiersprachen umsetzen zu können.
 Schließlich kann die Softwaredokumentation von Statistiken über die Software selbst bezüglich Komplexität, der verwendeten Lizenzen und Abhängigkeiten begleitet sein.
 
-Kernfragen, welche ein Reviewer beantworten sollte sind die folgenden:
+Kernfragen, die ein Reviewer beantworten sollte, sind die folgenden:
+
 * **Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?**
 Best Practices sind hier beispielsweise Quellcode Dokumentationen mit [Doxygen](https://www.doxygen.nl/index.html), [JavaDoc](http://www.oracle.com/technetwork/java/javase/documentation/javadoc-137458.html), [JsDoc](https://jsdoc.app) oder auch das für Python beliebte [ReadTheDocs](https://readthedocs.org). Alle Dokumentationen erzeugen eine HTML Repräsentation der Quellcodedokumentation, welche im Falle von ReadTheDocs direkt auch im Internet gehostet wird. Im Falle von anderen Dokumenationstools ist es gute Praxis diese beispielsweise als Github Page mit dem Repository bereitzustellen.
+
 * **Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?**
 Ebenso wichtig wie ein grundlegendes Verständnis des Aufbaus des Programms ist die Bauanleitung der Software. Entsprechend ist zu fragen, ob dokumentiert ist, wie die Software erstellt wurde und funktioniert die Erstellung unter dem angegebenen Weg.
 
@@ -343,11 +331,9 @@ Eine weiterführende Frage ist, wie hoch die Testabdeckung des Umfangs des Progr
 * **Wird es dem Benutzer einfach gemacht, die Software zu testen? Gibt es eine Virtuelle Maschine, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?**
 Entwickler werden mit mehr oder weniger Schwierigkeiten in der Lage sein, eine Software zu bauen und auszuführen. Allerdings will auch dieser Zeiteinsatz oft wohlbedacht sein. Tatsächlich werden Softwares, welche leicht installierbar und vor allem testbar sind, sowohl von Entwicklern die einen schnellen Einblick in die Funktionalität bekommen wollen, als auch von anderen Benutzern einen besseren Anklang finden als andere.
 
-> [AK] Absatz ist für mich Streichkandidat
-
 Es liegt in der Natur der Sache, dass es hierbei, je nach Art der Anwendung, unterschiedliche Ausführungsformen gibt. Eine Webanwendung kann als Beispiel im Internet gehostet sein und dem Benutzer einen Testaccount zur Verfügung stellen (z.B. [CWRCWriter](https://cwrc.ca)), eine Desktop Anwendung kann bereits eine installierebare Anwendung oder ein Installerpaket mitliefern. Serveranwendungen können für einen Test als Images von virtuellen Maschinen oder - in letzter Zeit üblicher - als Dockerimages in Portalen wie [Dockerhub](https://hub.docker.com) für ein einfaches Testen hinterlegt werden.
 
->[AK] Das Thema Installtion hatten wir weiter oben. In diesem Abschnitt soll es aber um Entwickler gehen. Daher bitte überarbeiten. Zudem insgesamt sehr umgangssprachlich formuliert
+>[AK] Das Thema Installation hatten wir weiter oben. In diesem Abschnitt soll es aber um Entwickler gehen. Daher bitte überarbeiten. Zudem insgesamt sehr umgangssprachlich formuliert
 
 * **Sind die Entwickler der Software aktiv und sind sie gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es *Contribution Guidelines*?**
 Oft stellen sich bei der Bedienung der Software heraus, dass Funktionalitäten fehlen oder Fehler im Programm vorhanden sind. In manchen Fällen machen diese Probleme die Benutzung der Software für bestimmte Anwendungsfälle unmöglich oder verschlechtern die Ergebnisse, die mit der Software erreicht werden können signifikant. Dies kann auch der Fall sein, wenn die Software möglicherweise in allen anderen Belangen den Erwartungen entspricht. In solchen Fällen ist die Verfügbarkeit der Entwickler und deren Feedback auf Supportanfragen ein entscheidendes Kriterium.
