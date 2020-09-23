@@ -95,13 +95,9 @@ Als erster Schritt in Richtung Sichtbarmachung wurde 2012 die Berufsbezeichnung 
 
 Eine der Forderungen des de-RSE e.V. ist, dass Forschungssoftware mittels geeigneten Publikationsmodalitäten sichtbar gemacht werden soll, da eine Publikation und vor allem deren Auffindbarkeit redundante Arbeit vermeidet ([@anzt_environment_2020, 10](#anzt_environment_2020)). Dabei ist die eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Forschungssoftwareentwicklung an die entsprechenden Personen geknüpft werden. Dies eröffnet weitere akademische Karrierewege, in denen bislang nur klassische Publikationen gewertet wurden. Zukünftig sollten aber in gleicher Weise auch Datenpublikationen, Softwareentwicklung und -publikationen ([https://citation-file-format.github.io](https://citation-file-format.github.io), [https://doi.org/10.5281/zenodo.1003149](https://doi.org/10.5281/zenodo.1003149)), Annotationen, sowie deren Zitationen Kriterien der Beurteilung der wissenschaftlichen Leistung sein (s. [NFDI4Culture](https://nfdi4culture.de), [RSE4NFDI](https://www.rse4nfdi.de/de/index.html), [NFDI4Objects](https://www.nfdi4objects.net)).
 
-Ein frühes Beispiel für die Nennung der Autorschaft von Forschungssoftware in der Archäologie gibt das einleitende Zitat. Allerdings gibt es grundlegende Unterschiede zur gewohnten Publikation und Zitation von Aufsätzen und Büchern. Da die Entwicklung von Software auf bereits bestehenden Modulen aufbaut, muss das Verständnis von Autorenschaft und wie sie sich über die Lebenszeit der Software hinaus dokumentieren lässt spezifisch für Software erfolgen [@katz_software_2016](#katz_software_2016).
+Es gibt grundlegende Unterschiede zur gewohnten Publikation und Zitation von Aufsätzen und Büchern. Da die Entwicklung von Software auf bereits bestehenden Modulen aufbaut, muss das Verständnis von Autorenschaft und wie sie sich über die Lebenszeit der Software hinaus dokumentieren lässt spezifisch für Software erfolgen [@katz_software_2016](#katz_software_2016).
 
-> [HM] Kann es sein, dass es das einleitende Zitat nicht mehr gibt?
-
-Eine publizierte Software kann anschließend, ganz so wie in der bisherigen Praxis der altertumswissenschaftlichen Forschung, begutachtet werden. In einer Rezension kann diese dann einem breiteren Publikum vorgestellt werden. Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendiert die Redaktion der Archäologischen Informationen genau dies. Durch eine dedizierte Rezension von Software analog zu Rezensionen wissenschaftlicher Publikationen, wird die wissenschaftliche Leistung der Autoren und Autorinnen von Forschungssoftware mittels gewohnten Formaten sichtbar und anerkannt. Gleichzeitig wird auch ihre Verantwortung und Teilhabe manifest.
-
-> [HM] "publizierte" würde ich durch "verfügbare" ersetzen, da die wenigsten Softwarepakete publiziert sind. Damit meine ich, dass es eine DOI oder ähnliches gibt. Bei MeshLab und auch GigaMesh wird man gebeten einen herkömlichen Artikel zu zitieren in dem die Software so etwas wie seine erste urkundliche Erwähnung hat.
+Eine öffentlich verfügbar gemachte Software kann, ganz so wie in der bisherigen Praxis der altertumswissenschaftlichen Forschung, begutachtet werden. In einer Rezension kann diese dann einem breiteren Publikum vorgestellt werden. Mit der Einführung der Rezensionskategorie "Archäoinformatik" intendiert die Redaktion der Archäologischen Informationen genau dies. Durch eine dedizierte Rezension von Software analog zu Rezensionen wissenschaftlicher Publikationen, wird die wissenschaftliche Leistung der Autoren und Autorinnen von Forschungssoftware mittels gewohnten Formaten sichtbar und anerkannt. Gleichzeitig wird auch ihre Verantwortung und Teilhabe manifest.
 
 ### Gute Forschungssoftware
 
@@ -109,9 +105,7 @@ Um überhaupt Kriterien zur Rezension und Bewertung von Forschungssoftware aufst
 
 Die DFG formuliert mit ihren "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) eine Reihe von Vorgaben für gutes wissenschaftliches Arbeiten. Die Leitlinien entsprechen einem internationalen Konsens und etablierten Prinzipien. Zu den Anforderungen gehören etwa die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu Ergebnissen, die öffentliche Zugänglichkeit von Ergebnissen und die Archivierung der notwendigen Materialien, die zu Ergebnissen geführt haben.
 
-Einige der Kriterien, die in den DFG-Leitlinien explizit und implizit anklingen, sollen im folgenden näher ausgeführt werden: Die in der Erläuterung zu Leitlinie 13 (*Herstellung von öffentlichem Zugang zu Forschungsergebnissen*) genannten FAIR-Prinzipien, die Prinzipien der Offenen Wissenschaft (Open Science) und zuletzt die CARE-Prinzipien, die in den Leitlinien 2 und 10 anklingen. Darüber hinaus sind weitere Hinweise zur Umsetzung der DFG-Leitlinien in Bezug auf Forschungssoftware unter [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg) zu finden.
-
-> [HM] Akronyme wie CARE und FAIR bitte erläutern. Das weis nicht jeder auswendig - mich eingesclossen. Nachtrag: FAIR wird im folgenden Absatz erklärt, daher vielleicht in obigen Absatz noch nicht nennen.
+Einige der Kriterien, die in den DFG-Leitlinien explizit und implizit anklingen, sollen im folgenden jeweils näher ausgeführt werden und zwar die in der Erläuterung zu Leitlinie 13 (*Herstellung von öffentlichem Zugang zu Forschungsergebnissen*) genannten FAIR-Prinzipien, die Prinzipien der Offenen Wissenschaft (Open Science) und zuletzt die CARE-Prinzipien, die in den Leitlinien 2 und 10 anklingen. Darüber hinaus sind weitere Hinweise zur Umsetzung der DFG-Leitlinien in Bezug auf Forschungssoftware unter [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg) zu finden.
 
 #### FAIR-Prinzipien
 
@@ -136,14 +130,11 @@ Weitere Aspekte, die die Zugänglichkeit erleichtern, sind die Verfügbarkeit f�
 
 ##### Interoperable (Interoperabel)
 
-Interoperabilität von Software kann sich zum Einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum Anderen verweist sie auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 46 f.](#lamprecht_towards_2019). Beides wird durch die Verwendung von Standards ermöglicht, die die Zusammenarbeit von Softwarekomponenten auch über Betriebssystemgrenzen hinweg ermöglicht.
+Interoperabilität von Software kann sich zum einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum anderen verweist sie auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 46 f.](#lamprecht_towards_2019). Beides wird durch die Verwendung von Standards ermöglicht, die die Zusammenarbeit von Softwarekomponenten auch über Betriebssystemgrenzen hinweg ermöglicht.
 
 ##### Reusable (Nachnutzbar)
 
-Die Nachnutzbarkeit von Software hängt von mehreren Komponenten ab. Die Metadaten und eine umfassende Dokumentation der Software sollten es anderen ermöglichen, Ergebnisse zu reproduzieren sowie eigene Daten und veränderte Anwendungsfälle zu prozessieren. Eine geeignete Lizenz, die auch die abhängigen Softwarekomponenten berücksichtigt, gibt zudem darüber Auskunft, welche Regeln bei der Nutzung gelten und ob eine Weiterentwicklung des Codes möglich ist. Für die Zitierbarkeit ist eine Nennung der Beteiligten notwendig [@lamprecht_towards_2019, 48-49](#lamprecht_towards_2019).
-
-> [AK] Sind mit Beteiligten, die Autoren/Entwickler gemeint? Wenn ja, idealerweise anpassen denke ich, damit wir bei ein-zwei Bezeichnungen bleiben.
-> [HM] Das ist ein guter Punkt und Autorenschaft wird unterschiedlich gehandhabt. Bei Linux nennt man Linus Torvalds als Autor. Bei anderen Paketen ist jeder contrbutor ein Autor. Bei manchen ist das auch nicht mehr nachvollziehbar - vor allem, wenn eine Firma dahinter steht. Bei der Festlegung oder Änderung der Lizenz braucht es oft die Zustimmung von allen Autoren. Daher der Trend zu wenigen Autoren bei doch oft beachtlichen Mengen an contributoren.
+Die Nachnutzbarkeit von Software hängt von mehreren Komponenten ab. Die Metadaten und eine umfassende Dokumentation der Software sollten es anderen ermöglichen, Ergebnisse zu reproduzieren sowie eigene Daten und veränderte Anwendungsfälle zu prozessieren. Eine geeignete Lizenz, die auch die abhängigen Softwarekomponenten berücksichtigt, gibt zudem darüber Auskunft, welche Regeln bei der Nutzung gelten und ob eine Weiterentwicklung des Codes möglich ist. Für die Zitierbarkeit ist eine Nennung der beteiligten Entwickler notwendig [@lamprecht_towards_2019, 48-49](#lamprecht_towards_2019).
 
 #### Open Science
 
@@ -158,42 +149,10 @@ Mit der Forderung nach der Offenlegung des Quellcodes (Open Source) wird auch de
 #### CARE-Prinzipien und Ethos
 
 In den Leitlinien der DFG werden in Leitlinie 2 und 10 ethische Aspekte im Forschungsprozess angesprochen, die nach unserer Meinung auch im Bereich der Forschungssoftware Beachtung finden sollten.
+So ist es eine alltägliche Beobachtung, dass unbewusst Privilegien und Ungleichheiten in der altertumswissenschaftlichen Forschung unbewusst durch Forschungssoftware fortgeschrieben werden: Für archäologische Feldarbeit wird oft Software zur Datenaufnahme eingesetzt, die für die Mehrheit der Mitarbeiter vor Ort aufgrund einer Sprachbarriere nicht verständlich ist und entsprechend können sie sich nicht weiter qualifizieren und anspruchsvollere Aufgaben übernehmen; proprietäre Software oder teure Hardware benachteiligt Forscher, die mit weniger Finanzmitteln auskommen müssen, und die Texte der Handbücher kennen oft ausschließlich männliche Nutzer.
 
-Tatsächlich ist Forschungssoftware nicht politisch neutral. Ihre Architektur reflektiert ihre Entstehungsbedingungen, ihre Nutzung erfolgt unter spezifischen Voraussetzungen und auch ihre Weitergabe unterliegt den vorherrschenden Konventionen und Gewohnheiten. Vielfach tragen gerade diese Gewohnheiten zur (unbewussten) Festigung von Privilegien und Diskriminierungen bei: Für archäologische Feldarbeit wird oft Software zur Datenaufnahme eingesetzt, die für die Mehrheit der Mitarbeiter vor Ort aufgrund einer Sprachbarriere nicht verständlich ist, proprietäre Software oder teure Hardware benachteiligt die Forschung, die mit weniger Finanzmitteln auskommen muss, und die Texte der Handbücher kennen oft ausschließlich männliche Nutzer.
-
-> [HM] Das die Texte von Handbüchern nur Männer kennen ist meiner Einschätzung nach out-of-scope im Sinne eines Leitfadens zur Softwarerezension. Der Absatz bräuchte auf jeden Fall Referenzen, da hier eine Reihe von Themen aufgemacht werden, die eher nicht auf unseren (Er)Kenntnissen basieren.
-
-Eine Personengruppe, die besonders oft zum passiven Spielball von Forschungssoftware und Datenverarbeitung geworden ist, sind indigene Bevölkerungsgruppen. Gerade in den Archäologien, in denen häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten Traditionen und Wissen der indigenen und der ortsansässigen Bevölkerungsgruppen zum kulturellen Erbe in eine Mitbestimmung über die Erforschung münden. Hierfür eignen sich die CARE-Prinzipien ([https://www.gida-global.org/care](https://www.gida-global.org/care)). Sie wurden von der [Global Indigenous Data Alliance (GIDA)](https://www.gida-global.org) und der [Research Data Alliance (RDA)](https://www.rd-alliance.org) 2018 auf Basis der [UN Declaration on the Rights of Indigenous Peoples (UNDRIP)](https://www.un.org/development/desa/indigenouspeoples/declaration-on-the-rights-of-indigenous-peoples.html) erarbeitet und konzentrieren sich explizit auf Forschungsdaten. Ihre vier Grundpfeiler Kollektiver Nutzen (Collective Benefit), Souveränität (Authority to Control), Verantwortung (Responsibility) und Ethik (Ethics) sind jedoch auch für Forschungssoftware und für jeden Kontext der Forschung relevant, in dem ein Ungleichgewicht von Machtverhältnissen existiert.
-
-> [HM] Aus diesem Abschnitt würde ich jetzt zwei sehr generische Dinge die relevant für eine Rezension sind ableiten: Ort der Entstehung (cf. politisch gefärbt) Verfügbarkeit eines multilingualen Benutzerinterface, Betriebssystem und Hardwarevorraussetzungen. 
-
-##### Collective Benefit (Kollektiver Nutzen)
-
-Dieser Punkt fordert den gemeinschaftlichen Nutzen der Datenerhebung für die indigene und die ortsansässige Bevölkerung. Er lässt sich leicht auf Software übertragen: Software, die auf Wissen und Erfahrungen von indigenen Bevölkerungen beruht, soll für diese Gruppen einen Nutzen haben. Hier geht es darum, dass Menschen, die einen wichtigen Beitrag für die Entwicklung geleistet haben, honoriert werden und die Anwendung nicht nur Fremden zugute kommt (monetär, durch Reputation u.ä.).
-
-> [HM] Hier bräuchte ich einen Erklärung, wie man dieses Kriterium leicht für Software übertragen kann.
-
-##### Authority to Control (Souveränität)
-
-Die Kontrollmacht über die eigenen Daten ist eine wichtige Forderung indigener Menschen und der örtlichen Bevölkerung. Auch dies lässt sich auf Software anwenden: Die Entscheidungsmacht über die Verwendung von anhand ihres Wissens entwickelter Software soll bei den genannten Gruppen liegen. Dieser Punkt kann verhindern, dass ihr Wissen unangemessen ausgenutzt wird, und kann durch die computertechnische Ermächtigung von den indigenen und den ortsansässigen Gruppen verstärkt werden.
-
-> [AK] Was genau ist her mit ""computertechnische Ermächtigung" gemeint?
-> [MT] gute Frage ...
-> [HM] ...
-
-##### Responsibility (Verantwortung)
-
-Wer mit Daten arbeitet, die auf dem Wissen und den Traditionen indigener Gruppen beruhen, hat die Verantwortung, nachvollziehbar aufzuzeigen, wie diese Daten den Gruppen zugute kommen. Entwickler von Software haben Verantwortung für die positiven Folgen der Software für die indigenen Gruppen zu übernehmen. Bei der Entwicklung ist es die Verantwortung der Produzenten, mögliche schädliche Konsequenzen der Software abzuwenden. Dies kann durch inklusive Ansätze bei der Entwicklung verfolgt werden.
-
-> [AK] Hier bitte klären, wo wirklich die Entwickler und wo die Produzenten (öhm.. z.B. ESRI oder so) gemeint sind. Ist für mich nicht ganz klar.
-> [HM] Als Entwickler Verantwortung für die Verwendung meiner Software zu übernehmen ist de-facto unmöglich. Das ist auch der Grund für den Disclaimer, der bei vielen Programmen zu lesen ist, dass die Entwickler keine Haftung übernehmen, da man überhaupt keine Chance hat zu prüfen was wer mit der Software macht.
-
-##### Ethics (Ethik)
-Rechte und Wohl der indigenen Bevölkerungsgruppen sollten an erster Stelle bei der Erarbeitung und Bearbeitung eines Datensatzes stehen. Für Software gilt das selbe, wenn sie indigene Gruppen betrifft.
-
-> [HM] Auch nicht ganz einfach festzustellen, wann Software eine indigene Gruppe betrifft.
-
-> [HM] zu CARE: ich finde den ganzen Abschnitt schwierig, da man meiner Einschätzung nach die sehr guten und sinnvollen Prinzipien für Daten nicht einfach auf Software umlegbar sind.
+Eine Personengruppe, die besonders oft zum passiven Spielball von Forschungssoftware und Datenverarbeitung geworden ist, sind indigene Bevölkerungsgruppen. Gerade in den Archäologien, in denen häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten Traditionen und Wissen der indigenen und der ortsansässigen Bevölkerungsgruppen zum kulturellen Erbe in eine Mitbestimmung über die Erforschung münden. Hierfür eignen sich die CARE-Prinzipien ([https://www.gida-global.org/care](https://www.gida-global.org/care)). Sie wurden von der [Global Indigenous Data Alliance (GIDA)](https://www.gida-global.org) und der [Research Data Alliance (RDA)](https://www.rd-alliance.org) 2018 auf Basis der [UN Declaration on the Rights of Indigenous Peoples (UNDRIP)](https://www.un.org/development/desa/indigenouspeoples/declaration-on-the-rights-of-indigenous-peoples.html) erarbeitet und konzentrieren sich explizit auf Forschungsdaten. Ihre vier Grundpfeiler Kollektiver Nutzen (Collective Benefit), Souveränität (Authority to Control), Verantwortung (Responsibility) und Ethik (Ethics) sind in gleicher Weise für Forschungssoftware relevant, doch bedarf die konkrete Umsetzung im Bereich der Entwicklung von Forschungssoftware der Ausarbeitung in der Community und der Politik.
+[AK] Stark gekürzt, eventuell kann hier als Beleg ergänzt werden: [https://www.bundestag.de/ausschuesse/weitere_gremien/enquete_ki#url=L2Rva3VtZW50ZS90ZXh0YXJjaGl2LzIwMTkva3cyMy1wYS1lbnF1ZXRlLWtpLTY0NDAxMA==&mod=mod569768]. 
 
 ## Mögliche Vorgehensweise zur Rezension archäologischer Forschungssoftware
 
