@@ -100,28 +100,25 @@ Um überhaupt Kriterien zur Rezension und Bewertung von Forschungssoftware aufst
 
 Die DFG formuliert mit ihren "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" ([@deutsche_forschungsgemeinschaft_2019](#deutsche_forschungsgemeinschaft_2019)) eine Reihe von Vorgaben für gutes wissenschaftliches Arbeiten. Die Leitlinien entsprechen einem internationalen Konsens und etablierten Prinzipien. Zu den Anforderungen gehören etwa die Einhaltung und Etablierung von Standards und Methoden, eine nachvollziehbare Dokumentation des Weges zu Ergebnissen, die öffentliche Zugänglichkeit von Ergebnissen und die Archivierung der notwendigen Materialien, die zu Ergebnissen geführt haben.
 
-Einige der Kriterien, die in den DFG-Leitlinien explizit und implizit anklingen, sollen im folgenden jeweils näher ausgeführt werden und zwar die in der Erläuterung zu Leitlinie 13 (*Herstellung von öffentlichem Zugang zu Forschungsergebnissen*) genannten FAIR-Prinzipien, die Prinzipien der Offenen Wissenschaft (Open Science) und zuletzt die CARE-Prinzipien, die in den Leitlinien 2 und 10 anklingen. Darüber hinaus sind weitere Hinweise zur Umsetzung der DFG-Leitlinien in Bezug auf Forschungssoftware unter [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg) zu finden.
+Einige der Kriterien, die in den DFG-Leitlinien explizit und implizit anklingen, sollen im folgenden jeweils näher ausgeführt werden: Die in der Erläuterung zu Leitlinie 13 (*Herstellung von öffentlichem Zugang zu Forschungsergebnissen*) genannten FAIR-Prinzipien, die Prinzipien der Offenen Wissenschaft (Open Science) und zuletzt die in den Leitlinien 2 und 10 angeführten CARE-Prinzipien. Darüber hinaus sind weitere Hinweise zur Umsetzung der DFG-Leitlinien in Bezug auf Forschungssoftware unter [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg) zu finden.
 
 #### FAIR-Prinzipien
 
-Die FAIR-Prinzipien wurden 2016 als *FAIR Data Principles* veröffentlicht [@wilkinson_2016](#wilkinson_2016). Sie zielen primär auf Forschungsdaten und deren Metadaten ab und fordern, dass diese auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable) sind. Die Prinzipien können auch auf Forschungssoftware und deren Metadaten übertragen werden ([@lamprecht_towards_2019](#lamprecht_towards_2019), [@goedicke_nfdixcs20](#goedicke_nfdixcs20)).
-
-Die Anwendung von FAIR-Prinzipien fördert die Qualität der Software hinsichtlich der grundsätzlichen Ansprüche an Interoperabilität bei der Verwendung in einem Workflow und der Verwendung von Standards und etablierten Paradigmen des Programmierens und der Dokumentation. Die FAIR-Prinzipien beziehen sich nicht auf die wissenschaftliche Qualität des Tools. Dennoch ergeben sich eine Anzahl von Kriterien, die in die Beurteilung einer Forschungssoftware einfließen und von Angaben, die im Rahmen der Rezension als Serviceleistung zu erbringen sind, wie die Nennung der Autorenschaft, des zur Speicherung verwendeten Repositoriums oder die Beschreibung möglicher nötiger Voraussetzungen zur Verwendbarkeit.
-
-Ein Fokus der FAIR-Prinzipien ist, dass Daten, bzw. Forschungssoftware, und Metadaten auch maschinell lesbar und verarbeitbar sind. Dies betrifft vor allem die Prinzipien 'Accessible' und 'Interoperable'.
+Die FAIR-Prinzipien wurden 2016 als *FAIR Data Principles* veröffentlicht [@wilkinson_2016](#wilkinson_2016). Sie zielen primär auf Forschungsdaten und deren Metadaten ab und fordern, dass diese auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable) sein sollen. Die Prinzipien können auch auf Forschungssoftware und deren Metadaten übertragen werden, denn obgleich sie nichts zur wissenschaftliche Qualität von Software aussagen lassen sich aus ihnen doch Kriterien in Hinblick auf Softwarepublikation, Codedokumentation und Programmierstandards ableiten ([@lamprecht_towards_2019](#lamprecht_towards_2019), [@goedicke_nfdixcs20](#goedicke_nfdixcs20)).
 
 ##### Findable (Auffindbar)
 
-Software wird durch die Speicherung zusammen mit ihren Metadaten in dedizierten Softwarerepositorien auffindbar, die kommerziell, community-basiert und in vielen weiteren Formen starke Impulse für die Entwicklung der wissenschaftlichen Infrastrukturen geben. Die Auffindbarkeit wird durch die fachwissenschaftliche Einbindung und die klassische Arbeit von Forschungsinfrastrukturen zusätzlich erhöht, da sie Aufbau, Pflege und Anwendung von kontrolliertem Vokabular und Metadatenstandards zur Indexierung betreiben ([@lamprecht_towards_2019](#lamprecht_towards_2019) und [@anzt_environment_2020, 10](#anzt_environment_2020)).
+Software wird durch die Speicherung zusammen mit ihren Metadaten in dedizierten Softwarerepositorien (e.g. Github) auffindbar. Letztere arbeiten kommerziell oder community-basiert und können starke Impulse für die Entwicklung der wissenschaftlichen Softwarelandschaft geben. 
 
-Die Vergabe von persistenten URIs durch Repositorien sowie die Nennung der Autorenschaft ermöglicht das Zitieren von Forschungssoftware. Wichtig ist dabei, dass Software, da sie im Gegensatz zu herkömmlichen Publikationen kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird, damit bestimmte Versionen zitiert werden können [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg).
+Die Auffindbarkeit von Forschungssoftware kann durch fachwissenschaftliche Einbindung in Forschungsinfrastrukturen zusätzlich erhöht werden, da letztere explizit an Aufbau, Pflege und Anwendung von kontrollierten Indizes und Metadatenstandards arbeiten ([@lamprecht_towards_2019](#lamprecht_towards_2019) und [@anzt_environment_2020, 10](#anzt_environment_2020)).
+
+Die Vergabe von dauerhaften Identifikatoren (e.g. URIs) durch Repositorien sowie die Nennung der Autorenschaft ermöglicht das Zitieren von Forschungssoftware. Wichtig ist dabei, dass Software, da sie im Gegensatz zu herkömmlichen Publikationen kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird. Damit können bestimmte Versionen zitiert werden [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg).
 
 ##### Accessible (Zugänglich)
 
-Entsprechend den FAIR-Prinzipien sollte Software und die sie beschreibenden Metadaten über ihre persistente URI erreichbar sein. Die Daten und Metadaten sollten dabei auch maschinell über ein offenes und standardisierte Kommunikationsprotokoll abrufbar und nutzbar sein [@lamprecht_towards_2019](#lamprecht_towards_2019).
+Öffentliche Repositorien und dauerhaften Identifikatoren stellen ebefalls ein Mindestmaß an Zugänglichkeit sicher. Idealerweise sollten Daten und Metadaten dabei auch maschinell über ein offenes und standardisierte Kommunikationsprotokoll abrufbar sein [@lamprecht_towards_2019](#lamprecht_towards_2019).
 
-Weitere Aspekte, die die Zugänglichkeit erleichtern, sind die Verfügbarkeit für verschiedene Betriebssysteme, sowie technische Anforderungen, die von aktuell verbreiteten Geräten geleistet werden können. Eine verständliche Anleitung zur Nutzung des Programms verbessert die Zugänglichkeit im Sinne der Nutzbarkeit.
-
+Weitere Aspekte, die die Zugänglichkeit für Nutzer erleichtern, sind die Verfügbarkeit für verschiedene Betriebssysteme, sowie technische Anforderungen, die von aktuell verbreiteten Geräten geleistet werden können. Eine verständliche Anleitung zur Nutzung des Programms verbessert die Zugänglichkeit in diesem Sinne weiter.
 
 ##### Interoperable (Interoperabel)
 
@@ -129,7 +126,7 @@ Interoperabilität von Software kann sich zum einen auf die Kompatibilität der 
 
 ##### Reusable (Nachnutzbar)
 
-Die Nachnutzbarkeit von Software hängt von mehreren Komponenten ab. Die Metadaten und eine umfassende Dokumentation der Software sollten es anderen ermöglichen, Ergebnisse zu reproduzieren sowie eigene Daten und veränderte Anwendungsfälle zu prozessieren. Eine geeignete Lizenz, die auch die abhängigen Softwarekomponenten berücksichtigt, gibt zudem darüber Auskunft, welche Regeln bei der Nutzung gelten und ob eine Weiterentwicklung des Codes möglich ist. Für die Zitierbarkeit ist eine Nennung der beteiligten Entwickler notwendig [@lamprecht_towards_2019, 48-49](#lamprecht_towards_2019).
+Die Nachnutzbarkeit von Software hängt von mehreren Komponenten ab. Die Metadaten und eine umfassende Dokumentation der Software sollten es anderen ermöglichen, Ergebnisse zu reproduzieren sowie eigene Daten und veränderte Anwendungsfälle zu prozessieren. Eine geeignete Lizenz, die auch die abhängigen Softwarekomponenten berücksichtigt, gibt zudem darüber Auskunft, welche Regeln bei der Nutzung gelten und ob eine Weiterentwicklung des Codes möglich ist [@lamprecht_towards_2019, 48-49](#lamprecht_towards_2019).
 
 #### Open Science
 
