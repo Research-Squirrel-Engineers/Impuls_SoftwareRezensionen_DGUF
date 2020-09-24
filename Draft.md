@@ -156,19 +156,21 @@ Eine Personengruppe, die besonders oft zum passiven Spielball von Forschungssoft
 
 ## Mögliche Vorgehensweise zur Rezension archäologischer Forschungssoftware
 
-Nach unserem Verständnis sollte eine Rezension archäologischer Software, so wie es eine herkömmliche Besprechung einer wissenschaftlichen Publikation leistet, die Software zunächst vorstellen, dabei zusammengefasst Eckdaten vorlegen und den Kontext erläutern. Im Anschluss sollte eine kritische Beurteilung erfolgen.
+Nach unserem Verständnis sollte eine Rezension archäologischer Software, so wie es eine herkömmliche Besprechung einer wissenschaftlichen Publikation leistet, die Software zunächst vorstellen, dabei zusammengefasst Eckdaten vorlegen und den dann den ausführlicheren Kontext erläutern. Schließlich sollte eine kritische Beurteilung erfolgen.
 
-Umgesetzt auf Software gehören zu den Eckdaten Angaben zur Version und den Release-Daten, zu den Entwicklern, der Lizenz und Weiteres. 
+Umgesetzt auf Software gehören zu den Eckdaten Angaben zur Version, zu den Entwicklern, der Lizenz und Weiteres. Wir schlagen vor, die Rezenzion mit einer tabellierten Übersicht wie der folgenden einzuleiten:
 
-* Vorhandensein der Spezifikation für Installationen
-* Opensource, Free and OpenSource
-* Tutorials and Trialdata (zur freien Nutzung?)
-* Input- / Outputformate
-* Alternativprodukte / Konkurrenzangebote
+- Name: ...
+- Kurzbeschreibung: ...
+- Rezenzierte Version: ...
+- URLs und Entwicklerkontakt: ...
+- Publikationen: ...
+- Lizenzierung und Codeverfügbarkeit: ...
+- Alternativprodukte: ...
 
-Als Kontext verstehen wir eine erste Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen. Für die kritische Beurteilung aus unterschiedlicher Perspektive haben wir unten einen Katalog an Fragen zusammengestellt. Zuletzt sollten die Ergebnisse der Betrachtung in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
+Als Kontext verstehen wir eine Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen. Für die kritische Beurteilung aus unterschiedlicher Perspektive haben wir unten einen Katalog an Fragen zusammengestellt. Zuletzt sollten die Ergebnisse der Betrachtung in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
 
-Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung der Dokumentation und begleitender Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die Leser, denn die Leserschaft ist wesentlich heterogener hinsichtlich ihrer Interessen, als man es bei der Besprechung einer Fachpublikation annehmen darf. Es ist eine wichtige Information, ob die Rezension ganz von der Anwendungsperspektive geschrieben ist, oder auch die Entwicklerperspektive umfasst.  
+Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung der Dokumentation und begleitender Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die Leser, denn die Leserschaft ist wesentlich heterogener hinsichtlich ihrer Interessen, als man es bei der Besprechung einer Fachpublikation annehmen darf. Es ist eine wichtige Information, ob die Rezension rein aus Anwenderperspektive geschrieben wurde, oder auch eine Entwicklerperspektive umfasst.  
 
 ## Fragenkatalog zur Beurteilung von Software
 
