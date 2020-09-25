@@ -220,9 +220,7 @@ Software, die sich von der Menüführung oder auch Tastenkürzeln an bekannter, 
 Je nachdem, von wem das Programm eingesetzt werden soll, sollte das Programm in mehreren Sprachen angeboten werden. Üblicherweise wird man das Programm zumindest in einer englischen Fassung erwarten. Sollten verschiedene Sprachversionen getestet werden, so ist darauf zu achten, dass das Layout der Anwendung in den verschiedenen Sprachen weiterhin sichtbar ist. Beschriftungen von Buttons beispielsweise können sich in der Länge des Textes in verschiedenen Sprachen stark unterscheiden, so dass bei schlechter Programmierung der Anwendung ggf. Texte im Benutzerinterface abschnitten sind.
 
 * **Sind die Fehlermeldungen für die Rezensentin gut verständlich?**
-Fehlermeldungen dienen zwei Funktionen. Die erste Funktion ist eine Fehlermeldung an den Benutzer, so dass dieser eine Aktion zur Behebung des Fehlers ergreifen kann. Diese Fehlermeldungen müssen für den Nutzer verständlich formuliert und auffallend in der Anwendung platziert werden. Versteht ein Benutzer den Inhalt der Fehlermeldung nicht, so hat die Fehlermeldung ihren Nutzen verfehlt. Die zweite Funktion einer Fehlermeldung ist ggf. ein Feedback an die Entwickler der Anwendung. Dieses muss die Fehlermeldung so kommunizieren und ggf. auch einen Fehlerreport zur Behebung des Fehlers an die Entwickler schicken. Unverständliche Fehlermeldungen wie Stack Traces oder aus der Ausführungsumgebung übernommene Fehlermeldungen verfehlen oft ihre Wirkung.
-> Was sind Stack Traces? ;-)
-> [AK] Ich kann mit Stack Traces leben, weil ich davon ausgehe, dass es eben genau diese Dinge sind, die die Entwickler verstehen müssen. Ist das nicht der Fall, muss man es aber ändern
+Fehlermeldungen dienen zwei Funktionen. Die erste Funktion ist eine Fehlermeldung an den Benutzer, so dass dieser eine Aktion zur Behebung des Fehlers ergreifen kann. Diese Fehlermeldungen müssen für den Nutzer verständlich formuliert und auffallend in der Anwendung platziert werden. Versteht ein Benutzer den Inhalt der Fehlermeldung nicht, so hat die Fehlermeldung ihren Nutzen verfehlt. Die zweite Funktion einer Fehlermeldung ist ggf. ein Feedback an die Entwickler der Anwendung. Dieses muss die Fehlermeldung so kommunizieren und ggf. auch einen Fehlerreport zur Behebung des Fehlers an die Entwickler schicken. Unverständliche Fehlermeldungen wie Stack Traces (Hinweise auf die Stellen  des Programmcodes an denen ein spezifischer Fehler auftrat) oder aus der Ausführungsumgebung übernommene Fehlermeldungen verfehlen oft ihre Wirkung.
 
 ##### Zielgruppe
 * **Ist die archäologische Nutzung vorgesehen?**
@@ -238,6 +236,7 @@ Hier sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen
 Dieser Punkt ist eng mit der Frage nach Tutorials verbunden, so greifen Tutorials oftmals auf Übungsdaten zurück. Die Übungsdaten von Forschungssoftware sollten sich dabei eng an der wissenschaftlichen Praxis orientieren und dennoch ohne spezifische Vorkenntnisse verständlich sein. Sie sollten frei zur Verfügung stehen und möglichst ohne Registrierung nutzbar sein.
 
 > [AK] Hier wäre ein positives Beispiel ideal
+> [TH] Ideal wäre hier ein Beispiel im archäologischen Kontext, würde AtlantGIS hier funktionieren?
 
 * **Wo finde ich mehr Informationen zu dieser Software? Hyperlinks und Referenzen?**
 Gibt es auf den Informationsseiten der Software oder in den Tutorialmaterialien Hinweise auf weitere Materialien zur Software? Wird auf Publikationen und Beiträge der Entwickler selbst wie auch Rezensionen hingewiesen?
@@ -248,7 +247,7 @@ Beispiele für die Softwareentwicklung, die zunächst ganz aus einer altertumswi
 * **Haben ArchäologInnen bereits Best Practices für diese Software formuliert?**
 
 >[AK] Hier wäre ich über konkrete Beispiele sehr froh und auch eine kurze Erläuterung, was Best Practices an dieser Stelle meint.
-
+>[TH] Best Practices sind hier für mich konkrete Anwendungsfälle in denen die Software für die Lösung einer Aufgabe verwendet wurde. Das kann ein Paper sein welches das beschreibt, könnte auch ein Tutorial sein oder eine Handlungsanweisung einer Organisation die sich dafür zuständig fühlt.
 
 ##### Dateningest, Interoperabilität und Schnittstellen
 Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl, welche Datenformate gelesen, als auch geschrieben werden können. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag  (z.B. "speichern unter") klar und es ist hilfreich, im Rahmen einer Rezension dies zu erläutern. Auch die Form des Uploads von Daten und das Vorhandensein von Schnittstellen machen einen wesentlichen Aspekt des praktischen Einsatz aus und sollten in einer Rezension bedacht werden.
@@ -313,7 +312,6 @@ Eine Bewertung der Aktualität der Dokumentation ist oft relativ einfach vorzune
 
 Ein Beispiel hierfür bietet das [Github Repository des SPARQLing Unicorn QGIS Plugins](https://github.com/sparqlunicorn/sparqlunicornGoesGIS). Ein *Continuous Integration* Prozess erstellt die Dokumentation bei jeder Veränderung des Quellcodes durch die Entwickler neu und publiziert diese auf der [Github Page des Repositories](https://sparqlunicorn.github.io/sparqlunicornGoesGIS/).
 Eine solche oder ähnliche Konfiguration sorgt dafür, dass die Aktualisierung und Publikation der aktuellen Dokumentation nicht vergessen werden kann.
-> nice :-)
 
 * **Gibt es eine Entwicklerdokumentation, sodass die Software leichter verstanden werden und ggf. erweitert werden kann?**
 Essentiell für einen Entwickler, der sich mit der Erweiterung oder Nutzung einer Software befasst, ist es, ihm einen möglichst einfachen Einstieg zu bieten.
@@ -322,9 +320,7 @@ Idealerweise werden noch Beispieldaten für ein besseres Verständnis des Progra
 Abhängig von der Komplexität der Software kann es sinnvoll sein, ein ggf. auch von einer Nutzercommunity gepflegtes Wiki bereitzustellen, um fortgeschrittene Optionen zu erläutern. (siehe [Bibtex_JS Wiki](https://github.com/pcooksey/bibtex-js/wiki))
 
 * **Hat der Quellcode Tests, die die Kernfunktionen des Programms testen und diese für andere Entwickler aufzeigen?**
-Jede Software kann durch Tests auf ihre antizipierte Funktionalität hin überprüft werden. Tests erfüllen hierbei zwei grundlegende Funktionen. Zum einen zeigen sie auf welche Anwendungsfälle hin die Entwickler die Software antizipiert haben und geben diese Information in Form von Tests weiter. Zum anderen geben Tests Auskunft darüber, welche Funktionen im jeweiligen Programm als stabil, fehleranfällig oder ggf. noch optimierungsbedürftig gelten können. Kombiniert mit einem *Continuous Integration* Prozess können Testauswertungen mit jeder Änderung am Quellcode durch die Entwickler erstellt werden.
-> ich glaube du solltest davor CI mal vorstellen...
-> [AK] Ist diese Anregung bereits aufgenommen und verarbeitet?
+Jede Software kann durch Tests auf ihre antizipierte Funktionalität hin überprüft werden. Tests erfüllen hierbei zwei grundlegende Funktionen. Zum einen zeigen sie auf welche Anwendungsfälle hin die Entwickler die Software antizipiert haben und geben diese Information in Form von Tests weiter. Zum anderen geben Tests Auskunft darüber, welche Funktionen im jeweiligen Programm als stabil, fehleranfällig oder ggf. noch optimierungsbedürftig gelten können. Kombiniert mit einem *Continuous Integration* Prozess können Testauswertungen mit jeder Änderung am Quellcode durch die Entwickler erstellt werden. Als *Continuous Integration* Prozess bezeichnet man eine Reihe von Aufgaben welche mit dem Quellcode in einem Repository durchgeführt wird. Jede der Aufgaben erzeugt ein Ergebnis welches einen Mehrwert für das Projekt bietet. Beispielsweise kann ein Releasefile (.exe), eine Quellcode Dokumentation oder auch wie in diesem Fall ein Testreport mit einem *Continuous Integration* Prozess erzeugt werden. Ein solcher Prozess wird üblicherweise nach jeder Änderung des Quellcodes erneut ausgeführt um die Ergebnisse der Aufgaben immer so aktuell wie möglich zu halten.
 
 Eine weiterführende Frage ist, wie hoch die Testabdeckung des Umfangs des Programms ist, also ob alle Funktionen des Programms durch Tests abgedeckt sind. Ist nur ein Teil abgedeckt, wäre zu betrachten, inwieweit dies die Funktionen betrifft, die das Programm seinen Benutzern bereitstellt. Dies gehört zu den Fragen, die mehrheitlich nur durch Experten beantwortbar sind, vielfach also kaum in einer Rezension betrachtet werden können.
 
@@ -334,13 +330,12 @@ Entwickler werden mit mehr oder weniger Schwierigkeiten in der Lage sein, eine S
 Es liegt in der Natur der Sache, dass es hierbei, je nach Art der Anwendung, unterschiedliche Ausführungsformen gibt. Eine Webanwendung kann als Beispiel im Internet gehostet sein und dem Benutzer einen Testaccount zur Verfügung stellen (z.B. [CWRCWriter](https://cwrc.ca)), eine Desktop Anwendung kann bereits eine installierebare Anwendung oder ein Installerpaket mitliefern. Serveranwendungen können für einen Test als Images von virtuellen Maschinen oder - in letzter Zeit üblicher - als Dockerimages in Portalen wie [Dockerhub](https://hub.docker.com) für ein einfaches Testen hinterlegt werden.
 
 >[AK] Das Thema Installation hatten wir weiter oben. In diesem Abschnitt soll es aber um Entwickler gehen. Daher bitte überarbeiten. Zudem insgesamt sehr umgangssprachlich formuliert
+>[TH] Du hast Recht: Wir hatten das Thema Installation weiter oben. Mir geht es hier aber darum ob ich als Entwickler eine Software erweitern will. Was ich dafür machen muss ist mir sie erst einmal anzuschauen. Das geht auch für mich als Entwickler am besten wenn ich sie einfach bei mir installieren kann. Wenn das allerdings in stundenlange Recherchearbeit ausartet, dann schaue ich eher nach Alternativen für die Erweiterung einer Software als mich mit der aktuellen Software abzumühen.
 
 * **Sind die Entwickler der Software aktiv und sind sie gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es *Contribution Guidelines*?**
 Oft stellen sich bei der Bedienung der Software heraus, dass Funktionalitäten fehlen oder Fehler im Programm vorhanden sind. In manchen Fällen machen diese Probleme die Benutzung der Software für bestimmte Anwendungsfälle unmöglich oder verschlechtern die Ergebnisse, die mit der Software erreicht werden können signifikant. Dies kann auch der Fall sein, wenn die Software möglicherweise in allen anderen Belangen den Erwartungen entspricht. In solchen Fällen ist die Verfügbarkeit der Entwickler und deren Feedback auf Supportanfragen ein entscheidendes Kriterium.
 
-Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports eingereicht werden können, und am Besten auch welche Inhalte diese für eine bestmögliche Verarbeitung der Meldungen enthalten sollten. Einen Eindruck davon, ob die Entwickler einen aktiven Austausch pflegen, kann man beispielsweise bei der Durchsicht von Issues in dem Repositorium der Software auf GitHub oder im GitLab gewinnen. Haben die Entwickler Anfragen hier zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Tickets zu bereits geschlossenen Tickets und wie lange hat es gebraucht bis eine Änderung eingepflegt wurde?
-
->[AK] Hier wechselt es zwischen "Issues" und "Tickets", ist das identisch?
+Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports eingereicht werden können, und am Besten auch welche Inhalte diese für eine bestmögliche Verarbeitung der Meldungen enthalten sollten. Einen Eindruck davon, ob die Entwickler einen aktiven Austausch pflegen, kann man beispielsweise bei der Durchsicht von Issues in dem Repositorium der Software auf GitHub oder im GitLab gewinnen. Haben die Entwickler Anfragen hier zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Issues zu bereits geschlossenen Issues und wie lange hat es gebraucht bis eine Änderung eingepflegt wurde?
 
 Zudem können Entwickler proaktiv in einer Roadmap kommunizieren, welche Änderungen in nächster Zeit in das Programm eingepflegt werden sollen und welche Issues für das nächste Release angegangen werden.
 Schließlich ist es für Entwickler oft interessant die Software selbst mitzugestalten und einen Beitrag zu ihrer Verbesserung zu geben. Dafür sollte von den Entwicklern der Software selbst als Best Practice eine *Contribution Guideline* erstellt werden (siehe z.B. [hier](https://projectacrn.github.io/latest/developer-guides/contribute_guidelines.html)). Sie enthält Angaben dazu unter welchen Umständen und wie Änderungen an der Software von Dritten angenommen und integriert werden.
@@ -352,15 +347,14 @@ Die Frage, ob die Entwicklung dem Stand der Technik entspricht, muss meist anwen
 Hierzu gehören unter anderem folgende Aspekte:
   * Ist die Anwendung auf vielen verschiedenen Endgeräten bedienbar? (z.B. Handy, verschiedene Betriebssysteme usw.)
   * Wie ist die Optik der Anwendung? Verwendet sie Elemente vergleichbarer Anwendungen (z.B. Elemente der aktuellen Android Version, verwendet die Webanwendung Adobe Flash, Java Applets oder ähnlich veraltete Technologien?)
-  * Werden im Github Repository Mängel an der Anwendung die die Security betreffen angemerkt oder automatisiert annotiert?
-
-> [AK] Muss "security" verwendet werden, weil ein Fachbegriff, oder kann er mit Sicherhiet übersetzt werden und dabei auch spezifiziert werden. Mir sit nicht klar um die Sicherheit von was es sich handelt.
+  * Werden im Github Repository Mängel an der Anwendung die auf Schwachstellen in der Software hindeuten (Security Vulnerabilities) angemerkt oder automatisiert annotiert?
 
 * **Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.**
 Die Performanz einer Anwendung ist je nach Anwendungstyp von mehr oder weniger Wichtigkeit. Ein Reviewer sollte hier bewerten, ob die Software ihre Aufgabe in der vom Reviewer angemessenen Zeit erfüllt. Gegebenenfalls kann der Reviewer die Ausführungszeit weiterer verwandte Softwareimplementierungen mit der von ihm zu Testenden vergleichen.
 Ein Reviewer wird wahrscheinlich nicht in der Lage sein die Gründe für eine mangelnde Performanz der Software zu erkennen.
 
 > [AK] Frage: Ist die Frage der Performanz, so wie sie hier gestellt wird, nicht 1.) "usability" und 2.) auch ohen Entwicklerwissen zu testen?
+> [TH] Du hast Recht, dann könnten wir das hier streichen. Hier wäre das von Relevanz wenn der Entwickler die Gründe herausfinden könnte
 
 * **Robustheit der Software**
 Die Robustheit einer Software ist ein wünschenswerter Aspekt, der im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben, die sie ausführt, regelmäßig sichert, um bei einem unvorhergesehenen Abbruch wieder an dem Punkt anknüpfen zu können, an dem sie vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft z.B. bei einem Stromausfall den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten.
@@ -368,6 +362,7 @@ Ein Beispiel für eine solche Robustheit ist das regelmäßige automatisierte Zw
 Abhängig vom Anwendungsfall kann es auch vorteilhaft sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann. Dies kann die Spracheinstellungen oder auch die Anpassung von Maßeinheiten, Vorgaben zum Speicherort und ähnliches sein.
 
 > [AK] Sind wir hier noch im spezifischen Entwicklerbereich ? Es klingt für mich nach Usability, denn wir argumentieren hier über das Nutzererlebnis, nicht über technische Kerndaten. Für mich wäre die Frage, kann man nicht kurz erläutern, wie man einen Absturz herbeiführt, um die Robustheit zu testen? Wenn ja, was wäre das richtige Vorgehen?
+> [TH] Im Zweifelsfall den Strom vom PC trennen während die Anwendung läuft und anschließend nach einem Neustart des PCs schauen was die Anwendung zwischengespeichert hat, bzw. wie man wieder in den Arbeitsworkflow einsteigen kann
 
 * **Wird *Continuous Integration* zur Absicherung der Implementierungsqualität verwendet?**
 Für einen Entwickler ist nicht nur das Vorhandensein und die Dokumentation des Quellcodes entscheidend, sondern er wird meistens auch einen Hinweis zur Funktionalität und Kompilierbarkeit des Quellcodes erwarten. *Continuous Integration* kann, wie schon in den vorherigen Abschnitten angesprochen, ein solches Qualitätsmerkmal darstellen. Der *Continuous Integration* Prozess überprüft die Kompilierbarkeit der Software nach jeder Änderung und kann diese am Repository mit einer Statusanzeige sichtbar machen. Es ist ein Zeichen von gut gewartetem Quellcode, wenn dieser in der aktuell vorliegenden Version und ggf. in der aktuellen Entwicklerversion kompiliert.
