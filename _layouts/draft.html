@@ -42,7 +42,8 @@ for (anchor in anchors){
 <body>
 	<header><h1 align="center">{{page.title}}</h1></header>
 	<p class="authors">{% for aut in page.author %}{% assign naviIndex = {{forloop.index}} %}{{aut.name}}{% if aut.affiliation %}, {{aut.affiliation}}{% endif %} {% if aut.orcid %}<a href="https://orcid.org/{{aut.orcid}}" target="_blank">({{aut.orcid}})</a>{% endif %}{% if forloop.first == true %}<sup><a href="#authornote">*</a></sup>{% endif %}{% if forloop.last == false %}, {% endif %}<br/>{% endfor %}</p>
-	<p class="keywords">Keywords: {% for kw in page.keywords %}<i>{{kw}}</i>{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
+	<p class="keywords">Keywords DE: {% for kw in page.keywords %}<i>{{kw}}</i>{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
+	<p class="keywords">Keywords EN: {% for kw in page.keywords_en %}<i>{{kw}}</i>{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
 	<p class="abstract">{% if page.abstract %}{{page.abstract}}{% endif %}</p>
 	<p class="abstract_en">{% if page.abstract_en %}{{page.abstract_en}}{% endif %}</p>
 	<div class="container">
