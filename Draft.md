@@ -181,9 +181,7 @@ Wie bei der Besprechung einer wissenschaftlichen Publikation ist die Zusammenset
 
 ### Einsatz in der Archäologie und wissenschaftlicher Zweck
 
-Forschungssoftware hat einen konkreten Zweck, verfolgt und erfüllt eine bestimmte Aufgabe. Dabei sind zwei Dimensionen zu unterscheiden. Dies ist zum einen, und das ist für Forschungssoftware vorrangig, die Frage, ob die Software einen sinnvollen Beitrag zur Bearbeitung der archäologischen Fragestellung liefert. Zum anderen ist zu beurteilen, ob Software eine korrekte Umsetzung der angestrebten Arbeit leistet. Letzteres, also die Korrektheit der Ergebnisse einer Software, ist mitunter schwer zu beurteilen, insbesondere dann, wenn es keine weiteren Implementierungen des Algorithmus in anderen Softwarepaketen gibt. Dieses Problem gliedert sich in mehrere Aspekte: Zunächst stellt sich die sehr technische Frage, ob die in der Dokumentation genannten Algorithmen fehlerfrei in Programmcode ausgedrückt wurden. Meist ist schon eine Prüfung dieses Aspekts nicht trivial und übersteigt den Rahmen einer Rezension. Darüber hinaus versprechen wissenschaftliche Softwarewerkzeuge implizit oder explizit die Beantwortung wissenschaftlicher Fragestellungen zu ermöglichen oder zumindest zu vereinfachen. Eine GIS-Applikation zur Analyse von Punktmustern kann etwa für den Zweck konzipiert sein, menschliches Siedlungsverhalten nachherzusagen. Die Frage, ob der Algorithmus dazu semantisch überhaupt in der Lage ist, kann den Umfang einer Rezension bei weitem übersteigen. Es bleibt aber bei der Rezensentin, eine Einschätzung der Plausibilität vorzunehmen und auch das Problem der Einschätzbarkeit selbst offenzulegen, um so die Leser dafür zu sensibilisieren.
-
-#### Wissenschaftlicher Zweck und Beurteilung der Korrektheit
+Forschungssoftware hat einen konkreten Zweck, verfolgt und erfüllt eine bestimmte Aufgabe. Dabei sind zwei Dimensionen zu unterscheiden. Dies ist zum einen, und das ist für Forschungssoftware vorrangig, die Frage, ob die Software einen sinnvollen Beitrag zur Bearbeitung der archäologischen Fragestellung liefert. Zum anderen ist zu beurteilen, ob Software eine korrekte Umsetzung der angestrebten Arbeit leistet. Beide Fragen sind mitunter nicht leicht zu beantworten.
 
 * **Welches Problem versucht die Software zu lösen?** Welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse von Daten durchgeführt? Wie sind diese Probleme und Aufgaben von ihrer Relevanz und von ihrer Häufigkeit in einem archäologischem Kontext einzuschätzen? z.B. "Schätzung von Bevölkerungsdichte aus Siedlungsgröße" oder "Statikmodellierung für Langhäuser"
 
@@ -191,21 +189,21 @@ Forschungssoftware hat einen konkreten Zweck, verfolgt und erfüllt eine bestimm
 
 * **Wie funktioniert der (wissenschaftliche) Algorithmus, der mit der Software implementiert wurde?** Welche wesentlichen Schritte durchlaufen Daten, um das Ausgangsproblem zu lösen? z.B. "Die Eingabedaten werden mittels eines Referenzdatensatzes bereinigt, mit hierarchischer Clusteranalyse klassifiziert und zuletzt als paarweise Distanzmatrix visualisiert"
 
-* **Ist die Behauptung, eine bestimmte wissenschaftliche Fragestellung mit dem gewähltem Algorithmus beantworten zu können, korrekt?** Welche semantischen Schlüsse lassen sich aus rohen und verarbeiteten tatsächlich ableiten? Wie oben ausgeführt mag diese Frage in der Rezension nicht zu beantworten sein.
+* **Ist die Behauptung, eine bestimmte wissenschaftliche Fragestellung mit dem gewähltem Algorithmus beantworten zu können, korrekt?** Forschungssoftware verspricht meist - implizit oder explizit - die Beantwortung wissenschaftlicher Fragestellungen zu ermöglichen oder zumindest zu vereinfachen. Eine GIS-Applikation zur Analyse von Punktmustern kann etwa für den Zweck konzipiert sein menschliches Siedlungsverhalten nachherzusagen. Die Frage, ob der Algorithmus dazu semantisch in der Lage ist, kann den Umfang einer Rezension bei weitem übersteigen. Dennoch sollte der Rezensent versuchen eine Einschätzung der Plausibilität vorzunehmen oder zumindest das Problem der Einschätzbarkeit selbst offenzulegen, um so die Leser dafür zu sensibilisieren. Zur Beurteilung kann es helfen sich zu vergegenwärtigen, welche semantischen Schlüsse aus den rohen, unverarbeiteten Eingabedaten überhaupt theoretisch ableitbar sein könnten.
 
-* **Sind die Algorithmen korrekt implementiert worden?** Ist das wissenschaftliche Ergebnis jenseits aller technischen Unterschiede vergleichbar zu anderen Implementierungen/Tools? Sind die verwendeten Algorithmen dokumentiert und hinreichend wissenschaftlich belegt? Oft mag auch diese Frage im Rahmen einer Rezension nicht lösbar sein.
+* **Sind die Algorithmen korrekt implementiert worden?** Die Korrektheit der Ergebnisse einer Software ist mitunter schwer zu beurteilen, insbesondere dann, wenn es keine weiteren Implementierungen der Funktionalität in anderen Softwarepaketen gibt. Dieses Problem gliedert sich in mehrere Aspekte: Werden die in der Dokumentation genannten Algorithmen fehlerfrei in Programmcode ausgedrückt? Ist das wissenschaftliche Ergebnis jenseits aller technischen Unterschiede vergleichbar zu anderen Implementierungen oder Werkzeugen? Sind die verwendeten Algorithmen dokumentiert und hinreichend wissenschaftlich belegt? Oft mögen diese Frage im Rahmen einer Rezension nicht abschließend zu beantworten sein.
 
 * **Gibt es Archäologie-relevante Projekte/Anwendungen, in der diese Software bereits angewendet wurden?** Wie plausibel sind die erzielten Resultate? Wie wurden sie von der wissenschaftlichen Community aufgenommen?
 
 * **Wie ist die Software publiziert?** Eignet sich die Software für wissenschaftliche Anwendungen, da sie in einer zitierbaren Publikation vorgestellt wurde? Sind einzelne Versionen klar als solche referenzierbar (etwa mittles DOI)? z.B. "Das Softwarepaket wurde in einer kurzen, zweiseitigen Publikation im Journal *Open Source Software* vorgestellt, diese Publikation schließt aber keine umfassenden Tests oder Vergleiche mit Alternativprodukten ein"
 
-#### Bedienbarkeit und Zielgruppenorientierung
+### Bedienbarkeit und Zielgruppenorientierung
 
 Die Bedienbarkeit von Forschungssoftware ist von zentraler Bedeutung, da sie als Flaschenhals alle Interaktion zwischen Nutzer und Software bestimmt. Dazu gehören z.B. die Komplexität der Installationsroutine, das (grafische?) Nutzerinterface und Maschinenschnittstellen. Außerdem sind Hilfefunktionen (Foren, FAQs, Tutorials) und die Größe und Aktivität der Nutzercommunity entscheidend für die praktische Bedienbarkeit. Gerade letzteres ist für die Zukunftsfähigkeit einer Software und damit die Eignung für den Einsatz auf institutioneller Ebene in langfristigen Vorhaben von großer Wichtigkeit.
 
 Die folgenden Fragen richten sich auf technische Merkmale, die die Benutzbarkeit (Usability) betreffen. Weitere technische Merkmale aus einer Entwickler-zentrierten Perspektive betrachten wir weiter unten.
 
-##### Installation
+#### Installation
 
 * **Wie funktioniert die Installation und wo wird die Software vorgehalten?** Gibt es ein Installationsskript oder ist die Software nur als Quellcode verfügbar, der zunächst selbst kompiliert werden muss? Installationsskripte ermöglichen einen viel breiteren Anwenderkreis, das Kompilieren erlaubt geübten Nutzern die Installation u.U. auf verschiedenen Endgeräten. Passt die gewählte Lösung zum Nutzerkreis? Welche konkreten Probleme und Schwachstellen hat der Installationsprozess?
 
@@ -213,7 +211,7 @@ Die folgenden Fragen richten sich auf technische Merkmale, die die Benutzbarkeit
 
 * **Ist klar erkennbar, welche Voraussetzungen die Hardware zu erfüllen hat?** Ist eine klar formulierte Spezifikationsliste vorhanden?
 
-##### Interface
+#### Interface
 
 Die Nutzbarkeit wird zentral von den Möglichkeiten der Kommunikation von Mensch und Software bestimmt, also dem der Software-Oberfläche (UI). Diese mag in manchen Fällen graphisch gestützt sein (GUI), in anderen Fällen rein kommando-basiert (z.B. API). Die Gestaltung von Oberflächen und die Nutzerführung in Menüstrukturen sind ein eigenes Aufgaben- und Forschungsfeld in der Softwareentwicklung. Gut an den Nutzer angepasste Lösungen sind das Ergebnis einer genauen Kenntnis der Zielgruppe, ihrer Gewohnheiten und Bedarfe, im Falle archäologischer Forschungssoftware also der Forschungspraxis. Ein gutes Interface unterstützt das fehlerfreie effiziente Arbeiten. So sind z.B. Verständlichkeit der Menü-Einträge oder der Kommandos, aber auch die Aussagekraft von Fehlermeldungen Aspekte, die in der Rezension betrachtet werden sollten. Barrierefreiheit ist bislang ein unzureichend abgedecktes Kriterium, das aber ebenfalls die Effizienz und den möglichen Nutzerkreis adressiert. Auch bei diesem Punkt liegt die Gewichtung im Ermessen des Rezensenten.
 
@@ -225,11 +223,11 @@ Die Nutzbarkeit wird zentral von den Möglichkeiten der Kommunikation von Mensch
 
 * **Sind die Fehlermeldungen für die Rezensentin gut verständlich?** Fehlermeldungen dienen zwei Funktionen. Die erste Funktion ist eine Fehlermeldung an den Benutzer, so dass dieser eine Aktion zur Behebung des Fehlers ergreifen kann. Diese Fehlermeldungen müssen für den Nutzer verständlich formuliert und auffallend in der Anwendung platziert werden. Versteht ein Benutzer den Inhalt der Fehlermeldung nicht, so hat die Fehlermeldung ihren Nutzen verfehlt. Die zweite Funktion einer Fehlermeldung ist ggf. ein Feedback an die Entwickler der Anwendung. Dieses muss die Fehlermeldung so kommunizieren und ggf. auch einen Fehlerreport zur Behebung des Fehlers an die Entwickler schicken. Unverständliche Fehlermeldungen wie Stack Traces (also welche Abfolge softwareinterner Funktionen haben zum Absturz geführt) oder aus der Ausführungsumgebung übernommene Fehlermeldungen verfehlen oft ihre Wirkung.
 
-##### Zielgruppe
+#### Zielgruppe
 
 * **Ist die archäologische Nutzung vorgesehen?** Entspricht der archäologische Einsatz den generellen Anwendungsszenarien, den die Entwickler vor Augen hatten? Hat das Einfluss auf die Nutzbarkeit aus wissenschaftlicher Perspektive? Z.B. "Diese CAD Software ist für Architekturanwendungen konzipiert und konfrontiert den durchschnittlichen Grabungstechniker mit überwältigendem Funktionsumfang."
 
-##### Hilfefunktionen, Tutorials und Community
+#### Hilfefunktionen, Tutorials und Community
 
 Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Software von einer *Community* getragen wird. Die Zahl der aktiven Nutzer eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen Hilfe in Foren findet. Ist der Nutzerkreis sehr klein, findet der Wissenstransfer dagegen häufig im persönlichen Austausch statt und ist kaum dokumentiert. Enge Nutzernetzwerke können jedoch den großen Vorteil bieten, dass konkrete Fragen individuell von den Entwicklern aufgegriffen werden. Belege dafür können sich in öffentlichen Kommentarfunktionen von Webseiten der Entwickler und z.B. über Issues im Softwarerepositorium abzeichnen.
 
@@ -246,7 +244,7 @@ Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Softwar
 >[AK] Hier wäre ich über konkrete Beispiele sehr froh und auch eine kurze Erläuterung, was Best Practices an dieser Stelle meint.
 
 
-##### Dateningest, Interoperabilität und Schnittstellen
+#### Dateningest, Interoperabilität und Schnittstellen
 
 Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl welche Datenformate gelesen als auch geschrieben werden können. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag (z.B. "speichern unter") klar und es ist im Rahmen einer Rezension hilfreich, dies zu erläutern. Auch die Form des Uploads von Daten und das Vorhandensein von Schnittstellen machen einen wesentlichen Aspekt des praktischen Einsatz aus und sollten in einer Rezension bedacht werden.
 
@@ -261,7 +259,7 @@ Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibi
 
 * **Gibt es eine API?** Diese Frage beschäftigt sich mit dem Vorhandensein einer Programmierschnittstelle (API). Neben der Bedienbarkeit durch einen Menschen, ist es wichtig, dass auch andere Software ggf. mit dem Softwarepaket interagieren und dadurch ihre Funktionalität anderer Software zur Verfügung gestellt werden kann. Eine API gewährleistet eine solche Integration und sollte möglichst offen, ggf. mittels eines Standards wie [OpenAPI](https://www.openapis.org), dokumentiert sein. Je sichtbarer eine API Dokumentation dem Nutzer gemacht wird, desto eher wird eine API verwendet. Ein konkretes Beispiel für eine API ist die REST-Schnittstelle von Wikidata, an die man automatisierte Abfragen stellen und Daten von Wikidata beziehen kann. Sie ist zudem umfangreich dokumentiert und bietet eine GUI zum Erlernen der Syntax an.
 
-##### Konformität mit Regelungen zum Datenschutz, Fragen der Privacy und der Datensparsamkeit
+#### Konformität mit Regelungen zum Datenschutz, Fragen der Privacy und der Datensparsamkeit
 
 Für den Einsatz in der universitären Forschung und der Lehre entscheidet die Frage nach dem Datenschutz vielfach darüber, ob die Software überhaupt genutzt werden darf. Eine Einschätzung der Regelungen, sofern sie sich nicht eindeutig auf die europäischen Rahmenrichtlinien beziehen, ist teilweise jedoch kaum möglich und Gegenstand von juristischen Diskussionen. Auch hier kann die Rezension aber bereits durch den Hinweis auf das Thema einen wichtigen Service für die Leser bringen. Dies gilt auch für Datensparsamkeit und das Hinterfragen von Registrierungsvorgängen, Cookies und ähnlichem.
 
