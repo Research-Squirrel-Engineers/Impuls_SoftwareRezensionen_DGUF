@@ -158,16 +158,7 @@ Eine Personengruppe, die besonders oft zum passiven Spielball von Forschungssoft
 
 Nach unserem Verständnis sollte eine Rezension archäologischer Software, so wie es eine herkömmliche Besprechung einer wissenschaftlichen Publikation leistet, die Software zunächst vorstellen, dabei zusammengefasst Eckdaten vorlegen und den dann den ausführlicheren Kontext erläutern. Schließlich sollte eine kritische Beurteilung erfolgen.
 
-Umgesetzt auf Software gehören zu den Eckdaten Angaben zur Version, zu den Entwicklern, der Lizenz und Weiteres. Wir schlagen vor, die Rezension mit einer tabellierten Übersicht wie der folgenden einzuleiten:
-Wir schlagen vor den Lesern diese Eckdaten in einer tabellarischen Übersicht zur Verfügung zu stellen. Dies ermöglicht z. B. eine schnelle Übersicht, darüber ob die behandelte Software mit den eigenen technischen Systemen und zusammenarbeitet. Einen Vorschlag haben wir am Ende des Fragekatalogs zusammengestellt. 
-- Name: ...
-- Kurzbeschreibung: ...
-- Rezensierte Version: ...
-- Plattform: ...
-- URLs und Entwicklerkontakt: ...
-- Publikationen: ...
-- Lizenzierung und Codeverfügbarkeit: ...
-- Alternativprodukte: ...
+Umgesetzt auf Software gehören zu den Eckdaten Angaben zur Version, zu den Entwicklern, der Lizenz und Weiteres. Wir schlagen vor den Lesern diese Eckdaten in einer tabellarischen Übersicht zur Verfügung zu stellen. Dies ermöglicht z. B. eine schnelle Übersicht, darüber ob die behandelte Software mit den eigenen technischen Systemen und zusammenarbeitet. Einen Vorschlag haben wir am Ende des Fragekatalogs zusammengestellt. 
 
 Als Kontext verstehen wir eine Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen. Für die kritische Beurteilung aus unterschiedlicher Perspektive haben wir unten einen Katalog an Fragen zusammengestellt. Zuletzt sollten die Ergebnisse der Betrachtung in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
 
@@ -318,6 +309,17 @@ Software Repositories wie [Github](https://github.com) oder [Gitlab](https://git
 * **Wird *Continuous Integration* zur Absicherung der Implementierungsqualität verwendet?** Für einen Entwickler ist nicht nur das Vorhandensein und die Dokumentation des Quellcodes entscheidend, sondern er wird meistens auch einen Hinweis zur Funktionalität und Kompilierbarkeit des Quellcodes erwarten. *Continuous Integration* kann, wie schon in den vorherigen Abschnitten angesprochen, ein solches Qualitätsmerkmal darstellen. Der *Continuous Integration* Prozess überprüft die Kompilierbarkeit der Software nach jeder Änderung und kann diese am Repository mit einer Statusanzeige sichtbar machen. Es ist ein Zeichen von gut gewartetem Quellcode, wenn dieser in der aktuell vorliegenden Version und ggf. in der aktuellen Entwicklerversion kompiliert.
 
 >[AK] Besser, wenn alles rund um CI aufeinander folgt?
+
+## Tabellen
+
+**Software-Eckdatentabelle**
+
+- Name: Der Name der Software, z.B. "QGIS"
+- Kurzbeschreibung: Was die Software leistet, z.B. "Umfangreiches graphisches Werkzeug zur Raumdatenverarbeitung"
+- Rezensierte Version: Die Softwareversion, die für das Review genutzt wurde, z.B. "3.10.10 LTR"
+- Plattform: Betriebssysteme, auf denen die Software genutzt werden kann, z.B. "Windows, macOS, Linux, BSD, Android"
+- Website: URL unter der weitere Informationen abgerufen werden können, z.B. "https://qgis.org"
+- Lizenzierung: Unter welcher Softwarelizenz wurde die Software veröffentlicht, z.B. "Open Source mit GNU General Public License (GPL)"
 
 ## Anmerkungen
 
