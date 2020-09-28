@@ -159,9 +159,13 @@ Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung vo
 
 ## Fragenkatalog zur Beurteilung von Software
 
-Im folgenden stellen wir einen kommentierten Fragenkatalog vor, der auf Kriterien zur Beurteilung von archäologischer Forschungssoftware hinarbeitet. Er ist untergliedert in drei Bereiche, die jeweils Fragen aus verschiedenen Kompetenzbereichen bündeln. Dabei bilden die ersten zwei Bereiche die wissenschaftliche Verwendung und die Anwendung und Bedienbarkeit aus Nutzersicht ab. Der dritte Bereich enthält Fragen, die für Entwickler und IT-Administratoren von hohem Interesse sind und die daher die Anwendbarkeit und Nachhaltigkeit in den Blick nehmen. Im Anschluss stellen wir Merkmale vor, die eventuell tabellarisch einer Rezension beigegeben werden sollten, aber nur im Ausnahmefall vom Rezensenten kritisch beurteilt werden.
+Im folgenden stellen wir einen kommentierten Fragenkatalog mit Kriterien zur Beurteilung von archäologischer Forschungssoftware vor. Seine drei Bereiche bündeln jeweils Fragen aus verschiedenen Kompetenzbereichen. Die ersten zwei Bereiche beschäftigen sich mit dem wissenschaftlichen Anwendungsfeld, sowie der Anwendung und Bedienbarkeit aus Nutzersicht. Der dritte Bereich Fragen, die insbesondere für Entwickler und IT-Administratoren relevant sind. Sie fokussieren vor allem auf Anwendbarkeit und Nachhaltigkeit. Abgeschlossen wird der Katalog durch eine Liste mit Merkmale, welche in tabellarischer Form die Rezension ergänzen, jedoch meist nicht kritisch beurteilt werden können.
 
-Wie bei der Besprechung einer wissenschaftlichen Publikation ist die Zusammensetzung und Gewichtung der einzelnen Merkmale von der Rezensentin selbst zu bestimmen und in Relation zum Thema zu setzen. Entsprechend verstehen wir unseren kommentierten Fragenkatalog auch als eine Art Maximalversion, die bei der Anfertigung und der Einschätzung der eigenen Kompetenzen Hilfe geben kann.
+> [MT] 3. Bereich: wirklich Anwendbarkeit?
+
+Wie bei der Besprechung einer wissenschaftlichen Publikation ist die Zusammensetzung und Gewichtung der einzelnen Merkmale bei der Begutachtung selbst zu bestimmen und in Relation zum Thema zu setzen. Entsprechend verstehen wir unseren kommentierten Fragenkatalog als Maximalversion, die als Hilfsmittel für die Begutachtung und die Einschätzung der eigenen Kompetenzen dienen kann.
+
+> [MT] 'in Relation zum Thema' - was ist hier gemeint?
 
 ### Einsatz in der Archäologie und wissenschaftlicher Zweck
 
