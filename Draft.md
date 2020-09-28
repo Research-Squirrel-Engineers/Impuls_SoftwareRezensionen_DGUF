@@ -104,25 +104,23 @@ Einige der Kriterien, die in den DFG-Leitlinien explizit und implizit anklingen,
 
 #### FAIR-Prinzipien
 
-Die FAIR-Prinzipien wurden 2016 als *FAIR Data Principles* veröffentlicht [@wilkinson_2016](#wilkinson_2016). Sie zielen primär auf Forschungsdaten und deren Metadaten ab und fordern, dass diese auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable) sein sollen. Die Prinzipien können auch auf Forschungssoftware und deren Metadaten übertragen werden, denn obgleich sie nichts zur wissenschaftliche Qualität von Software aussagen lassen sich aus ihnen doch Kriterien in Hinblick auf Softwarepublikation, Codedokumentation und Programmierstandards ableiten ([@lamprecht_towards_2019](#lamprecht_towards_2019), [@goedicke_nfdixcs20](#goedicke_nfdixcs20)).
+Die FAIR-Prinzipien wurden 2016 als *FAIR Data Principles* veröffentlicht [@wilkinson_2016](#wilkinson_2016). Sie zielen primär auf Forschungsdaten und deren Metadaten ab und fordern, dass diese auffindbar (Findable), zugänglich (Accessible), interoperabel (Interoperable) und nachnutzbar (Reusable) sind. Ein Fokus ist dabei die maschinelle Lesbarkeit. Die Prinzipien lassen sich auch auf Forschungssoftware und deren Metadaten übertragen ([@lamprecht_towards_2019](#lamprecht_towards_2019), [@goedicke_nfdixcs20](#goedicke_nfdixcs20)) und bieten somit Kriterien zur Beurteiliung der Qualität von Softwarepublikation, Codedokumentation und Programmierstandards.
 
 ##### Findable (Auffindbar)
 
-Software wird durch die Speicherung zusammen mit ihren Metadaten in dedizierten Softwarerepositorien (e.g. Github) auffindbar. Letztere arbeiten kommerziell oder community-basiert und können starke Impulse für die Entwicklung der wissenschaftlichen Softwarelandschaft geben.
+Software wird durch die Speicherung zusammen mit ihren Metadaten in dedizierten Softwarerepositorien (e.g. GitHub) auffindbar. Die Auffindbarkeit kann durch eine fachwissenschaftliche Einbindung in Forschungsinfrastrukturen zusätzlich erhöht werden, da letztere explizit an Aufbau, Pflege und Anwendung von kontrollierten Indizes und Metadatenstandards arbeiten ([@lamprecht_towards_2019](#lamprecht_towards_2019) und [@anzt_environment_2020, 10](#anzt_environment_2020)).
 
-Die Auffindbarkeit von Forschungssoftware kann durch fachwissenschaftliche Einbindung in Forschungsinfrastrukturen zusätzlich erhöht werden, da letztere explizit an Aufbau, Pflege und Anwendung von kontrollierten Indizes und Metadatenstandards arbeiten ([@lamprecht_towards_2019](#lamprecht_towards_2019) und [@anzt_environment_2020, 10](#anzt_environment_2020)).
-
-Die Vergabe von dauerhaften Identifikatoren (e.g. URIs) durch Repositorien sowie die Nennung der Autorenschaft ermöglicht das Zitieren von Forschungssoftware. Wichtig ist dabei, dass Software, da sie im Gegensatz zu herkömmlichen Publikationen kontinuierlich weiterentwickelt wird, in unterschiedlichen Entwicklungsständen abgelegt wird. Damit können bestimmte Versionen zitiert werden [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg).
+Die Vergabe von persistenten Identifikatoren (e.g. URIs) durch Repositorien, sowie die Nennung der Autorenschaft ermöglicht das Zitieren von Forschungssoftware. Da Software im Gegensatz zu herkömmlichen Publikationen ständig weiterentwickelt wird, sollte sie in unterschiedlichen Versionen gespeichert werden, welche dann individuell zitiert werden können [@forschungsdaten_info_dfg](#forschungsdaten_info_dfg).
 
 ##### Accessible (Zugänglich)
 
-Öffentliche Repositorien und dauerhaften Identifikatoren stellen ebefalls ein Mindestmaß an Zugänglichkeit sicher. Idealerweise sollten Daten und Metadaten dabei auch maschinell über ein offenes und standardisierte Kommunikationsprotokoll abrufbar sein [@lamprecht_towards_2019](#lamprecht_towards_2019).
+Öffentliche Repositorien und dauerhaften Identifikatoren stellen ebenfalls ein Mindestmaß an Zugänglichkeit sicher. Idealerweise sollten Daten und Metadaten dabei auch maschinell über ein offenes und standardisierte Kommunikationsprotokoll abrufbar sein [@lamprecht_towards_2019](#lamprecht_towards_2019).
 
-Weitere Aspekte, die die Zugänglichkeit für Nutzer erleichtern, sind die Verfügbarkeit für verschiedene Betriebssysteme, sowie technische Anforderungen, die von aktuell verbreiteten Geräten geleistet werden können. Eine verständliche Anleitung zur Nutzung des Programms verbessert die Zugänglichkeit in diesem Sinne weiter.
+Weitere Aspekte, welche die Zugänglichkeit für Nutzer erleichtern, sind die Verfügbarkeit für verschiedene Betriebssysteme, sowie technische Anforderungen, die von aktuell verbreiteten Geräten geleistet werden können. Eine verständliche Anleitung zur Nutzung des Programms verbessert die Zugänglichkeit in diesem Sinne auch weiter.
 
 ##### Interoperable (Interoperabel)
 
-Interoperabilität von Software kann sich zum einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum anderen verweist sie auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 46 f.](#lamprecht_towards_2019). Beides wird durch die Verwendung von Standards ermöglicht, die die Zusammenarbeit von Softwarekomponenten auch über Betriebssystemgrenzen hinweg ermöglicht.
+Interoperabilität von Software kann sich zum einen auf die Kompatibilität der Ein- und Ausgabeformate mit anderen Programmen in einem Arbeitsprozess (horizontale Dimension) beziehen. Zum anderen verweist sie auch auf die Zusammenarbeit der verwendeten Komponenten in der Software selbst (vertikale Dimension) [@lamprecht_towards_2019, 46 f.](#lamprecht_towards_2019). Die Verwendung von Standards ermöglicht beides, da sie die Zusammenarbeit von Softwarekomponenten auch über Betriebssystemgrenzen hinweg ermöglicht.
 
 ##### Reusable (Nachnutzbar)
 
