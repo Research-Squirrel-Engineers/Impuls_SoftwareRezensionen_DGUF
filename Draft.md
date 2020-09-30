@@ -218,20 +218,21 @@ Die Nutzbarkeit von Software wird von den Möglichkeiten der Kommunikation von M
 
 > [MT] eigentlich ist es ja nicht schlecht, wenn eine Software so vielseitig ist, dass sie auch in der Archäologie Anwendung findet. Meines Wissens nach sind auch genau die Anwenungen, die am häufigsten in der A. genutzt werden (CAD und GIS) nicht explizit für die Archäologie entwickelt. Dementsprechend würde ich diesen Abschnitt etwas umformulieren.
 
-* **Orientiert sich die Menüführung an bestimmten Vorbildern?** Wenn sich die Menüführung oder Tastaturkürzel an bekannter, in der Community verbreiteter Software orientiert, wird eine schnellere Einarbeitung ermöglicht. Manche Tools verwenden deswegen z.B. bewusst Eingabemasken, die weit verbreiteten Tabellenkalkulationsprogrammen nachempfunden wurden.
+* **Orientiert sich die Menüführung an bestimmten Vorbildern?** Wenn sich die Menüführung oder Tastenkürzel an bekannter, in der Community verbreiteter Software orientiert, wird eine schnellere Einarbeitung ermöglicht. Manche Tools verwenden deswegen z.B. bewusst Eingabemasken, die weit verbreiteten Tabellenkalkulationsprogrammen nachempfunden wurden.
 
 * **Ist das Programm mehrsprachig bzw. in welchen Sprachen wird es angeboten?** In Abhängigkeit von der Nutzergruppe, sollte das Programm eventuell mehrsprachig sein. Üblicherweise wird man zumindest eine englischen Fassung erwarten. Bei der Mehrsprachigkeit ist darauf zu achten, dass das Layout in jeder Sprache nutz- und lesbar bleibt. Beispielsweise können sich Beschriftungen von Buttons in der Textlänge stark unterscheiden und in manchen Sprachen zu einer abgeschnittenen Anzeige führen.
 
 * **Sind die Fehlermeldungen für die Rezensentin gut verständlich?** Zum einen soll eine Fehlermeldung an den Benutzer, es diesem ermöglichen eine Aktion zur Behebung des Fehlers zu ergreifen. Nützliche und hilfreiche Fehlermeldungen sind entsprechend verständlich formuliert und sichtbar in der Anwendung platziert. Zum anderen kann eine Fehlermeldung ggf. ein Feedback an die Entwickler der Anwendung liefern. Dies muss die Fehlermeldung dem Benutzer auch kommunizieren und auch einen brauchbaren Bericht zur Behebung des Fehlers an die Entwickler schicken. Stack Traces (Hinweise auf die Stellen des Programmcodes an denen ein spezifischer Fehler auftrat) oder aus der Ausführungsumgebung übernommene Fehlermeldungen sind für die meisten Nutzer unverständlich.
 
-> [MT] Bis hier hin bin ich gekommen; TODO an mich
-
 
 #### Hilfefunktionen, Tutorials und Community
 
-Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Software von einer *Community* getragen wird. Die Zahl der aktiven Nutzer und Entwickler eines Softwarewerkzeugs ist entscheidend dafür, ob man im Falle von Problemen Hilfe in Foren findet. Ist der Nutzerkreis sehr klein, findet der Wissenstransfer dagegen häufig im persönlichen Austausch statt und ist möglicherweise nicht dokumentiert. Enge Nutzernetzwerke können jedoch den großen Vorteil bieten, dass konkrete Fragen individuell von den Entwicklern aufgegriffen werden. Belege dafür können sich in öffentlichen Kommentarfunktionen von Webseiten der Entwickler und z.B. über Issues im Softwarerepositorium abzeichnen.
+Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Software von einer *Community* getragen wird. Die Zahl der aktiven Nutzer und Entwickler eines Softwarewerkzeugs ist entscheidend dafür, ob man bei Problemen Hilfe in Foren findet, oder, bei einem kleinen Nutzerkreis, nur im persönlichen Austausch Hilfe bekommt. Kleine Nutzernetzwerke können jedoch den großen Vorteil bieten, dass konkrete Fragen von den Entwicklern aufgegriffen werden. Belege dafür können sich in öffentlichen Kommentarfunktionen von Webseiten der Entwickler und z.B. über Issues im Softwarerepositorium abzeichnen.
 
-* **Gibt es ausreichend Tutorials für das Erlernen der Software?** Tutorials sind essentiell um zum einen die Benutzer der Software aber auch mögliche Entwickler der Software anzusprechen. Benutzer der Software erwarten üblicherweise ein einfach verständliches auf das Wesentliche heruntergebrochenes Anwendungsbeispiel in einem häufigen Nutzungskontext der Software um eine Idee für deren typische Verwendung zu bekommen. Tutorials sollte hier weder überfordern noch unterfordern und im besten Falle mit steigender Komplexität aufgebaut sein. Besonders gute Tutorials zeichnen sich dadurch aus, dass sie ein einfaches Anwendungsbeispiel durch das Tutorial hindurch mit immer weiteren komplexeren Funktionen der Software bearbeiten. Zum Beispiel kann zunächst das Laden von Geodaten aus einem Repository gezeigt werden, in einem zweiten Schritt eine Transformation der Daten z.B. in ein anderes Geokoordinatensystem und in einem dritten Schritt der Export der Daten in einem Datenformat. Für Entwickler ist entscheidend, dass ein Tutorial neben der Funktionalität der Software auch Anwendungsbeispiele für die ggf. vorhandenen Schnittstellen (APIs) bietet. Die Frage wie z.B. die Koordinatentransformation von einem anderen Programm aufrufbar ist und unter welchen Voraussetzungen sollte mit den entsprechenden API Aufrufen im Tutorial dokumentiert sein. Im Allgemeinen sollte überprüft werden, ob die Tutorials auf unterschiedliches Vorwissen der Communities eingehen und gegebenenfalls auch kenntlich machen, welches Grundwissen, welche Erfahrungen für das Bedienen der Software unabdingbar sind und wo sich diese - sofern nicht im Tutorial diskuiert - aneignen lassen. Schließlich ist es gute Praxis eine Hilfe in der Form von FAQ oder Troubleshooting Abschnitten in Tutorials einzufügen. Jede weitere Sprache in der ein Tutorial verfasst ist ist hier ein Plus.
+> [MT] "Belege dafür können sich in öffentlichen Kommentarfunktionen von Webseiten der Entwickler und z.B. über Issues im Softwarerepositorium abzeichnen." -> würde ich streichen
+
+* **Gibt es ausreichend Tutorials für das Erlernen der Software?** Tutorials sind essentiell, um sowohl Benutzer als auch mögliche Weiterentwickler der Software anzusprechen. Softwarenutzer erwarten üblicherweise ein leicht verständliches, auf das Wesentliche konzentrierte Anwendungsbeispiel, um eine Idee für deren typische Verwendung zu bekommen. Für Entwickler ist entscheidend, dass ein Tutorial ggf. vorhandene Schnittstellen (APIs) erläutert.
+Gute Tutorials erläutern das benötigte Vorwissen und weisen auf Quellen zu dessen Aneignung hin. Auch Hilfestellungen in einer FAQ oder einem Troubleshooting-Bereich erhöhen die Qualität eines Tutorials. In welchen Sprachen die Tutorials vorliegen ist ebenfalls von Relevanz.
 
 > [AK] Hier wäre ein positives Beispiel ideal
 
@@ -239,11 +240,18 @@ Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Softwar
 
 > [HM] Achtung billige Eigenwerbung: http://youtube.com/c/GigaMeshTutorials
 
+> [MT] statt 'ausreichend' im Fragentitel lieber 'hilfreich' oder 'brauchbar'
+> [MT] Insgesamt war mir dieser Abschnitt zu lang, vor allem im Vergleich zu den vorhergehenden. Daher habe ich mal einen drastischen Kürzungsvorschlag daraus gemacht.
+
 * **Gibt es Anwendungsbeispiele der Software, ggf. Beispieldatensets und eine Anleitung für diese, um ein Verständnis für die Funktionsweise zu entwickeln?** Dieser Punkt ist eng mit der Frage nach Tutorials verbunden, so greifen Tutorials oftmals auf Übungsdaten zurück. Die Übungsdaten von Forschungssoftware sollten sich dabei eng an der wissenschaftlichen Praxis orientieren und dennoch ohne spezifische Vorkenntnisse verständlich sein. Sie sollten frei zur Verfügung stehen und möglichst ohne Registrierung nutzbar sein. z.B. "Das R Paket bringt drei dokumentierte Testdatensätze aus der Literatur mit, die von den Entwicklern bereits im korrekten Eingabeformat vorformatiert wurden."
+
+> [MT] Wie gleich im ersten Satz erläutert, hängt das mit Tutorials zusammen. Beim Lesen der Frage habe ich auch gleich gedacht: Tutorials wurden doch gerade besprochen. Daher vielleicht einfach: "Gibt es für die Software Testdatensätze?" und dann in der Erklärung noch ein wenig kürzen.
 
 * **Wo finde ich mehr Informationen zu dieser Software? Hyperlinks und Referenzen?** Gibt es auf den Informationsseiten der Software oder in den Tutorialmaterialien Hinweise auf weitere Materialien zur Software? Wird auf Publikationen und Beiträge der Entwickler selbst wie auch Rezensionen hingewiesen?
 
-* **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich ?** Beispiele für die Softwareentwicklung, die zunächst ganz aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind die [Pelagios Commons](https://pelagios.org/) und die WebApp [Recogito](https://recogito.pelagios.org/). Aktive Nutzergruppen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Communities großer Softwarepakete wie QGIS oder R entwickelt.
+> [MT] -> "Sind weitere Informationen zur Software leicht zu finden? Listen die Informationsseiten der Software oder deren Tutorials Hinweise auf weitere Materialien? Wird auf Publikationen der Entwickler selbst, wie auch Rezensionen dazu hingewiesen?"
+
+* **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich geprägt ?** Beispiele für Softwareentwicklung, die zunächst aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind [Pelagios Commons](https://pelagios.org/) und die WebApp [Recogito](https://recogito.pelagios.org/). Engagierte Nutzergruppen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Communities von Softwarepaketen wie QGIS oder R entwickelt.
 
 * **Haben ArchäologInnen bereits Best Practices für diese Software formuliert?**
 
@@ -253,26 +261,33 @@ Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Softwar
 
 >[HM] Ich würde die Frage umdrehen:
 
-* **Gibt es archäologische Best Practcies oder Publikationen die auf die rezensierte Software verweisen?** Während Foren, Blogs und verwandte Angebote direkten und oft auch raschen Austausch mit Nutzern und ggf. Entwicklern bieten, ist die Einbindung von Empfehlungen von bestimmten Programmen ein weiteres Indiz für deren Verbreitung, Umfang und Verlässichlichkeit.
+* **Gibt es Best Practices, Empfehlungen oder Publikationen aus dem archäologischen Bereich, welche auf die Software verweisen?** Während Foren, Blogs und verwandte Angebote direkten und oft auch raschen Austausch mit Nutzern und ggf. Entwicklern bieten, ist die Einbindung von Empfehlungen von bestimmten Programmen ein weiteres Indiz für deren Verbreitung, Umfang und Verlässlichkeit.
+
 
 #### Dateningest, Interoperabilität und Schnittstellen
 
-Für viele Nutzer spielen Datenformate eine große Rolle, da diese die Kompatibilität zu anderen Anwendungen bestimmt. Dies betrifft sowohl welche Datenformate gelesen als auch geschrieben werden können. Bei vielen Anwendungen werden die unterstützten Dateiformate allein durch den entsprechenden Menü-Eintrag (z.B. "speichern unter") klar und es ist im Rahmen einer Rezension hilfreich, dies zu erläutern. Auch die Form des Uploads von Daten und das Vorhandensein von Schnittstellen machen einen wesentlichen Aspekt des praktischen Einsatz aus und sollten in einer Rezension bedacht werden.
+Eingabe- und Ausgabedatenformate beeinflussen die Kompatibilität zu anderen Anwendungen und sollten in einer Rezension erwähnt werden. In vielen Fällen können die unterstützten Dateiformate über einen entsprechenden Menü-Eintrag (z.B. "speichern unter") gefunden werden. Auch die verschiedenen Möglichkeiten des Einlesens der Daten und vorhandene Schnittstellen sind relevant.
 
-* **Welche Datenformate werden wie eingelesen?** Bei der Auswahl der Datenformate die von einer Software eingelesen werden können sollten, gibt es verschiedene Gesichtspunkte zu beachten:
-  * Sind alle relevanten Datenformate für die Aufgabe, die die Software lösen soll, einlesbar? Diese Einschätzung sollte auf dem Arbeitsalltag eines typischen Anwenders beruhen.
-  * Können Datenformate auch von gängigen Repositories eingelesen werden (z.B. Webservices, Git, Cloud Services)?
-  * Werden offene Datenformate unterstützt?
+* **Welche Datenformate werden wie eingelesen?** Sind alle relevanten Datenformate für die Aufgabe, die die Software im typischen Anwendungsfall lösen soll, einlesbar? Werden offene Datenformate unterstützt? Können Datenformate auch von gängigen Repositories eingelesen werden (z.B. Webservices, Git, Cloud Services)?
 
-* **Welche Datenformate werden ausgegeben?** Die Ausgabe von Daten nach der Bearbeitung sollte am Besten in Datenformaten erfolgen, die eine Weiterverarbeitung in anderen (auch Open Source) Softwarepaketen zulassen. Dies bedarf üblicherweise mindestens eines Formates, dessen Spezifikation frei verfügbar ist, sodass Open Source Software dafür entwickelt werden kann. Sollten nur Exporte in einem proprietärem, ggf. von der Software definierten Format möglich sein, muss es dafür schwerwiegende Gründe geben.
+* **Welche Datenformate werden ausgegeben?** Das Programm sollte eine Ausgabe von Datenformaten bieten, die eine Weiterverarbeitung in anderen (auch Open Source) Softwarepaketen zulassen. Es sollte also zumindest ein offen spezifiziertes Format angeboten werden. Sollten nur Exporte in einem proprietärem, ggf. von der Software definierten Format möglich sein, muss dies von den Entwicklern gut begründet sein.
 
-* **Wie können Daten eingeladen werden? Als Masseningest oder einzelne *Uploads*?** Für sehr viele Anwendunsgsszenarien, ist es entscheidend, ob eine Software einen einmal definierten Task massenweise auf eine Reihe von Dateien ausführen kann. Ein Beispiel kann hier eine Transformation von Bilddaten sein, die auf jedes Foto einer Ausgrabungskampagne ausgeführt werden soll. Um dies zu gewährleisten, muss die Software die Spezifikation entweder eines Ordners von Dateien oder einer Spezifikation von verschiedenen Dateipfaden unterstützen.
+* **Wie können Daten eingelesen werden? Als Masseningest oder einzelne *Uploads*?** Für sehr viele Anwendunsgsszenarien ist die Durchführung eines einmal definierten Tasks auf einen Dateistapel oder eine Datenreihe wichtig. Ein Beispiel ist die  Transformation von Bilddaten, die auf jedes Foto einer Ausgrabungskampagne ausgeführt werden soll.
 
-* **Gibt es eine API?** Diese Frage beschäftigt sich mit dem Vorhandensein einer Programmierschnittstelle (API). Neben der Bedienbarkeit durch einen Menschen, ist es wichtig, dass auch andere Software ggf. mit dem Softwarepaket interagieren und dadurch ihre Funktionalität anderer Software zur Verfügung gestellt werden kann. Eine API gewährleistet eine solche Integration und sollte möglichst offen, ggf. mittels eines Standards wie [OpenAPI](https://www.openapis.org), dokumentiert sein. Je sichtbarer eine API Dokumentation dem Nutzer gemacht wird, desto eher wird eine API verwendet. Ein konkretes Beispiel für eine API ist die REST-Schnittstelle von Wikidata, an die man automatisierte Abfragen stellen und Daten von Wikidata beziehen kann. Sie ist zudem umfangreich dokumentiert und bietet eine GUI zum Erlernen der Syntax an.
+> [MT] statt 'Als Masseningest...' Als Stapel oder nur einzeln? Außerdem kann man ergänzen: 'Ermöglicht die Software eine Stapelverarbeitung?'
+
+* **Gibt es eine Programmierschnittstelle (API)?** Neben der Bedienbarkeit durch einen Menschen, ist auch eine maschinelle Ansteuerung der Software wichtig. Nur so können beispielsweise komplexe Prozesse mit mehreren Softwarekomponenten komplett automatisiert werden. Eine API gewährleistet dies. Sie sollte möglichst offen und ggf. mittels eines Standards wie [OpenAPI](https://www.openapis.org) dokumentiert sein. Ein konkretes Beispiel für eine API ist die REST-Schnittstelle von Wikidata, an die man automatisierte Abfragen stellen und Daten von Wikidata beziehen kann. Sie ist zudem umfangreich dokumentiert und bietet eine GUI zum Erlernen der Syntax an.
+
+> [MT] Evtl. kann man den Wikidata-Teil noch etwas kürzen
 
 #### Konformität mit Regelungen zum Datenschutz, Fragen der Privacy und der Datensparsamkeit
 
-Für den Einsatz in der universitären Forschung und der Lehre entscheidet die Frage nach dem Datenschutz vielfach darüber, ob die Software überhaupt genutzt werden darf. Eine Einschätzung der Regelungen, sofern sie sich nicht eindeutig auf die europäischen Rahmenrichtlinien beziehen, ist teilweise jedoch kaum möglich und Gegenstand von juristischen Diskussionen. Auch hier kann die Rezension aber bereits durch den Hinweis auf das Thema einen wichtigen Service für die Leser bringen. Dies gilt auch für Datensparsamkeit und das Hinterfragen von Registrierungsvorgängen, Cookies und ähnlichem.
+> [MT] Ich glaube 'Fragen der Privacy' kann weg, da das ja in Datenschutz und Datensparsamkeit enthalten ist.
+
+Für den Einsatz in der universitären Forschung und der Lehre entscheidet die Frage nach dem Datenschutz vielfach darüber, ob die Software überhaupt genutzt werden darf. Eine Einschätzung der Regelungen, sofern sie sich nicht eindeutig auf die europäischen Rahmenrichtlinien beziehen, ist teilweise jedoch kaum möglich und Gegenstand von juristischen Diskussionen. Auch hier kann die Rezension bereits durch den Hinweis auf das Thema einen wichtigen Service für die Leser bringen. Dies gilt auch für Datensparsamkeit und das Hinterfragen von Registrierungsvorgängen, Cookies und ähnlichem.
+
+> [MT] Bis hier hin bin ich gekommen; TODO an mich
+
 
 * **Beachtet die Software die lokalen Gesetze in dem Land in dem sie eingesetzt werden soll? (Datenschutz, Kartendarstellungen etc.)?** Oft muss damit gerechnet werden, dass die Software in einer Vielzahl von Anwendungskontexten von Menschen in unterschiedlichen kulturellen Kontexten und in verschiedenen Ländern verwendet wird. Diese Länder können ggf. Gesetze erlassen haben, die der Ausführung/Installation der Software entgegenstehen. Ein Beispiel sind Kartendarstellungen, die z.B. Grenzkonflikte wie diese in Kashmir, die in Indien, Pakistan, China und den übrigen Staaten jeweils unterschiedlich auf der Karte angezeigt werden müssen. Ein weiteres Beispiel stellt der Datenschutz z.B. in der Europäischen Union dar.
 
@@ -294,9 +309,13 @@ Die Dokumentation von Software ist essentiell für ein umfassendes Verständnis 
 
 Die Dokumentation erfolgt in verschiedenen Bestandteilen. Man unterscheidet die `Dokumentation des Quellcodes`, d.h. von Klassen oder einzelnen Methoden, die `Dokumentation des Buildprozesses`, d.h. wie die Software aus dem Quellcode zu erzeugen ist, eine `Entwicklerdokumentation` in Form von Beispielen der Benutzung der Software und der `Dokumentation dessen wie die Software getestet` wurde bzw. welche Testcases von der Software abgedeckt wurden.
 
-Software Repositories wie [Github](https://github.com) oder [Gitlab](https://gitlab.com) bieten oft Vorlagen oder Best Practices um diese Anforderungen in jeglichen Programmiersprachen umsetzen zu können.
+Software Repositories wie [GitHub](https://github.com) oder [GitLab](https://gitlab.com) bieten oft Vorlagen oder Best Practices um diese Anforderungen in verschiedenen Programmiersprachen umsetzen zu können.
 
-* **Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?** Best Practices sind hier beispielsweise Quellcode Dokumentationen mit [Doxygen](https://www.doxygen.nl/index.html), [JavaDoc](http://www.oracle.com/technetwork/java/javase/documentation/javadoc-137458.html), [JsDoc](https://jsdoc.app) oder auch das für Python beliebte [ReadTheDocs](https://readthedocs.org). Alle Dokumentationen erzeugen eine HTML Repräsentation der Quellcodedokumentation, welche im Falle von ReadTheDocs direkt auch im Internet gehostet wird. Im Falle von anderen Dokumenationstools ist es gute Praxis diese beispielsweise als Github Page mit dem Repository bereitzustellen.
+> bis hier nicht bearbeitet; TODO an MT
+
+* **Ist eine Quellcodedokumentation vorhanden und ggf. eine HTML Variante davon verfügbar?** Best Practices sind hier beispielsweise Quellcodedokumentationen mit [Doxygen](https://www.doxygen.nl/index.html), [JavaDoc](http://www.oracle.com/technetwork/java/javase/documentation/javadoc-137458.html), [JsDoc](https://jsdoc.app) oder auch das für Python beliebte [ReadTheDocs](https://readthedocs.org). Alle genannten Tools erzeugen eine HTML-Repräsentation der Dokumentation, welche idealerweise auch online bereitgestellt werden sollte, etwa als GitHub-Page.
+
+> Ab hier nicht bearbeitet, TODO an MT
 
 * **Ist der Buildprozess dokumentiert und ggf. mittels Buildingscripts automatisiert?** Ebenso wichtig wie ein grundlegendes Verständnis des Aufbaus des Programms ist die Bauanleitung der Software. Entsprechend ist zu fragen, ob dokumentiert ist, wie die Software erstellt wurde und funktioniert die Erstellung unter dem angegebenen Weg. Während in der Vergangenheit mit Anleitungen in *README Files* oder ähnlichen natürlichsprachlichen Beschreibungen gearbeitet wurde, hat es sich seit vielen Jahren zu einem Standard etabliert, maschinenlesbare Bauanleitungen (*Buildscripts*) für Software bereitzustellen. Dies kann als gute Praxis angesehen werden, denn zum einen ist eindeutig und maschinenlesbar beschrieben, wie die Software erstellt wurde, zum anderen ist der Aufruf des Buildprozess so meist durch Ausführung eines einzigen Skriptes möglich und somit für den Entwickler einfach gehalten. Ebenfalls dokumentieren die Buildscripts die Abhängigkeiten der Software in Bezug auf verwendete *Libraries*. Beispiele für solche Skripts finden sich z.B. in [Apache Maven](https://maven.apache.org) oder [Gradle](https://gradle.org)
 
@@ -321,17 +340,22 @@ Zunächst sollten die Entwickler klar kommunizieren wie und wo Fehlerreports ein
 Zudem können Entwickler proaktiv in einer Roadmap kommunizieren, welche Änderungen in nächster Zeit in das Programm eingepflegt werden sollen und welche Issues für das nächste Release angegangen werden.
 Schließlich ist es für Entwickler oft interessant die Software selbst mitzugestalten und einen Beitrag zu ihrer Verbesserung zu geben. Dafür sollte von den Entwicklern der Software selbst als Best Practice eine *Contribution Guideline* erstellt werden (siehe z.B. [hier](https://projectacrn.github.io/latest/developer-guides/contribute_guidelines.html)). Sie enthält Angaben dazu unter welchen Umständen und wie Änderungen an der Software von Dritten angenommen und integriert werden.
 
+> bis hier nicht bearbeitet; TODO an MT
+
 #### Qualität der Implementierung
 
-* **Entspricht die Implementierung dem Stand der Technik?** Die Frage, ob die Entwicklung dem Stand der Technik entspricht, muss meist anwendungsbezogen beantwortet werden und verlangt ein technisches Verständnis der Abläufe innerhalb der Anwendung. Allerdings können einige Aspekte durchaus auch ohne Fachwissen bewertet werden. Hierzu gehören unter anderem folgende Aspekte:
+* **Entspricht die Implementierung dem Stand der Technik?** Diese Frage muss meist anwendungsbezogen beantwortet werden und verlangt ein technisches Verständnis der Abläufe innerhalb der Anwendung. Einige Aspekte können ohne Fachwissen bewertet werden:
   * Ist die Anwendung auf vielen verschiedenen Endgeräten bedienbar? (z.B. Handy, verschiedene Betriebssysteme usw.)
   * Wie ist die Optik der Anwendung? Verwendet sie Elemente vergleichbarer Anwendungen (z.B. Elemente der aktuellen Android Version, verwendet die Webanwendung Adobe Flash, Java Applets oder ähnlich veraltete Technologien?)
-  * Zeichnen automatische Testsysteme (etwa auf Github) unbehobene Sicherheitslücken in der Software aus?
+  * Zeichnen automatische Testsysteme (etwa auf GitHub) offene Sicherheitslücken in der Software aus?
+
+> [MT] der Zweite Punkt wird eigentlich schon in 'Interface', insbesondere 'Orientiert sich die Menüführung an bestimmten Vorbildern?' oben behandelt und kann hier weg.
 
 * **Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.** Die Performanz einer Anwendung ist je nach Anwendungstyp von mehr oder weniger Wichtigkeit. Ein Reviewer sollte hier bewerten, ob die Software ihre Aufgabe in der vom Reviewer angemessenen Zeit erfüllt. Gegebenenfalls kann der Reviewer die Ausführungszeit weiterer verwandte Softwareimplementierungen mit der von ihm zu Testenden vergleichen. Ein Reviewer wird wahrscheinlich nicht in der Lage sein die Gründe für eine mangelnde Performanz der Software zu erkennen.
 
 > [AK] Frage: Ist die Frage der Performanz, so wie sie hier gestellt wird, nicht 1.) "usability" und 2.) auch ohen Entwicklerwissen zu testen?
 > [TH] Du hast Recht, dann könnten wir das hier streichen. Hier wäre das von Relevanz wenn der Entwickler die Gründe herausfinden könnte
+> [MT] für den Entwickler wäre ja eher so etwas relevant wie die Komplexität und Laufzeit in O-Notation, was irgendwo in einer Dokumentation der Software stehen sollte. Laufzeittests für eine Software wären in einer Rezension nur interessant, wenn man mehrere vergleicht. Das mit dem responsiv gehört definitiv zur Nutzeroberfläche.
 
 * **Robustheit der Software** Die Robustheit einer Software ist ein wünschenswerter Aspekt, der im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben, die sie ausführt, regelmäßig sichert, um bei einem unvorhergesehenen Abbruch wieder an dem Punkt anknüpfen zu können, an dem sie vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft z.B. bei einem Stromausfall den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten. Ein Beispiel für eine solche Robustheit ist das regelmäßige automatisierte Zwischenspeichern in einem Textverarbeitungsprogramm. Das Textdokument ist somit im Falle eines Absturzes der Software wiederherstellbar. Abhängig vom Anwendungsfall kann es auch vorteilhaft sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann. Dies kann die Spracheinstellungen oder auch die Anpassung von Maßeinheiten, Vorgaben zum Speicherort und ähnliches sein.
 
@@ -340,6 +364,10 @@ Schließlich ist es für Entwickler oft interessant die Software selbst mitzuges
 > [TH] Im Zweifelsfall den Strom vom PC trennen während die Anwendung läuft und anschließend nach einem Neustart des PCs schauen was die Anwendung zwischengespeichert hat, bzw. wie man wieder in den Arbeitsworkflow einsteigen kann
 
 > [HM] Robustheit ist aus meiner Sicht eher, dass die Software nicht abstürzt, nicht in einer Endlosschleife hängen bleibt und keine Speicherleaks hat, die ggf. den ganzen Computer zu Fall bringen. Robustheit gegen Stromausfall ist eher Sache der Versorgung bzw. Aufgabe einer USV.
+
+> [MT] stimme HM zu. Anne hat da schon recht, dass es sich hier eher um ein Usability-Aspekt handelt. Ich würde das vielleicht sogar komplett streichen.
+
+> [MT]  bis hier bearbeitet; TODO an MT
 
 * **Wird *Continuous Integration* zur Absicherung der Implementierungsqualität verwendet?** Für einen Entwickler ist nicht nur das Vorhandensein und die Dokumentation des Quellcodes entscheidend, sondern er wird meistens auch einen Hinweis zur Funktionalität und Kompilierbarkeit des Quellcodes erwarten. *Continuous Integration* kann, wie schon in den vorherigen Abschnitten angesprochen, ein solches Qualitätsmerkmal darstellen. Der *Continuous Integration* Prozess überprüft die Kompilierbarkeit der Software nach jeder Änderung und kann diese am Repository mit einer Statusanzeige sichtbar machen. Es ist ein Zeichen von gut gewartetem Quellcode, wenn dieser in der aktuell vorliegenden Version und ggf. in der aktuellen Entwicklerversion kompiliert.
 
