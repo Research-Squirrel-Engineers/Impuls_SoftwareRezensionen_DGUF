@@ -17,6 +17,12 @@ author:
     affiliation: Deutsches Forum für Kunstgeschichte Paris
     orcid: 0000-0003-3697-9241
 
+  -
+    name: Hubert Mara
+    affiliation: mainzed & Hochschule Mainz
+    orcid: 0000-0002-2004-4153
+    bio: "Hubert Mara studierte Informatik an der Technischen Universität Wien. Dort befasste er sich bereits mit digitalen Methoden in der Archäologie zur Keramikanalyse. Im Anschluss war er Marie-Curie fellow an der Universität Florenz im Rahmen des Cultural Heritage Informatics Research Oriented Network (CHIRON). Er promovierte an der Universität Heidelberg im Interdisziplinären Zentrum für Wissenschaftliches Rechnen (IWR). Dort gründete das Forensic Computational Geometry Laboratory (FCGL). Seit Juni 2020 ist er Geschäftsführer des mainzed und wissenschaftlich am Institut für Raumbezogene Informations- und Messtechnik der Hochschule Mainz tätig."
+
   -  
     name: Clemens Schmid
     affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
@@ -335,6 +341,10 @@ Schließlich ist es für Entwickler oft interessant die Software selbst mitzuges
 >[AK] Besser, wenn alles rund um CI aufeinander folgt?
 
 > [HM] Wieder eine Frage, die nur für Open Source relevant ist.
+
+## Ausblick
+
+Dieser Leitfaden entstand in einer Zeit, die von einem beschleunigten digitalem Wandel geprägt ist und sich unter anderem an den sich gerade formierenden Nationalen Dateninfrastrukturen (NFDI) der Deutschen Forschungsgesellschaft (DFG) zeigt. Während bei Daten bereits mehr Konsens und Erfahrung besteht, wurde die Diskussion zur Bewertung von Software in der Archäologie und ihrer Nachbardisziplinen gerade erst begonnen. Da zum Zeitpunkt unserer Diskussionen nur wenige Softwarerezensionen für archäologische Aufgaben vorlagen sind viele der Überlegung die hinter den Empfehlungen stehen von einer gewissen theoretischen Natur. Damit ist eine künftige Überarbeitung dieses Dokuments bei besserer Datenlagen eine abschließende Empfehlung.
 
 ## Tabellen
 
