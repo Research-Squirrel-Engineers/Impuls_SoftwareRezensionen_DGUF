@@ -17,6 +17,12 @@ author:
     affiliation: Deutsches Forum für Kunstgeschichte Paris
     orcid: 0000-0003-3697-9241
 
+  -
+    name: Hubert Mara
+    affiliation: mainzed & Hochschule Mainz
+    orcid: 0000-0002-2004-4153
+    bio: "Hubert Mara studierte Informatik an der Technischen Universität Wien. Dort befasste er sich bereits mit digitalen Methoden in der Archäologie zur Keramikanalyse. Im Anschluss war er Marie-Curie fellow an der Universität Florenz im Rahmen des *Cultural Heritage Informatics Research Oriented Network* (CHIRON). Er promovierte an der Universität Heidelberg im *Interdisziplinären Zentrum für Wissenschaftliches Rechnen* (IWR). Dort entstand das [*GigaMesh Software Framework*](https://gigamesh.eu) und das *Forensic Computational Geometry Laboratory* (FCGL). Seit Juni 2020 ist er Geschäftsführer des mainzed und wissenschaftlich am Institut für Raumbezogene Informations- und Messtechnik der Hochschule Mainz tätig."
+
   -  
     name: Clemens Schmid
     affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
@@ -93,7 +99,7 @@ Trotz der tragenden Rolle, die Forschungssoftware in vielen Projekten einnimmt, 
 
 Als ein wichtiger erster Schritt zur Sichtbarmachung wurde 2012 die Berufsbezeichnung des "Research Software Engineers" (RSE, RSEng) geprägt ([@hettrick_2017](#hettrick_2017) und [@baxter_2012](#baxter_2012)). Inzwischen hat sich eine aktive, interdisziplinäre Gemeinschaft gebildet, die Empfehlungen zum Umgang mit Forschungssoftware entwickelt ([@anzt_environment_2020](#anzt_environment_2020)). Nationale [RSE Sektionen](https://sorse.github.io/contact/chapters/) - in Deutschland der de-RSE e.V. - organisieren Konferenzen wie z.B. [SORSE](https://sorse.github.io). Im Rahmen des Aufbaus einer \`Nationalen Forschungsdateninfrastruktur (NFDI)\` nehmen Forschungssoftware und RSEs einen großen Stellenwert in der Weiterentwicklung der Forschungslandschaft und der Angebote der Forschungseinrichtungen in Deutschland ein ([@loeffler_nfdi4rse20](#loeffler_nfdi4rse20) und [@goedicke_nfdixcs20](#goedicke_nfdixcs20)).
 
-Eine der Forderungen des de-RSE e.V. ist, dass Forschungssoftware explizit mittels geeigneter Publikationsmodalitäten sichtbar wird. Einerseits erhöht eine Publikation die Auffindbarkeit und vermeidet so redundante Neuentwicklungen ([@anzt_environment_2020, 10](#anzt_environment_2020)). Andererseits ist die mit einer Publikation einhergehenden eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Softwareentwicklung an die entsprechenden Personen geknüpft wird. Dies ermöglicht eine akademische Laufbahn, wofür bislang jedoch oft nur klassische Textpublikationen gewertet wurden. Daher sollen zukünftig Datenpublikationen, Softwareentwicklung ([https://citation-file-format.github.io](https://citation-file-format.github.io), [https://doi.org/10.5281/zenodo.1003149](https://doi.org/10.5281/zenodo.1003149)), Annotationen, sowie deren Zitationen Kriterien der Beurteilung der wissenschaftlichen Leistung sein ([NFDI4Culture](https://nfdi4culture.de), [RSE4NFDI](https://www.rse4nfdi.de/de/index.html), [NFDI4Objects](https://www.nfdi4objects.net)). Hierbei sind technische Herausforderungen zu meistern, da Software selten entgültig abgeschlossen, oft auf bestehenden Modulen aubaut und mitunter von wechselnden Teams über Jahrzehnte betreut wird [@katz_software_2016](#katz_software_2016).
+Eine der Forderungen des de-RSE e.V. ist, dass Forschungssoftware explizit mittels geeigneter Publikationsmodalitäten sichtbar wird. Einerseits erhöht eine Publikation die Auffindbarkeit und vermeidet so redundante Neuentwicklungen ([@anzt_environment_2020, 10](#anzt_environment_2020)). Andererseits ist die mit einer Publikation einhergehenden eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Softwareentwicklung an die entsprechenden Personen geknüpft wird. Dies ermöglicht eine akademische Laufbahn, wofür bislang jedoch oft nur klassische Textpublikationen gewertet wurden. Daher sollen zukünftig Datenpublikationen, Softwareentwicklung ([https://citation-file-format.github.io](https://citation-file-format.github.io),  [@druskat2017citation](#druskat2017citation)), Annotationen, sowie deren Zitationen Kriterien der Beurteilung der wissenschaftlichen Leistung sein ([NFDI4Culture](https://nfdi4culture.de), [RSE4NFDI](https://www.rse4nfdi.de/de/index.html), [NFDI4Objects](https://www.nfdi4objects.net)). Hierbei sind technische Herausforderungen zu meistern, da Software selten entgültig abgeschlossen, oft auf bestehenden Modulen aubaut und mitunter von wechselnden Teams über Jahrzehnte betreut wird [@katz_software_2016](#katz_software_2016).
 
 Eine offen verfügbare Software kann, ganz so wie in der bisherigen Praxis der altertumswissenschaftlichen Forschung, begutachtet werden. In einer Rezension kann diese dann einem breiteren Publikum vorgestellt werden. Durch eine dedizierte Rezension von Software analog zu Rezensionen wissenschaftlicher Publikationen, wird die wissenschaftliche Leistung der Autoren und Autorinnen von Forschungssoftware mittels gewohnten Formaten sichtbar und anerkannt. Gleichzeitig wird auch ihre Verantwortung und Teilhabe manifest.
 
@@ -331,6 +337,10 @@ Schließlich ist es für Entwickler oft interessant die Software selbst mitzuges
 >[AK] Besser, wenn alles rund um CI aufeinander folgt?
 
 > [HM] Wieder eine Frage, die nur für Open Source relevant ist.
+
+## Ausblick
+
+Dieser Leitfaden entstand in einer Zeit, die von einem beschleunigten digitalem Wandel geprägt ist und sich unter anderem an den sich gerade formierenden *Nationale Forschungsdateninfrastruktur* (NFDI) der *Deutschen Forschungsgesellschaft* (DFG) zeigt. Während bei Daten bereits mehr Konsens und Erfahrung besteht, wurde die Diskussion zur Bewertung von Software in der Archäologie und ihrer Nachbardisziplinen gerade erst begonnen. Da zum Zeitpunkt unserer Diskussionen nur wenige Softwarerezensionen für archäologische Aufgaben vorlagen sind viele der Überlegung die hinter den Empfehlungen stehen von einer gewissen theoretischen Natur. Damit ist eine künftige Überarbeitung dieses Dokuments bei besserer Datenlagen eine abschließende Empfehlung.
 
 ## Tabellen
 
