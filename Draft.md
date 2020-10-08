@@ -33,10 +33,6 @@ author:
     affiliation: Deutsches Archäologisches Institut
     orcid: 0000-0003-4696-2101
   -
-    name: Lutz Schubert
-    affiliation:
-    orcid: 0000-0003-4889-9353
-  -
     name: Florian Thiery
     affiliation: Research Squirrel Engineers
     orcid: 0000-0002-3246-3531
