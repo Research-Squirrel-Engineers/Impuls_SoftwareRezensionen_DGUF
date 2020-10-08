@@ -257,7 +257,6 @@ Für den Einsatz in der universitären Forschung und der Lehre entscheidet die F
 
 * **Welche Daten speichert die Anwendung zu welchem Zweck und wie lange? Werden Daten an Dritte übertragen?** In vielen Softwareanwendungen werden Nutzerdaten zur Verbesserung der Anwendungen anonymisiert erfasst. Manche Softwareanbieter sammeln jedoch weitaus mehr Daten und übertragen diese z.B. auch an Drittanbieter. Aus der Softwaredokumentation heraus und vor allem beim Erstbesuch einer Webanwendung sollte ersichtlich werden welche Daten erhoben und wie lange sie gespeichert werden sowie ob die Zustimmung des Benutzers eingeholt wird. In einer Rezension könnte zusätzlich hinterfragt werden, ob der Zweck der Datenerfassung gerechtfertigt scheint, wie etwa zur Verbesserung der Software oder anderen Interessen dient.
 
-
 ### Entwickler-Perspektive
 
 Anwendungsentwickler sind zwar auch Nutzer einer Software, haben jedoch wegen zusätzlicher Interessen und weiterer Anwendungsszenarien einen anderen Blick auf Software. Eine gute Zusammenfassung der Entwicklerperspektive auf die Softwarequalität bietet [@jung2004measuring](#jung2004measuring). Hier werden die Vorgaben des [ISO/IEC 9126 Standards](https://de.wikipedia.org/wiki/ISO/IEC_9126) in Beispielen ausgeführt. 
@@ -305,11 +304,7 @@ Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für d
 
 * **Wird *Continuous Integration* zur Absicherung der Implementierungsqualität verwendet?** Für einen Entwickler ist nicht nur das Vorhandensein und die Dokumentation des Quellcodes entscheidend, sondern er wird meistens auch einen Hinweis zur Funktionalität und Kompilierbarkeit des Quellcodes erwarten. *Continuous Integration* kann, wie schon in den vorherigen Abschnitten angesprochen, ein solches Qualitätsmerkmal darstellen. Der *Continuous Integration* Prozess überprüft die Kompilierbarkeit der Software nach jeder Änderung und kann diese am Repository mit einer Statusanzeige sichtbar machen. Es ist ein Zeichen von gut gewartetem Quellcode, wenn dieser in der aktuell vorliegenden Version und ggf. in der aktuellen Entwicklerversion kompiliert.
 
-## Tabellen
-
-> [TODO] Tabelle muss "anmoderiert" werden
-
-**Software-Eckdatentabelle**
+## Software-Eckdatentabelle
 
 Im folgenden stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang der Rezension genannt werden können und nicht unbedingt bewertet werden. Diese Tabelle kann z.B. noch um Hardwareforderungen ergänzt werden, wenn diese besonders relevant sind oder erläutern, in welchem Browser eine Webanwendung nutzbar ist.
 
