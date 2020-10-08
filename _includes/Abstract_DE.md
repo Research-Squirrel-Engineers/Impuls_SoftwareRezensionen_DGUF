@@ -1,11 +1,3 @@
 **Zusammenfassung:** Motiviert durch zahlreiche Diskussionen rund um den zunehmenden Einsatz von Forschungssoftware im Bereich der Archäologie werden in diesem Beitrag die Aspekte zu deren Rezension skizziert. Die Bewertung von Software ist ein komplexes Thema, da deren Einsatzgebiet und ihr Entwicklungskontext einen erheblichen Einfluss haben. Hinzu kommen unterschiedlichste Anwendungsfälle von z.B. Studierenden die rasch eine Übungsaufgabe lösen bis hin zu Projektentwicklern, die ein Softwarepaket für den Dauerbetrieb in eine bestehende Infrastruktur integrieren müssen.
 
 Obwohl an der Erstellung dieser ersten Version eines Leitfadens paritätisch Beiträge aus der Archäologie und der angewandten Informatik eingeflossen sind, liegt der Fokus auf Beurteilungskriterien von Software im Anwendungsbereich der Archäologien. Ein Ziel dieses Leitfadens ist es, die künftigen Rezensentinnen und Rezensenten für die Komplexität der Beurteilung von Software zu sensibilisieren. Die Softwarerezension soll dem archäologischen Fachpublikum eine rasche, kritische und – auch den Entwicklerinnen und Entwicklern gegenüber – faire Beurteilung von Software ermöglichen. Zu den vorrangigen Empfehlungen gehört die Beschreibung des Kontexts    in dem die Rezension verfasst wurde bzw. die gestellten Anforderungen für bestimmte Anwendungsfälle. Zusätzlich soll eine kurze tabellarische Übersicht eine rasche Einschätzung der technischen, finanziellen und rechtlichen Aspekte ermöglichen. Der Bedarf an künftigen Adaptionen dieses Leitfadens wurde bereits bei dessen Erarbeitung festgestellt, da sowohl bei der Softwareentwicklung wie auch deren Bewertung im digitalen Zeitalter weiterhin eine große Dynamik zu erwarten ist.
-
-> [MT] "Dazu gehört vor allem die Beschreibung des Kontexts in dem die Rezension verfasst wurde wie auch eine kurze tabellarische Übersicht." -> den Satz verstehe ich irgendwie nicht
-
-> [HM]: Habe den Satz aufgeteilt und etwas konkretisiert.
-
-> [AK] Vielen Dank, finde das insgesamt sehr gut. Reicht einem die Hand und gibt eienm ein klares Verständnis davon, was in den folgenden Zeilen passieren wird. Mir gefällt auch gut wie zwischen den Zielen der Handreichung (oder eben doch Leitfaden?) und denen Anforderungen an die Rezensentin unterschieden wird.
-
-> [HM] Danke :)
