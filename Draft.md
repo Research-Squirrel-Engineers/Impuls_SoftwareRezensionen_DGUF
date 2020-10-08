@@ -66,7 +66,7 @@ Ziel dieses Beitrags ist es, die Diskussion um Inhalte und Zielsetzungen von Rez
 
 In dieser Handreichung erläutern wir Kriterien, die eine gute Forschungssoftware ausmachen und für deren Bewertung von Bedeutung sein können. Außerdem empfehlen wir eine Vorgehensweise zur Softwarerezension.
 
-Die Beurteilung einer Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine Rezension umfassen sollte. Aus Redaktionsperspektive können zusätzlich konkrete Maßnahmen zur Qualitätssicherung ergriffen werden. Dazu gehören Hinweise zum Anfertigen von Rezensionen oder - wie es die Redaktion der Archäologischen Informationen praktiziert - Reviews von Rezensionen.
+Die Beurteilung einer Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine Rezension umfassen sollte. Zusätzlich können konkrete Maßnahmen zur Qualitätssicherung ergriffen werden. Dazu gehören Hinweise zum Anfertigen von Rezensionen oder - wie es die Redaktion der Archäologischen Informationen praktiziert - Reviews von Rezensionen.
 
 Was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es allein um die von einer Software ausgeführten Routinen, welche zur Lösung einer wissenschaftlichen Problemstellung beitragen? Oder müssen Aspekte der Nutzbarkeit, der Nachhaltigkeit und Interoperabilität ebenfalls Beachtung finden? Welche Rolle spielen technische und rechtliche Aspekte in der Besprechung, wie etwa die Dokumentation des Quellcodes oder die Lizensierung? Und schließlich: Stellt die Software vielleicht selbst einen wissenschaftlichen Beitrag dar? Welches sind die Leistungen der Software-Entwickler, die eine Besprechung berücksichtigen sollte? Welche Maßstäbe, die in den Empfehlungen der Deutschen Forschungsgemeinschaft (DFG) anklingen, sollte eine gute  Forschungssoftware erfüllen?.
 
@@ -75,12 +75,9 @@ Die zentrale Fragestellung einer Rezension nach dem wissenschaftlichen Wert des 
 Dieser Beitrag ist als Impuls gedacht. Diskussionsbeiträge und Anregungen sind erwünscht. Dazu können die Autoren über die angegebenen Adressen kontaktiert werden oder Anmerkungen direkt auf GitHub unter [https://research-squirrel-engineers.github.io/DGUF_Leitfaden/](https://research-squirrel-engineers.github.io/DGUF_Leitfaden/) hinterlegt werden.
 
 > [MT] der folgende Absatz sollte weiter unten integriert und hier entfernt Werden
+> [MT] Satz kommt zu Forschungssoftware als Wiss. Leistung.
 
 Software greift im- und explizit tief in den Forschungsprozess ein (für die Archäologie siehe z.B. [@schmidt_marwick_2020](#schmidt_marwick_2020)) und nur durch die Offenlegung von Quellcode ist eine Bewertbarkeit der durch die Software geleisteten Abläufe wirklich gewährleistet.
-
-> [MT] Auch der folgende Textschnipsel ist weiter unten besser aufgehoben
-
-[Wir] weisen auf sogenannte ["open standards"](http://xml.coverpages.org/openStandards.html) hin.
 
 
 ## Forschungssoftware
