@@ -158,17 +158,15 @@ Für Software gehören zu den Eckdaten u. a. Angaben zur Version, zu den Entwick
 
 Mit Kontext sind eine Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen gemeint. Für die kritische Beurteilung aus verschiedenen Blickwinkeln folgt weiter unten ein Fragenkatalog. Die Ergebnisse der Begutachtung sollten in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
 
-Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung von Dokumentation und Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die heterogene Leserschaft. Es ist eine wichtige Information, ob die Rezension rein aus Sicht eines Anwenders oder auch eines Entwicklers geschrieben wurde.  
+Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung von Dokumentation und Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die heterogene Leserschaft. Es ist eine wichtige Information, ob die Rezension rein aus Sicht eines Anwenders oder auch eines Entwicklers geschrieben wurde.
+
+> [MT] Hinweis an Rezensenten, dass die Testumgebung auf der die Software getestet wurde, angegeben werden soll. Z.B. RAM, Prozessor, Grafikkarte, Bandbreite, Betriebssystem
 
 ## Fragenkatalog zur Beurteilung von Software
 
-Im folgenden stellen wir einen kommentierten Fragenkatalog mit Kriterien zur Beurteilung von archäologischer Forschungssoftware vor. Seine drei Bereiche bündeln jeweils Fragen aus verschiedenen Kompetenzbereichen. Die ersten zwei Bereiche beschäftigen sich mit dem wissenschaftlichen Anwendungsfeld, sowie der Anwendung und Bedienbarkeit aus Nutzersicht. Der dritte Bereich Fragen, die insbesondere für Entwickler und IT-Administratoren relevant sind. Sie fokussieren vor allem auf Anwendbarkeit und Nachhaltigkeit. Abgeschlossen wird der Katalog durch eine Liste mit Merkmale, welche in tabellarischer Form die Rezension ergänzen, jedoch meist nicht kritisch beurteilt werden können.
+Im folgenden stellen wir einen kommentierten Fragenkatalog mit Kriterien zur Beurteilung von archäologischer Forschungssoftware vor. Seine drei Bereiche bündeln jeweils Fragen aus verschiedenen Kompetenzbereichen. Die ersten zwei Bereiche beschäftigen sich mit dem wissenschaftlichen Anwendungsfeld, sowie der Anwendung und Bedienbarkeit aus Nutzersicht. Der dritte Bereich konzentriert sich auf Fragen, die insbesondere für Entwickler und IT-Administratoren relevant sind. Abgeschlossen wird der Katalog durch eine Liste mit Merkmalen, welche in tabellarischer Form die Rezension ergänzen, jedoch meist nicht kritisch beurteilt werden können.
 
-> [MT] 3. Bereich: wirklich Anwendbarkeit?
-
-Wie bei der Besprechung einer wissenschaftlichen Publikation ist die Zusammensetzung und Gewichtung der einzelnen Merkmale bei der Begutachtung selbst zu bestimmen und in Relation zum Thema zu setzen. Entsprechend verstehen wir unseren kommentierten Fragenkatalog als Maximalversion, die als Hilfsmittel für die Begutachtung und die Einschätzung der eigenen Kompetenzen dienen kann.
-
-> [MT] 'in Relation zum Thema' - was ist hier mit Thema gemeint?
+Wie bei der Besprechung einer wissenschaftlichen Publikation ist die Zusammensetzung und Gewichtung der einzelnen Merkmale bei der Begutachtung selbst zu bestimmen und in Relation zum Anwendungskontext zu setzen. Entsprechend verstehen wir unseren kommentierten Fragenkatalog als Maximalversion, die als Hilfsmittel für die Begutachtung und die Einschätzung der eigenen Kompetenzen dienen kann.
 
 ### Einsatz in der Archäologie und wissenschaftlicher Zweck
 
@@ -176,9 +174,7 @@ Bei der Beurteilung der wissenschaftlichen Qualität von Forschungssoftware sind
 
 * **Welche Aufgabenstellung versucht die Software zu lösen?** Diese Frage ist mit dem deskriptiven Charakter einer Rezension verknüpft: Welche Aufgaben werden mittels der Software bei der Erfassung, der Verarbeitung oder der Analyse von Daten bearbeitet? Wie relevant sind die Aufgaben in einem archäologischen Kontext und wie häufig werden sie gestellt? Dieser Punkt verdeutlicht, warum es von besonderem Wert ist, wenn Archäologen selbst Softwarerezensionen für sich und ihre Kollegen verfassen.
 
-* **Wie löst die Software eine gegebene (technische) Aufgabe?** Eine detaillierte Beantwortung dieser Frage ist nur aus Entwicklerperspektive möglich, doch Kernbestandteile lassen sich meist leicht identifizieren. Wie ist die grundsätzliche Funktionsweise der Software konzipiert? Was sind die wesentlichen technischen Bestandteile im Nutzerinterface und in den dahinter liegenden Datenverarbeitungsmodulen? Handelt es sich zum Beispiel um eine WebApp, die als Schnittstelle zu einer Datenbank fungiert? Oder ist die Software ein schlichtes, monolithisches Kommandozeilenprogramm?
-
-> [MT] WepApp oder Webanwendung oder Webapps? -> Vereinheitlichen
+* **Wie löst die Software eine gegebene (technische) Aufgabe?** Eine detaillierte Beantwortung dieser Frage ist nur aus Entwicklerperspektive möglich, doch Kernbestandteile lassen sich meist leicht identifizieren. Wie ist die grundsätzliche Funktionsweise der Software konzipiert? Was sind die wesentlichen technischen Bestandteile im Nutzerinterface und in den dahinter liegenden Datenverarbeitungsmodulen? Handelt es sich zum Beispiel um eine Webanwendung, die als Schnittstelle zu einer Datenbank fungiert? Oder ist die Software ein schlichtes, monolithisches Kommandozeilenprogramm?
 
 * **Wie funktioniert der wissenschaftliche Arbeitsablauf, der in der Software implementiert wurde?** Hier geht es weniger um die konkrete technische Implementierung, sondern vielmehr um die generelle Methodik. Welche wesentlichen Schritte durchlaufen Daten, um eine bestimmte Aufgabe zu lösen? Welche statistischen Werkzeuge kommen zum Einsatz? Gibt es Vergleichsdaten? Ein Beispiel für eine mögliche Prozessierung ist die Bereinigung von Eingabedaten mittels eines Referenzdatensatzes, um eine Klassifizierung mit einer hierarchischer Clusteranalyse zu erstellen und zuletzt als paarweise Distanzmatrix zu visualisieren.
 
@@ -208,7 +204,7 @@ Die folgenden Fragen nehmen Bezug auf technische Merkmale, welche die Nutzererfa
 
 Die Nutzbarkeit von Software wird von den Möglichkeiten der Kommunikation von Mensch und Programm bestimmt, also der Software-Oberfläche (User Interface, UI). Diese ist in manchen Fällen grafisch gestützt (GUI), in anderen Fällen erfolgt die Bedienung über eine Befehlseingabe in der Konsole. Eine gemischte Bedienung ist ebenfalls nützlich, um verschiedene Nutzerkreise zu erreichen. Die Gestaltung von Oberflächen und die Nutzerführung in Menüstrukturen sind ein eigenes Aufgaben- und Forschungsfeld in der Softwareentwicklung. Gut an den Nutzer angepasste Lösungen sind das Ergebnis einer genauen Kenntnis der Zielgruppe und ihrer Gewohnheiten und Bedarfe, fügen sich also beispielsweise nahtlos in den archäologischen Forschungsprozess ein. Ein gutes Interface unterstützt das fehlerfreie und effiziente Arbeiten. So sind z.B. die Verständlichkeit der Menü-Einträge oder der Kommandos, aber auch die Aussagekraft von Fehlermeldungen Aspekte, die in der Rezension betrachtet werden sollten. Barrierefreiheit ist bislang ein unzureichend abgedecktes Kriterium, das aber ebenfalls die Effizienz und den möglichen Nutzerkreis adressiert.
 
-* **Passt das User Interface zum Nutzerkreis?** Jeder Nutzerkreis, auch der des Rezensenten, wird bestimmte Erwartungen an die Bedienbarkeit der Anwendung haben. Für die einen ist eine Kommandozeilenanwendung sehr gut zu bedienen, während andere damit Probleme haben werden. Viele Softwarelösungen haben mehrere Nutzerschnittstellen. Beispielsweise können viele Webapps sowohl über einen Suchschlitz und Filterfunktionen über die grafische Oberfläche einer Website, als auch code-basiert über eine REST-Schnittstelle angesteuert werden.
+* **Passt das User Interface zum Nutzerkreis?** Jeder Nutzerkreis, auch der des Rezensenten, wird bestimmte Erwartungen an die Bedienbarkeit der Anwendung haben. Für die einen ist eine Kommandozeilenanwendung sehr gut zu bedienen, während andere damit Probleme haben werden. Viele Softwarelösungen haben mehrere Nutzerschnittstellen. Beispielsweise können viele Webanwendungen sowohl über einen Suchschlitz und Filterfunktionen über die grafische Oberfläche einer Website, als auch code-basiert über eine REST-Schnittstelle angesteuert werden.
 
 * **Ist die archäologische Nutzung vorgesehen?** Die Frage nach dem Nutzerkreis sollte auch speziell für die Archäologie gestellt werden: Entspricht der archäologische Einsatz den Anwendungsszenarien, die die Entwickler der Software vor Augen hatten? Das hat oft großen Einfluss auf das Nutzerinterface. Beispielsweise ist für von Archäologen genutzte CAD Software (z.B. [AutoCAD](https://www.autodesk.de/)) häufig für Architektur- oder Maschinenbauanwendungen konzipiert und konfrontiert Archäologen und Grabungstechniker mit einem  überwältigendem Funktionsumfang.
 
@@ -218,14 +214,10 @@ Die Nutzbarkeit von Software wird von den Möglichkeiten der Kommunikation von M
 
 * **Sind die Fehlermeldungen für die Rezensentin gut verständlich?** Zum einen soll eine Fehlermeldung an den Benutzer, es diesem ermöglichen eine Aktion zur Behebung des Fehlers zu ergreifen. Nützliche und hilfreiche Fehlermeldungen sind entsprechend verständlich formuliert und sichtbar in der Anwendung platziert. Zum anderen kann eine Fehlermeldung ggf. ein Feedback an die Entwickler der Anwendung liefern. Dies muss die Fehlermeldung dem Benutzer auch kommunizieren und auch einen brauchbaren Bericht zur Behebung des Fehlers an die Entwickler schicken. Stack Traces (Hinweise auf die Stellen des Programmcodes an denen ein spezifischer Fehler auftrat) oder aus der Ausführungsumgebung übernommene Fehlermeldungen sind für die meisten Nutzer unverständlich.
 
-#### Perfomanz und Robustheit
-> [MT] dieser Abschnitt ist neu aus zwei Teilen aus der Entwicklerperspektive (Kommentare von dort inklusive). Am besten noch mal lesen und sicherstellen, dass das inhaltlich so passt
+#### Performanz und Robustheit
 
-* **Ist die Implementierung performant? Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.** Die Performanz einer Anwendung ist je nach Anwendungstyp von mehr oder weniger Wichtigkeit. Ein Reviewer sollte hier bewerten, ob die Software ihre Aufgabe in der vom Reviewer angemessenen Zeit erfüllt. Gegebenenfalls kann der Reviewer die Ausführungszeit weiterer verwandte Softwareimplementierungen mit der von ihm zu Testenden vergleichen. Ein Reviewer wird wahrscheinlich nicht in der Lage sein die Gründe für eine mangelnde Performanz der Software zu erkennen.
+* **Ist die Implementierung performant?** Die Performanz einer Anwendung ist je nach Anwendungstyp von mehr oder weniger Wichtigkeit. Ein Rezensent sollte hier bewerten, ob die Software ihre Aufgabe in angemessener Zeit erfüllt. Gegebenenfalls kann der Rezensent die Ausführungszeit weiterer verwandte Softwareimplementierungen mit der von ihm zu Testenden vergleichen. Ein Rezensent wird wahrscheinlich nicht in der Lage sein die Gründe für eine mangelnde Performanz der Software zu erkennen. Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.
 
-> [AK] Frage: Ist die Frage der Performanz, so wie sie hier gestellt wird, nicht 1.) "usability" und 2.) auch ohen Entwicklerwissen zu testen?
-> [TH] Du hast Recht, dann könnten wir das hier streichen. Hier wäre das von Relevanz wenn der Entwickler die Gründe herausfinden könnte
-> [MT] für den Entwickler wäre ja eher so etwas relevant wie die Komplexität und Laufzeit in O-Notation, was irgendwo in einer Dokumentation der Software stehen sollte. Auch die benötigten Ressourcen (z.B. RAM) sind interessant. Laufzeittests für eine Software wären in einer Rezension nur interessant, wenn man mehrere vergleichbare Softwarepakete testet. Das mit dem responsiv gehört definitiv zur Nutzeroberfläche.
 
 * **Robustheit der Software** Die Robustheit einer Software ist ein wünschenswerter Aspekt, der im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben, die sie ausführt, regelmäßig sichert, um bei einem unvorhergesehenen Abbruch wieder an dem Punkt anknüpfen zu können, an dem sie vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft z.B. bei einem Stromausfall den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten. Ein Beispiel für eine solche Robustheit ist das regelmäßige automatisierte Zwischenspeichern in einem Textverarbeitungsprogramm. Das Textdokument ist somit im Falle eines Absturzes der Software wiederherstellbar. Abhängig vom Anwendungsfall kann es auch vorteilhaft sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann. Dies kann die Spracheinstellungen oder auch die Anpassung von Maßeinheiten, Vorgaben zum Speicherort und ähnliches sein.
 
@@ -257,7 +249,7 @@ Gute Tutorials erläutern das benötigte Vorwissen und weisen auf Quellen zu des
 
 * **Sind weitere Informationen zur Software leicht zu finden?** Listen die Informationsseiten der Software oder deren Tutorials Hinweise auf weitere Materialien? Wird auf Publikationen der Entwickler selbst, wie auch Rezensionen dazu hingewiesen?
 
-* **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich geprägt ?** Beispiele für Softwareentwicklung, die zunächst aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind [Pelagios Commons](https://pelagios.org/) und die WebApp [Recogito](https://recogito.pelagios.org/). Engagierte Nutzergruppen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Communities von Softwarepaketen wie QGIS oder R entwickelt.
+* **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich geprägt ?** Beispiele für Softwareentwicklung, die zunächst aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind [Pelagios Commons](https://pelagios.org/) und die Webanwendung [Recogito](https://recogito.pelagios.org/). Engagierte Nutzergruppen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Communities von Softwarepaketen wie QGIS oder R entwickelt.
 
 * **Haben ArchäologInnen bereits Best Practices für diese Software formuliert?**
 
@@ -370,12 +362,14 @@ Welche Änderungen demnächst für das Programm geplant sind und welche Issues f
 
 - Name: Der Name der Software, z.B. "QGIS"
 - Kurzbeschreibung: Was die Software leistet, z.B. "Umfangreiches graphisches Werkzeug zur Raumdatenverarbeitung"
-- Rezensierte Version: Die Softwareversion, die für das Review genutzt wurde, z.B. "3.10.10 LTR"
+- Rezensierte Version: Die Softwareversion, die für die Rezension genutzt wurde, z.B. "3.10.10 LTR"
 - Plattform: Betriebssysteme, auf denen die Software genutzt werden kann, z.B. "Windows, macOS, Linux, BSD, Android"
 - Website: URL unter der weitere Informationen abgerufen werden können, z.B. "https://qgis.org"
 - Lizenzierung: Unter welcher Softwarelizenz wurde die Software veröffentlicht, z.B. "Open Source mit GNU General Public License (GPL)"
 
 > [MT] Ein- und Ausgabeformate fände ich noch ganz praktisch
+
+> für den Entwickler wäre ja eher so etwas relevant wie die Komplexität und Laufzeit in O-Notation, was irgendwo in einer Dokumentation der Software stehen sollte. Auch die benötigten Ressourcen (z.B. RAM) sind interessant. Laufzeittests für eine Software wären in einer Rezension nur interessant, wenn man mehrere vergleichbare Softwarepakete testet. Das mit dem responsiv gehört definitiv zur Nutzeroberfläche.
 
 ## Anmerkungen
 
