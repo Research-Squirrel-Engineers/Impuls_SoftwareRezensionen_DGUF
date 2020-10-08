@@ -218,46 +218,21 @@ Die Nutzbarkeit von Software wird von den Möglichkeiten der Kommunikation von M
 
 * **Ist die Implementierung performant?** Die Performanz einer Anwendung ist je nach Anwendungstyp von mehr oder weniger Wichtigkeit. Ein Rezensent sollte hier bewerten, ob die Software ihre Aufgabe in angemessener Zeit erfüllt. Gegebenenfalls kann der Rezensent die Ausführungszeit weiterer verwandte Softwareimplementierungen mit der von ihm zu Testenden vergleichen. Ein Rezensent wird wahrscheinlich nicht in der Lage sein die Gründe für eine mangelnde Performanz der Software zu erkennen. Für Webapplikationen und Plugins ist zu überprüfen, ob sie responsiv sind und über die verschiedenen Browser hinweg performant sind.
 
+* **Ist die Software robust?** Die Robustheit einer Software setzt im Wesentlichen voraus, dass die Software Zwischenstände der Aufgaben, die sie ausführt, regelmäßig sichert, um bei einem unvorhergesehenen Abbruch wieder an dem Punkt anknüpfen zu können, an dem sie vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft z.B. bei einem Stromausfall den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten. Ein Beispiel für eine solche Robustheit ist das regelmäßige automatisierte Zwischenspeichern in einem Textverarbeitungsprogramm. Das Textdokument ist somit im Falle eines Absturzes der Software wiederherstellbar. Abhängig vom Anwendungsfall kann es auch vorteilhaft sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann. Dies kann die Spracheinstellungen oder auch die Anpassung von Maßeinheiten, Vorgaben zum Speicherort und ähnliches sein.
 
-* **Robustheit der Software** Die Robustheit einer Software ist ein wünschenswerter Aspekt, der im Wesentlichen voraussetzt, dass die Software Zwischenstände der Aufgaben, die sie ausführt, regelmäßig sichert, um bei einem unvorhergesehenen Abbruch wieder an dem Punkt anknüpfen zu können, an dem sie vor diesem Ereignis gearbeitet hat. Ein Fehlen dieser Funktion kann oft z.B. bei einem Stromausfall den Verlust von Einstellungen, Daten und/oder die Neuinitialisierung einer Berechnung bedeuten. Ein Beispiel für eine solche Robustheit ist das regelmäßige automatisierte Zwischenspeichern in einem Textverarbeitungsprogramm. Das Textdokument ist somit im Falle eines Absturzes der Software wiederherstellbar. Abhängig vom Anwendungsfall kann es auch vorteilhaft sein, dass die Software eine Historie der Benutzeränderungen vorhält und diese ebenfalls wiederherstellen kann. Dies kann die Spracheinstellungen oder auch die Anpassung von Maßeinheiten, Vorgaben zum Speicherort und ähnliches sein.
-
-> [AK] Sind wir hier noch im spezifischen Entwicklerbereich ? Es klingt für mich nach Usability, denn wir argumentieren hier über das Nutzererlebnis, nicht über technische Kerndaten. Für mich wäre die Frage, kann man nicht kurz erläutern, wie man einen Absturz herbeiführt, um die Robustheit zu testen? Wenn ja, was wäre das richtige Vorgehen?
-
-> [TH] Im Zweifelsfall den Strom vom PC trennen während die Anwendung läuft und anschließend nach einem Neustart des PCs schauen was die Anwendung zwischengespeichert hat, bzw. wie man wieder in den Arbeitsworkflow einsteigen kann
-
-> [HM] Robustheit ist aus meiner Sicht eher, dass die Software nicht abstürzt, nicht in einer Endlosschleife hängen bleibt und keine Speicherleaks hat, die ggf. den ganzen Computer zu Fall bringen. Robustheit gegen Stromausfall ist eher Sache der Versorgung bzw. Aufgabe einer USV.
-
-> [MT] stimme HM zu. Anne hat da schon recht, dass es sich hier eher um ein Usability-Aspekt handelt. Ich würde das vielleicht sogar komplett streichen.
 
 #### Hilfefunktionen, Tutorials und Community
 
 Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Software von einer *Community* getragen wird. Die Zahl der aktiven Nutzer und Entwickler eines Softwarewerkzeugs ist entscheidend dafür, ob man bei Problemen Hilfe in Foren findet, oder, bei einem kleinen Nutzerkreis, nur im persönlichen Austausch Hilfe bekommt. Kleine Nutzernetzwerke können jedoch den großen Vorteil bieten, dass konkrete Fragen von den Entwicklern aufgegriffen werden.
 
-* **Gibt es ausreichend Tutorials für das Erlernen der Software?** Tutorials sind essentiell, um sowohl Benutzer als auch mögliche Weiterentwickler der Software anzusprechen. Softwarenutzer erwarten üblicherweise ein leicht verständliches, auf das Wesentliche konzentrierte Anwendungsbeispiel, um eine Idee für deren typische Verwendung zu bekommen. Für Entwickler ist entscheidend, dass ein Tutorial ggf. vorhandene Schnittstellen (APIs) erläutert.
+* **Gibt es ausreichend Tutorials für das Erlernen der Software?** Tutorials sind essentiell, um sowohl Benutzer als auch Softwareentwickler anzusprechen. Nutzer erwarten üblicherweise ein leicht verständliches, auf das Wesentliche konzentrierte Anwendungsbeispiel, um eine Idee für deren typische Verwendung zu bekommen. Für Entwickler ist entscheidend, dass ein Tutorial ggf. vorhandene Schnittstellen (APIs) erläutert.
 Gute Tutorials erläutern das benötigte Vorwissen und weisen auf Quellen zu dessen Aneignung hin. Auch Hilfestellungen in einer FAQ oder einem Troubleshooting-Bereich erhöhen die Qualität eines Tutorials. In welchen Sprachen die Tutorials vorliegen ist ebenfalls von Relevanz.
-
-> [AK] Hier wäre ein positives Beispiel ideal
-
-> [TH] Ideal wäre hier ein Beispiel im archäologischen Kontext, würde AtlantGIS hier funktionieren?
-
-> [HM] Achtung billige Eigenwerbung: http://youtube.com/c/GigaMeshTutorials
-
-> [MT] statt 'ausreichend' im Fragentitel lieber 'hilfreich' oder 'brauchbar'
-> [MT] Insgesamt war mir dieser Abschnitt zu lang, vor allem im Vergleich zu den vorhergehenden. Daher habe ich mal einen drastischen Kürzungsvorschlag daraus gemacht.
 
 * **Gibt es für die Software Testdatensätze?** Diese Frage ist eng mit der Frage nach Tutorials verbunden, da letztere oft mit Übungsdaten arbeiten. Diese Übungsdaten oder Testdatensätze sollten sich an der wissenschaftlichen Praxis orientieren, jedoch ohne spezifische Vorkenntnisse verständlich sein. Sie sollten frei zur Verfügung stehen und möglichst ohne Registrierung nutzbar sein.
 
 * **Sind weitere Informationen zur Software leicht zu finden?** Listen die Informationsseiten der Software oder deren Tutorials Hinweise auf weitere Materialien? Wird auf Publikationen der Entwickler selbst, wie auch Rezensionen dazu hingewiesen?
 
 * **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich geprägt ?** Beispiele für Softwareentwicklung, die zunächst aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind [Pelagios Commons](https://pelagios.org/) und die Webanwendung [Recogito](https://recogito.pelagios.org/). Engagierte Nutzergruppen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Communities von Softwarepaketen wie QGIS oder R entwickelt.
-
-* **Haben ArchäologInnen bereits Best Practices für diese Software formuliert?**
-
->[AK] Hier wäre ich über konkrete Beispiele sehr froh und auch eine kurze Erläuterung, was Best Practices an dieser Stelle meint.
-
->[TH] Best Practices sind hier für mich konkrete Anwendungsfälle in denen die Software für die Lösung einer Aufgabe verwendet wurde. Das kann ein Paper sein welches das beschreibt, könnte auch ein Tutorial sein oder eine Handlungsanweisung einer Organisation die sich dafür zuständig fühlt.
-
->[HM] Ich würde die Frage umdrehen:
 
 * **Gibt es Best Practices, Empfehlungen oder Publikationen aus dem archäologischen Bereich, welche auf die Software verweisen?** Während Foren, Blogs und verwandte Angebote direkten und oft auch raschen Austausch mit Nutzern und ggf. Entwicklern bieten, ist die Einbindung von Empfehlungen von bestimmten Programmen ein weiteres Indiz für deren Verbreitung, Umfang und Verlässlichkeit.
 
@@ -272,9 +247,7 @@ Eingabe- und Ausgabedatenformate beeinflussen die Kompatibilität zu anderen Anw
 
 * **Wie können Daten eingelesen werden? Als Stapel oder nur einzeln? Ermöglicht die Software eine Stapelverarbeitung?** Für sehr viele Anwendunsgsszenarien ist die Durchführung eines einmal definierten Tasks auf einen Dateistapel oder eine Datenreihe wichtig. Ein Beispiel ist die  Transformation von Bilddaten, die auf jedes Foto einer Ausgrabungskampagne ausgeführt werden soll.
 
-* **Gibt es eine Programmierschnittstelle (API)?** Neben der Bedienbarkeit durch einen Menschen, ist auch eine maschinelle Ansteuerung der Software wichtig. Nur so können beispielsweise komplexe Prozesse mit mehreren Softwarekomponenten komplett automatisiert werden. Eine API gewährleistet dies. Sie sollte möglichst offen und ggf. mittels eines Standards wie [OpenAPI](https://www.openapis.org) dokumentiert sein. Ein konkretes Beispiel für eine API ist die REST-Schnittstelle von Wikidata, an die man automatisierte Abfragen stellen und Daten von Wikidata beziehen kann. Sie ist zudem umfangreich dokumentiert und bietet eine GUI zum Erlernen der Syntax an.
-
-> [MT] Evtl. kann man den Wikidata-Teil noch etwas kürzen
+* **Gibt es eine Programmierschnittstelle (API)?** Neben der Bedienbarkeit durch einen Menschen, ist auch eine maschinelle Ansteuerung der Software wichtig. Nur so können beispielsweise komplexe Prozesse mit mehreren Softwarekomponenten komplett automatisiert werden. Eine API gewährleistet dies. Sie sollte möglichst offen und ggf. mittels eines Standards wie [OpenAPI](https://www.openapis.org) dokumentiert sein. Ein  Beispiel für APIs sind die Schnittstellen von Wikidata, an die man automatisierte Datenabfragen stellen kann.
 
 #### Konformität mit Regelungen zum Datenschutz, Fragen der Privacy und der Datensparsamkeit
 
