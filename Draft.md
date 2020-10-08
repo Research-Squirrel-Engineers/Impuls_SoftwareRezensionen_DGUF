@@ -280,27 +280,21 @@ Ein wichtiger Begriff in dem Zusammenhang von Dokumentation und Tests ist auch d
 
 * **Ist die Dokumentation aktuell und adressiert sie alle Funktionen des Programms?** Das letzte Bearbeitungsdatum einer Dokumentation ist meist einem Zeitstempel zu entnehmen, wenn die Dokumentation mit einem Dokumentationswerkzeug, wie oben genannt, erstellt wurde. Dieses Datum sollte mit dem Veröffentlichungsdatum der aktuellsten Software übereinstimmen oder aktueller sein. Werden im besten Fall die Prinzipien der *Continuous Integration* angewendet, so ist die Erzeugung und Bereitstellung der Dokumentation direkt mit im Entwicklungsprozess der Anwendung integriert, wie beispielsweise das [GitHub Repository des SPARQLing Unicorn QGIS Plugins](https://github.com/sparqlunicorn/sparqlunicornGoesGIS). Hier erstellt ein automatisierter Prozess die Dokumentation bei jeder Veränderung des Quellcodes neu und publiziert sie auf der [GitHub Page des Repositories](https://sparqlunicorn.github.io/sparqlunicornGoesGIS/).
 
-
-* **Gibt es eine Entwicklerdokumentation, welche eine evtl. Softwareerweiterung fördert?** Eine Entwicklerdokumentation bietet einem Entwickler den einfachsten Einstieg in der Beschäftigung mit der Erweiterung oder Nutzung einer Software. Eine aussagekräftige *README*-Datei, die kurz die Verwendung des Programmes mit den Standardeinstellungen demonstriert, ist eine Mindestanforderung. Ein Beispiel dafür ist  [Bibtex_JS](https://github.com/pcooksey/bibtex-js). Idealerweise werden zusätzlich Beispieldaten für ein besseres Verständnis des Programmablaufs beigelegt und ggf. weitere häufig verwendete Anwendungsfälle der Software in Beispielen vorgestellt. Für das gerade genannte Beispiel trifft dies zu: [Bibtex_JS Beispiele](https://github.com/pcooksey/bibtex-js/tree/master/test)). Abhängig von der Komplexität der Software kann es sinnvoll sein, ein ggf. auch von einer Nutzercommunity gepflegtes Wiki bereitzustellen, um fortgeschrittene Optionen zu erläutern (siehe [Bibtex_JS Wiki](https://github.com/pcooksey/bibtex-js/wiki)).
-
-> [MT] Hm, jetzt wo ich die Beschreibung zu 'Entwicklerdokumentation' gelesen habe, habe ich den Eindruck, dass das eine ganz normale Nutzerdoku meint; Das wurde ja oben unter Hilfefunktionen, Tutorials und Community schon beschrieben und überlappt sich teilweise. Da könnte man entweder genauer unterscheiden oder auch streichen.
+* **Gibt es eine Entwicklerdokumentation, welche eine evtl. Softwareerweiterung fördert?** Eine Entwicklerdokumentation bietet einem Entwickler den Einstieg in der Beschäftigung mit der Erweiterung einer Software über die einfache Nutzung hinaus. Eine aussagekräftige *README*-Datei, die kurz die Verwendung des Programmes mit den Standardeinstellungen demonstriert, ist eine Mindestanforderung. Ein Beispiel dafür ist [Bibtex_JS](https://github.com/pcooksey/bibtex-js). Idealerweise werden zusätzlich Beispieldaten für ein besseres Verständnis des Programmablaufs beigelegt und ggf. weitere häufig verwendete Anwendungsfälle der Software in Beispielen vorgestellt. Für das gerade genannte Beispiel trifft dies zu: [Bibtex_JS Beispiele](https://github.com/pcooksey/bibtex-js/tree/master/test)). Abhängig von der Komplexität der Software kann es sinnvoll sein, ein ggf. auch von einer Nutzercommunity gepflegtes Wiki bereitzustellen, um fortgeschrittene Optionen zu erläutern (siehe [Bibtex_JS Wiki](https://github.com/pcooksey/bibtex-js/wiki)).
 
 * **Enthält der Quellcode Softwaretests, um die Kernfunktionen zu testen und diese für andere Entwickler aufzuzeigen?** Jede Software kann durch Tests auf ihre antizipierte Funktionalität hin überprüft werden. Entsprechend geben Softwaretests Auskunft über die angedachten Anwendungsfälle und, als Testergebnis, welche Funktionen stabil, fehleranfällig oder verbesserungsbedürftig sind. Als Teil eines *Continuous Integration*-Prozesses können Softwaretests nach jeder Änderung am Quellcode automatisch ausgeführt werden.
 
-> [MT] Die Ausführungen zu CI habe ich nach oben zur ersten Erwähnung davon verschoben
+* **Wird es dem Entwickler einfach gemacht, die Software zu testen (z.B. Virtuelle Maschine, Dockercontainer, Installer)?** Entwickler sind meist in der Lage, eine Software zu bauen und auszuführen, doch das kann mehr oder weniger aufwändig sein. Tatsächlich werden Softwares, welche leicht installierbar und vor allem testbar sind, sowohl von Entwicklern die einen schnellen Einblick in die Funktionalität bekommen wollen, als auch von anderen Benutzern einen besseren Anklang finden als andere. Es liegt in der Natur der Sache, dass es hierbei, je nach Art der Anwendung, unterschiedliche Ausführungsformen gibt. Eine Webanwendung kann als Beispiel im Internet gehostet sein und dem Benutzer einen Testaccount zur Verfügung stellen (z.B. [CWRCWriter](https://cwrc.ca)), eine Desktop Anwendung kann bereits eine installierebare Anwendung oder ein Installerpaket mitliefern. Serveranwendungen können für einen Test als Images von virtuellen Maschinen oder - in letzter Zeit üblicher - als Dockerimages in Portalen wie [Dockerhub](https://hub.docker.com) für ein einfaches Testen hinterlegt werden.
 
-* **Wird es dem Benutzer einfach gemacht, die Software zu testen? Gibt es eine Virtuelle Maschine, einen Dockercontainer, einen Installer, andere Formen der Installierbarkeit ohne viel vorheriges Fachwissen?** Entwickler sind meist in der Lage, eine Software zu bauen und auszuführen. Allerdings will dieser Zeiteinsatz wohlbedacht sein. Tatsächlich werden Softwares, welche leicht installierbar und vor allem testbar sind, sowohl von Entwicklern die einen schnellen Einblick in die Funktionalität bekommen wollen, als auch von anderen Benutzern einen besseren Anklang finden als andere. Es liegt in der Natur der Sache, dass es hierbei, je nach Art der Anwendung, unterschiedliche Ausführungsformen gibt. Eine Webanwendung kann als Beispiel im Internet gehostet sein und dem Benutzer einen Testaccount zur Verfügung stellen (z.B. [CWRCWriter](https://cwrc.ca)), eine Desktop Anwendung kann bereits eine installierebare Anwendung oder ein Installerpaket mitliefern. Serveranwendungen können für einen Test als Images von virtuellen Maschinen oder - in letzter Zeit üblicher - als Dockerimages in Portalen wie [Dockerhub](https://hub.docker.com) für ein einfaches Testen hinterlegt werden.
-
->[AK] Das Thema Installation hatten wir weiter oben. In diesem Abschnitt soll es aber um Entwickler gehen. Daher bitte überarbeiten. Zudem insgesamt sehr umgangssprachlich formuliert
->[TH] Du hast Recht: Wir hatten das Thema Installation weiter oben. Mir geht es hier aber darum ob ich als Entwickler eine Software erweitern will. Was ich dafür machen muss ist mir sie erst einmal anzuschauen. Das geht auch für mich als Entwickler am besten wenn ich sie einfach bei mir installieren kann. Wenn das allerdings in stundenlange Recherchearbeit ausartet, dann schaue ich eher nach Alternativen für die Erweiterung einer Software als mich mit der aktuellen Software abzumühen.
-> [MT] Ich wäre dafür die Zusätzlichen Informationen zum Thema Installation oben zu integrieren. Hier könnte man dann einfach so etwas schreiben wie: "Ist der Installationsaufwand überschaubar?" Damit eine Softwareanwendung weiter entwickelt werden kann, muss ein Entwickler diese vorher installieren und testen. Wenn der Installationsaufwand jedoch unverhältnismäßig viel Zeit in Anspruch nimmt, könnte eine erfolgreiche Weiterentwicklung schon an dem Installationsschritt scheitern.
-
-
-* **Wird an der Software aktiv gearbeitet und sind deren Entwickler gut erreichbar? Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es *Contribution Guidelines*?** Oft stellt sich bei der Bedienung von Software heraus, dass Funktionalitäten fehlen oder Fehler im Programm vorhanden sind. Dies kann die Verwendung der Software für bestimmte Anwendungsfälle behindern oder deren Ergebnisse signifikant verschlechtern. In solchen Fällen ist die Verfügbarkeit der Entwickler und deren Rückmeldungen auf Supportanfragen ein entscheidendes Kriterium.
+* **Wird an der Software aktiv gearbeitet und sind deren Entwickler gut erreichbar?** Oft stellt sich bei der Bedienung von Software heraus, dass Funktionalitäten fehlen oder Fehler im Programm vorhanden sind. Dies kann die Verwendung der Software für bestimmte Anwendungsfälle behindern oder deren Ergebnisse signifikant verschlechtern. In solchen Fällen ist die Verfügbarkeit der Entwickler und deren Rückmeldungen auf Supportanfragen ein entscheidendes Kriterium.
 
 Es sollte eindeutig kommuniziert werden wie und wo Fehlerberichte eingereicht werden können und welche Informationen für eine rasche und präzise Bearbeitung erforderlich sind. Ob die Entwickler einen aktiven Austausch pflegen, kann man beispielsweise in dem Issue-Bereich des Softwarerepositoriums (z.B. GitHub oder GitLab) ablesen. Haben die Entwickler Anfragen dprt zeitnah und zufriedenstellend beantwortet? Wie ist das Verhältnis von offenen Issues zu bereits geschlossenen? Wie lange dauerte es bis eine Änderung eingepflegt wurde?
 
 Welche Änderungen demnächst für das Programm geplant sind und welche Issues für das nächste Release bearbeitet werden sollen, können Entwickler proaktiv in einer Roadmap kommunizieren. Damit Softwareentwickler die Software dann erweitern können, ist eine *Contribution Guideline* hilfreich. Sie enthält Angaben dazu, unter welchen Umständen und wie Änderungen an der Software von Dritten angenommen und integriert werden (siehe z.B. [hier](https://projectacrn.github.io/latest/developer-guides/contribute_guidelines.html)).
+
+Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für die weitere Entwicklung? Gibt es *Contribution Guidelines*?
+
+> [TODO] Die vorangehenden vier Absätze ab "Wird an der Software aktiv gearbeitet..." sollten neu gegliedert werden
 
 #### Qualität der Implementierung
 
@@ -311,25 +305,23 @@ Welche Änderungen demnächst für das Programm geplant sind und welche Issues f
 
 * **Wird *Continuous Integration* zur Absicherung der Implementierungsqualität verwendet?** Für einen Entwickler ist nicht nur das Vorhandensein und die Dokumentation des Quellcodes entscheidend, sondern er wird meistens auch einen Hinweis zur Funktionalität und Kompilierbarkeit des Quellcodes erwarten. *Continuous Integration* kann, wie schon in den vorherigen Abschnitten angesprochen, ein solches Qualitätsmerkmal darstellen. Der *Continuous Integration* Prozess überprüft die Kompilierbarkeit der Software nach jeder Änderung und kann diese am Repository mit einer Statusanzeige sichtbar machen. Es ist ein Zeichen von gut gewartetem Quellcode, wenn dieser in der aktuell vorliegenden Version und ggf. in der aktuellen Entwicklerversion kompiliert.
 
->[AK] Besser, wenn alles rund um CI aufeinander folgt?
->[MT] Vielleicht sollte CI einfach recht früh in diesem Bereich erwähnt werden. Z.B. gleich nach der Einleitung und noch zusätzlich angeben, dass CI auch weitere Aspekte beeinflusst. Evtl. lässt sich
-
-> [HM] Wieder eine Frage, die nur für Open Source relevant ist.
-
 ## Tabellen
 
+> [TODO] Tabelle muss "anmoderiert" werden
+
 **Software-Eckdatentabelle**
+
+Im folgenden stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang der Rezension genannt werden können und nicht unbedingt bewertet werden. Diese Tabelle kann z.B. noch um Hardwareforderungen ergänzt werden, wenn diese besonders relevant sind oder erläutern, in welchem Browser eine Webanwendung nutzbar ist.
+
+Hier folgt ein Beispiel für die bekannte GIS-Anwendung QGIS:
 
 - Name: Der Name der Software, z.B. "QGIS"
 - Kurzbeschreibung: Was die Software leistet, z.B. "Umfangreiches graphisches Werkzeug zur Raumdatenverarbeitung"
 - Rezensierte Version: Die Softwareversion, die für die Rezension genutzt wurde, z.B. "3.10.10 LTR"
-- Plattform: Betriebssysteme, auf denen die Software genutzt werden kann, z.B. "Windows, macOS, Linux, BSD, Android"
+- Plattform: (Betriebs)systeme, auf denen die Software genutzt werden kann, z.B. "Windows, macOS, Linux, BSD, Android"
 - Website: URL unter der weitere Informationen abgerufen werden können, z.B. "https://qgis.org"
 - Lizenzierung: Unter welcher Softwarelizenz wurde die Software veröffentlicht, z.B. "Open Source mit GNU General Public License (GPL)"
-
-> [MT] Ein- und Ausgabeformate fände ich noch ganz praktisch
-
-> für den Entwickler wäre ja eher so etwas relevant wie die Komplexität und Laufzeit in O-Notation, was irgendwo in einer Dokumentation der Software stehen sollte. Auch die benötigten Ressourcen (z.B. RAM) sind interessant. Laufzeittests für eine Software wären in einer Rezension nur interessant, wenn man mehrere vergleichbare Softwarepakete testet. Das mit dem responsiv gehört definitiv zur Nutzeroberfläche.
+- Ein- und Ausgabeformate: Welche Dateiformate die Software verarbeiten kann, z.B. "Geodatenbanken (SpatiaLite, PostGIS, MSSQL, ...), Web-Geodaten Dienste (WMD/WMTS, Vector Tiles, XYZ Tiles, WFS, ...), Geo-Vektordatenformate (ESRI Shapefile, Geopackage, ...), Geo-Rasterdatenformate (GeoTIFF, ...), Tabellendaten (CSV, TXT, ...) und weitere Datentypen." (für QGIS sind natürlich ungewöhnlich viele Datenformate zu beachten)
 
 ## Anmerkungen
 
