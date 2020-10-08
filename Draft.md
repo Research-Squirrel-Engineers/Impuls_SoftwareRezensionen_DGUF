@@ -17,6 +17,12 @@ author:
     affiliation: Deutsches Forum für Kunstgeschichte Paris
     orcid: 0000-0003-3697-9241
 
+  -
+    name: Hubert Mara
+    affiliation: mainzed & Hochschule Mainz
+    orcid: 0000-0002-2004-4153
+    bio: "Hubert Mara studierte Informatik an der Technischen Universität Wien. Dort befasste er sich bereits mit digitalen Methoden in der Archäologie zur Keramikanalyse. Im Anschluss war er Marie-Curie fellow an der Universität Florenz im Rahmen des *Cultural Heritage Informatics Research Oriented Network* (CHIRON). Er promovierte an der Universität Heidelberg im *Interdisziplinären Zentrum für Wissenschaftliches Rechnen* (IWR). Dort entstand das [*GigaMesh Software Framework*](https://gigamesh.eu) und das *Forensic Computational Geometry Laboratory* (FCGL). Seit Juni 2020 ist er Geschäftsführer des mainzed und wissenschaftlich am Institut für Raumbezogene Informations- und Messtechnik der Hochschule Mainz tätig."
+
   -  
     name: Clemens Schmid
     affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
@@ -62,15 +68,23 @@ keywords_en:
 
 ## Zielsetzung des Beitrags
 
-Ziel dieses Beitrags ist es, die Diskussion um Inhalte und Zielsetzungen von Rezensionen von Forschungssoftware in den Altertumswissenschaften anzuregen. Anstoß für unsere Überlegungen gab eine Diskussion von Kai-Christian Bruhn, Sophie Charlotte Schmidt und Frank Siegmund im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in den Archäologischen Informationen haben wir unsere Gedanken nun verschriftlicht.
+Ziel dieses Beitrags ist es, die Diskussion um Inhalte und Zielsetzungen von Rezensionen von Forschungssoftware und im Forschungsprozess eingesetzten digitalen Werkzeugen in den Altertumswissenschaften anzuregen. Anstoß für unsere Überlegungen gab eine Diskussion von Kai-Christian Bruhn, Sophie Charlotte Schmidt und Frank Siegmund im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven. Anlässlich der Einrichtung der neuen Rubrik für solche Besprechungen in den Archäologischen Informationen haben wir unsere Gedanken nun verschriftlicht.
 
-Die Beurteilung einer Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine Rezension umfassen sollte. Aus Redaktionsperspektive können zusätzlich konkrete Maßnahmen zur Qualitätssicherung ergriffen werden. Dazu gehören ausformulierte Hinweise zum Anfertigen von Rezensionen oder - wie es die Redaktion der Archäologischen Informationen praktiziert - Reviews von Rezensionen. Was sollte aber nun eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es allein um die digitale Operation, die die Software zur Lösung einer wissenschaftlichen Problemstellung beisteuert? Oder müssen Aspekte der Nutzbarkeit, der Nachhaltigkeit und Anschlussfähigkeit ebenfalls Beachtung finden? Welche Rolle spielen technische und rechtliche Aspekte, wie etwa die Dokumentation des Quellcodes oder Lizensierungsfragen, in der Besprechung? Und schließlich, stellt die Software vielleicht selbst einen wissenschaftlichen Beitrag dar? Was sind die Leistungen der Software-Entwickler, die eine Besprechung berücksichtigen sollte?
+In dieser Handreichung erläutern wir Kriterien, die eine gute Forschungssoftware ausmachen und für deren Bewertung von Bedeutung sein können. Außerdem empfehlen wir eine Vorgehensweise zur Softwarerezension.
 
-In diesem Beitrag empfehlen wir eine Vorgehensweise zur Softwarerezension und sammeln Kriterien, die für die Bewertung einer Software von Bedeutung sein können. Wir konzentrieren uns dabei bewusst auf Aspekte, die spezifisch für die Besprechung von Software sind. Dies bringt mit sich, dass die einer Rezension innewohnende, zentrale Fragestellung nach dem wissenschaftlichen Wert des Besprechungsgegenstands nur gestreift wird. Denn: An diesem Punkt stimmen die Anforderung an eine Besprechung einer traditionellen Publikation und Software letztlich überein. Weiterhin werden aufgrund der Vielfalt und Vielartigkeit von Software nicht alle von uns hier gesammelten Kriterien in jeder Rezension von Bedeutung sein. Es bleibt dem Rezensent überlassen, Aspekte auszuwählen und Schwerpunkte zu legen.
+Die Beurteilung einer Publikation ist eine traditionsreiche Form des wissenschaftlichen Diskurses. Entsprechend gibt es ein unausgesprochenes Verständnis davon, was eine Rezension umfassen sollte. Zusätzlich können konkrete Maßnahmen zur Qualitätssicherung ergriffen werden. Dazu gehören Hinweise zum Anfertigen von Rezensionen oder - wie es die Redaktion der Archäologischen Informationen praktiziert - Reviews von Rezensionen.
 
-Darüber hinaus erläutern wir auch einige generelle Kriterien für gute Forschungssoftware. Dabei folgen wir den Empfehlungen der Deutschen Forschungsgemeinschaft (DFG) und weisen auf sogenannte ["open standards"](http://xml.coverpages.org/openStandards.html) hin. Software greift im- und explizit tief in den Forschungsprozess ein (für die Archäologie siehe z.B. [@schmidt_marwick_2020](#schmidt_marwick_2020)) und nur durch die Offenlegung von Quellcode ist eine Bewertbarkeit der durch die Software geleisteten Abläufe wirklich gewährleistet.
+Was sollte eine gute Rezension von Software für den Einsatz in der Archäologie ausmachen? Geht es allein um die von einer Software ausgeführten Routinen, welche zur Lösung einer wissenschaftlichen Problemstellung beitragen? Oder müssen Aspekte der Nutzbarkeit, der Nachhaltigkeit und Interoperabilität ebenfalls Beachtung finden? Welche Rolle spielen technische und rechtliche Aspekte in der Besprechung, wie etwa die Dokumentation des Quellcodes oder die Lizensierung? Und schließlich: Stellt die Software vielleicht selbst einen wissenschaftlichen Beitrag dar? Welches sind die Leistungen der Software-Entwickler, die eine Besprechung berücksichtigen sollte? Welche Maßstäbe, die in den Empfehlungen der Deutschen Forschungsgemeinschaft (DFG) anklingen, sollte eine gute  Forschungssoftware erfüllen?.
 
-Die hier vorgestellten Überlegungen, Kriterien und Vorschläge sollen als Arbeitserleichterung dienen und bei der Erstellung einer Softwarebesprechung unterstützen. Der Beitrag ist als Impuls angelegt und wir wünschen uns Diskussionsbeiträge sowie Anregungen. Dazu können entweder die Autoren über die angegebenen Adressen kontaktiert werden oder direkt Diskussionsthemen (Issues) und gegebenfalls sogar Änderungsvorschläge (Pull Requests) hier [https://github.com/Research-Squirrel-Engineers/DGUF_Leitfaden](https://github.com/Research-Squirrel-Engineers/DGUF_Leitfaden) eingebracht werden.
+Die zentrale Fragestellung einer Rezension nach dem wissenschaftlichen Wert des Besprechungsgegenstands wird mit diesen Fragen nur gestreift. Denn in diesem Punkt stimmen die Anforderungen an eine Softwarerezension mit denen einer Textrezension überein. Weiterhin werden aufgrund der Vielfalt und Vielartigkeit von Software nicht alle von uns hier gesammelten Kriterien in jeder Rezension von Bedeutung sein. Es obliegt dem Rezensenten relevante Aspekte auszuwählen und Schwerpunkte zu legen.
+
+Dieser Beitrag ist als Impuls gedacht. Diskussionsbeiträge und Anregungen sind erwünscht. Dazu können die Autoren über die angegebenen Adressen kontaktiert werden oder Anmerkungen direkt auf GitHub unter [https://research-squirrel-engineers.github.io/DGUF_Leitfaden/](https://research-squirrel-engineers.github.io/DGUF_Leitfaden/) hinterlegt werden.
+
+> [MT] der folgende Absatz sollte weiter unten integriert und hier entfernt Werden
+> [MT] Satz kommt zu Forschungssoftware als Wiss. Leistung.
+
+Software greift im- und explizit tief in den Forschungsprozess ein (für die Archäologie siehe z.B. [@schmidt_marwick_2020](#schmidt_marwick_2020)) und nur durch die Offenlegung von Quellcode ist eine Bewertbarkeit der durch die Software geleisteten Abläufe wirklich gewährleistet.
+
 
 ## Forschungssoftware
 
@@ -93,7 +107,7 @@ Trotz der tragenden Rolle, die Forschungssoftware in vielen Projekten einnimmt, 
 
 Als ein wichtiger erster Schritt zur Sichtbarmachung wurde 2012 die Berufsbezeichnung des "Research Software Engineers" (RSE, RSEng) geprägt ([@hettrick_2017](#hettrick_2017) und [@baxter_2012](#baxter_2012)). Inzwischen hat sich eine aktive, interdisziplinäre Gemeinschaft gebildet, die Empfehlungen zum Umgang mit Forschungssoftware entwickelt ([@anzt_environment_2020](#anzt_environment_2020)). Nationale [RSE Sektionen](https://sorse.github.io/contact/chapters/) - in Deutschland der de-RSE e.V. - organisieren Konferenzen wie z.B. [SORSE](https://sorse.github.io). Im Rahmen des Aufbaus einer \`Nationalen Forschungsdateninfrastruktur (NFDI)\` nehmen Forschungssoftware und RSEs einen großen Stellenwert in der Weiterentwicklung der Forschungslandschaft und der Angebote der Forschungseinrichtungen in Deutschland ein ([@loeffler_nfdi4rse20](#loeffler_nfdi4rse20) und [@goedicke_nfdixcs20](#goedicke_nfdixcs20)).
 
-Eine der Forderungen des de-RSE e.V. ist, dass Forschungssoftware explizit mittels geeigneter Publikationsmodalitäten sichtbar wird. Einerseits erhöht eine Publikation die Auffindbarkeit und vermeidet so redundante Neuentwicklungen ([@anzt_environment_2020, 10](#anzt_environment_2020)). Andererseits ist die mit einer Publikation einhergehenden eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Softwareentwicklung an die entsprechenden Personen geknüpft wird. Dies ermöglicht eine akademische Laufbahn, wofür bislang jedoch oft nur klassische Textpublikationen gewertet wurden. Daher sollen zukünftig Datenpublikationen, Softwareentwicklung ([https://citation-file-format.github.io](https://citation-file-format.github.io), [https://doi.org/10.5281/zenodo.1003149](https://doi.org/10.5281/zenodo.1003149)), Annotationen, sowie deren Zitationen Kriterien der Beurteilung der wissenschaftlichen Leistung sein ([NFDI4Culture](https://nfdi4culture.de), [RSE4NFDI](https://www.rse4nfdi.de/de/index.html), [NFDI4Objects](https://www.nfdi4objects.net)). Hierbei sind technische Herausforderungen zu meistern, da Software selten entgültig abgeschlossen, oft auf bestehenden Modulen aubaut und mitunter von wechselnden Teams über Jahrzehnte betreut wird [@katz_software_2016](#katz_software_2016).
+Eine der Forderungen des de-RSE e.V. ist, dass Forschungssoftware explizit mittels geeigneter Publikationsmodalitäten sichtbar wird. Einerseits erhöht eine Publikation die Auffindbarkeit und vermeidet so redundante Neuentwicklungen ([@anzt_environment_2020, 10](#anzt_environment_2020)). Andererseits ist die mit einer Publikation einhergehenden eindeutige Autorenschaft von großer Bedeutung, da erst dadurch die Leistung der Softwareentwicklung an die entsprechenden Personen geknüpft wird. Dies ermöglicht eine akademische Laufbahn, wofür bislang jedoch oft nur klassische Textpublikationen gewertet wurden. Daher sollen zukünftig Datenpublikationen, Softwareentwicklung ([https://citation-file-format.github.io](https://citation-file-format.github.io),  [@druskat2017citation](#druskat2017citation)), Annotationen, sowie deren Zitationen Kriterien der Beurteilung der wissenschaftlichen Leistung sein ([NFDI4Culture](https://nfdi4culture.de), [RSE4NFDI](https://www.rse4nfdi.de/de/index.html), [NFDI4Objects](https://www.nfdi4objects.net)). Hierbei sind technische Herausforderungen zu meistern, da Software selten entgültig abgeschlossen, oft auf bestehenden Modulen aubaut und mitunter von wechselnden Teams über Jahrzehnte betreut wird [@katz_software_2016](#katz_software_2016).
 
 Eine offen verfügbare Software kann, ganz so wie in der bisherigen Praxis der altertumswissenschaftlichen Forschung, begutachtet werden. In einer Rezension kann diese dann einem breiteren Publikum vorgestellt werden. Durch eine dedizierte Rezension von Software analog zu Rezensionen wissenschaftlicher Publikationen, wird die wissenschaftliche Leistung der Autoren und Autorinnen von Forschungssoftware mittels gewohnten Formaten sichtbar und anerkannt. Gleichzeitig wird auch ihre Verantwortung und Teilhabe manifest.
 
@@ -144,10 +158,6 @@ In den Leitlinien der DFG werden in Leitlinie 2 und 10 ethische Aspekte im Forsc
 Privilegien und Ungleichheiten in der altertumswissenschaftlichen Forschung werden unbewusst auch in der Forschungssoftware fortgeschrieben: Für archäologische Feldarbeit wird beispielsweise oft Software zur Datenaufnahme eingesetzt, die für die Mehrheit der Mitarbeiter vor Ort aufgrund einer Sprachbarriere nicht verständlich ist. Eine Folge kann sein, dass diese Teammitglieder sich nicht weiter qualifizieren und anspruchsvollere Aufgaben übernehmen können. Proprietäre Software oder teure Hardware benachteiligt wiederum Forscher, die mit weniger Finanzmitteln auskommen müssen.
 
 In den Archäologien, wo häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten die indigenen und ortsansässigen Bevölkerungsgruppen die Möglichkeit zur Mitbestimmung über die Erforschung bekommen. Um diesem Ideal gerecht zu werden, eignet sich die Orientierung an den CARE-Prinzipien ([https://www.gida-global.org/care](https://www.gida-global.org/care)). Sie wurden von der [Global Indigenous Data Alliance (GIDA)](https://www.gida-global.org) und der [Research Data Alliance (RDA)](https://www.rd-alliance.org) 2018 auf Basis der [UN Declaration on the Rights of Indigenous Peoples (UNDRIP)](https://www.un.org/development/desa/indigenouspeoples/declaration-on-the-rights-of-indigenous-peoples.html) erarbeitet und konzentrieren sich wie die FAIR-Prinzipien explizit auf Forschungsdaten. Ihre vier Grundpfeiler Kollektiver Nutzen (Collective Benefit), Souveränität (Authority to Control), Verantwortung (Responsibility) und Ethik (Ethics) sind unserer Meinung nach ebenso auch für Forschungssoftware relevant.
-
-[AK] Stark gekürzt, eventuell kann hier als Beleg ergänzt werden: [https://www.bundestag.de/ausschuesse/weitere_gremien/enquete_ki#url=L2Rva3VtZW50ZS90ZXh0YXJjaGl2LzIwMTkva3cyMy1wYS1lbnF1ZXRlLWtpLTY0NDAxMA==&mod=mod569768].
-
-> [MT] schön kurz :) Den Satz mit dem Spielball habe ich noch entfernt, da polemisch
 
 
 ## Mögliche Vorgehensweise zur Rezension archäologischer Forschungssoftware
@@ -234,8 +244,7 @@ Gute Tutorials erläutern das benötigte Vorwissen und weisen auf Quellen zu des
 
 * **Wird die Software von einer Community getragen? Ist diese möglicherweise ganz oder teilweise altertumswissenschaftlich geprägt ?** Beispiele für Softwareentwicklung, die zunächst aus einer altertumswissenschaftlichen Community heraus betrieben wurde und sich inzwischen fachlich erweitert hat, sind [Pelagios Commons](https://pelagios.org/) und die Webanwendung [Recogito](https://recogito.pelagios.org/). Engagierte Nutzergruppen mit einem Fokus auf archäologische Fragestellungen haben sich auch z.B. innerhalb der Communities von Softwarepaketen wie QGIS oder R entwickelt.
 
-* **Gibt es Best Practices, Empfehlungen oder Publikationen aus dem archäologischen Bereich, welche auf die Software verweisen?** Während Foren, Blogs und verwandte Angebote direkten und oft auch raschen Austausch mit Nutzern und ggf. Entwicklern bieten, ist die Einbindung von Empfehlungen von bestimmten Programmen ein weiteres Indiz für deren Verbreitung, Umfang und Verlässlichkeit.
-
+* **Gibt es archäologische Best Practcies oder Publikationen die auf die rezensierte Software verweisen?** Während Foren, Blogs und verwandte Angebote direkten und oft auch raschen Austausch mit Nutzern und ggf. Entwicklern bieten, ist die Einbindung von Empfehlungen von bestimmten Programmen ein weiteres Indiz für deren Verbreitung, Umfang und Verlässichlichkeit.
 
 #### Dateningest, Interoperabilität und Schnittstellen
 
@@ -306,9 +315,7 @@ Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für d
 
 ## Software-Eckdatentabelle
 
-Im folgenden stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang der Rezension genannt werden können und nicht unbedingt bewertet werden. Diese Tabelle kann z.B. noch um Hardwareforderungen ergänzt werden, wenn diese besonders relevant sind oder erläutern, in welchem Browser eine Webanwendung nutzbar ist.
-
-Hier folgt ein Beispiel für die bekannte GIS-Anwendung QGIS:
+Im folgenden stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang der Rezension genannt werden können um einen schnellen Überblick über eine Software zu geben -- ähnlich wie in Buchrezensionen Titel, Verlag und ISBN wertneutral gelistet werden. Diese Tabelle kann ggf. auch um Hardwareforderungen ergänzt werden, wenn diese als besonders relevant empfunden werden. Als Beispiel haben wir die GIS-Anwendung QGIS gewählt.
 
 - Name: Der Name der Software, z.B. "QGIS"
 - Kurzbeschreibung: Was die Software leistet, z.B. "Umfangreiches graphisches Werkzeug zur Raumdatenverarbeitung"
@@ -317,6 +324,10 @@ Hier folgt ein Beispiel für die bekannte GIS-Anwendung QGIS:
 - Website: URL unter der weitere Informationen abgerufen werden können, z.B. "https://qgis.org"
 - Lizenzierung: Unter welcher Softwarelizenz wurde die Software veröffentlicht, z.B. "Open Source mit GNU General Public License (GPL)"
 - Ein- und Ausgabeformate: Welche Dateiformate die Software verarbeiten kann, z.B. "Geodatenbanken (SpatiaLite, PostGIS, MSSQL, ...), Web-Geodaten Dienste (WMD/WMTS, Vector Tiles, XYZ Tiles, WFS, ...), Geo-Vektordatenformate (ESRI Shapefile, Geopackage, ...), Geo-Rasterdatenformate (GeoTIFF, ...), Tabellendaten (CSV, TXT, ...) und weitere Datentypen." (für QGIS sind natürlich ungewöhnlich viele Datenformate zu beachten)
+
+## Ausblick
+
+Dieser Leitfaden entstand in einer Zeit, die von einem beschleunigten digitalem Wandel geprägt ist und sich unter anderem an den sich gerade formierenden *Nationale Forschungsdateninfrastruktur* (NFDI) der *Deutschen Forschungsgesellschaft* (DFG) zeigt. Während bei Daten bereits mehr Konsens und Erfahrung besteht, wurde die Diskussion zur Bewertung von Software in der Archäologie und ihrer Nachbardisziplinen gerade erst begonnen. Da zum Zeitpunkt unserer Diskussionen nur wenige Softwarerezensionen für archäologische Aufgaben vorlagen sind viele der Überlegung die hinter den Empfehlungen stehen von einer gewissen theoretischen Natur. Damit ist eine künftige Überarbeitung dieses Dokuments bei besserer Datenlagen eine abschließende Empfehlung.
 
 ## Anmerkungen
 
