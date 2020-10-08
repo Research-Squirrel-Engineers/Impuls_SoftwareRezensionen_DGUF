@@ -145,10 +145,6 @@ Privilegien und Ungleichheiten in der altertumswissenschaftlichen Forschung werd
 
 In den Archäologien, wo häufig an fremden Kulturen und Kulturhinterlassenschaften geforscht wird, sollten die indigenen und ortsansässigen Bevölkerungsgruppen die Möglichkeit zur Mitbestimmung über die Erforschung bekommen. Um diesem Ideal gerecht zu werden, eignet sich die Orientierung an den CARE-Prinzipien ([https://www.gida-global.org/care](https://www.gida-global.org/care)). Sie wurden von der [Global Indigenous Data Alliance (GIDA)](https://www.gida-global.org) und der [Research Data Alliance (RDA)](https://www.rd-alliance.org) 2018 auf Basis der [UN Declaration on the Rights of Indigenous Peoples (UNDRIP)](https://www.un.org/development/desa/indigenouspeoples/declaration-on-the-rights-of-indigenous-peoples.html) erarbeitet und konzentrieren sich wie die FAIR-Prinzipien explizit auf Forschungsdaten. Ihre vier Grundpfeiler Kollektiver Nutzen (Collective Benefit), Souveränität (Authority to Control), Verantwortung (Responsibility) und Ethik (Ethics) sind unserer Meinung nach ebenso auch für Forschungssoftware relevant.
 
-[AK] Stark gekürzt, eventuell kann hier als Beleg ergänzt werden: [https://www.bundestag.de/ausschuesse/weitere_gremien/enquete_ki#url=L2Rva3VtZW50ZS90ZXh0YXJjaGl2LzIwMTkva3cyMy1wYS1lbnF1ZXRlLWtpLTY0NDAxMA==&mod=mod569768].
-
-> [MT] schön kurz :) Den Satz mit dem Spielball habe ich noch entfernt, da polemisch
-
 
 ## Mögliche Vorgehensweise zur Rezension archäologischer Forschungssoftware
 
@@ -240,9 +236,9 @@ Neben Hilfefunktionen und Tutorials ist es von großer Bedeutung, ob die Softwar
 
 >[TH] Best Practices sind hier für mich konkrete Anwendungsfälle in denen die Software für die Lösung einer Aufgabe verwendet wurde. Das kann ein Paper sein welches das beschreibt, könnte auch ein Tutorial sein oder eine Handlungsanweisung einer Organisation die sich dafür zuständig fühlt.
 
->[HM] Ich würde die Frage umdrehen: 
+>[HM] Ich würde die Frage umdrehen:
 
-* **Gibt es archäologische Best Practcies oder Publikationen die auf die rezensierte Software verweisen?** Während Foren, Blogs und verwandte Angebote direkten und oft auch raschen Austausch mit Nutzern und ggf. Entwicklern bieten, ist die Einbindung von Empfehlungen von bestimmten Programmen ein weiteres Indiz für deren Verbreitung, Umfang und Verlässichlichkeit. 
+* **Gibt es archäologische Best Practcies oder Publikationen die auf die rezensierte Software verweisen?** Während Foren, Blogs und verwandte Angebote direkten und oft auch raschen Austausch mit Nutzern und ggf. Entwicklern bieten, ist die Einbindung von Empfehlungen von bestimmten Programmen ein weiteres Indiz für deren Verbreitung, Umfang und Verlässichlichkeit.
 
 #### Dateningest, Interoperabilität und Schnittstellen
 
