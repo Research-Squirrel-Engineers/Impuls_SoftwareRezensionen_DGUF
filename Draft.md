@@ -324,7 +324,7 @@ Im folgenden stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang
 - Plattform: (Betriebs)systeme, auf denen die Software genutzt werden kann, z.B. "Windows, macOS, Linux, BSD, Android"
 - Website: URL unter der weitere Informationen abgerufen werden können, z.B. "https://qgis.org"
 - Lizenzierung: Unter welcher Softwarelizenz wurde die Software veröffentlicht, z.B. "Open Source mit GNU General Public License (GPL)"
-- Ein- und Ausgabeformate: Welche Dateiformate die Software verarbeiten kann, z.B. "Geodatenbanken (SpatiaLite, PostGIS, MSSQL, ...), Web-Geodaten Dienste (WMD/WMTS, Vector Tiles, XYZ Tiles, WFS, ...), Geo-Vektordatenformate (ESRI Shapefile, Geopackage, ...), Geo-Rasterdatenformate (GeoTIFF, ...), Tabellendaten (CSV, TXT, ...) und weitere Datentypen." (für QGIS sind natürlich ungewöhnlich viele Datenformate zu beachten)
+- Ein- und Ausgabeformate: Welche Dateiformate die Software verarbeiten kann, z.B. "Geodatenbanken (SpatiaLite, PostGIS, MSSQL, ...), Web-Geodaten Dienste (WMD/WMTS, Vector Tiles, XYZ Tiles, WFS, ...), Geo-Vektordatenformate (ESRI Shapefile, Geopackage, ...), Geo-Rasterdatenformate (GeoTIFF, ...), Tabellendaten (CSV, TXT, ...) und weitere Datentypen." (für QGIS sind ungewöhnlich viele Datenformate zu beachten, die in einem Beispiel den Rahmen sprengen würden)
 
 ## Ausblick
 
