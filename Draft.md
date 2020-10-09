@@ -77,11 +77,6 @@ Die zentrale Fragestellung einer Rezension nach dem wissenschaftlichen Wert des 
 
 Dieser Beitrag ist als Impuls gedacht. Diskussionsbeiträge und Anregungen sind erwünscht. Dazu können die Autoren über die angegebenen Adressen kontaktiert werden oder Anmerkungen direkt auf GitHub unter [https://research-squirrel-engineers.github.io/DGUF_Leitfaden/](https://research-squirrel-engineers.github.io/DGUF_Leitfaden/) hinterlegt werden.
 
-> [MT] der folgende Absatz sollte weiter unten integriert und hier entfernt Werden
-> [MT] Satz kommt zu Forschungssoftware als Wiss. Leistung.
-
-Software greift im- und explizit tief in den Forschungsprozess ein (für die Archäologie siehe z.B. [@schmidt_marwick_2020](#schmidt_marwick_2020)) und nur durch die Offenlegung von Quellcode ist eine Bewertbarkeit der durch die Software geleisteten Abläufe wirklich gewährleistet.
-
 
 ## Forschungssoftware
 
@@ -98,7 +93,7 @@ Forschungssoftware ist in besonderer Weise Herausforderungen nachhaltiger Entwic
 
 ### Forschungssoftware als wissenschaftliche Leistung
 
-In der modernen Forschung ist ein Arbeiten ohne digitale Werkzeuge undenkbar. Dies trifft auch auf die historische und altertumswissenschaftliche Forschung zu. Mit dem Aufschwung der Digital Humanities wird Software zunehmend ein wichtiger Bestandteil des Forschungsprozesses.
+In der modernen Forschung ist ein Arbeiten ohne digitale Werkzeuge undenkbar. Dies trifft auch auf die historische und altertumswissenschaftliche Forschung zu. Mit dem Aufschwung der Digital Humanities wird Software zunehmend ein wichtiger Bestandteil des Forschungsprozesses. Software greift im- und explizit tief in den Forschungsprozess ein (für die Archäologie siehe z.B. [@schmidt_marwick_2020](#schmidt_marwick_2020)) und nur durch die Offenlegung von Quellcode ist eine Bewertbarkeit der durch die Software geleisteten Abläufe wirklich gewährleistet.
 
 Trotz der tragenden Rolle, die Forschungssoftware in vielen Projekten einnimmt, wird die Leistung jener Personen, die hinter der Entwicklung und Programmierung stehen, akademisch oft nicht ausreichend anerkannt ([@hettrick_2017](#hettrick_2017), [@scheliga_pampel_2017](#scheliga_pampel_2017) und [@katerbow_2018](#katerbow_2018)). Das wird der Tatsache nicht gerecht, dass für die Entwicklung von Forschungssoftware wissenschaftliche Expertise und darüber hinaus fortgeschrittene technische Kompetenz erforderlich sind. Durch die Umsetzung in Code wird Praxis und Wissen explizit manifestiert und weiterentwickelt. Wir argumentieren, dass diese Leistungen gewürdigt und sichtbar gemacht werden müssen, zumal der wissenschaftliche Durchbruch häufig erst durch die Software ermöglicht wird ([@scheliga_pampel_2017](#scheliga_pampel_2017), [@katerbow_2018](#katerbow_2018) sowie [@helmholtz_web](#helmholtz_web)).
 
