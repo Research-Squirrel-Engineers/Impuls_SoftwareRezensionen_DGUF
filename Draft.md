@@ -32,6 +32,7 @@ author:
     name: Sophie Charlotte Schmidt
     affiliation: Deutsches Archäologisches Institut
     orcid: 0000-0003-4696-2101
+    bio: Sophie C. Schmidt studierte Altertumswissenschaften und Prähistorische Archäologie an der Freien Universität Berlin. Sie schloss das Studium mit einer geostatistisch ausgerichteten Masterarbeit ab. Im Anschluss arbeitete als Wissenschaftliche Mitarbeiterin im Bereich Archäoinformatik an der Universität Köln und Bonn und ist derzeit Koordinatorin bei NFDI4Objects am Deutschen Archäologschen Institut.
   -
     name: Florian Thiery
     affiliation: Research Squirrel Engineers
@@ -328,7 +329,7 @@ Im folgenden stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang
 
 ## Ausblick
 
-Dieser Leitfaden entstand in einer Zeit, die von einem beschleunigten digitalem Wandel geprägt ist und sich unter anderem an den sich gerade formierenden *Nationale Forschungsdateninfrastruktur* (NFDI) der *Deutschen Forschungsgesellschaft* (DFG) zeigt. Während bei Daten bereits mehr Konsens und Erfahrung besteht, wurde die Diskussion zur Bewertung von Software in der Archäologie und ihrer Nachbardisziplinen gerade erst begonnen. Da zum Zeitpunkt unserer Diskussionen nur wenige Softwarerezensionen für archäologische Aufgaben vorlagen sind viele der Überlegung die hinter den Empfehlungen stehen von einer gewissen theoretischen Natur. Damit ist eine künftige Überarbeitung dieses Dokuments bei besserer Datenlagen eine abschließende Empfehlung.
+Dieser Leitfaden entstand in einer Zeit, die von einem beschleunigten digitalem Wandel geprägt ist und sich unter anderem an den sich gerade formierenden *Nationale Forschungsdateninfrastruktur* (NFDI) der *Deutschen Forschungsgesellschaft* (DFG) zeigt. Während bei Daten bereits mehr Konsens und Erfahrung besteht, wurde die Diskussion zur Bewertung von Software in der Archäologie und ihrer Nachbardisziplinen gerade erst begonnen. Da zum Zeitpunkt unserer Diskussionen nur wenige Softwarerezensionen für archäologische Aufgaben vorlagen, sind viele der Überlegung die hinter den Empfehlungen stehen von einer gewissen theoretischen Natur. Damit ist eine künftige Überarbeitung dieses Dokuments bei besserer Datenlagen eine abschließende Empfehlung.
 
 ## Anmerkungen
 
