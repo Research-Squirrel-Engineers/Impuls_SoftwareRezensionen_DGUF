@@ -16,6 +16,7 @@ author:
     name: Anne Klammt
     affiliation: Deutsches Forum für Kunstgeschichte Paris
     orcid: 0000-0003-3697-9241
+    bio:"TODO"
 
   -
     name: Hubert Mara
@@ -32,7 +33,7 @@ author:
     name: Sophie Charlotte Schmidt
     affiliation: Deutsches Archäologisches Institut
     orcid: 0000-0003-4696-2101
-    bio: Sophie C. Schmidt studierte Altertumswissenschaften und Prähistorische Archäologie an der Freien Universität Berlin. Sie schloss das Studium mit einer geostatistisch ausgerichteten Masterarbeit ab. Im Anschluss arbeitete als Wissenschaftliche Mitarbeiterin im Bereich Archäoinformatik an der Universität Köln und Bonn und ist derzeit Koordinatorin bei NFDI4Objects am Deutschen Archäologschen Institut.
+    bio: "Sophie C. Schmidt studierte Altertumswissenschaften und Prähistorische Archäologie an der Freien Universität Berlin. Im Anschluss arbeitete sie als Wissenschaftliche Mitarbeiterin im Bereich Archäoinformatik an den Universitäten Köln und Bonn und derzeit bei dem Konsortialprojekt NFDI4Objects am Deutschen Archäologischen Institut."
   -
     name: Florian Thiery
     affiliation: Research Squirrel Engineers
