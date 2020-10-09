@@ -164,7 +164,7 @@ Für Software gehören zu den Eckdaten u. a. Angaben zur Version, zu den Entwick
 
 Mit Kontext sind eine Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen gemeint. Für die kritische Beurteilung aus verschiedenen Blickwinkeln folgt weiter unten ein Fragenkatalog. Die Ergebnisse der Begutachtung sollten in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
 
-Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung von Dokumentation und Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die heterogene Leserschaft. Es ist eine wichtige Information, ob die Rezension rein aus Sicht eines Anwenders oder auch eines Entwicklers geschrieben wurde.
+Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung von Dokumentation und Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die heterogene Leserschaft. Es ist eine wichtige Information, ob die Rezension rein aus Sicht eines Anwenders oder auch eines Entwicklers geschrieben wurde. 
 
 > [MT] Hinweis an Rezensenten, dass die Testumgebung auf der die Software getestet wurde, angegeben werden soll. Z.B. RAM, Prozessor, Grafikkarte, Bandbreite, Betriebssystem
 
@@ -199,6 +199,8 @@ Die Bedienbarkeit von Forschungssoftware ist von zentraler Bedeutung, da sie als
 Die folgenden Fragen nehmen Bezug auf technische Merkmale, welche die Nutzererfahrung (User Experience, UX) beeinflussen. Weitere technische Merkmale aus der Entwicklerperspektive betrachten wir weiter unten.
 
 #### Installation
+
+Die Installation ist häufig der erste Schritt in der Bedienung der Software. Schon an dieser Stelle können Punkte auffallen und/oder für die Leser einer Rezension von Bedeutung sein.
 
 * **Wie funktioniert die Installation und wo wird die Software vorgehalten?** Je einfacher die Installation einer Software ist, desto größer ist ihr potentieller Nutzerkreis. Die Vielseitigkeit von Computersystemen macht es aus Entwicklersicht oft schwer, eine einfache Installation für alle Nutzer zu gewährleisten. Für die Rezension kann geprüft werden, ob ein Installationsskript, -wizard oder -paket bereitsteht. Gegebenenfalls ist die Software nur als Quellcode verfügbar, der zunächst selbst kompiliert werden muss. Installationsskripte oder -pakete ermöglichen einen viel breiteren Anwenderkreis, während das Kompilieren es geübten Nutzern erlaubt die Installation auf verschiedenen Endgeräten durchzuführen. Wenn die Software für die Rezension selbst installiert wird, können konkrete Probleme und Schwachstellen beim Installationsprozess erkannt und in der Rezension dokumentiert werden.
 
