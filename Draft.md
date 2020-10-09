@@ -164,9 +164,8 @@ Für Software gehören zu den Eckdaten u. a. Angaben zur Version, zu den Entwick
 
 Mit Kontext sind eine Einordnung in das archäologische Forschungsfeld und Angaben zum möglichen Zusammenhang mit Forschungsprojekten, Arbeitsgruppen oder Institutionen gemeint. Für die kritische Beurteilung aus verschiedenen Blickwinkeln folgt weiter unten ein Fragenkatalog. Die Ergebnisse der Begutachtung sollten in einer Stellungnahme zusammengefasst werden, die die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den Idealen guter Forschungssoftware (z.B. FAIR und CARE), beurteilt.
 
-Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung von Dokumentation und Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die heterogene Leserschaft. Es ist eine wichtige Information, ob die Rezension rein aus Sicht eines Anwenders oder auch eines Entwicklers geschrieben wurde. 
+Selbstverständlich setzt die Rezension einer Forschungssoftware die Sichtung von Dokumentation und Publikationen ebenso voraus, wie die praktische Erprobung der Software selbst. Dabei ist eine realistische und transparente Einschätzung der eigenen Kompetenzen und des eigenen Nutzungsinteresses ein wichtiger Anhaltspunkt für die heterogene Leserschaft. Es ist eine wichtige Information, ob die Rezension rein aus Sicht eines Anwenders oder auch eines Entwicklers geschrieben wurde. In manchen Fällen können Hinweise auf die Testumgebung von Bedeutung sein, wie z. B. zu RAM, Prozessor, Grafikkarte, Bandbreite und Betriebssystem des vom Rezensenten genutzten Computers, da diese die Arbeit des Programms beeinflussen können.
 
-> [MT] Hinweis an Rezensenten, dass die Testumgebung auf der die Software getestet wurde, angegeben werden soll. Z.B. RAM, Prozessor, Grafikkarte, Bandbreite, Betriebssystem
 
 ## Fragenkatalog zur Beurteilung von Software
 
