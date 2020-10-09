@@ -15,7 +15,7 @@ author:
     name: Anne Klammt
     affiliation: Deutsches Forum für Kunstgeschichte Paris
     orcid: 0000-0003-3697-9241
-    bio: "TODO"
+    bio: "Die Archäologin Anne Klammt hat über ein landschaftsarchäologisches Thema promoviert und ist seit 2020 als Forschungsleiterin für die Weiterentwicklung der Digitalen Kunstgeschichte am Deutschen Forum für Kunstgeschichte Paris verantwortlich."
   -
     name: Hubert Mara
     affiliation: mainzed & Hochschule Mainz
