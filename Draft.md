@@ -35,7 +35,7 @@ author:
     name: Florian Thiery
     affiliation: Research Squirrel Engineers
     orcid: 0000-0002-3246-3531
-    bio: "TODO"
+    bio: "Florian Thiery ist studierter Geodät und Research Software Engineer (RSE) im Arbeitsbereich *Wissenschaftliche IT* am Römisch-Germanischen Zentralmuseum in Mainz. Er ist Initiator der *Research Squirrel Engineers*, einer Initiative für Communityprojekte mit Fokus auf freie und offene Daten, Linked Open Data und Digital Humanities. Im Rahmen eines Stipendiums des *Wikimeda Fellow-Programm Freies Wissen* beschäftigt er sich mit der Modellierung von irischen ᚑᚌᚆᚐᚋ (Ogham) Steinen und deren Publikation im Wikimedia Universum."
   -
     name: Martina Trognitz
     affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
