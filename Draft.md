@@ -305,6 +305,8 @@ Wird die Software regelmäßig mit Updates versorgt? Gibt es eine Roadmap für d
 
 #### Qualität der Implementierung
 
+Die Qualität der Implementierung beeinflusst, ob und wie sehr sich das Programm zur Anpassung und Weiterentwicklung eignet und damit auch, wie langlebig es vermutlich sein wird. 
+
 * **Entspricht die Implementierung dem Stand der Technik?** Diese Frage muss meist anwendungsbezogen beantwortet werden und verlangt ein technisches Verständnis der Abläufe innerhalb der Anwendung. Einige Aspekte können ohne Fachwissen bewertet werden:
   * Ist die Anwendung auf vielen verschiedenen Endgeräten bedienbar? (z.B. Handy, verschiedene Betriebssysteme usw.)
   * Werden keine veralteten Technologien verwendet, wie etwa Adobe Flash, Java Applets bei Webanwendungen?
