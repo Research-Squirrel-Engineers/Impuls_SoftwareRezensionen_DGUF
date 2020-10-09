@@ -11,19 +11,16 @@ author:
     affiliation: Hochschule Mainz
     orcid: 0000-0002-9499-5840
     bio: "Timo Homburg studierte Informatik mit den Schwerpunkten Computerlinguistik (Assyrologie), Semantic Web und Sinologie. In den letzten Jahren arbeitete er im Bereich der GIS Anwendungen in der Geoinformatik. Seine Doktorarbeit beschäftigt sich mit der besseren Integration von Geodaten in ein Semantic Web Umfeld. Sein aktuelles Forschungsvorhaben beschäftigt sich mit der Schaffung digitaler Standards im Bereich Assyrologie und der Best Practice Dokumentation von Ausgrabungen mit Keilschrifttexten - eine Erweiterung seiner Publikationen zum Thema Keilschrift in den Digital Humanities."
-
   -
     name: Anne Klammt
     affiliation: Deutsches Forum für Kunstgeschichte Paris
     orcid: 0000-0003-3697-9241
-    bio:"TODO"
-
+    bio: "TODO"
   -
     name: Hubert Mara
     affiliation: mainzed & Hochschule Mainz
     orcid: 0000-0002-2004-4153
     bio: "Hubert Mara studierte Informatik an der Technischen Universität Wien. Dort befasste er sich bereits mit digitalen Methoden in der Archäologie zur Keramikanalyse. Im Anschluss war er Marie-Curie fellow an der Universität Florenz im Rahmen des *Cultural Heritage Informatics Research Oriented Network* (CHIRON). Er promovierte an der Universität Heidelberg im *Interdisziplinären Zentrum für Wissenschaftliches Rechnen* (IWR). Dort entstand das [*GigaMesh Software Framework*](https://gigamesh.eu) und das *Forensic Computational Geometry Laboratory* (FCGL). Seit Juni 2020 ist er Geschäftsführer des mainzed und wissenschaftlich am Institut für Raumbezogene Informations- und Messtechnik der Hochschule Mainz tätig."
-
   -  
     name: Clemens Schmid
     affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
