@@ -1,5 +1,6 @@
-# DGUF_Leitfaden
-Repo zum gemeinsamen Schreiben des Leitfadens
+# DGUF_AspekteSoftwareRezension
+
+Repo zum gemeinsamen Schreiben von Aspekten zu Softwarerezensionen
 
 [Zum Draft](Draft.md)
 
