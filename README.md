@@ -1,7 +1,7 @@
-# DGUF_AspekteSoftwareRezension
+# Impuls_SoftwareRezensionen_DGUF
 
-Repo zum gemeinsamen Schreiben von Aspekten zu Softwarerezensionen
+Repository zum Impuls für Software Rezensionen
 
 [Zum Draft](Draft.md)
 
-[Zur Webseite](https://research-squirrel-engineers.github.io/DGUF_Leitfaden/)
+[Zur Webseite](https://research-squirrel-engineers.github.io/Impuls_SoftwareRezensionen_DGUF/Draft.html)
