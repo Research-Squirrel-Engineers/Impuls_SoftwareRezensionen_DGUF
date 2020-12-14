@@ -66,7 +66,7 @@ keywords_en:
 
 ## Zielsetzung des Beitrags
 
-Ziel dieses Beitrags ist es, die Diskussion um Inhalte und Zielsetzungen von Forschungssoftwarerezensionen und im Forschungsprozess eingesetzter digitaler Werkzeuge in den Archäologien und den Altertumswissenschaften anzuregen. Anstoß für unsere Überlegungen gab eine Diskussion von Kai-Christian Bruhn, Sophie Charlotte Schmidt und Frank Siegmund im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven. Anlässlich der Einrichtung der neuen Rubrik „Archäoinformatik“ für solche Besprechungen in den Archäologischen Informationen haben wir unsere Gedanken nun verschriftlicht.
+Ziel dieses Beitrags ist es, die Diskussion um Inhalte und Zielsetzungen von Forschungssoftwarerezensionen und im Forschungsprozess eingesetzter digitaler Werkzeuge in den Archäologien und den Altertumswissenschaften anzuregen. Anstoß für unsere Überlegungen gab eine Diskussion von Kai-Christian Bruhn, Sophie Charlotte Schmidt und Frank Siegmund im Plenum des 9. Workshops der deutschen Sektion der CAA 2019 in Wilhelmshaven. Anlässlich der Einrichtung der neuen Rubrik „Archäoinformatik“ für solche Besprechungen in den Archäologischen Informationen haben wir unsere Gedanken nun verschriftlicht. Die wenigen zum Zeitpunkt unserer Diskussion vorliegenden einschlägigen Softwarrezensionen (insb. in der Zeitschrift *Internet Archaeology*) erscheinen nicht umfassend genug.
 
 In dieser Handreichung erläutern wir Kriterien und Prinzipien, die eine gute Forschungssoftware ausmachen und für deren Bewertung von Bedeutung sein können. Außerdem empfehlen wir eine Vorgehensweise zur Softwarerezension und stellen einen Fragenkatalog zu deren kritischen Beurteilung vor.
 
@@ -320,11 +320,9 @@ Im Folgenden stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang
 - Lizenzierung: Unter welcher Softwarelizenz wurde die Software veröffentlicht, z. B. "Open Source mit GNU General Public License (GPL)".
 - Ein- und Ausgabeformate: Welche Dateiformate die Software verarbeiten kann, z. B. "Geodatenbanken" (SpatiaLite, PostGIS, MSSQL, ...), "Web-Geodaten Dienste" (WMD/WMTS, Vector Tiles, XYZ Tiles, WFS, ...),"Geo-Vektordatenformate" (ESRI Shapefile, Geopackage, ...), "Geo-Rasterdatenformate" (GeoTIFF, ...), "Tabellendaten" (CSV, TXT, ...) und weitere Datentypen (für QGIS sind ungewöhnlich viele Datenformate zu beachten, die hier den Rahmen sprengen würden).
 
-## Ausblick
+## Wie geht es weiter?
 
-Dieser Impuls entsteht in einer Zeit, die von einem beschleunigten digitalen Wandel geprägt ist und sich unter anderem an der sich gerade formierenden *Nationalen Forschungsdateninfrastruktur* (NFDI) der *Deutschen Forschungsgesellschaft* (DFG) zeigt. Während bei ähnlichen Themen in Bezug auf Daten bereits mehr Konsens und Erfahrung besteht, wurde die Diskussion zur Bewertung von Software in der Archäologie und ihren Nachbardisziplinen gerade erst begonnen. Die wenigen zum Zeitpunkt unserer Diskussion vorliegenden Softwarerezensionen für archäologische Aufgaben (insb. in der Zeitschrift *Internet Archaeology*) besprechen einige der hier genannten Punkte, sind jedoch weniger umfassend.
-
-Die Überlegungen hier sind von einer gewissen theoretischen Natur, da sich noch kein Konsens über Software- Rezensionen in der Archäologie gebildet hat. Wie einleitend bemerkt, sind Diskussionsbeiträge und Anregungen erwünscht, anhand derer eine künftige Überarbeitung dieses Dokuments möglich wird.
+Die Diskussion über die Bewertung von Software in der Archäologie und ihren Nachbardisziplinen wurde gerade erst begonnen. Ein Konsens wurde noch nicht gefunden. Unsere hier vorgestellten Überlegungen und der Fragenkatalog sollen konkret als Impuls zur Etablierung eines Konsens verstanden werden. Wie anfangs angemerkt, sind Stellungnahmen erwünscht.
 
 ## Anmerkungen
 
