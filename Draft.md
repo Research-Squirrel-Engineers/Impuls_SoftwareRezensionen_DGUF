@@ -312,7 +312,7 @@ Im Folgenden stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang
 
 ## Wie geht es weiter?
 
-Die Diskussion über die Bewertung von Forschungssoftware in der Archäologie und ihren Nachbardisziplinen hat gerade erst begonnen. Ein Konsens konnte daher noch nicht gefunden werden. Unsere hier vorgestellten Überlegungen und der Fragenkatalog sollen daher konkret als Impuls zur Etablierung eines Konsens verstanden werden. Wie anfangs angemerkt, sind Stellungnahmen verschiedenster Perspektiven und Disziplinen per GitHub oder E-Mail erwünscht. Das Dokument soll als *nicht in Stein gemeißelt* und *lebendes Dokument* angesehen werden, das in der Zukunft von verschiedensten RSEs fortgeschrieben werden wird.
+Die Diskussion über die Bewertung von Forschungssoftware in der Archäologie und ihren Nachbardisziplinen hat gerade erst begonnen und es wurde bisher kein Konsens erarbeitet. Unsere hier vorgestellten Überlegungen und der Fragenkatalog sollen daher konkret als Diskussionsanstoß und Impuls zur Etablierung eines gemeinsamen Verständnisses der Anforderungen an eine Software-Rezension verstanden werden. Wie eingangs angemerkt, werden Stellungnahmen aus verschiedensten Perspektiven und Disziplinen per GitHub oder E-Mail erbeten. Der Katalog soll daher mitnichten als in Stein gemeißelt verstanden, sondern soll in Zukunft von Archäologen und Research Software Engineers modifiziert und fortgeschrieben werden.
 
 ## Anmerkungen
 
