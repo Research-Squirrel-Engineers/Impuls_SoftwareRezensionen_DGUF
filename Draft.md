@@ -150,7 +150,7 @@ Für die kritische Beurteilung von Forschungssoftware aus verschiedenen Blickwin
 
 Die Ergebnisse der Begutachtung sollten in einer Stellungnahme zusammengefasst werden, welche die Software hinsichtlich ihrer Nützlichkeit, ihrer Bedienbarkeit, ihrer handwerklichen Qualität und ihrer Position in Relation zu den bereits Angesprochenen Idealen guter Forschungssoftware beurteilt.
 
-Der im Anschluss vorgestellte Fragenkatalog ist umfangreich und muss auch nicht in allen Einzelheiten abgearbeitet werden. Er zeigt jedoch zum Einen auf, dass die Entwicklung von Forschungssoftware durchaus als wissenschaftliche Leistung gewertet werden kann. Zum Anderen dient er als Anstoß dazu die eigenen Kompetenzen für die Rezension von Forschungssoftware zu überdenken und die Evaluierung gegebenenfalls in einem Team durchzuführen. Denn so wie Rezensionen von herkömmlichen Publikationen im Idealfall von mit dem Thema betrauten Experten erstellt werden, sollte dies auch für Forschungssoftwarerezensionen gelten.
+Der im Anschluss vorgestellte Fragenkatalog ist umfangreich und muss auch nicht in allen Einzelheiten abgearbeitet werden. Seine Komplexität und Tiefe ist ein guter Indikator dafür, dass die Entwicklung von Forschungssoftware eine vollwertige, wissenschaftliche Tätigkeit sein kann. Wir raten die eigenen Kompetenzen für die Rezension kritisch zu reflektieren und die Evaluierung gegebenenfalls in einem Team durchzuführen. Denn so wie Rezensionen von herkömmlichen Publikationen im Idealfall von mit dem Thema betrauten Experten erstellt werden, sollte dies auch für Forschungssoftwarerezensionen gelten.
 
 ## Fragenkatalog zur Beurteilung von Software
 
