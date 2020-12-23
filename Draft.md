@@ -259,9 +259,9 @@ Die folgenden Fragen fokussieren sich auf den Programmcode und die Softwarearchi
 Eine umfangreiche Dokumentation bietet ein umfassendes Verständnis der Intention, der Ausgereiftheit und des aktuellen Entwicklungsstands der Software. Sie ist zudem essenziell, um die Software zu erweitern. Eine solide Dokumentation wird schließlich auch eine größere Community von potenziellen Entwicklern ansprechen.
 
 Man unterscheidet mehrere Bestandteile der Dokumentation und zwar die Dokumentation:
-* *des Quellcodes*, d. h. von Klassen oder einzelnen Methoden,
-* *des Build-Prozesses*, d. h. wie die Software aus dem Quellcode erzeugt wird,
-* des *Softwaretestprozesses*, d. h. welche Testfälle von der Software berücksichtigt wurden
+* des *Quellcodes*, d. h. von Klassen oder einzelnen Methoden,
+* des *Build-Prozesses*, d. h. wie die Software aus dem Quellcode erzeugt wird,
+* des *Softwaretestprozesses*, d. h. welche Testfälle von der Software berücksichtigt wurden.
 
 Schließlich gibt es eine *Entwicklerdokumentation* mit Benutzungsbeispielen.
 
