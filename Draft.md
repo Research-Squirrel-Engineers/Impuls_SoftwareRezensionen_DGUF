@@ -298,7 +298,7 @@ Die Qualität der Implementierung beeinflusst, ob und wie sehr sich das Programm
 
 ## Software-Eckdatentabelle
 
-Im der Tabelle stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang einer Rezension genannt werden können, um einen schnellen Überblick über eine Software zu geben, ähnlich wie in Buchrezensionen Titel, Verlag und ISBN wertneutral gelistet werden. Diese Tabelle kann ggf. auch um Hardwareanforderungen ergänzt werden, wenn diese als besonders relevant empfunden werden. Als Beispiel haben wir die GIS-Anwendung *QGIS* gewählt.
+In der Tabelle stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang einer Rezension genannt werden können, um einen schnellen Überblick über eine Software zu geben, ähnlich wie in Buchrezensionen Titel, Verlag und ISBN wertneutral gelistet werden. Diese Tabelle kann ggf. auch um Hardwareanforderungen ergänzt werden, wenn diese als besonders relevant empfunden werden. Als Beispiel haben wir die GIS-Anwendung *QGIS* gewählt.
 
 - Name: Der Name der Software, z. B. "QGIS".
 - Kurzbeschreibung: Angabe dessen, was die Software leistet, z. B. "Umfangreiches graphisches Werkzeug zur Raumdatenverarbeitung".
