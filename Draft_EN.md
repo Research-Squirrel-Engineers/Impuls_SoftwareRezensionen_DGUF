@@ -420,11 +420,11 @@ For use in university research and teaching, the question of data protection oft
 
 > Anwendungsentwickler sind zwar auch Nutzer einer Software, haben jedoch wegen zusätzlicher Interessen und weiterer Anwendungsszenarien einen anderen Blick auf Software. Eine gute Zusammenfassung der Entwicklerperspektive auf die Softwarequalität bieten [@jung2004measuring](#jung2004measuring). Dort werden die Vorgaben des [ISO/IEC 9126 Standards](https://de.wikipedia.org/wiki/ISO/IEC_9126) (https://de.wikipedia.org/wiki/ISO/IEC_9126 [23.10.2020]) in Beispielen ausgeführt.
 
-Application developers are also users of software, but they have a different perspective on software because of additional interests and further application scenarios. A good summary of the developer perspective on software quality is provided by [@jung2004measuring](#jung2004measuring). There, the specifications of the [ISO/IEC 9126 standard](https://de.wikipedia.org/wiki/ISO/IEC_9126) (https://de.wikipedia.org/wiki/ISO/IEC_9126 [23.10.2020]) are elaborated in examples.
+Application developers are also users of software, but they have a different perspective on it because of additional interests and further application scenarios. A good summary of the developer perspective on software quality is provided by [@jung2004measuring](#jung2004measuring). There, the specifications of the [ISO/IEC 9126 standard](https://de.wikipedia.org/wiki/ISO/IEC_9126) (https://de.wikipedia.org/wiki/ISO/IEC_9126 [23.10.2020]) are elaborated with examples.
 
 > Die folgenden Fragen fokussieren sich auf den Programmcode und die Softwarearchitektur. Diese können nur beurteilt werden, wenn der Quellcode offen einsehbar (Open Source) ist, was bei proprietärer Software meist nicht oder nur eingeschränkt möglich ist.
 
-The following questions focus on the programme code and the software architecture. These can only be assessed if the source code is openly accessible (open source), which is usually not possible or only possible to a limited extent with proprietary software.
+The following questions focus on the source code and the software architecture. These can only be assessed if the source code is openly accessible (open source), which is usually not possible or only possible to a limited extent with proprietary software.
 
 > #### Dokumentation und Tests
 #### Documentation and tests
