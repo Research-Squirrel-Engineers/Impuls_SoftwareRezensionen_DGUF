@@ -10,7 +10,7 @@ author:
     name: Timo Homburg
     affiliation: Hochschule Mainz
     orcid: 0000-0002-9499-5840
-    bio: "Timo Homburg studied computer science with a focus on computational linguistics (assyrology), semantic web and sinology. In recent years, he has worked in the field of GIS applications in geoinformatics. His doctoral thesis deals with the better integration of geodata in a Semantic Web environment. His current research project deals with the creation of digital standards in the field of assyrology and best practice documentation of excavations with cuneiform texts - an extension of his publications on 'Cuneiform in the Digital Humanities'."
+    bio: "Timo Homburg studied computer science with a focus on computational linguistics (assyrology), semantic web and sinology. In recent years, he has worked in the field of GIS applications in geoinformatics. His doctoral thesis deals with better integration of geodata into a Semantic Web environment. His current research project deals with the design and establishment of digital standards in the field of assyrology and a best practice for documentation of excavations with cuneiform texts - an extension of his publications on 'Cuneiform Script in the Digital Humanities'."
   -
     name: Anne Klammt
     affiliation: Deutsches Forum für Kunstgeschichte Paris
@@ -20,7 +20,7 @@ author:
     name: Hubert Mara
     affiliation: mainzed & Hochschule Mainz
     orcid: 0000-0002-2004-4153
-    bio: "Hubert Mara studied computer science at the Vienna University of Technology. There he already worked on digital methods in archaeology for ceramic analysis. He was subsequently a Marie Curie Fellow at the University of Florence within the framework of the *Cultural Heritage Informatics Research Oriented Network* (CHIRON). He did his doctorate at the University of Heidelberg in the *Interdisciplinary Centre for Scientific Computing* (IWR). There he developed the [*GigaMesh Software Framework*](https://gigamesh.eu) and the *Forensic Computational Geometry Laboratory* (FCGL). Since June 2020, he has been the managing director of mainzed and works scientifically at the Institute for Spatial Information and Measurement Technology at Mainz University of Applied Sciences."
+    bio: "Hubert Mara studied computer science at the Vienna University of Technology. There he already worked on digital methods in archaeology for ceramic analysis. He was subsequently a Marie Curie Fellow at the University of Florence within the framework of the *Cultural Heritage Informatics Research Oriented Network* (CHIRON). He completed his doctorate at the University of Heidelberg in the *Interdisciplinary Centre for Scientific Computing* (IWR). There he developed the [*GigaMesh Software Framework*](https://gigamesh.eu) and installed the *Forensic Computational Geometry Laboratory* (FCGL). Since June 2020, he has been the managing director of mainzed and is a researcher at the Institute for Spatial Information and Measurement Technology at Mainz University of Applied Sciences."
   -  
     name: Clemens Schmid
     affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
@@ -35,7 +35,7 @@ author:
     name: Florian Thiery
     affiliation: Römisch-Germanisches Zentralmuseum – Leibniz-Forschungsinstitut für Archäologie
     orcid: 0000-0002-3246-3531
-    bio: "Florian Thiery studied geodesy and is a Research Software Engineer (RSE) in the *Scientific IT, Digital Platforms and Tools* department at the Roman-Germanic Central Museum in Mainz. He is the initiator of the *Research Squirrel Engineers*, a network for RSEs in the Digital Humanities and community projects with a focus on free and open data, as well as Linked Open Data. As part of a fellowship of the *Wikimeda Fellow Programme Free Knowledge*, he is working on the modelling of Irish ᚑᚌᚆᚐᚋ (Ogham) stones and their publication in the Wikimedia universe."    
+    bio: "Florian Thiery studied geodesy and is a Research Software Engineer (RSE) in the *Scientific IT, Digital Platforms and Tools* department at the Roman-Germanic Central Museum in Mainz. He is the initiator of the *Research Squirrel Engineers*, a network for RSEs in the Digital Humanities that pursues community projects with a focus on free and open data, as well as Linked Open Data. As part of a fellowship of the *Wikimeda Open Science Fellows Program*, he is working on the modelling of Irish ᚑᚌᚆᚐᚋ (Ogham) stones and their publication in the Wikimedia universe."    
   -
     name: Martina Trognitz
     affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
@@ -536,7 +536,7 @@ In the table below we present key data that can be listed in tabular form at the
 
 > Die Diskussion über die Bewertung von Forschungssoftware in der Archäologie und ihren Nachbardisziplinen hat gerade erst begonnen und es wurde bisher kein Konsens erarbeitet. Unsere hier vorgestellten Überlegungen und der Fragenkatalog sollen daher konkret als Diskussionsanstoß und Impuls zur Etablierung eines gemeinsamen Verständnisses der Anforderungen an eine Software-Rezension verstanden werden. Wie eingangs angemerkt, werden Stellungnahmen aus verschiedensten Perspektiven und Disziplinen per GitHub oder E-Mail erbeten. Der Katalog soll daher mitnichten als in Stein gemeißelt verstanden, sondern soll in Zukunft von Archäologen und Research Software Engineers modifiziert und fortgeschrieben werden.
 
-The discussion about the evaluation of research software in archaeology and its neighbouring disciplines has only just begun and no consensus has yet been worked out. Our considerations and the list of questions presented here should therefore be understood specifically as a stimulus for discussion and an impulse to establish a common understanding of the requirements for a software review. As noted at the outset, comments from a wide range of perspectives and disciplines are invited via GitHub or email. The catalogue is therefore by no means to be understood as set in stone, but rather to be modified and updated by archaeologists and research software engineers in the future.
+The discussion about the evaluation of research software in archaeology and its neighbouring disciplines has only just begun and no consensus has yet been worked out. Our considerations and the catalogue of questions presented here should therefore be directly understood as a stimulus for discussion and an impulse to establish a common understanding of the requirements for a software review. As noted at the outset, comments from a wide range of perspectives and disciplines are invited via GitHub or email. The catalogue is by no means set in stone, but rather prone to modifications and updates by archaeologists and research software engineers in the future.
 
 > ## Anmerkungen
 ## Notes
