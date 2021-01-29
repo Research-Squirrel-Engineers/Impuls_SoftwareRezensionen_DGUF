@@ -507,11 +507,11 @@ The quality of the implementation influences whether and to what extent the prog
 * **Is *Continuous Integration* used to ensure implementation quality?** For a developer, not only the existence and documentation of the source code is crucial, but he will usually also expect information about the functionality and compilability of the source code. As already mentioned in the previous sections, *Continuous Integration* can be such a quality indicator. The *Continuous Integration* process checks the compilability of the software after each change and can make this visible on the repository with a status indicator. It is a sign of well-maintained source code if it compiles in the currently available version and, if applicable, in the current development version.
 
 > ## Software-Eckdatentabelle
-## Software corner data table
+## Tabular Key Data for Software
 
 > In der Tabelle stellen wir einige Punkte vor, die tabellarisch am Ende oder Anfang einer Rezension genannt werden können, um einen schnellen Überblick über eine Software zu geben, ähnlich wie in Buchrezensionen Titel, Verlag und ISBN wertneutral gelistet werden. Diese Tabelle kann ggf. auch um Hardwareanforderungen ergänzt werden, wenn diese als besonders relevant empfunden werden. Als Beispiel haben wir die GIS-Anwendung *QGIS* gewählt.
 
-In the table we present some points that can be listed in tabular form at the end or beginning of a review to give a quick overview of a software, similar to the way book reviews list title, publisher and ISBN in a value-neutral way. If necessary, this table can also be supplemented with hardware requirements if these are felt to be particularly relevant. We have chosen the GIS application *QGIS* as an example.
+In the table below we present key data that can be listed in tabular form at the end or beginning of a review. This can provide a quick overview of the software, much like the way book reviews neutrally list title, publisher and ISBN. If necessary, this table can also be supplemented with hardware requirements if these are particularly relevant. We have chosen the GIS application *QGIS* as an example.
 
 > - Name: Der Name der Software, z. B. "QGIS".
 > - Kurzbeschreibung: Angabe dessen, was die Software leistet, z. B. "Umfangreiches graphisches Werkzeug zur Raumdatenverarbeitung".
@@ -522,14 +522,14 @@ In the table we present some points that can be listed in tabular form at the en
 > - Kosten: Ggf. anfallende laufende oder einmalige Lizenzgebühren, z.B. „kostenfrei“.
 > - Ein- und Ausgabeformate: Welche Dateiformate die Software verarbeiten kann, z. B. "Geodatenbanken" (SpatiaLite, PostGIS, MSSQL, ...), "Web-Geodaten Dienste" (WMD/WMTS, Vector Tiles, XYZ Tiles, WFS, ...),"Geo-Vektordatenformate" (ESRI Shapefile, Geopackage, ...), "Geo-Rasterdatenformate" (GeoTIFF, ...), "Tabellendaten" (CSV, TXT, ...) und weitere Datentypen (für QGIS sind ungewöhnlich viele Datenformate zu beachten, die hier den Rahmen sprengen würden).
 
-- Name: The name of the software, e.g. "QGIS".
-- Short description: Specification of what the software does, e.g. "Comprehensive graphical tool for spatial data processing".
-- Reviewed version: The software version used for the review, e.g. "3.10.10 LTR".
-- Platform: (Operating) systems on which the software can be used, e.g. "Windows, macOS, Linux, BSD, Android".
-- Website: URL where further information can be found, e.g. https://qgis.org.
-- Licensing: Under which software licence was the software published, e.g. "Open Source with GNU General Public License (GPL)".
-- Costs: If applicable, ongoing or one-off licence fees, e.g. "free of charge".
-- Input and output formats: Which file formats the software can process, e.g. "geodatabases" (SpatiaLite, PostGIS, MSSQL, ...), "web geodata services" (WMD/WMTS, Vector Tiles, XYZ Tiles, WFS, ...), "geo-vector data formats" (ESRI Shapefile, Geopackage, . ...), "geo-raster data formats" (GeoTIFF, ...), "table data" (CSV, TXT, ...) and other data types (for QGIS there are an unusually large number of data formats to consider, which would go beyond the scope here).
+- Name: The name of the software, e.g. *"QGIS"*.
+- Short description: Summary of what the software does, e.g. *"Comprehensive graphical tool for spatial data processing"*.
+- Reviewed version: The software version used for the review, e.g. *"3.10.10 LTR"*.
+- Platform: (Operating) systems on which the software can be used, e.g. *"Windows, MacOS, Linux, BSD, Android"*.
+- Website: URL where further information can be found, e.g. *https://qgis.org*.
+- Licensing: Under which software licence was the software published, e.g. *"Open Source with GNU General Public License (GPL)"*.
+- Costs: If applicable, regular or one-off licence fees, e.g. *"free of charge"*.
+- Input and output formats: The file formats the software can process, e.g. *"geodatabases" (SpatiaLite, PostGIS, MSSQL, ...), "web geodata services" (WMD/WMTS, Vector Tiles, XYZ Tiles, WFS, ...), "geo-vector data formats" (ESRI Shapefile, Geopackage, . ...), "geo-raster data formats" (GeoTIFF, ...), "table data" (CSV, TXT, ...) and other data types* (for QGIS there are an unusually large number of data formats to consider, which would go beyond the scope here).
 
 > ## Wie geht es weiter?
 ## Where do we go from here?
