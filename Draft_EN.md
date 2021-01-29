@@ -378,7 +378,7 @@ In addition to help functions and tutorials, it is of great importance whether t
 * :heavy_exclamation_mark:**Are there archaeological best practices or publications that refer to the reviewed software?** While forums, blogs and related media offer direct and often also rapid exchange with users and possibly developers, the inclusion and recommendation of programmes in best practices and publications is a further indication of their dissemination, scope and reliability.
 
 >#### Dateningest, Interoperabilität und Schnittstellen
-#### Data input, interoperability and interfaces
+#### Data ingest, interoperability and programming interfaces
 
 > Eingabe- und Ausgabedatenformate beeinflussen die Kompatibilität zu anderen Anwendungen und sollten in einer Rezension erwähnt werden. In vielen Fällen können die unterstützten Dateiformate über einen entsprechenden Menü-Eintrag (z. B. Speichern unter) gefunden werden. Auch die verschiedenen Möglichkeiten des Einlesens der Daten und vorhandene Schnittstellen sind relevant.
 
@@ -386,19 +386,19 @@ Input and output data formats affect compatibility with other applications and s
 
 > * :bangbang:**Welche Datenformate werden wie eingelesen?** Sind alle relevanten Datenformate für die Aufgabe, die die Software im typischen Anwendungsfall lösen soll, einlesbar? Werden offene Datenformate unterstützt? Können Datenformate auch aus gängigen Repositorien eingelesen werden (z. B. Webservices, Git, Cloud Services)?
 
-* :bangbang:**Which data formats are read in and how?** Are all relevant data formats readable for the task the software is to solve in the typical use case? Are open data formats supported? Can data formats also be read in from common repositories (e.g. web services, Git, cloud services)?
+* :bangbang:**Which data formats are read in and how?** Are all relevant data formats supported by the software for the envisaged task and the anticipated typical use case? Are open data formats supported? Can data formats also be read in from common repositories (e.g. web services, Git, cloud services)?
 
 > * :bangbang:**Welche Datenformate werden ausgegeben?** Das Programm sollte eine Ausgabe von Datenformaten bieten, die eine Weiterverarbeitung in anderen (auch Open Source) Softwarepaketen zulassen. Es sollte also zumindest ein offen spezifiziertes Format angeboten werden. Sollten nur Exporte in ein proprietäres, ggf. von der Software definiertes Format möglich sein, muss dies von den Entwicklern gut begründet sein.
 
-* :bangbang:**Which data formats are output?** The programme should offer an output of data formats that allow further processing in other (also open source) software packages. Thus, at least one openly specified format should be offered. If exports are only possible in a proprietary format, possibly defined by the software, this must be well justified by the developers.
+* :bangbang:**Which output data formats are supported?** The programme should offer output data formats that allow further processing in other (also open source) software packages. Thus, at least one openly specified format should be supported. If data exports are only possible in a proprietary format, maybe even custom to the software only, this must be well justified by the developers.
 
 > * :heavy_exclamation_mark:**Wie können Daten eingelesen werden? Ermöglicht die Software eine Stapelverarbeitung?** Für sehr viele Anwendungsszenarien ist die Durchführung eines einmal definierten Workflows auf einen Da­teistapel oder eine Datenreihe wichtig, wie z.B. die gleichen Transformationsschritte für alle Bilder in einem Ordner.
 
-* :heavy_exclamation_mark:**How can data be read in? Does the software allow batch processing?** For very many application scenarios, the execution of a once-defined workflow on a file batch or data series is important, such as the same transformation steps for all images in a folder.
+* :heavy_exclamation_mark:**How can data be read in? Does the software allow batch processing?** For many application scenarios, the execution of a once-defined workflow on a file batch or data series is important, such as the same transformation steps for all images in a folder.
 
 > * :bangbang:**Gibt es eine Programmierschnittstelle (API)?** Neben der Bedienbarkeit durch einen Menschen ist auch eine maschinelle Ansteuerung der Software wichtig. Nur so können beispielsweise komplexe Prozesse mit mehreren Softwarekomponenten komplett automatisiert werden. Eine API gewährleistet dies. Sie sollte möglichst offen und ggf. mittels eines Standards wie [OpenAPI](https://www.openapis.org) (https://www.openapis.org [23.10.2020]) dokumentiert sein. Ein  Beispiel für APIs sind die Schnittstellen von Wikidata, an die man automatisierte Datenabfragen stellen kann.
 
-* :bangbang:**Is there an application programming interface (API)?** In addition to operability by a human, machine control of the software is also important. This is the only way, for example, to completely automate complex processes with several software components. An API ensures this. It should be as open as possible and, if necessary, documented by means of a standard such as [OpenAPI](https://www.openapis.org) (https://www.openapis.org [23.10.2020]). An example of APIs are the interfaces of Wikidata, to which automated data queries can be made.
+* :bangbang:**Is there an application programming interface (API)?** In addition to operability by a human, machine control of the software is also important. This is the only way, for example, to completely automate complex processes with several software components. An API enables this. It should be as open as possible and, if necessary, documented by means of a standard such as [OpenAPI](https://www.openapis.org) (https://www.openapis.org [23.10.2020]). An example of APIs are the endpoints offered by Wikidata, which allow for automated data queries.
 
 >#### Konformität mit Regelungen zum Datenschutz und der Datensparsamkeit
 #### Conformity with regulations on data protection and data economy
