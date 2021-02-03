@@ -23,9 +23,9 @@ author:
     bio: "Hubert Mara studied computer science at the Vienna University of Technology. There he already worked on digital methods in archaeology for ceramic analysis. He was subsequently a Marie Curie Fellow at the University of Florence within the framework of the *Cultural Heritage Informatics Research Oriented Network* (CHIRON). He completed his doctorate at the University of Heidelberg in the *Interdisciplinary Centre for Scientific Computing* (IWR). There he developed the [*GigaMesh Software Framework*](https://gigamesh.eu) and installed the *Forensic Computational Geometry Laboratory* (FCGL). Since June 2020, he has been the managing director of mainzed and is a researcher at the Institute for Spatial Information and Measurement Technology at Mainz University of Applied Sciences."
   -  
     name: Clemens Schmid
-    affiliation: Max-Planck-Institut für Menschheitsgeschichte Jena
+    affiliation: Max Planck Institute for the Science of Human History
     orcid: 0000-0003-3448-5715
-    bio: "Clemens Schmid studied prehistoric, historical and natural science archaeology and computer science in Tübingen and Kiel. After graduating, he worked with computer-based data analysis in various archaeological research projects at the University of Kiel, the Roman-Germanic Central Museum in Mainz and the University of Bern. At the moment, he is employed for a PhD project on the quantitative prediction of mobility behaviour with genetic and historical-linguistic data in the Department of Archaeogenetics at the Max Planck Institute for the History of Man in Jena."
+    bio: "Clemens Schmid studied prehistoric, historical and scientific archaeology as well as computer science in Tübingen and Kiel. After graduating, he worked with computational data analysis in various archaeological research projects at the University of Kiel, the Roman-Germanic Central Museum in Mainz and the University of Bern. Now he is employed for a PhD project on quantitative estimation of past human mobility with ancient genetic and historical-linguistic data at the Department of Archaeogenetics of the Max Planck Institute for the Science of Human History in Jena."
   -
     name: Sophie Charlotte Schmidt
     affiliation: Deutsches Archäologisches Institut
