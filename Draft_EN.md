@@ -317,6 +317,9 @@ In the table below we present key data that can be listed in tabular form at the
 
 The discussion about the evaluation of research software in archaeology and its neighbouring disciplines has only just begun and no consensus has yet been worked out. Our considerations and the catalogue of questions presented here should therefore be directly understood as a stimulus for discussion and an invitation to establish a common understanding of the requirements for a software review. As noted at the outset, comments from a wide range of perspectives and disciplines are invited via GitHub or email. The catalogue is by no means set in stone, but rather open to modifications and updates by archaeologists and research software engineers in the future.
 
+## Acknowledgements
+
+We thank Lutz Schubert for fruitfull discussions, layouting and proofreading the initial German version of this article. Furthermore we thank Dr. Sarah Finlayson for her swift assistance in proofreading the English version, which was partially prepared using the [DeepL](https://deepl.com) online translation service.
 
 ## Notes
 
