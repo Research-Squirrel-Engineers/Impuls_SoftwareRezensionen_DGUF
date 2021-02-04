@@ -10,7 +10,7 @@ author:
     name: Timo Homburg
     affiliation: Hochschule Mainz
     orcid: 0000-0002-9499-5840
-    bio: "Timo Homburg studied computer science with a focus on computational linguistics (assyrology), semantic web and sinology. In recent years, he has worked in the field of GIS applications in geoinformatics. His doctoral thesis deals with better integration of geodata into a Semantic Web environment. His current research project deals with the design and establishment of digital standards in the field of assyrology and a best practice for documentation of excavations with cuneiform texts - an extension of his publications on 'Cuneiform Script in the Digital Humanities'."
+    bio: "Timo Homburg studied computer science with a focus on computational linguistics (assyriology), semantic web and sinology. In recent years, he has worked in the field of GIS applications in geoinformatics. His doctoral thesis deals with better integration of geodata into a Semantic Web environment. His current research project deals with the design and establishment of digital standards in the field of assyriology and a best practice for documentation of excavations with cuneiform texts - an extension of his publications on 'Cuneiform Script in the Digital Humanities'."
   -
     name: Anne Klammt
     affiliation: Deutsches Forum für Kunstgeschichte Paris
@@ -35,7 +35,7 @@ author:
     name: Florian Thiery
     affiliation: Römisch-Germanisches Zentralmuseum – Leibniz-Forschungsinstitut für Archäologie
     orcid: 0000-0002-3246-3531
-    bio: "Florian Thiery studied geodesy and is a Research Software Engineer (RSE) in the *Scientific IT, Digital Platforms and Tools* department at the Roman-Germanic Central Museum in Mainz. He is the initiator of the *Research Squirrel Engineers*, a network for RSEs in the Digital Humanities that pursues community projects with a focus on free and open data, as well as Linked Open Data. As part of a fellowship of the *Wikimeda Open Science Fellows Program*, he is working on the modelling of Irish ᚑᚌᚆᚐᚋ (Ogham) stones and their publication in the Wikimedia universe."    
+    bio: "Florian Thiery studied geodesy and is a Research Software Engineer (RSE) in the *Scientific IT, Digital Platforms and Tools* department at the Roman-Germanic Central Museum in Mainz. He is the initiator of the *Research Squirrel Engineers*, a network for RSEs in the Digital Humanities that pursues community projects with a focus on free and open data, as well as Linked Open Data. As part of a fellowship of the *Wikimedia Open Science Fellows Program*, he is working on the modelling of Irish ᚑᚌᚆᚐᚋ (Ogham) stones and their publication in the Wikimedia universe."    
   -
     name: Martina Trognitz
     affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien

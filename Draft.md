@@ -35,7 +35,7 @@ author:
     name: Florian Thiery
     affiliation: Römisch-Germanisches Zentralmuseum – Leibniz-Forschungsinstitut für Archäologie
     orcid: 0000-0002-3246-3531
-    bio: "Florian Thiery ist studierter Geodät und Research Software Engineer (RSE) im Arbeitsbereich *Wissenschaftliche IT, Digitale Plattformen und Tools* am Römisch-Germanischen Zentralmuseum in Mainz. Er ist Initiator der *Research Squirrel Engineers*, einem Netzwerk für RSEs in den Digital Humanities und Communityprojekte mit Fokus auf freie und offene Daten, sowie Linked Open Data. Im Rahmen eines Stipendiums des *Wikimeda Fellow-Programm Freies Wissen* beschäftigt er sich mit der Modellierung von irischen ᚑᚌᚆᚐᚋ (Ogham) Steinen und deren Publikation im Wikimedia Universum."
+    bio: "Florian Thiery ist studierter Geodät und Research Software Engineer (RSE) im Arbeitsbereich *Wissenschaftliche IT, Digitale Plattformen und Tools* am Römisch-Germanischen Zentralmuseum in Mainz. Er ist Initiator der *Research Squirrel Engineers*, einem Netzwerk für RSEs in den Digital Humanities und Communityprojekte mit Fokus auf freie und offene Daten, sowie Linked Open Data. Im Rahmen eines Stipendiums des *Wikimedia Fellow-Programm Freies Wissen* beschäftigt er sich mit der Modellierung von irischen ᚑᚌᚆᚐᚋ (Ogham) Steinen und deren Publikation im Wikimedia Universum."
   -
     name: Martina Trognitz
     affiliation: Austrian Centre for Digital Humanities and Cultural Heritage, ÖAW Wien
