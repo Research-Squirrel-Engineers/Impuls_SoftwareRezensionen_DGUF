@@ -2,6 +2,6 @@
 
 Repository zum Impuls für Software Rezensionen
 
-[Zum Draft](Draft.md)
+[German Version](https://research-squirrel-engineers.github.io/Impuls_SoftwareRezensionen_DGUF/Draft.html)
 
-[Zur Webseite](https://research-squirrel-engineers.github.io/Impuls_SoftwareRezensionen_DGUF/Draft.html)
+[English Version](https://research-squirrel-engineers.github.io/Impuls_SoftwareRezensionen_DGUF/Draft_en.html)
