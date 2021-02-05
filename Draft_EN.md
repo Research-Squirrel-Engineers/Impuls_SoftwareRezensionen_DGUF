@@ -319,7 +319,7 @@ The discussion about the evaluation of research software in archaeology and its 
 
 ## Acknowledgements
 
-We thank Lutz Schubert for fruitfull discussions, layouting and proofreading the initial German version of this article. Furthermore we thank Dr. Sarah Finlayson for her swift assistance in proofreading the English version, which was partially prepared using the [DeepL](https://deepl.com) online translation service.
+We thank Lutz Schubert for fruitfull discussions, layouting and proofreading the initial German version of this article. Furthermore, we thank Dr. Sarah Finlayson for her swift assistance in proofreading the English version, which was partially prepared using the [DeepL](https://deepl.com) online translation service.
 
 ## Notes
 
