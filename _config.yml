@@ -6,6 +6,7 @@ relative_links:
   collections: true
 include:
   - Draft.md
+  - Draft_EN.md
   - Ideensammlung.md
   - Vorgeschichte.md
 
