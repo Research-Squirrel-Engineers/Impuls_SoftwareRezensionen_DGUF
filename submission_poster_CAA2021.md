@@ -20,7 +20,7 @@ The poster focusses on a list of questions to help with the critical evaluation 
 
 In modern research, it is unthinkable to work without digital tools. This also applies to historical, classical and ancient studies. With the rise of the digital humanities, software is increasingly becoming an important part of the research process and substantially affects it, both implicitly and explicitly (for archaeology, see e.g. `Schmidt and Marwick 2020`).
 
-Despite the vital role that research software plays in many projects, neither the assessment of technical quality, usability, sustainability, fairness and ethical principles forms a regular part of research design, nor are the achievements of those developing and programming sufficiently recognised academically (`Hettrick 2016`). Our poster is a contribution to raise awareness and overcome this critical shortcoming in the methodological development of archaeology.
+Despite the vital role that research software plays in many projects, the assessment of technical quality, usability, sustainability, fairness and ethical principles does not form a regular part of research design. Nor are the achievements of those developing and programming sufficiently recognised academically (`Hettrick 2016`). Our poster is a contribution to raise awareness and overcome this critical shortcoming in the methodological development of archaeology.
 
 > Your abstract should contain sufficient information to allow the CAA Scientific Committee to evaluate the scientific content of your poster. You may include a single figure (see below) that shows the key results or main argument of your paper.
 > Citations
