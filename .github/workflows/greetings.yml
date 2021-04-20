@@ -9,5 +9,19 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Message that will be displayed on users'' first issue'
-        pr-message: 'Message that will be displayed on users'' first pr'
+        issue-message: >
+          Vielen Dank für das Issue ! Wir freuen uns über das aktive Interesse an unserem Text, mit dem wir hoffen zur besseren wissenschaftlichen Wahrnehmung und angemessenen Diskussion von Forschungssoftware beitragen zu können.
+          
+          Bitte haben Sie aber etwas Geduld. Als Team mit sieben Autor:innen benötigen wir einige Zeit, bis wir das Issue aufgreifen und reagieren. Dies kann ganz in Abhängigkeit der verschiedenen Verpflichtungen etwa 4 Wochen dauern.
+
+          Thank you for the issue ! We appreciate your active interest in our text, with which we hope to contribute to a better scientific perception and appropriate discussion of research software.
+
+          However, please be patient. As a team of seven authors, we need some time to pick up and respond to the Issue. This may take about 4 weeks, depending on the various commitments.
+        pr-message: >
+          Vielen Dank für das Issue ! Wir freuen uns über das aktive Interesse an unserem Text, mit dem wir hoffen zur besseren wissenschaftlichen Wahrnehmung und angemessenen Diskussion von Forschungssoftware beitragen zu können.
+          
+          Bitte haben Sie aber etwas Geduld. Als Team mit sieben Autor:innen benötigen wir einige Zeit, bis wir das Issue aufgreifen und reagieren. Dies kann ganz in Abhängigkeit der verschiedenen Verpflichtungen etwa 4 Wochen dauern.
+
+          Thank you for the issue ! We appreciate your active interest in our text, with which we hope to contribute to a better scientific perception and appropriate discussion of research software.
+
+          However, please be patient. As a team of seven authors, we need some time to pick up and respond to the Issue. This may take about 4 weeks, depending on the various commitments.
