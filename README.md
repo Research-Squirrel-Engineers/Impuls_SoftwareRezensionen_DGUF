@@ -8,7 +8,7 @@ Repository zum Impuls für Software Rezensionen
 
 [English Version](https://research-squirrel-engineers.github.io/Impuls_SoftwareRezensionen_DGUF/Draft_EN.html)
 
-[Contribution by Nicole High-Steskal, Feb. 2022](https://dguf.de/fileadmin/AI/archinf-ev_high-steskal.pdf)
+[Contribution by Nicole High-Steskal, Feb. 2022](https://journals.ub.uni-heidelberg.de/index.php/arch-inf/article/view/89200/83611)
 
 # Software Rezensionen
 
