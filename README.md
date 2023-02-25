@@ -9,8 +9,8 @@ Repository zum Impuls für Software Rezensionen
 [English Version](https://research-squirrel-engineers.github.io/Impuls_SoftwareRezensionen_DGUF/Draft_EN.html)
 
 ## Contributions to "Forum: Handreichung Softwarerezension"
-* [Contribution by Nicole High-Steskal, Feb. 2022](https://journals.ub.uni-heidelberg.de/index.php/arch-inf/article/view/89200/83611)
-* [Contribution by Massimiliano Carloni, Feb. 2022](https://journals.ub.uni-heidelberg.de/index.php/arch-inf/article/view/89199/83610)
+* [Contribution by Nicole High-Steskal, Feb. 2022](https://doi.org/10.11588/ai.2021.1.89200)
+* [Contribution by Massimiliano Carloni, Feb. 2022](https://doi.org/10.11588/ai.2021.1.89199)
 
 # Software Rezensionen
 
